@@ -1,0 +1,259 @@
+[
+  {
+    "id": 2022017,
+    "date": "2 Feb. 2017",
+    "name": "AngularX Paris",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "jury"
+    ],
+    "link": "http://fightcode.io/",
+    "talk": {
+      "title": "FightCode"
+    }
+  },
+  {
+    "id": 9112016,
+    "date": "9-10 Nov. 2016",
+    "name": "DevFest Nantes",
+    "location": {
+      "name": "Nantes, France",
+      "lat": 47.2382006,
+      "lng": -1.6307599
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfest.gdgnantes.com/",
+    "talk": {
+      "title": "Votre application web qui marche même sans réseau, c'est possible!"
+    }
+  },
+  {
+    "id": 24112016,
+    "date": "24 Nov. 2016",
+    "name": "Codeurs en Seine",
+    "location": {
+      "name": "Rouen, France",
+      "lat": 49.4584259,
+      "lng": 1.0658052
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.codeursenseine.com/2016/",
+    "talk": {
+      "title": "Votre application web qui marche même sans réseau, c'est possible!"
+    }
+  },
+  {
+    "id": 8112016,
+    "date": "8 Nov. 2016",
+    "name": "HumanTalks",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://humantalks.com/",
+    "talk": {
+      "title": "www: The Web Will Win"
+    }
+  },
+  {
+    "id": 3112016,
+    "date": "3 Nov. 2016",
+    "name": "DevFest Toulouse",
+    "location": {
+      "name": "Toulouse, France",
+      "lat": 43.6489983,
+      "lng": 1.3727472
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfesttoulouse.fr/",
+    "talk": {
+      "title": "Don't call me just a website anymore. I am a Progressive Web App"
+    }
+  },
+  {
+    "id": 21102016,
+    "date": "21 Oct. 2016",
+    "name": "Bdx.io",
+    "location": {
+      "name": "Bordeaux, France",
+      "lat": 44.807047,
+      "lng": -0.605526
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.bdx.io/",
+    "talk": {
+      "title": "Please welcome Angular 2"
+    }
+  },
+  {
+    "id": 8102016,
+    "date": "8 Oct. 2016",
+    "year": "2016",
+    "name": "CLSx France",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "http://clsxfrance.org/",
+    "talk": {
+      "title": "Community Leadership Summit [x]"
+    }
+  },
+  {
+    "id": 7072016,
+    "date": "7 Jul. 2016",
+    "name": "GDG Tours",
+    "location": {
+      "name": "Tours, France",
+      "lat": 47.3943623,
+      "lng": 0.6249002
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.meetup.com/fr-FR/GDG-Tours/events/232192629/",
+    "talk": {
+      "title": "Don't call me just a website anymore. I am a Progressive Web App"
+    }
+  },
+  {
+    "id": 6072016,
+    "date": "6 Jul. 2016",
+    "year": "2016",
+    "name": "GDG Lille",
+    "location": {
+      "name": "Lille, France",
+      "lat": 50.6887388,
+      "lng": 3.1492016
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.meetup.com/fr-FR/GDG-Lille/events/232191905/",
+    "talk": {
+      "title": "Don't call me just a website anymore. I am a Progressive Web App"
+    }
+  },
+  {
+    "id": 5072017,
+    "date": "5 Jul. 2016",
+    "year": "2016",
+    "name": "Faubourg Numerique / GDG Hi-Pic",
+    "location": {
+      "name": "St Quentin, France",
+      "lat": 49.8476836,
+      "lng": 3.2440442
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://faubourgnumerique.com/",
+    "talk": {
+      "title": "Don't call me just a website anymore. I am a Progressive Web App"
+    }
+  },
+  {
+    "id": 4062016,
+    "date": "4-5 Jun. 2016",
+    "name": "ExFest 2016",
+    "location": {
+      "name": "Caceres, Spain",
+      "lat": 39.4796487,
+      "lng": -6.3429493
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://exfest.es/",
+    "talk": {
+      "title": "Progressive Web Apps codelab - 2h"
+    }
+  },
+  {
+    "id": 3062016,
+    "date": "3 Jun. 2016",
+    "year": "2016",
+    "name": "HackerSchool",
+    "location": {
+      "name": "Lisbon, Portubal",
+      "lat": 38.7437395,
+      "lng": -9.2302438
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.meetup.com/fr-FR/gdglisbon/events/229999648/?eventId=229999648",
+    "talk": {
+      "title": "Progressive Web Apps codelab - 2h"
+    }
+  },
+  {
+    "id": 1022016,
+    "date": "1 Feb. 2016",
+    "name": "GDG Nice launch",
+    "location": {
+      "name": "Nice, France",
+      "lat": 43.6958407,
+      "lng": 7.2679375
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.meetup.com/fr-FR/GDGNice/events/228029090/",
+    "talk": {
+      "title": "Discover Angular2 with a livecoding"
+    }
+  },
+  {
+    "id": 1072015,
+    "date": "1 Jul. 2015",
+    "name": "GDG Paris",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "organizer",
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/gdg-paris/events/223469172/",
+    "talk": {
+      "title": "I/O Rex : Les inventions impressionnantes de l’équipe ATAP"
+    }
+  },
+  {
+    "id": 30062015,
+    "date": "30 Jan. 2015",
+    "name": "GDG DevFest Paris",
+    "location": {
+      "name": "Nice, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "http://2015.devfest.gdgparis.com/"
+  }
+]

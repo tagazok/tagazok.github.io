@@ -1,0 +1,259 @@
+[
+      {
+        "title": "Marketing",
+        "universities": [
+          {
+            "name": "Berkeley University - edx",
+            "icon_url": "assets/images/berkeleys.png",
+            "skills": [
+              {
+                "title": "Marketing Analytics XSeries",
+                "link": "https://www.edx.org/xseries/marketing-analytics",
+                "courses": [
+                  {
+                    "title": "Marketing Measurement Strategy",
+                    "description": "Identify market trends. Predict future conditions. Measure marketing success",
+                    "link": "https://www.edx.org/course/marketing-analytics-marketing-uc-berkeleyx-busadm466-1x",
+                    "icon": "fa fa-pie-chart"
+                  },
+                  {
+                    "title": "Price and Promotion Analytics",
+                    "description": "Sales forecasting. Pricing strategies and techniques. Allocate marketing budgets over multiple campaigns",
+                    "link": "https://www.edx.org/course/marketing-analytics-price-promotion-uc-berkeleyx-busadm466-2x",
+                    "icon": "fa fa-bar-chart"
+                  },
+                  {
+                    "title": "Competitive Analysis and Market Segmentation",
+                    "description": "Competitive analysis. Market segmentation. How to analyze and structure markets.",
+                    "link": "https://www.edx.org/course/marketing-analytics-competitive-analysis-uc-berkeleyx-busadm466-3x",
+                    "icon": "fa fa-line-chart"
+                  },
+                  {
+                    "title": "Products, Distribution and Sales",
+                    "description": "Conjoint analysis. Decision trees. Consumer sales process for brick and mortar and ecommerce channels.",
+                    "link": "https://www.edx.org/course/marketing-analytics-products-uc-berkeleyx-busadm466-4x",
+                    "icon": "fa fa-usd"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "icon_url": "assets/images/google.png",
+            "skills": [
+              {
+                "title": "Digital Marketing",
+                "link": "https://pourlespros.withgoogle.com/",
+                "icon_url": "",
+                "courses": [
+                  {
+                    "title": "Digital Marketing Fundamentals",
+                    "description": "SEO/SEM strategies, Emailing, Ecommerce",
+                    "link": "https://pourlespros.withgoogle.com/",
+                    "icon": "fa fa-shopping-basket"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Methodologies",
+        "universities": [
+          {
+            "name": "Scrum Alliance",
+            "icon_url": "assets/images/scrum_alliance.png",
+            "skills": [
+              {
+                "title": "SCRUM",
+                "link": "",
+                "icon_url": "",
+                "courses": [
+                  {
+                    "title": "Certified ScrumMaster",
+                    "Link": "http://www.scrumalliance.org/community/profile/oleplus",
+                    "icon_url": "assets/images/csm.png"
+                  },
+                  {
+                    "title": "Certified Scrum Product Ownser",
+                    "link": "http://www.scrumalliance.org/community/profile/oleplus",
+                    "icon_url": "assets/images/cspo.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Web",
+        "universities": [
+          {
+            "name": "SFEIR School",
+            "link": "https://school.sfeir.com/",
+            "icon_url": "assets/images/sfeir_school.png",
+            "skills": [
+              {
+                "title": "Angular",
+                "link": "",
+                "courses": [
+                  {
+                    "title": "AngularJS 200",
+                    "link": "",
+                    "icon_url": "assets/images/angular_200.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Android",
+        "universities": [
+          {
+            "name": "Udacity",
+            "icon_url": "assets/images/udacity.png",
+            "skills": [
+              {
+                "title": "Android Developer Nanodegree",
+                "link": "https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801",
+                "courses": [
+                  {
+                    "title": "Android SDK",
+                    "description": "Android Studio. Activities. Fragments. Events",
+                    "link": "",
+                    "icon_url": "assets/images/android_sdk.png",
+                    "links": [
+                      {
+                        "title": "Project: Spotify Streamer",
+                        "link": "https://github.com/tagazok/spotify-streamer"
+                      },
+                      {
+                        "title": "Project: Barcode/ISBN Reader",
+                        "link": "https://github.com/tagazok/SuperDuo"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Material Design",
+                    "description": "Guidelines. Transitions, keylines and layouts",
+                    "link": "",
+                    "icon_url": "assets/images/material_design.png",
+                    "links": [
+                      {
+                        "title": "Project: Make your app Material",
+                        "link": "https://github.com/tagazok/udacity-material"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Google Play Services",
+                    "description": "Account login. Location. Wear",
+                    "link": "",
+                    "icon_url": "assets/images/play_services.png",
+                    "links": [
+                      {
+                        "title": "Project: Weather app for Phone and Watch",
+                        "link": "https://github.com/tagazok/Ubiquitous"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Gradle",
+                    "description": "Factoring functionality into libraries. Configure a Google Cloud Endpoints",
+                    "link": "",
+                    "icon_url": "assets/images/gradle.png",
+                    "links": [
+                      {
+                        "title": "Project:Free/Paid version of app",
+                        "link": "https://github.com/tagazok/BuildItBigger"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Android Wear",
+                    "description": "Watch faces. Watch App. Notification sync",
+                    "link": "",
+                    "icon_url": "assets/images/android_wear.png",
+                    "links": [
+                      {
+                        "title": "Project: Weather app for Phone and Watch",
+                        "link": "https://github.com/tagazok/Ubiquitous"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Others",
+        "universities": [
+          {
+            "name": "Berkeley University - edx",
+            "icon_url": "assets/images/berkeleys.png",
+            "skills": [
+              {
+                "title": "Life",
+                "link": "",
+                "courses": [
+                  {
+                    "title": "The Science of Happiness",
+                    "description": "Identify market trends. Predict future conditions. Measure marketing success",
+                    "link": "https://www.edx.org/course/science-happiness-uc-berkeleyx-gg101x-3",
+                    "icon": "fa fa-smile-o red"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The University of Queensland",
+            "icon_url": "assets/images/queensland.gif",
+            "skills": [
+              {
+                "title": "",
+                "link": "",
+                "courses": [
+                  {
+                    "title": "The Science of Everyday Thinking",
+                    "description": "Learn how to think better, argue better, and choose better",
+                    "link": "https://prod-edx-mktg-edit.edx.org/course/science-everyday-thinking-uqx-think101x-2",
+                    "icon": "fa fa-question red"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Delft - edx",
+            "icon_url": "assets/images/delft.gif",
+            "skills": [
+              {
+                "title": "Leadership",
+                "link": "",
+                "courses": [
+                  {
+                    "title": "Creative Problem Solving and Decision Making",
+                    "description": "Actor analysis, causal modeling, goal trees and means-end diagrams, problem diagrams, uncertainty, decision support and score cards.",
+                    "link": "https://www.edx.org/course/creative-problem-solving-decision-making-delftx-tpm1x-0",
+                    "icon": "fa fa-exclamation-triangle red"
+                  },
+                  {
+                    "title": "Leadership for Engineers",
+                    "description": "(ongoing)",
+                    "link": "https://www.edx.org/course/leadership-engineers-delftx-lfe101x-0",
+                    "icon": "fa fa-smile-o red"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
