@@ -1,0 +1,39 @@
+<div class="card">
+  <h1 class="title">Talks</h1>
+  <div class="talks">
+    <div *ngFor="let talk of talks" class="talk" fxLayout="row" fxLayout.xs="column">
+      <!--<div class="map">-->
+        <sebm-google-map
+          fxFlexOrder=1
+          fxFlexOrder.xs=2
+          [latitude]="talk.map.lat"
+          [longitude]="talk.map.lng" 
+          [zoom]="talk.map.zoom"
+          [zoomControl]="false"
+          [streetViewControl]="false"
+          [scrollwheel]="false">
+          <sebm-google-map-marker *ngFor="let event of talk.events"
+          [latitude]="event.location.lat"
+          [longitude]="event.location.lng">
+          </sebm-google-map-marker>
+        </sebm-google-map>
+      <!--</div>-->
+      <div fxFlex fxFlexOrder=2 fxFlexOrder.xs=1 class="talk-content">
+        <div class="talk-title">{{talk.title}}</div>
+        <div class="tags" fxLayout="row" fxLayoutAlign="end center">
+          <span *ngFor="let tag of talk.tags">#{{tag}}</span>
+          </div>
+        <div class="description" [innerHTML]="talk.description"></div>
+        <ul class="links" fxLayout="row" fxLayoutAlign="end center">
+          <li class="link" *ngFor="let link of talk.links">
+            <a [href]="link.link" target="_blank" rel="noreferrer">&nbsp;{{link.title}}&nbsp;</a>
+          </li>
+        </ul>
+        <hr fxHide.gt-xs />
+        <div *ngFor="let event of talk.events" class="details">
+          - {{event.name}} ({{event.location.name}}) - {{event.date}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

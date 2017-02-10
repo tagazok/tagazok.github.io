@@ -1,0 +1,50 @@
+.card {
+  padding-top: 0px;
+}
+
+.title {
+  text-align: center;
+  color: rgb(125, 151, 173);
+  margin-top: 0px;
+  padding: 40px 0;
+}
+
+.description {
+  line-height: 1.5em;
+  margin-bottom: 24px;
+}
+
+.conferences {
+  .conference {
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+    
+    .host {
+      text-decoration: none;
+      color: #6f7679;
+    }
+    .infos {
+      color: #6f7679;
+      font-size: 12px;
+      font-weight: normal;
+      margin: 5px 0 0;
+    }
+    .roles {
+      list-style: none;
+      display: inline-block;
+
+      .role {
+        display: inline-block;
+        font-size: 14px;
+
+        &.speaker, &.jury {
+          color: #039dc7;
+        }
+        &.organizer {
+          color: #02ccba;
+        }
+      }
+    }
+  }
+}
