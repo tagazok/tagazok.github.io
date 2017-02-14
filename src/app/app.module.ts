@@ -38,7 +38,7 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, { useHash: true }),
     FlexLayoutModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDaR4phIYlbFb8EiIm6LKo_KeqBTVyfdZo'
