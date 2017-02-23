@@ -7,7 +7,8 @@ import { ConferenceService } from './conference.service';
   styleUrls: ['./conferences.component.scss']
 })
 export class ConferencesComponent implements OnInit {
-  conferences: any;
+  futureConferences: any;
+  pastConferences: any;
   errorMessage: string;
 
   constructor(public cs: ConferenceService) { 
@@ -16,7 +17,14 @@ export class ConferencesComponent implements OnInit {
 
   ngOnInit() {
     this.cs.getAllConferences()
-                     .subscribe(conferences => {this.conferences = conferences}),
+                     .subscribe(conferences => {
+                       this.futureConferences = conferences.filter(c => {
+                        return new Date(c.date).getTime() >= new Date().getTime(); 
+                       });
+                       this.pastConferences = conferences.filter(c => {
+                        return new Date(c.date).getTime() < new Date().getTime(); 
+                       })
+                      }),
                       (error) => { this.errorMessage = <any>error };
   }
 }

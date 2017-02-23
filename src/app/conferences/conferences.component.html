@@ -16,9 +16,28 @@
     <img fxFlex="25" src="/assets/photos/conf7-square.jpg" />
     <img fxFlex="25" src="/assets/photos/conf8-square.jpg" />
   </div>
+  <div  *ngIf="futureConferences?.length > 0">
+    <h1 class="title">Future events</h1>
+    <ul class="conferences">
+      <li *ngFor="let conference of futureConferences" class="conference">
+        <div>
+          <ul class="roles">
+            <li *ngFor="let role of conference.roles" class="role" [ngClass]="role">[{{role}}]</li>
+          </ul>
+          <a [href]="conference.link" class="host" target="_blank">{{conference.name}}</a>
+          <span class="talk" *ngIf="conference.talk"> • {{conference.talk.title}}</span>
+        </div>
+        <div class="infos">
+          <span class="location">{{conference.location.name}}</span>
+          •
+          <span class="date">{{conference.date}}</span>
+        </div>
+      </li>
+    </ul>
+  </div>
   <h1 class="title">Past events</h1>
   <ul class="conferences">
-    <li *ngFor="let conference of conferences" class="conference">
+    <li *ngFor="let conference of pastConferences" class="conference">
       <div>
         <ul class="roles">
           <li *ngFor="let role of conference.roles" class="role" [ngClass]="role">[{{role}}]</li>

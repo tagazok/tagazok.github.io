@@ -14,7 +14,7 @@ import { CourseService } from './courses/course.service';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { TalksComponent } from './talks/talks.component';
 import { CoursesComponent } from './courses/courses.component';
-
+import { DateRangePipe } from './date-range.pipe';
 
 const appRoutes: Routes = [
   { path: 'conferences', component: ConferencesComponent },
@@ -32,7 +32,8 @@ const appRoutes: Routes = [
     AppComponent,
     ConferencesComponent,
     TalksComponent,
-    CoursesComponent
+    CoursesComponent,
+    DateRangePipe
   ],
   imports: [
     BrowserModule,

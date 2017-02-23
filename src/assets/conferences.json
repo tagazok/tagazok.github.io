@@ -1,7 +1,24 @@
 [
   {
+    "id": 7032017,
+    "date": "2017-03-07",
+    "name": "Paris Progressive Web Apps",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/Paris-Progressive-Web-App/events/237610476/?_locale=fr-FR",
+    "talk": {
+      "title": "PWA: Pourquoi, pour qui?"
+    }
+  },
+  {
     "id": 2022017,
-    "date": "2 Feb. 2017",
+    "date": "2017-02-02",
     "name": "AngularX Paris",
     "location": {
       "name": "Paris, France",
@@ -18,7 +35,7 @@
   },
   {
     "id": 9112016,
-    "date": "9-10 Nov. 2016",
+    "date": "2016-11-24",
     "name": "DevFest Nantes",
     "location": {
       "name": "Nantes, France",
@@ -35,7 +52,7 @@
   },
   {
     "id": 24112016,
-    "date": "24 Nov. 2016",
+    "date": "2016-11-24",
     "name": "Codeurs en Seine",
     "location": {
       "name": "Rouen, France",
@@ -52,7 +69,7 @@
   },
   {
     "id": 8112016,
-    "date": "8 Nov. 2016",
+    "date": "2016-11-08",
     "name": "HumanTalks",
     "location": {
       "name": "Paris, France",
@@ -69,7 +86,7 @@
   },
   {
     "id": 3112016,
-    "date": "3 Nov. 2016",
+    "date": "2016-11-03",
     "name": "DevFest Toulouse",
     "location": {
       "name": "Toulouse, France",
@@ -86,7 +103,7 @@
   },
   {
     "id": 21102016,
-    "date": "21 Oct. 2016",
+    "date": "2016-10-21",
     "name": "Bdx.io",
     "location": {
       "name": "Bordeaux, France",
@@ -103,7 +120,7 @@
   },
   {
     "id": 8102016,
-    "date": "8 Oct. 2016",
+    "date": "2016-10-08",
     "year": "2016",
     "name": "CLSx France",
     "location": {
@@ -121,7 +138,7 @@
   },
   {
     "id": 7072016,
-    "date": "7 Jul. 2016",
+    "date": "2016-07-07",
     "name": "GDG Tours",
     "location": {
       "name": "Tours, France",
@@ -138,7 +155,7 @@
   },
   {
     "id": 6072016,
-    "date": "6 Jul. 2016",
+    "date": "2016-07-06",
     "year": "2016",
     "name": "GDG Lille",
     "location": {
@@ -156,7 +173,7 @@
   },
   {
     "id": 5072017,
-    "date": "5 Jul. 2016",
+    "date": "2016-07-05",
     "year": "2016",
     "name": "Faubourg Numerique / GDG Hi-Pic",
     "location": {
@@ -174,7 +191,7 @@
   },
   {
     "id": 4062016,
-    "date": "4-5 Jun. 2016",
+    "date": "2016-06-05",
     "name": "ExFest 2016",
     "location": {
       "name": "Caceres, Spain",
@@ -191,7 +208,7 @@
   },
   {
     "id": 3062016,
-    "date": "3 Jun. 2016",
+    "date": "2016-06-03",
     "year": "2016",
     "name": "HackerSchool",
     "location": {
@@ -209,7 +226,7 @@
   },
   {
     "id": 1022016,
-    "date": "1 Feb. 2016",
+    "date": "2016-02-01",
     "name": "GDG Nice launch",
     "location": {
       "name": "Nice, France",
@@ -226,7 +243,7 @@
   },
   {
     "id": 1072015,
-    "date": "1 Jul. 2015",
+    "date": "2015-07-01",
     "name": "GDG Paris",
     "location": {
       "name": "Paris, France",
@@ -244,7 +261,7 @@
   },
   {
     "id": 30062015,
-    "date": "30 Jan. 2015",
+    "date": "2015-01-30",
     "name": "GDG DevFest Paris",
     "location": {
       "name": "Nice, France",
