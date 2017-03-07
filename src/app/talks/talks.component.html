@@ -21,7 +21,7 @@
       <div fxFlex fxFlexOrder=2 fxFlexOrder.xs=1 class="talk-content">
         <div class="talk-title">{{talk.title}}</div>
         <div class="tags" fxLayout="row" fxLayoutAlign="end center">
-          <span *ngFor="let tag of talk.tags">#{{tag}}</span>
+          <span *ngFor="let tag of talk.tags">&nbsp;#{{tag}}</span>
           </div>
         <div class="description" [innerHTML]="talk.description"></div>
         <ul class="links" fxLayout="row" fxLayoutAlign="end center">

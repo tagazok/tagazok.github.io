@@ -1,6 +1,6 @@
 [
   {
-    "title": "Votre application web qui marche même sans réseau, c'est possible!",
+    "title": "Ici le commandant de bord, on passe en mode avion !",
     "description": "<p>Vous vous demandez comment améliorer l'expérience de vos utilisateurs web ? Et pourquoi ne pas leur permettre de lancer et d'interagir avec votre application web même lorsqu'il n'y a pas de réseau?</p><p>Nous verrons comment mettre en place une stratégie offline-first totale en utilisant des nouvelles APIs comme le service worker, background-sync, la cache API et indexDB.</p>",
     "links": [
       {
@@ -22,7 +22,7 @@
       "lng": 0.1457733,
       "zoom": 5
     },
-    "events_ids": [9112016, 24112016]
+    "events_ids": [9112016, 24112016, 19042017]
   },
   {
     "title": "www: The Web Will Win",
