@@ -1,5 +1,22 @@
 [
   {
+    "id": 19042017,
+    "date": "2017-04-19",
+    "name": "BreizhC@mp 2017",
+    "location": {
+      "name": "Rennes, France",
+      "lat": 48.1173595,
+      "lng": 1.6410981
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.breizhcamp.org/",
+    "talk": {
+      "title": "Ici le commandant de bord, on passe en mode avion !"
+    }
+  },
+  {
     "id": 7032017,
     "date": "2017-03-07",
     "name": "Paris Progressive Web Apps",
