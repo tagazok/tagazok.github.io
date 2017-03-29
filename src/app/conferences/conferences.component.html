@@ -38,12 +38,16 @@
   <h1 class="title">Past events</h1>
   <ul class="conferences">
     <li *ngFor="let conference of pastConferences" class="conference">
-      <div>
-        <ul class="roles">
-          <li *ngFor="let role of conference.roles" class="role" [ngClass]="role">[{{role}}]</li>
-        </ul>
-        <a [href]="conference.link" class="host" target="_blank">{{conference.name}}</a>
-        <span class="talk" *ngIf="conference.talk"> • {{conference.talk.title}}</span>
+      <div fxLayout="row">
+        <div>
+          <ul class="roles">
+            <li *ngFor="let role of conference.roles" class="role" [ngClass]="role">[{{role}}]</li>
+          </ul>
+          <a [href]="conference.link" class="host" target="_blank">{{conference.name}}</a>
+          <span class="talk" *ngIf="conference.talk && conference.talk.title"> • {{conference.talk.title}}</span>
+        </div>
+        <div fxFlex></div>
+        <a *ngIf="conference.talk && conference.talk.video" [href]="conference.talk.video" target="_blank" title="See video"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
       </div>
       <div class="infos">
         <span class="location">{{conference.location.name}}</span>

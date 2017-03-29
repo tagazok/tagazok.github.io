@@ -30,7 +30,8 @@
     ],
     "link": "https://www.meetup.com/Paris-Progressive-Web-App/events/237610476/?_locale=fr-FR",
     "talk": {
-      "title": "PWA: Pourquoi, pour qui?"
+      "title": "PWA: Pourquoi, pour qui?",
+      "video": "https://www.youtube.com/watch?v=w8WbIJlLMpQ"
     }
   },
   {
@@ -47,7 +48,8 @@
     ],
     "link": "http://fightcode.io/",
     "talk": {
-      "title": "FightCode"
+      "title": "FightCode",
+      "video": "https://www.youtube.com/watch?v=u5RN5UxZezM"
     }
   },
   {
@@ -64,7 +66,8 @@
     ],
     "link": "https://devfest.gdgnantes.com/",
     "talk": {
-      "title": "Votre application web qui marche même sans réseau, c'est possible!"
+      "title": "Votre application web qui marche même sans réseau, c'est possible!",
+      "video": "https://www.youtube.com/watch?v=j2u4SY5HAV4"
     }
   },
   {
@@ -81,7 +84,8 @@
     ],
     "link": "https://www.codeursenseine.com/2016/",
     "talk": {
-      "title": "Votre application web qui marche même sans réseau, c'est possible!"
+      "title": "Votre application web qui marche même sans réseau, c'est possible!",
+      "video": "https://www.infoq.com/fr/presentations/codeurs-en-seine-olivier-leplus-app-web-sans-reseau"
     }
   },
   {
@@ -98,7 +102,8 @@
     ],
     "link": "http://humantalks.com/",
     "talk": {
-      "title": "www: The Web Will Win"
+      "title": "www: The Web Will Win",
+      "video": "https://www.youtube.com/watch?v=vcPBVa5E80w"
     }
   },
   {
@@ -132,7 +137,8 @@
     ],
     "link": "http://www.bdx.io/",
     "talk": {
-      "title": "Please welcome Angular 2"
+      "title": "Please welcome Angular 2",
+      "video": "https://www.youtube.com/watch?v=TGSjRPhagE4"
     }
   },
   {
@@ -289,5 +295,22 @@
       "organizer"
     ],
     "link": "http://2015.devfest.gdgparis.com/"
+  },
+  {
+    "id": 15122015,
+    "date": "2015-12-05",
+    "name": "Google Startup Launchpad Toulouse",
+    "location": {
+      "name": "Toulouse, France",
+      "lat": 43.6112304,
+      "lng": 1.4560435
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://events.withgoogle.com/launchpad-week-toulouse/",
+    "talk": {
+      "video": "https://www.youtube.com/watch?v=ApQoDTkaQIg"
+    }
   }
 ]
