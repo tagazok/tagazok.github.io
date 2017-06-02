@@ -1,5 +1,22 @@
 [
   {
+    "id": 17062017,
+    "date": "2017-06-17",
+    "name": "Vivatech Paris",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "jury"
+    ],
+    "link": "http://fightcode.io/",
+    "talk": {
+      "title": "Angular FightCode #2"
+    }
+  },
+  {
     "id": 19042017,
     "date": "2017-04-19",
     "name": "BreizhC@mp 2017",
