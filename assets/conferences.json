@@ -1,5 +1,22 @@
 [
   {
+    "id": 04072017,
+    "date": "2017-07-04",
+    "name": "PWAParis",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Paris-Progressive-Web-App/events/240918412/",
+    "talk": {
+      "title": "This is your captain speaking, please put your phone in airplane mode"
+    }
+  },
+  {
     "id": 17062017,
     "date": "2017-06-17",
     "name": "Vivatech Paris",
@@ -262,6 +279,23 @@
     "link": "http://www.meetup.com/fr-FR/gdglisbon/events/229999648/?eventId=229999648",
     "talk": {
       "title": "Progressive Web Apps codelab - 2h"
+    }
+  },
+  {
+    "id": 07032016,
+    "date": "2016-03-07",
+    "name": "PWAParis",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Paris-Progressive-Web-App/",
+    "talk": {
+      "title": "Les PWA : Où, comment, pourquoi, pour qui?"
     }
   },
   {
