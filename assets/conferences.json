@@ -13,7 +13,8 @@
     ],
     "link": "https://www.meetup.com/fr-FR/Paris-Progressive-Web-App/events/240918412/",
     "talk": {
-      "title": "This is your captain speaking, please put your phone in airplane mode"
+      "title": "This is your captain speaking, please put your phone in airplane mode",
+      "video": "https://www.youtube.com/watch?v=Rwa1qhDjkoo"
     }
   },
   {
@@ -30,7 +31,8 @@
     ],
     "link": "http://fightcode.io/",
     "talk": {
-      "title": "Angular FightCode #2"
+      "title": "Angular FightCode #2",
+      "video": "https://www.youtube.com/watch?v=JXmykgqlOgk
     }
   },
   {
