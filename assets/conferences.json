@@ -1,5 +1,22 @@
 [
   {
+    "id": 28092017,
+    "date": "2017-09-28",
+    "name": "DevFest Toulouse",
+    "location": {
+      "name": "Toulouse, France",
+      "lat": 43.6489983,
+      "lng": 1.3727472
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfesttoulouse.fr/",
+    "talk": {
+      "title": "Ici votre commandant de bord, on passe en mode avion !"
+    }
+  },
+  {
     "id": 4072017,
     "date": "2017-07-04",
     "name": "PWA Paris",
