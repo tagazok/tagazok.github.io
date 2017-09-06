@@ -1,4 +1,38 @@
-[
+[ 
+  {
+    "id": 101120171,
+    "date": "2017-11-10",
+    "name": "BDX I/O",
+    "location": {
+      "name": "Bordeaux, France",
+      "lat": 44.807047,
+      "lng": -0.605526
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.bdx.io/",
+    "talk": {
+      "title": "Ici votre commandant de bord, on passe en mode avion !"
+    }
+  },
+  {
+    "id": 10112017,
+    "date": "2017-11-10",
+    "name": "BDX I/O",
+    "location": {
+      "name": "Bordeaux, France",
+      "lat": 44.807047,
+      "lng": -0.605526
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.bdx.io/",
+    "talk": {
+      "title": "What's up TC39 ?"
+    }
+  },
   {
     "id": 28092017,
     "date": "2017-09-28",
