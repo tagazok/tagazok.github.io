@@ -1,5 +1,22 @@
 [ 
   {
+    "id": 1122017,
+    "date": "2017-12-01",
+    "name": "DevFest Malaga",
+    "location": {
+      "name": "Malaga, Spain",
+      "lat": 36.7648321,
+      "lng": -4.4241892
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfest.gdgmalaga.com/",
+    "talk": {
+      "title": "This is your captain speaking, please put your phone in airplane mode !"
+    }
+  },
+  {
     "id": 101120171,
     "date": "2017-11-10",
     "name": "BDX I/O",
