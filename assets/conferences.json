@@ -1,4 +1,21 @@
-[ 
+[
+  {
+    "id": 3022018,
+    "date": "2018-02-03",
+    "name": "ngGirls Paris",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "http://ng-girls.org/ng-europe/",
+    "talk": {
+      "title": "One day workshop on Angular"
+    }
+  },
   {
     "id": 1122017,
     "date": "2017-12-01",
