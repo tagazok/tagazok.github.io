@@ -1,6 +1,23 @@
 [
   {
     "id": 3022018,
+    "date": "2018-03-13",
+    "name": "Progressive Web App Roadshow Paris",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://events.withgoogle.com/pwa-roadshow-paris/",
+    "talk": {
+      "title": "One day workshop on Angular"
+    }
+  },
+  {
+    "id": 3022018,
     "date": "2018-02-03",
     "name": "ngGirls @ ngEurope",
     "location": {
