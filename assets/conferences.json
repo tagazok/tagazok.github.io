@@ -1,5 +1,21 @@
 [
   {
+    "id": 3042018,
+    "date": "2018-04-03",
+    "name": "Workshop Chatbot",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talk": {
+      "title": "Dialogflow et Cloud Functions for Firebase"
+    }
+  },
+  {
     "id": 30032018,
     "date": "2018-03-30",
     "name": "Atelier Design Sprint",
