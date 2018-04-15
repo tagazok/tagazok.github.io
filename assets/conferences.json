@@ -1,5 +1,18 @@
 [
   {
+    "id": 16042018,
+    "date": "2018-04-16",
+    "name": "Atelier Design Sprint @Station F",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "mentor"
+    ]
+  },
+  {
     "id": 3042018,
     "date": "2018-04-03",
     "name": "Workshop Chatbot",
@@ -18,7 +31,7 @@
   {
     "id": 30032018,
     "date": "2018-03-30",
-    "name": "Atelier Design Sprint",
+    "name": "Atelier Design Sprint @Google",
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
