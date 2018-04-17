@@ -5,7 +5,7 @@
     "name": "Devoxx France",
     "talk": {
       "title": "Atelier Design Sprint"
-    }
+    },
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
@@ -22,7 +22,7 @@
     "name": "Station F",
     "talk": {
       "title": "Lighthouse: mesurer et améliorer votre performance web"
-    }
+    },
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
@@ -38,7 +38,7 @@
     "name": "Station F",
     "talk": {
       "title": "Atelier Design Sprint"
-    }
+    },
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
@@ -70,7 +70,7 @@
     "name": "Google",
     "talk": {
       "title": "Atelier Design Sprint"
-    }
+    },
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
