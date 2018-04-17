@@ -1,5 +1,19 @@
 [
   {
+    "id": 18042018,
+    "date": "2018-04-18",
+    "name": "Atelier Design Sprint",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.devoxx.fr/"
+  },
+  {
     "id": 16042018,
     "date": "2018-04-16",
     "name": "Atelier Design Sprint @Station F",
