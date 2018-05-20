@@ -1,5 +1,22 @@
 [
   {
+    "id": 17062017,
+    "date": "2018-05-26",
+    "name": "Vivatech Paris",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "jury"
+    ],
+    "link": "https://www.meetup.com/fr-FR/AngularX-Paris/events/240421991/",
+    "talk": {
+      "title": "Angular FightCode #3",
+    }
+  },
+  {
     "id": 18042018,
     "date": "2018-04-18",
     "name": "Devoxx France",
