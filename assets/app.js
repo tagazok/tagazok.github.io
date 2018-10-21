@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         for (let conference of data) {
           const d = new Date(conference.date).getTime();
           if (d > currentDate) {
-            dom_nextConferences.insertBefore(generateConferenceTemplate(conference), dom_nextConferences.lastChild);
+            dom_nextConferences.insertBefore(generateConferenceTemplate(conference, false), dom_nextConferences.lastChild);
           } else {
             dom_conferences.insertBefore(generateConferenceTemplate(conference), dom_conferences.lastChild);
           }
@@ -61,12 +61,13 @@ document.addEventListener('DOMContentLoaded', function () {
     return fragment;
   }
 
-  function generateConferenceTemplate(conference) {
+  function generateConferenceTemplate(conference, past = true) {
     console.log(conference);
     const tmpl = `
           <li class="conference">
             <div class="flex flex-row">
               <div>
+                ${isPast(past)}
                 <ul class="roles">
                   <li class="role speaker">${getRoles(conference)}</li>
                 </ul>
@@ -87,6 +88,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const fragment = range.createContextualFragment(tmpl);
 
     return fragment;
+  }
+
+  function isPast(past) {
+    if (!past) {
+      return `<span class='soon'>Soon!</span>`
+    }
+    return '';
   }
 
   function getTalk(conference) {
