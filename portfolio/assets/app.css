@@ -1,0 +1,392 @@
+html {
+  background: #f6f9fa;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  color: rgb(82, 92, 101);
+}
+
+* {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.header .header__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    opacity: .85;
+}
+
+.section--gradient {
+  color: #fff;
+  padding: 120px 0;
+  background: #00ff9b;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#00ff9b',endColorstr='#003eff');
+  background: -webkit-linear-gradient(305deg,#00ff9b 0%,#003eff 100%);
+  background: linear-gradient(145deg,#00ff9b 0%,#003eff 100%);
+}
+
+.container {
+  max-width: 1040px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  z-index: 10;
+  z-index: 1;
+}
+
+.container__margin-top {
+  margin-top: 120px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 0;
+}
+
+.header .title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 68px;
+  margin-bottom: 50px;
+}
+
+.header .text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.header .text a {
+  text-decoration: none;
+  color: #432c85;
+}
+
+.header {
+  position: relative;
+  padding: 150px 0 230px;
+  background: url(https://ultimateangular.com/assets/img/homepage/hero.jpg) center center no-repeat;
+  background: url(img/HumanTalksGoogle2.jpg) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.radius-corners {
+  border-radius: 8px;
+}
+.top-left-radius-corner {
+  border-top-left-radius: 8px;
+}
+.top-right-radius-corner {
+  border-top-right-radius: 8px;
+}
+.bottom-left-radius-corner {
+  border-bottom-left-radius: 8px;
+}
+.bottom-right-radius-corner {
+  border-bottom-right-radius: 8px;
+}
+
+.bio {
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(63,66,83,.1);
+  position: relative;
+}
+
+.bio:after {
+  content: 'Next events';
+  position: absolute;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+  bottom: -9px;
+  left: 50%;
+  background: #fff;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  /* color: rgba(63,66,83,.7); */
+  color: rgb(42, 187, 179);
+  letter-spacing: 3px;
+  text-align: center;
+}
+/* MAIN */
+.main {
+  margin-top: -80px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 4px 8px rgba(0,0,0,.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.shadow__img {
+  -webkit-filter: drop-shadow(0px 4px 8px rgba(0,0,0,.2));
+  filter: drop-shadow(0px 4px 8px rgba(0,0,0,.2));
+}
+
+.section__title {
+  font-size: 32px;
+  color: #3f4253;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.heading__text {
+  font-size: 18px;
+  margin-top: 20px;
+  color: rgba(63,66,83,.7);
+}
+
+.header .badge {
+  max-width: 70px;
+}
+
+.badge {
+  max-width: 250px;
+  width: 80%;
+}
+
+.badge--description {
+  font-size: 16px;
+  /* color: rgba(63,66,83,.7); */
+  line-height: 26px;
+  /* padding: 0 20px; */
+}
+
+.conferences {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  position: relative;
+}
+
+.conferences--small {
+  max-height: 550px;
+  overflow-y: hidden;
+}
+
+.conferences .conference {
+  display: block;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.conferences .conference:last-child {
+  border-bottom: none;
+}
+
+.conferences__overlay {
+  position:absolute;
+  bottom:0;
+  left: 0;
+  right:0;
+  height: 200px;
+  background: linear-gradient(transparent, #fff);
+  z-index: 5;
+}
+
+.conference .roles {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.conference .host {
+  text-decoration: none;
+  color: #6f7679;
+}
+
+.conference .role {
+  display: inline-block;
+}
+
+.conference .role.speaker {
+  color: #039dc7;
+}
+.conference .role.organizer {
+  color: #02ccba;
+}
+.conference .role.jury {
+  color: #bc04c7;
+}
+.conference .role.mentor {
+  color: #f9a408;
+}
+
+.conference .infos {
+  color: #6f7679;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 5px 0 0;
+}
+
+.conference .fa-video {
+  color: #e49e9e;
+}
+
+
+.contacts i {
+  font-size: 70px;
+  text-shadow: 0 4px 8px rgba(0,0,0,.1);
+  margin-bottom: 10px;
+}
+
+.contacts {
+  padding: 30px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.section--gradient .section__title {
+  color: #fff;
+}
+
+.section--gradient .heading__text {
+  color: rgb(238, 238, 238);
+}
+
+.contacts a:hover i {
+  color: #04fe9b;
+}
+
+
+.videos .video {
+  display: block;
+  padding: 0 20px;
+  box-sizing: border-box; 
+  text-decoration: none;
+}
+
+.videos .video img {
+  border-radius: 8px;
+}
+
+.videos .video .video-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(38,41,58,.8);
+  margin: 10px 0 8px;
+  transition: color .2s ease;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.videos .video .video-description {
+  font-size: 14px;
+  color: rgba(38,41,58,.6);
+  margin: 0;
+}
+
+.videos .video .video-description span {
+  margin: 0 10px;
+}
+
+.bounce {
+  color: #29d1a2;
+  margin-top: 50px;
+  animation: bounce .5s infinite alternate;
+  -webkit-animation: bounce .5s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.link {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.line {
+  margin-bottom: 20px;
+}
+
+/* Flexbox */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.col-2>div {
+  width: 50%;
+}
+
+.col-3>div {
+  width: 33.33%
+}
+
+.col-4>div {
+  width: 25%;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
