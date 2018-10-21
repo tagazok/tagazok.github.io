@@ -1,21 +1,234 @@
-<!doctype html>
-<html>
+<html lang="en-us">
+
 <head>
   <meta charset="utf-8">
-  <title>About</title>
-  <base href="/">
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="@ultimateangular">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <link rel="stylesheet" href="assets/app.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <script type="text/javascript" src="assets/app.js"></script>
+  <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <title>Olivier Leplus</title>
 </head>
+
 <body>
-  <app-root>
-    <div id="container">
-        <div><h1>Loading...</h1></div>
+  <header class="header">
+    <div class="container">
+      <h1 class="title">Olivier Leplus</h1>
+      <p class="text">
+        Hi! I'm Olivier, and I am looking forward to see what is going to amaze me today.
+      </p>
+      <!-- <div class="flex col-2">
+            <div class="flex flex-column flex-align-center">
+              <img class="badge" src="assets/img/badges/gde-web.png" />
+            </div>
+            <div class="flex flex-column flex-align-center">
+              <img class="badge" src="assets/img/badges/botfuel-da.png" />
+            </div>
+          </div> -->
+      <p class="text">
+        <a href="https://developers.google.com/experts/people/olivier-leplus">Google Developer Expert</a> in web technologies</p>
+      <p class="text">Developer Advocate
+        <a href="https://www.botfuel.io/en" target="_blank">@Botfuel</a>
+      </p>
+      <p>
+        <a href="https://twitter.com/olivierleplus" class="twitter-follow-button" data-lang="en" data-show-count="false"></a>
+      </p>
     </div>
-  </app-root>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+    <div class="header__overlay section--gradient"></div>
+  </header>
+
+  <main role="main" class="main">
+    <!-- <section id="section-bio">
+      <div class="container">
+        <div class="card shadow">
+          <div class="bio">
+            <h1>HTML Ipsum Presents</h1>
+
+            <p>
+              <strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+              tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+              <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper
+              pharetra. Vestibulum erat wisi, condimentum sed,
+              <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis
+              tempus lacus enim ac dui.
+              <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+            <h2>Header Level 2</h2>
+
+            <ol>
+              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+              <li>Aliquam tincidunt mauris eu risus.</li>
+            </ol>
+          </div>
+          <div>
+            <ul class="conferences" id="next-conferences"></ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- <section id="section-badges">
+      <div class="container container__margin-top">
+        <div class="flex col-2">
+          <div class="flex flex-column flex-align-center">
+            <img class="badge shadow__img" src="assets/img/badges/gde-web.png" alt="Google Developer Expert badge" />
+            <div class="badge--description">
+              <p>
+                A Google Developer Expert (GDE) is a person recognized by Google Inc. as having exemplary expertise in one or more of Google
+                Developer products. GDEs are awarded through the Google Developer Experts program established and administered
+                by Google.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-column flex-align-center">
+            <img class="badge shadow__img" src="assets/img/badges/botfuel-da.png" alt="Botfuel Developer Advocate badge" />
+            <div class="badge--description">
+              <p>
+                Botfuel is a cutting edge bot platform designed for testability, scalability, connectivity and data privacy. Build chatbots
+                able to deliver natural conversational experiences to your users.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- <section id="section-photos">
+      <div class="container container__margin-top">
+        <div class="shadow radius-corners" style="flex-flow: row wrap; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; box-sizing: border-box; max-height: 100%; place-content: center flex-start; align-items: center; -webkit-box-pack: start; -webkit-box-align: center;">
+          <img alt="Conference image" class="top-left-radius-corner" src="https://tagazok.github.io/assets/photos/conf6-square.jpg"
+            style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
+          <img alt="Conference image" src="https://tagazok.github.io/assets/photos/conf1-square.jpg" style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
+          <img alt="Conference image" src="https://tagazok.github.io/assets/photos/conf8-square.jpg" style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
+          <img alt="Conference image" class="top-right-radius-corner" src="https://tagazok.github.io/assets/photos/conf4-square.jpg"
+            style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
+          <img alt="Conference image" class="bottom-left-radius-corner" src="https://tagazok.github.io/assets/photos/conf5-2-square.jpg"
+            style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
+          <img alt="Conference image" src="https://tagazok.github.io/assets/photos/conf2-square.jpg" style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
+          <img alt="Conference image" src="https://tagazok.github.io/assets/photos/conf7-square.jpg" style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
+          <img alt="Conference image" class="bottom-right-radius-corner" src="https://tagazok.github.io/assets/photos/conf8-square.jpg"
+            style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- <section id="section-badges" class="section--gradient container__margin-top">
+      <div class="container">
+        <div class="heading">
+          <h2 class="section__title">
+            My day to day job
+          </h2>
+          <p class="heading__text">
+            Help developers write good applications
+          </p>
+        </div>
+        <div class="flex col-2 line">
+          <div class="flex flex-align-center flex-justify-center">
+            <img class="badge shadow__img" src="assets/img/badges/gde-web.png" alt="Google Developer Expert badge" />
+          </div>
+          <div class="badge--description flex flex-align-center">
+            <p>
+              A Google Developer Expert (GDE) is a person recognized by Google Inc. as having exemplary expertise in one or more of Google
+              Developer products. GDEs are awarded through the Google Developer Experts program established and administered
+              by Google.
+            </p>
+          </div>
+        </div>
+        <div class="flex col-2">
+          <div class="badge--description flex flex-align-center">
+            <p>
+              Botfuel is a cutting edge bot platform designed for testability, scalability, connectivity and data privacy. Build chatbots
+              able to deliver natural conversational experiences to your users.
+            </p>
+          </div>
+
+          <div class="flex flex-align-center flex-justify-center">
+            <img class="badge shadow__img" src="assets/img/badges/botfuel-da.png" alt="Botfuel Developer Advocate badge" />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section id="section-video">
+      <div class="container container__margin-top">
+        <div class="heading">
+          <div class="flex flex-row">
+            <h2 class="flex flex-row section__title">
+              Talks in action
+              <a class="link" href="https://www.youtube.com/playlist?list=PLHg2tCl0QV6JF1Jx-HkhquQfOBbaH-HeG" target="_blank">See all videos on YouTube
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </h2>
+          </div>
+          <p class="heading__text">Here are a few videos of my previous talks</p>
+        </div>
+        <div class="col-4 videos flex flex-row" id="videos">
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- <section id="section-conferences" class="container container__margin-top"> -->
+    <section id="section-conferences" class="container">
+      <div class="card shadow">
+        <div class="heading">
+          <h2 class="section__title">
+            Conferences & Co
+          </h2>
+          <div>
+            <p class="heading__text">Come and say hi !</p>
+          </div>
+        </div>
+        <ul class="conferences conferences--small" id="next-conferences">
+          <li></li>
+        </ul>
+        <ul class="conferences conferences--small" id="conferences">
+          <li class="conferences__overlay"></li>
+        </ul>
+        <div class="flex flex-column flex-align-center">
+          <button id="more-conferences"><i class="fas fa-2x fa-angle-down bounce"></i></button>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="secion-contact" class="section--gradient container__margin-top contacts">
+      <div class="container">
+        <div>
+          <h2 class="section__title">
+            Want to get in touch ?
+          </h2>
+        </div>
+        <div class="flex col-3" id="social-links">
+          <div class="flex flex-align-center flex-column">
+            <a href="https://twitter.com/olivierleplus" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            Twitter
+          </div>
+          <div class="flex flex-align-center flex-column">
+            <a href="https://github.com/tagazok" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            Github
+          </div>
+          <div class="flex flex-align-center flex-column">
+            <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            Linkedin
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+</body>
+
 </html>
