@@ -73,12 +73,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .header .text a {
   text-decoration: none;
-  color: #432c85;
+  color: #00e195;
 }
 
 .header {
   position: relative;
-  padding: 150px 0 230px;
+  padding: 150px 0;
   background: url(https://ultimateangular.com/assets/img/homepage/hero.jpg) center center no-repeat;
   background: url(img/HumanTalksGoogle2.jpg) center center no-repeat;
   background-size: cover;
@@ -104,6 +104,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bottom-right-radius-corner {
   border-bottom-right-radius: 8px;
+}
+
+.twitter-follow-button {
+  margin: 10px 0;
+  margin-top: 30px;
 }
 
 .bio {
@@ -156,6 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 .section__title {
   font-size: 32px;
   color: #3f4253;
+  text-align: center;
 }
 
 .heading {
@@ -185,11 +191,17 @@ h1, h2, h3, h4, h5, h6 {
   /* padding: 0 20px; */
 }
 
+#more-conferences {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
 .conferences {
   margin: 0;
   padding: 0;
   list-style: none;
-
+  
   position: relative;
 }
 
@@ -230,6 +242,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #6f7679;
 }
 
+.conference .host:hover {
+  color: #00e195;
+}
+
 .conference .role {
   display: inline-block;
 }
@@ -260,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .contacts i {
-  font-size: 70px;
+  font-size: 20px;
   text-shadow: 0 4px 8px rgba(0,0,0,.1);
   margin-bottom: 10px;
 }
@@ -274,6 +290,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+#social-links {
+  margin: 50px 0;
+}
 .section--gradient .section__title {
   color: #fff;
 }
