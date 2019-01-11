@@ -1,5 +1,19 @@
 [
   {
+    "id": 8022018,
+    "date": "2018-02-08",
+    "name": "DevFest Paris",
+    "location": {
+      "name": "Nice, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "http://devfest.gdgparis.com/"
+  },
+  {
     "id": 8112018,
     "date": "2018-11-08",
     "name": "DevFest Toulouse",
@@ -641,7 +655,7 @@
     "date": "2015-01-30",
     "name": "GDG DevFest Paris",
     "location": {
-      "name": "Nice, France",
+      "name": "Paris, France",
       "lat": 48.87733,
       "lng": 2.3277525
     },
