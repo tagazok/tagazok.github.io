@@ -1,4 +1,55 @@
 [
+   {
+    "id": 23052019,
+    "date": "2019-05-23",
+    "name": "MIXIT",
+    "location": {
+      "name": "Lyon, France",
+      "lat": 45.7477518,
+      "lng": 4.8601244
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://mixitconf.org/en/",
+    "talk": {
+      "title": "VSCode: Mode collaboratif activé"
+    }
+  },
+  {
+    "id": 17042019,
+    "date": "2019-04-17",
+    "name": "Devoxx France",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.devoxx.fr/",
+    "talk": {
+      "title": "VSCode: Mode collaboratif activé"
+    }
+  },
+   {
+    "id": 20032019,
+    "date": "2019-03-20",
+    "name": "Breizhc@mp 2019",
+    "location": {
+      "name": "Rennes, France",
+      "lat": 48.1173595,
+      "lng": 1.6410981
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.breizhcamp.org/",
+    "talk": {
+      "title": "VSCode: Mode collaboratif activé"
+    }
+  },
   {
     "id": 8022018,
     "date": "2018-02-08",
