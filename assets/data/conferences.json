@@ -51,6 +51,40 @@
     }
   },
   {
+    "id": 13032019,
+    "date": "2019-03-12",
+    "name": "MUG Tours",
+    "location": {
+      "name": "Tours, France",
+      "lat": 47.363297,
+      "lng": 0.6703936
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/259475056/",
+    "talk": {
+      "title": "Pimp your vscode"
+    }
+  },
+  {
+    "id": 11032019,
+    "date": "2019-03-11",
+    "name": "Microsoft User Group Rennes",
+    "location": {
+      "name": "Rennes, France",
+      "lat": 48.113808,
+      "lng": -1.675499
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Rennes/events/259496682/",
+    "talk": {
+      "title": "Pimp your vscode"
+    }
+  }
+  {
     "id": 8022018,
     "date": "2018-02-08",
     "name": "DevFest Paris",
