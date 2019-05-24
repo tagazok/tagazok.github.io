@@ -1,4 +1,55 @@
 [
+  {
+    "id": 28062019,
+    "date": "2019-06-28",
+    "name": "Sunny Tech",
+    "location": {
+      "name": "Montpelier, France",
+      "lat": 43.6100219,
+      "lng": 3.8741615
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://sunny-tech.io/",
+    "talk": {
+      "title": "J'ai fait un plan à 3 avec VSCode"
+    }
+  },
+  {
+    "id": 26062019,
+    "date": "2019-06-26",
+    "name": "Insider Dev Tour",
+    "location": {
+      "name": "Lyon, France",
+      "lat": 45.7477518,
+      "lng": 4.8601244
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://developer.microsoft.com/en-us/collective/events/insider-dev-tour",
+    "talk": {
+      "title": "Allo Lyon, ici Seattle.. Et si on codait ensemble avec VSCode?"
+    }
+  },
+  {
+    "id": 12062019,
+    "date": "2019-06-12",
+    "name": "DevRel Salon",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Paris-DevRel-Salon/events/261673716/",
+    "talk": {
+      "title": "How to attract people to your booth as a sponsor"
+    }
+  },
    {
     "id": 23052019,
     "date": "2019-05-23",
@@ -30,7 +81,8 @@
     ],
     "link": "https://www.devoxx.fr/",
     "talk": {
-      "title": "VSCode: Mode collaboratif activé"
+      "title": "VSCode: Mode collaboratif activé",
+       "video": "https://www.youtube.com/watch?v=UtIUZdBDALs"
     }
   },
    {
