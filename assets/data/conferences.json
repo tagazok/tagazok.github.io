@@ -50,6 +50,21 @@
       "title": "How to attract people to your booth as a sponsor"
     }
   },
+  {
+    "id": 5062019,
+    "date": "2019-06-05",
+    "name": "MS Learn Live",
+    "location": {
+      "name": "London & Online"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.eventbrite.co.uk/e/build-an-ai-powered-slack-bot-using-javascript-azure-tickets-62154564977",
+    "talk": {
+      "title": "Build an AI-Powered Slack Bot using JavaScript & Azure"
+    }
+  },
    {
     "id": 23052019,
     "date": "2019-05-23",
