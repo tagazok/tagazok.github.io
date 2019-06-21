@@ -34,6 +34,22 @@
     }
   },
   {
+    "id": 20062019,
+    "date": "2019-06-20",
+    "name": "Stagiaires 2nd at Microsoft",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talk": {
+      "title": "Et si vous êtiez le prochain Mark Zuckerberg?"
+    }
+  },
+  {
     "id": 12062019,
     "date": "2019-06-12",
     "name": "DevRel Salon",
