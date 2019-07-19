@@ -60,23 +60,25 @@ class Conference {
 
     toHtml() {
         const tmpl = `
-            <li class="conference">
-              <div class="flex flex-row">
-                <div>
-                  ${this.isPast(this.past)}
-                  <ul class="roles">
-                    <li class="role speaker">${this.getRoles()}</li>
-                  </ul>
-                  <a href="${this.conference.link}" class="host" target="_blank">${this.conference.name}</a>
-                  ${this.getTalk()}
+            <li class="conference ${this.conference.event}">
+              <div class="conference-container">
+                <div class="flex flex-row">
+                  <div>
+                    ${this.isPast(this.past)}
+                    <ul class="roles">
+                      <li class="role speaker">${this.getRoles()}</li>
+                    </ul>
+                    <a href="${this.conference.link}" class="host" target="_blank">${this.conference.name}</a>
+                    ${this.getTalk()}
+                  </div>
+                  <div class="flex-1"></div>
+                  ${this.getVideo()}
                 </div>
-                <div class="flex-1"></div>
-                ${this.getVideo()}
-              </div>
-              <div class="infos">
-                <span class="location">${this.conference.location.name}</span>
-                  • 
-                <span class="date">${this.conference.date}</span>
+                <div class="infos">
+                  <span class="location">${this.conference.location.name}</span>
+                    • 
+                  <span class="date">${this.conference.date}</span>
+                </div>
               </div>
             </li>
           `;

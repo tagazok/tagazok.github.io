@@ -1,54 +1,94 @@
 [
-   {
-    "id": 23052019,
-    "date": "2019-05-23",
-    "name": "MIXIT",
+  {
+    "date": "2019-07-04",
+    "name": "EPITECH Strasbourg",
     "location": {
-      "name": "Lyon, France",
-      "lat": 45.7477518,
-      "lng": 4.8601244
+      "name": "Strasbourg, France"
     },
     "roles": [
       "speaker"
     ],
-    "link": "https://mixitconf.org/en/",
+    "link": "https://www.meetup.com/fr-FR/MugStrasbourg/events/262064954/",
     "talk": {
-      "title": "VSCode: Mode collaboratif activé"
-    }
+      "title": "Pimp my vscode"
+    },
+    "event": "roadshow"
   },
   {
-    "id": 17042019,
-    "date": "2019-04-17",
-    "name": "Devoxx France",
+    "date": "2019-07-04",
+    "name": "EPITECH Strasbourg",
     "location": {
-      "name": "Paris, France",
-      "lat": 48.87733,
-      "lng": 2.3277525
+      "name": "Strasbourg, France"
     },
     "roles": [
-      "speaker"
+      "mentor"
     ],
-    "link": "https://www.devoxx.fr/",
+    "link": "",
     "talk": {
-      "title": "VSCode: Mode collaboratif activé"
-    }
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
   },
-   {
-    "id": 20032019,
-    "date": "2019-03-20",
-    "name": "Breizhc@mp 2019",
+  {
+    "date": "2019-07-03",
+    "name": ".Net User Group Luxembourg",
     "location": {
-      "name": "Rennes, France",
-      "lat": 48.1173595,
-      "lng": 1.6410981
+      "name": "Luxembourg city, Luxembourg"
     },
     "roles": [
       "speaker"
     ],
-    "link": "http://www.breizhcamp.org/",
+    "link": "https://www.meetup.com/fr-FR/dotnet-luxembourg/events/262421962/",
     "talk": {
-      "title": "VSCode: Mode collaboratif activé"
-    }
+      "title": "Pimp my vscode",
+      "video": "https://www.youtube.com/watch?v=mueaEPOs6iE"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2019-07-02",
+    "name": "Microsoft Innovation Center Mons",
+    "location": {
+      "name": "Mons, Belgium"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/micbelgique/events/262474024/",
+    "talk": {
+      "title": "Pimp my VSCode"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2019-07-02",
+    "name": "Microsoft Innovation Center Mons",
+    "location": {
+      "name": "Mons, Belgique"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.meetup.com/fr-FR/micbelgique/events/262473137/",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2019-07-01",
+    "name": "Ch'ti MUG & Université catholique de Lille",
+    "location": {
+      "name": "Lille, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Meetup-NET-Lille/events/262439752/",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
   },
   {
     "id": 13032019,
@@ -68,6 +108,206 @@
     }
   },
   {
+    "id": 28062019,
+    "date": "2019-06-28",
+    "name": "Sunny Tech",
+    "location": {
+      "name": "Montpelier, France",
+      "lat": 43.6100219,
+      "lng": 3.8741615
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://sunny-tech.io/",
+    "talk": {
+      "title": "J'ai fait un plan à 3 avec VSCode",
+      "video": "https://www.youtube.com/watch?v=m6Kw1EuMz8s"
+    }
+  },
+  {
+    "id": 26062019,
+    "date": "2019-06-26",
+    "name": "Insider Dev Tour",
+    "location": {
+      "name": "Lyon, France",
+      "lat": 45.7477518,
+      "lng": 4.8601244
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://developer.microsoft.com/en-us/collective/events/insider-dev-tour",
+    "talk": {
+      "title": "Allo Lyon, ici Seattle.. Et si on codait ensemble avec VSCode?"
+    }
+  },
+  {
+    "id": 20062019,
+    "date": "2019-06-20",
+    "name": "Stagiaires 2nd at Microsoft",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talk": {
+      "title": "Et si vous êtiez le prochain Mark Zuckerberg?"
+    }
+  },
+  {
+    "id": 12062019,
+    "date": "2019-06-12",
+    "name": "DevRel Salon",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Paris-DevRel-Salon/events/261673716/",
+    "talk": {
+      "title": "How to attract people to your booth as a sponsor"
+    }
+  },
+  {
+    "id": 5062019,
+    "date": "2019-06-05",
+    "name": "MS Learn Live",
+    "location": {
+      "name": "London & Online"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.eventbrite.co.uk/e/build-an-ai-powered-slack-bot-using-javascript-azure-tickets-62154564977",
+    "talk": {
+      "title": "Build an AI-Powered Slack Bot using JavaScript & Azure"
+    }
+  },
+  {
+    "id": 23052019,
+    "date": "2019-05-23",
+    "name": "MIXIT",
+    "location": {
+      "name": "Lyon, France",
+      "lat": 45.7477518,
+      "lng": 4.8601244
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://mixitconf.org/en/",
+    "talk": {
+      "title": "VSCode: Mode collaboratif activé",
+      "video": "https://mixitconf.org/en/2019/vs-code-mode-collaboratif-active-"
+    }
+  },
+  {
+    "id": 17042019,
+    "date": "2019-04-17",
+    "name": "Devoxx France",
+    "location": {
+      "name": "Paris, France",
+      "lat": 48.87733,
+      "lng": 2.3277525
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.devoxx.fr/",
+    "talk": {
+      "title": "VSCode: Mode collaboratif activé",
+      "video": "https://www.youtube.com/watch?v=UtIUZdBDALs"
+    }
+  },
+  {
+    "id": 20032019,
+    "date": "2019-03-20",
+    "name": "Breizhc@mp 2019",
+    "location": {
+      "name": "Rennes, France",
+      "lat": 48.1173595,
+      "lng": 1.6410981
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.breizhcamp.org/",
+    "talk": {
+      "title": "VSCode: Mode collaboratif activé"
+    }
+  },
+  {
+    "date": "2019-03-14",
+    "name": "Polytech Orléans",
+    "location": {
+      "name": "Orléans, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2019-03-13",
+    "name": "MUG Tours",
+    "location": {
+      "name": "Tours, France",
+      "lat": 47.363297,
+      "lng": 0.6703936
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/259475056/",
+    "talk": {
+      "title": "Pimp your vscode"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2019-03-13",
+    "name": "CEFIM Tours",
+    "location": {
+      "name": "Tours, France",
+      "lat": 47.363297,
+      "lng": 0.6703936
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2019-03-12",
+    "name": "EPSI Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
+  },
+  {
     "id": 11032019,
     "date": "2019-03-11",
     "name": "Microsoft User Group Rennes",
@@ -83,7 +323,26 @@
     "talk": {
       "title": "Pimp your vscode",
       "video": "https://youtu.be/F2fKy7XKQ58?t=126"
-    }
+    },
+    "event": "roadshow"
+  },
+  {
+    "id": 11032019,
+    "date": "2019-03-11",
+    "name": "Microsoft User Group Rennes",
+    "location": {
+      "name": "Rennes, France",
+      "lat": 48.113808,
+      "lng": -1.675499
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Rennes/events/259496682/",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
   },
   {
     "id": 8022018,
