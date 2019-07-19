@@ -91,23 +91,6 @@
     "event": "roadshow"
   },
   {
-    "id": 13032019,
-    "date": "2019-03-12",
-    "name": "MUG Tours",
-    "location": {
-      "name": "Tours, France",
-      "lat": 47.363297,
-      "lng": 0.6703936
-    },
-    "roles": [
-      "speaker"
-    ],
-    "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/259475056/",
-    "talk": {
-      "title": "Pimp your vscode"
-    }
-  },
-  {
     "id": 28062019,
     "date": "2019-06-28",
     "name": "Sunny Tech",
@@ -345,8 +328,8 @@
     "event": "roadshow"
   },
   {
-    "id": 8022018,
-    "date": "2018-02-08",
+    "id": 8022019,
+    "date": "2019-02-08",
     "name": "DevFest Paris",
     "location": {
       "name": "Paris, France",

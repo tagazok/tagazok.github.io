@@ -58,9 +58,15 @@ class Conference {
       </a>`;
     }
 
+    roadshowLabel() {
+      debugger;
+      if (this.conference.event === 'roadshow') {
+        return `<div class="label">Roadshow</div>`
+      }
+    }
     toHtml() {
         const tmpl = `
-            <li class="conference ${this.conference.event}">
+            <li class="conference ${this.conference.event || ''}">
               <div class="conference-container">
                 <div class="flex flex-row">
                   <div>
