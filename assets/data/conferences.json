@@ -1,5 +1,47 @@
 [
   {
+    "date": "2019-10-21",
+    "name": "DevFest Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://devfest.gdgnantes.com/",
+    "talk": {
+      "title": "Créer votre device IoT connecté en quelques heures"
+    }
+  },
+  {
+    "date": "2019-10-3",
+    "name": "DevFest Toulouse",
+    "location": {
+      "name": "Toulouse, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfesttoulouse.fr/",
+    "talk": {
+      "title": "Allo Paris, ici San Francisco. Et si on codait ensemble avec VS Code?"
+    }
+  },
+  {
+    "date": "2019-08-3",
+    "name": "Hack in the woods",
+    "location": {
+      "name": "Mons, Belgium"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://hackinthewoods.be/",
+    "talk": {
+      "title": "Master git with VSCode"
+    }
+  },
+  {
     "date": "2019-07-04",
     "name": "EPITECH Strasbourg",
     "location": {
