@@ -14,7 +14,21 @@
     }
   },
   {
-    "date": "2019-10-3",
+    "date": "2019-10-17",
+    "name": "Le Meilleur Développeur de France",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://mdf19.com",
+    "talk": {
+      "title": "Master the power of Git in VSCode"
+    }
+  },
+  {
+    "date": "2019-10-03",
     "name": "DevFest Toulouse",
     "location": {
       "name": "Toulouse, France"
@@ -28,7 +42,7 @@
     }
   },
   {
-    "date": "2019-08-3",
+    "date": "2019-08-03",
     "name": "Hack in the woods",
     "location": {
       "name": "Mons, Belgium"
@@ -38,7 +52,7 @@
     ],
     "link": "http://hackinthewoods.be/",
     "talk": {
-      "title": "Master git with VSCode"
+      "title": "Master the power of Git in VSCode"
     }
   },
   {
