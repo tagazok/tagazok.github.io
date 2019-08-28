@@ -42,6 +42,20 @@
     }
   },
   {
+    "date": "2019-08-26",
+    "name": "Pimp my App",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.pimpmyapp.fr/",
+    "talk": {
+      "title": "Importance des communautés et des réseaux"
+    }
+  },
+  {
     "date": "2019-08-03",
     "name": "Hack in the woods",
     "location": {
