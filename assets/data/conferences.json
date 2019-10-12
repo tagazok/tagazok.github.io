@@ -1,5 +1,47 @@
 [
   {
+    "date": "2019-11-06",
+    "name": "DevFest Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfest.gdgstrasbourg.fr/",
+    "talk": {
+      "title": "The web capabilities project: Better, Smoother, Sexier"
+    }
+  },
+  {
+    "date": "2019-10-21",
+    "name": "DevFest Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://devfest.gdgnantes.com/",
+    "talk": {
+      "title": "Créer votre device IoT connecté en quelques heures"
+    }
+  },
+  {
+    "date": "2019-10-17",
+    "name": "Le Meilleur Développeur de France",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://mdf19.com",
+    "talk": {
+      "title": "Master the power of Git in VSCode"
+    }
+  },
+  {
     "date": "2019-10-10",
     "name": "Ynov Bordeaux",
     "location": {
@@ -103,37 +145,6 @@
       "title": "IoT Workshop on Azure"
     },
     "event": "roadshow"
-  },
-
-
-
-  {
-    "date": "2019-10-21",
-    "name": "DevFest Nantes",
-    "location": {
-      "name": "Nantes, France"
-    },
-    "roles": [
-      "mentor"
-    ],
-    "link": "https://devfest.gdgnantes.com/",
-    "talk": {
-      "title": "Créer votre device IoT connecté en quelques heures"
-    }
-  },
-  {
-    "date": "2019-10-17",
-    "name": "Le Meilleur Développeur de France",
-    "location": {
-      "name": "Paris, France"
-    },
-    "roles": [
-      "speaker"
-    ],
-    "link": "https://mdf19.com",
-    "talk": {
-      "title": "Master the power of Git in VSCode"
-    }
   },
   {
     "date": "2019-10-03",
