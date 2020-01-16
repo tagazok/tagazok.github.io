@@ -1,5 +1,47 @@
 [
   {
+    "date": "2020-02-28",
+    "name": "DevFest du bout du monde",
+    "location": {
+      "name": "Brest, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfest.duboutdumonde.bzh/",
+    "talk": {
+      "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+    }
+  },
+  {
+    "date": "2020-02-23",
+    "name": "Snowcamp",
+    "location": {
+      "name": "Clermont-Ferrand, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://snowcamp.io/fr/",
+    "talk": {
+      "title": "Allo la montagne, ici la mer. Et si on codait ensemble avec VS Code?"
+    }
+  },
+  {
+    "date": "2020-02-22",
+    "name": "Snowcamp",
+    "location": {
+      "name": "Clermont-Ferrand, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "http://snowcamp.io/fr/",
+    "talk": {
+      "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
+    }
+  },
+  {
     "date": "2019-11-06",
     "name": "DevFest Strasbourg",
     "location": {
