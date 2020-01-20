@@ -42,6 +42,20 @@
     }
   },
   {
+    "date": "2020-02-18",
+    "name": "Global Diversity CFP Day",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker", "mentor"
+    ],
+    "link": "https://www.globaldiversitycfpday.com/",
+    "talk": {
+      "title": "Ecrire un résumé : conseils de speakers et d’organisateurs de conférences"
+    }
+  },
+  {
     "date": "2019-11-06",
     "name": "DevFest Strasbourg",
     "location": {
