@@ -14,6 +14,96 @@
     }
   },
   {
+    "date": "2020-02-19",
+    "name": "Ardeche Drom Dev",
+    "location": {
+      "name": "Valence, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Pimp my vscode"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-02-18",
+    "name": "MUG Lyon",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Introduction à Microsoft Graph API et Graph toolkit"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-02-18",
+    "name": "Science U Lyon",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-02-17",
+    "name": "MUG In Clermont",
+    "location": {
+      "name": "Clermont Ferrand, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Pimp my vscode"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-02-17",
+    "name": "MUG In Clermont",
+    "location": {
+      "name": "Clermont Ferrand, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-02-17",
+    "name": "IUT Informatique de Clermong",
+    "location": {
+      "name": "Clermont Ferrand, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
+  },
+  {
     "date": "2020-01-23",
     "name": "Snowcamp",
     "location": {
@@ -48,7 +138,8 @@
       "name": "Paris, France"
     },
     "roles": [
-      "speaker", "mentor"
+      "speaker",
+      "mentor"
     ],
     "link": "https://www.globaldiversitycfpday.com/",
     "talk": {
