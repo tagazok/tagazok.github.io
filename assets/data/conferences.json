@@ -14,6 +14,51 @@
     }
   },
   {
+    "date": "2020-02-21",
+    "name": "EPSI Grenoble",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-02-20",
+    "name": "Tech A Date Viseo X Microsoft",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/VISEO-Tech-an-Hour/events/268530963/",
+    "talk": {
+      "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-02-20",
+    "name": "Polytech Grenoble",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "IoT Workshop on Azure"
+    },
+    "event": "roadshow"
+  },
+  {
     "date": "2020-02-19",
     "name": "Ardeche Drom Dev",
     "location": {
