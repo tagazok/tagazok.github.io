@@ -1,5 +1,71 @@
 [
   {
+    "date": "2020-06-03",
+    "name": "Virtual Azure Community Day #2",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "organizer",
+      "host"
+    ],
+    "link": "https://azureday.community"
+  },
+  {
+    "date": "2020-04-29",
+    "name": "Learn Party Live",
+    "location": {
+      "name": "All over France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.meetup.com/fr-FR/MUGLyon/events/270235046/",
+    "talk": {
+      "title": "The Mojifier - Create a Slack bot that replaces people's faces with emojis matching their emotion"
+    }
+  },
+  {
+    "date": "2020-04-24",
+    "name": "Ada Tech School & friends",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://adatechschool.fr/",
+    "talk": {
+      "title": "Vue.js workshop"
+    }
+  },
+  {
+    "date": "2020-04-24",
+    "name": "Ada Tech School",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://adatechschool.fr/",
+    "talk": {
+      "title": "Introduction to HTML and CSS"
+    }
+  },
+  {
+    "date": "2020-03-31",
+    "name": "Virtual Azure Community Day",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "organizer",
+      "host"
+    ],
+    "link": "https://azureday.community/vacd-01.html"
+  },
+  {
     "date": "2020-02-28",
     "name": "DevFest du bout du monde",
     "location": {
