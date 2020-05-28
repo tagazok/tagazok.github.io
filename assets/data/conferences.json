@@ -1,6 +1,20 @@
 [
   {
     "date": "2020-06-03",
+    "name": "Cloud Ouest",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://cloudouest2020.virtualconference.com/",
+    "talk": {
+      "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
+    }
+  },
+  {
+    "date": "2020-06-03",
     "name": "Virtual Azure Community Day #2",
     "location": {
       "name": "France"
@@ -10,6 +24,35 @@
       "host"
     ],
     "link": "https://azureday.community"
+  },
+  {
+    "date": "2020-05-28",
+    "name": "Workshop EPITECH",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.epitech.eu",
+    "talk": {
+      "title": "Workshop PWA x Angular"
+    }
+  },
+  {
+    "date": "2020-05-20",
+    "name": "Microsoft Build",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "organizer",
+      "host"
+    ],
+    "link": "https://mybuild.microsoft.com/",
+    "talk": {
+      "title": "Community connect"
+    }
   },
   {
     "date": "2020-04-29",
