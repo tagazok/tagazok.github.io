@@ -1,5 +1,17 @@
 [
   {
+    "date": "2020-07-28",
+    "name": "Virtual Azure Community Day #2",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "organizer",
+      "host"
+    ],
+    "link": "https://azureday.community"
+  },
+  {
     "date": "2020-06-24",
     "name": "Hackathon: Language Learning and Innovation",
     "location": {
@@ -26,32 +38,6 @@
     "talk": {
       "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
     }
-  },
-  {
-    "date": "2020-06-18",
-    "name": "Cloud Ouest",
-    "location": {
-      "name": "France"
-    },
-    "roles": [
-      "mentor"
-    ],
-    "link": "https://cloudouest2020.virtualconference.com/",
-    "talk": {
-      "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
-    }
-  },
-  {
-    "date": "2020-07-28",
-    "name": "Virtual Azure Community Day #2",
-    "location": {
-      "name": "France"
-    },
-    "roles": [
-      "organizer",
-      "host"
-    ],
-    "link": "https://azureday.community"
   },
   {
     "date": "2020-05-28",
