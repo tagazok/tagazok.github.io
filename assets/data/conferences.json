@@ -1,5 +1,16 @@
 [
   {
+    "date": "2020-09-30",
+    "name": "Sustainable Software Engineering Conf' (aka GreenConf)",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "http://greenconf.io/"
+  },
+  {
     "date": "2020-07-28",
     "name": "Virtual Azure Community Day #2",
     "location": {
