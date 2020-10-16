@@ -1,5 +1,125 @@
 [
   {
+    "date": "2020-10-13",
+    "name": "MUG Rennes",
+    "location": {
+      "name": "Rennes, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Rennes/events/273563683/",
+    "talk": {
+      "title": "Introduction to Microsoft Graph API et Graph toolkit"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-10-13",
+    "name": "EPITECH Rennes",
+    "location": {
+      "name": "Rennes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Workshop Quantum Computing"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-10-12",
+    "name": "MUG .Net Nantes / GDG Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Net-Nantes/events/273391862/",
+    "talk": {
+      "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-10-12",
+    "name": "EPSI Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Workshop Quantum Computing"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-10-08",
+    "name": "MUG Tours",
+    "location": {
+      "name": "Tours, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/273499455/",
+    "talk": {
+      "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-10-08",
+    "name": "MUG Tours",
+    "location": {
+      "name": "Tours, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/273499455/",
+    "talk": {
+      "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-10-08",
+    "name": "CEFIM Tours",
+    "location": {
+      "name": "Tours, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Workshop Quantum Computing"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-10-06",
+    "name": "CESI Orléans",
+    "location": {
+      "name": "Orléans, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Workshop Quantum Computing"
+    },
+    "event": "roadshow"
+  },
+  {
     "date": "2020-09-30",
     "name": "Sustainable Software Engineering Conf' (aka GreenConf)",
     "location": {
