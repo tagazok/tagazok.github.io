@@ -24,7 +24,8 @@
     ],
     "link": "https://www.meetup.com/fr-FR/GDG-Nantes/events/275049692/",
     "talk": {
-      "title": "Table ronde - Chrome Dev Summit 2020"
+      "title": "Table ronde - Chrome Dev Summit 2020",
+      "video": "https://www.youtube.com/watch?v=RbeHrFGnRqU"
     }
   },
   {
@@ -38,7 +39,8 @@
     ],
     "link": "http://www.viaegnatia20.com/",
     "talk": {
-      "title": "Better collaboration with GitHub, Codespaces, LiveShare and VSCode"
+      "title": "Better collaboration with GitHub, Codespaces, LiveShare and VSCode",
+      "video": "https://www.youtube.com/watch?v=hON1InS5qJ4"
     }
   },
   {
@@ -82,7 +84,8 @@
     ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Net-Nantes/events/273391862/",
     "talk": {
-      "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait"
+      "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait",
+      "video": "https://www.youtube.com/watch?v=Dtl6Bg6hRoY"
     },
     "event": "roadshow"
   },
