@@ -1,5 +1,47 @@
 [
   {
+    "date": "2021-01-04",
+    "name": "DevFM",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/micbelgique/events/275295122/",
+    "talk": {
+      "title": "Le web en 2021: What to expect ?"
+    }
+  },
+  {
+    "date": "2020-12-17",
+    "name": "GDG Nantes & Nantes.js",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/GDG-Nantes/events/275049692/",
+    "talk": {
+      "title": "Table ronde - Chrome Dev Summit 2020"
+    }
+  },
+  {
+    "date": "2020-11-10",
+    "name": "ViaEgnatia 2.0",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "http://www.viaegnatia20.com/",
+    "talk": {
+      "title": "Better collaboration with GitHub, Codespaces, LiveShare and VSCode"
+    }
+  },
+  {
     "date": "2020-10-13",
     "name": "MUG Rennes",
     "location": {
