@@ -147,6 +147,20 @@
     }
   },
   {
+    "date": "2021-02-03",
+    "name": "AccessibilityCon",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://accessibilitycon.devcongalaxy.io/",
+    "talk": {
+      "title": ""
+    }
+  },
+  {
     "date": "2020-12-17",
     "name": "GDG Nantes & Nantes.js",
     "location": {
