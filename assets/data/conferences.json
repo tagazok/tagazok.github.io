@@ -1,5 +1,139 @@
 [
   {
+    "date": "2020-06-22",
+    "name": "SimpleWebConf",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://simplewebconf.com/",
+    "talk": {
+      "title": "Workshop - Build, deploy and audit a serverless PWA with Azure Static Web Apps"
+    }
+  },
+  {
+    "date": "2020-06-05",
+    "name": "DevRelCon Tokyo",
+    "location": {
+      "name": "Tokyo, Japan"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://tokyo-2021.devrel.net/",
+    "talk": {
+      "title": "Azure Heroes - A new fun way to engage with developer community"
+    }
+  },
+  {
+    "date": "2020-04-02",
+    "name": "EPITECH Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-04-02",
+    "name": "ADA Tech School",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-04-01",
+    "name": "YNOV Aix",
+    "location": {
+      "name": "Aix-en-Provence, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-04-01",
+    "name": "IUT Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-03-31",
+    "name": "Back to the Future",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Microsoft FrontPage"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2020-03-30",
+    "name": "Back to the Future",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Windows XP"
+    },
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-03-29",
+    "name": "Haute École Provinciale de Hainaut",
+    "location": {
+      "name": "Condorcet, Belgium"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talk": {
+      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+    },
+    "event": "roadshow"
+  }
+  
+  {
     "date": "2021-01-04",
     "name": "DevFM",
     "location": {
