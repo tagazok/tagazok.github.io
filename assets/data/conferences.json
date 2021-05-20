@@ -133,6 +133,17 @@
     "event": "roadshow"
   },
   {
+    "date": "2021-02-03",
+    "name": "AccessibilityCon",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://accessibilitycon.devcongalaxy.io/"
+  },
+  {
     "date": "2021-01-04",
     "name": "DevFM",
     "location": {
@@ -145,17 +156,6 @@
     "talk": {
       "title": "Le web en 2021: What to expect ?"
     }
-  },
-  {
-    "date": "2021-02-03",
-    "name": "AccessibilityCon",
-    "location": {
-      "name": "Online"
-    },
-    "roles": [
-      "organizer"
-    ],
-    "link": "https://accessibilitycon.devcongalaxy.io/"
   },
   {
     "date": "2020-12-17",
