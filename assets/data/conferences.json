@@ -1,6 +1,6 @@
 [
   {
-    "date": "2020-06-22",
+    "date": "2021-06-22",
     "name": "SimpleWebConf",
     "location": {
       "name": "Online"
@@ -14,7 +14,7 @@
     }
   },
   {
-    "date": "2020-06-05",
+    "date": "2021-06-05",
     "name": "DevRelCon Tokyo",
     "location": {
       "name": "Tokyo, Japan"
@@ -28,7 +28,7 @@
     }
   },
   {
-    "date": "2020-04-02",
+    "date": "2021-04-02",
     "name": "EPITECH Nantes",
     "location": {
       "name": "Nantes, France"
@@ -43,7 +43,7 @@
     "event": "roadshow"
   },
   {
-    "date": "2020-04-02",
+    "date": "2021-04-02",
     "name": "ADA Tech School",
     "location": {
       "name": "Paris, France"
@@ -58,7 +58,7 @@
     "event": "roadshow"
   },
   {
-    "date": "2020-04-01",
+    "date": "2021-04-01",
     "name": "YNOV Aix",
     "location": {
       "name": "Aix-en-Provence, France"
@@ -73,7 +73,7 @@
     "event": "roadshow"
   },
   {
-    "date": "2020-04-01",
+    "date": "2021-04-01",
     "name": "IUT Strasbourg",
     "location": {
       "name": "Strasbourg, France"
@@ -88,7 +88,7 @@
     "event": "roadshow"
   },
   {
-    "date": "2020-03-31",
+    "date": "2021-03-31",
     "name": "Back to the Future",
     "location": {
       "name": "France"
@@ -103,7 +103,7 @@
     "event": "roadshow"
   },
   {
-    "date": "2020-03-30",
+    "date": "2021-03-30",
     "name": "Back to the Future",
     "location": {
       "name": "France"
