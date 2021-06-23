@@ -1,4 +1,18 @@
 [
+{
+    "date": "2021-07-02",
+    "name": "RivieraDev",
+    "location": {
+      "name": "Roquebrune-sur-Argens, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://2021.rivieradev.fr/",
+    "talk": {
+      "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau"
+    }
+  },
   {
     "date": "2021-06-22",
     "name": "SimpleWebConf",
