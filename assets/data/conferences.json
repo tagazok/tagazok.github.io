@@ -1,5 +1,19 @@
 [
-{
+  {
+    "date": "2021-10-21",
+    "name": "DevFest Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfest.gdgnantes.com/",
+    "talk": {
+      "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau"
+    }
+  },
+  {
     "date": "2021-07-02",
     "name": "RivieraDev",
     "location": {
