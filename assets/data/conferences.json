@@ -1,5 +1,33 @@
 [
   {
+    "date": "2021-11-09",
+    "name": "DevFest Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://devfest.gdgstrasbourg.fr/schedule/2021-11-09?sessionId=121",
+    "talk": {
+      "title": "[Workshop] Build, deploy and audit a serverless PWA with Angular and Azure Static Web Apps"
+    }
+  },
+  {
+    "date": "2021-11-09",
+    "name": "DevFest Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfest.gdgstrasbourg.fr/",
+    "talk": {
+      "title": "Building multi-screen experiences for the web"
+    }
+  },
+  {
     "date": "2021-10-21",
     "name": "DevFest Nantes",
     "location": {
