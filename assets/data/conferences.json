@@ -1,5 +1,19 @@
 [
   {
+    "date": "2021-11-18",
+    "name": "Codeurs en Seine",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.codeursenseine.com/2021",
+    "talk": {
+      "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+    }
+  },
+  {
     "date": "2021-11-09",
     "name": "DevFest Strasbourg",
     "location": {
