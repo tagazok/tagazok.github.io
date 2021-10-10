@@ -52,6 +52,17 @@
     ]
   },
   {
+    "date": "2021-10-06",
+    "name": "Virtual Azure Community Day #4",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://fr.azureday.community"
+  },
+  {
     "date": "2021-10-11",
     "name": "AzugFR",
     "location": {
@@ -661,6 +672,18 @@
         "title": "Table ronde - Chrome Dev Summit 2020",
       "video": "https://www.youtube.com/watch?v=RbeHrFGnRqU"
     }]
+  },
+  {
+    "date": "2020-12-03",
+    "name": "Virtual Azure Community Day #3",
+    "location": {
+      "name": "France"
+    },
+    "roles": [
+      "organizer",
+      "host"
+    ],
+    "link": "https://azureday.community"
   },
   {
     "date": "2020-11-10",
