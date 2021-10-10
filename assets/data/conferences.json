@@ -9,9 +9,11 @@
       "speaker"
     ],
     "link": "https://www.codeursenseine.com/2021",
-    "talk": {
-      "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
-    }
+    "talks": [
+      {
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+      }
+    ]
   },
   {
     "date": "2021-11-09",
@@ -20,26 +22,18 @@
       "name": "Strasbourg, France"
     },
     "roles": [
-      "mentor"
-    ],
-    "link": "https://devfest.gdgstrasbourg.fr/schedule/2021-11-09?sessionId=121",
-    "talk": {
-      "title": "[Workshop] Build, deploy and audit a serverless PWA with Angular and Azure Static Web Apps"
-    }
-  },
-  {
-    "date": "2021-11-09",
-    "name": "DevFest Strasbourg",
-    "location": {
-      "name": "Strasbourg, France"
-    },
-    "roles": [
+      "mentor",
       "speaker"
     ],
-    "link": "https://devfest.gdgstrasbourg.fr/",
-    "talk": {
-      "title": "Building multi-screen experiences for the web"
-    }
+    "link": "https://devfest.gdgstrasbourg.fr/schedule/2021-11-09?sessionId=121",
+    "talks": [
+      {
+        "title": "Workshop - Build, deploy and audit a serverless PWA with Angular and Azure Static Web Apps"
+      },
+      {
+        "title": "Building multi-screen experiences for the web"
+      }
+    ]
   },
   {
     "date": "2021-10-21",
@@ -51,9 +45,412 @@
       "speaker"
     ],
     "link": "https://devfest.gdgnantes.com/",
-    "talk": {
-      "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau"
-    }
+    "talks": [
+      {
+        "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau"
+      }
+    ]
+  },
+  {
+    "date": "2021-10-11",
+    "name": "AzugFR",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/AZUG-FR/events/280772672/",
+    "talks": [
+      {
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-10-07",
+    "name": "EPSI Montpellier university",
+    "location": {
+      "name": "Montpellier, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-10-06",
+    "name": "Microsoft User Group Montpellier / Montpellier Android User Group",
+    "location": {
+      "name": "Montpellier, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/MUG-Montpellier/events/281044520/",
+    "talks": [
+      {
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-10-06",
+    "name": "EPITECH Montpellier university",
+    "location": {
+      "name": "Montpellier, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-10-05",
+    "name": "Meetup .Net Toulouse",
+    "location": {
+      "name": "Toulouse, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Meetup-NET-Toulouse/events/280915318/",
+    "talks": [
+      {
+        "title": "Getting Started with Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-10-05",
+    "name": "EPITECH Toulouse university",
+    "location": {
+      "name": "Toulouse, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-10-04",
+    "name": "Simplon Bordeaux meetup",
+    "location": {
+      "name": "Bordeaux, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-10-04",
+    "name": "Ynov Bordeaux university",
+    "location": {
+      "name": "Bordeaux, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-10-01",
+    "name": "EPITECH Paris university",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-30",
+    "name": "Microsoft User Group Lille",
+    "location": {
+      "name": "Lille, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Lille/events/280657764",
+    "talks": [
+      {
+        "title": "Getting Started with Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-29",
+    "name": "MIC Mons",
+    "location": {
+      "name": "Mons, Belgium"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/micbelgique/events/280506354/",
+    "talks": [
+      {
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-29",
+    "name": "Condorcet - Hainaut Provincial High School",
+    "location": {
+      "name": "Mons, Belgium"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-28",
+    "name": ".Net Luxembourg",
+    "location": {
+      "name": "Luxembourg"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/dotnet-luxembourg/events/280512950/",
+    "talks": [
+      {
+        "title": "Getting Started with Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-27",
+    "name": "Microsoft User Group Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/MugStrasbourg/events/280616088/",
+    "talks": [
+      {
+        "title": "Getting Started with Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-27",
+    "name": "CESI Strasbourg university",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-24",
+    "name": "Simplon school Clermont",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-23",
+    "name": "MugInClermont",
+    "location": {
+      "name": "Clermont, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/muginclermont/events/280667416/",
+    "talks": [
+      {
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-23",
+    "name": "IUT Clermont Auvergne",
+    "location": {
+      "name": "Clermont, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-22",
+    "name": "MUG Lyon / GDG Lyon",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/MUGLyon/events/280709897/",
+    "talks": [
+      {
+        "title": "Getting Started with Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-22",
+    "name": "Science-U Lyon university",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
+  },
+  {
+    "date": "2021-09-20",
+    "name": "Ynov Aix university",
+    "location": {
+      "name": "Aix-en-Provence, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+      },
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
+    "event": "roadshow"
   },
   {
     "date": "2021-07-02",
@@ -65,9 +462,11 @@
       "speaker"
     ],
     "link": "https://2021.rivieradev.fr/",
-    "talk": {
-      "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau"
-    }
+    "talks": [
+      {
+        "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau"
+      }
+    ]
   },
   {
     "date": "2021-06-22",
@@ -79,9 +478,11 @@
       "mentor"
     ],
     "link": "https://simplewebconf.com/",
-    "talk": {
-      "title": "Workshop - Build, deploy and audit a serverless PWA with Azure Static Web Apps"
-    }
+    "talks": [
+      {
+        "title": "Workshop - Build, deploy and audit a serverless PWA with Azure Static Web Apps"
+      }
+    ]
   },
   {
     "date": "2021-06-05",
@@ -93,9 +494,11 @@
       "speaker"
     ],
     "link": "https://tokyo-2021.devrel.net/",
-    "talk": {
-      "title": "Azure Heroes - A new fun way to engage with developer community"
-    }
+    "talks": [
+      {
+        "title": "Azure Heroes - A new fun way to engage with developer community"
+      }
+    ]
   },
   {
     "date": "2021-04-02",
@@ -107,9 +510,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
-    },
+    "talks": [
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -122,9 +527,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
-    },
+    "talks": [
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -137,9 +544,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
-    },
+    "talks": [
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -152,9 +561,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
-    },
+    "talks": [
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -167,9 +578,11 @@
       "speaker"
     ],
     "link": "",
-    "talk": {
-      "title": "Microsoft FrontPage"
-    },
+    "talks": [
+      {
+        "title": "Microsoft FrontPage"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -182,9 +595,11 @@
       "speaker"
     ],
     "link": "",
-    "talk": {
-      "title": "Windows XP"
-    },
+    "talks": [
+      {
+        "title": "Windows XP"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -197,9 +612,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
-    },
+    "talks": [
+      {
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -223,9 +640,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/micbelgique/events/275295122/",
-    "talk": {
-      "title": "Le web en 2021: What to expect ?"
-    }
+    "talks": [
+      {
+        "title": "Le web en 2021: What to expect ?"
+      }
+    ]
   },
   {
     "date": "2020-12-17",
@@ -237,10 +656,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/GDG-Nantes/events/275049692/",
-    "talk": {
-      "title": "Table ronde - Chrome Dev Summit 2020",
+    "talks": [
+      {
+        "title": "Table ronde - Chrome Dev Summit 2020",
       "video": "https://www.youtube.com/watch?v=RbeHrFGnRqU"
-    }
+    }]
   },
   {
     "date": "2020-11-10",
@@ -252,10 +672,11 @@
       "speaker"
     ],
     "link": "http://www.viaegnatia20.com/",
-    "talk": {
-      "title": "Better collaboration with GitHub, Codespaces, LiveShare and VSCode",
+    "talks": [
+      {
+        "title": "Better collaboration with GitHub, Codespaces, LiveShare and VSCode",
       "video": "https://www.youtube.com/watch?v=hON1InS5qJ4"
-    }
+    }]
   },
   {
     "date": "2020-10-13",
@@ -267,9 +688,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Rennes/events/273563683/",
-    "talk": {
-      "title": "Introduction to Microsoft Graph API et Graph toolkit"
-    },
+    "talks": [
+      {
+        "title": "Introduction to Microsoft Graph API et Graph toolkit"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -282,9 +705,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "Workshop Quantum Computing"
-    },
+    "talks": [
+      {
+        "title": "Workshop Quantum Computing"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -297,10 +722,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Net-Nantes/events/273391862/",
-    "talk": {
-      "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait",
+    "talks": [
+      {
+        "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait",
       "video": "https://www.youtube.com/watch?v=Dtl6Bg6hRoY"
-    },
+    }],
     "event": "roadshow"
   },
   {
@@ -313,9 +739,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "Workshop Quantum Computing"
-    },
+    "talks": [
+      {
+        "title": "Workshop Quantum Computing"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -328,9 +756,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/273499455/",
-    "talk": {
-      "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
-    },
+    "talks": [
+      {
+        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -343,9 +773,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/273499455/",
-    "talk": {
-      "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait"
-    },
+    "talks": [
+      {
+        "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -358,9 +790,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "Workshop Quantum Computing"
-    },
+    "talks": [
+      {
+        "title": "Workshop Quantum Computing"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -373,9 +807,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "Workshop Quantum Computing"
-    },
+    "talks": [
+      {
+        "title": "Workshop Quantum Computing"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -411,9 +847,11 @@
       "speaker"
     ],
     "link": "https://www.facebook.com/events/alliance-fran%C3%A7aise-de-pristina-kosovo/hackathon-language-learning-and-innovation/2646278185608784/",
-    "talk": {
-      "title": "A brief history of web development"
-    }
+    "talks": [
+      {
+        "title": "A brief history of web development"
+      }
+    ]
   },
   {
     "date": "2020-06-18",
@@ -425,9 +863,11 @@
       "mentor"
     ],
     "link": "https://cloudouest2020.virtualconference.com/",
-    "talk": {
-      "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
-    }
+    "talks": [
+      {
+        "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
+      }
+    ]
   },
   {
     "date": "2020-05-28",
@@ -439,9 +879,11 @@
       "mentor"
     ],
     "link": "https://www.epitech.eu",
-    "talk": {
-      "title": "Workshop PWA x Angular"
-    }
+    "talks": [
+      {
+        "title": "Workshop PWA x Angular"
+      }
+    ]
   },
   {
     "date": "2020-05-20",
@@ -454,9 +896,11 @@
       "host"
     ],
     "link": "https://mybuild.microsoft.com/",
-    "talk": {
-      "title": "Community connect"
-    }
+    "talks": [
+      {
+        "title": "Community connect"
+      }
+    ]
   },
   {
     "date": "2020-04-29",
@@ -468,9 +912,11 @@
       "mentor"
     ],
     "link": "https://www.meetup.com/fr-FR/MUGLyon/events/270235046/",
-    "talk": {
-      "title": "The Mojifier - Create a Slack bot that replaces people's faces with emojis matching their emotion"
-    }
+    "talks": [
+      {
+        "title": "The Mojifier - Create a Slack bot that replaces people's faces with emojis matching their emotion"
+      }
+    ]
   },
   {
     "date": "2020-04-24",
@@ -482,9 +928,11 @@
       "mentor"
     ],
     "link": "https://adatechschool.fr/",
-    "talk": {
-      "title": "Vue.js workshop"
-    }
+    "talks": [
+      {
+        "title": "Vue.js workshop"
+      }
+    ]
   },
   {
     "date": "2020-04-24",
@@ -496,9 +944,11 @@
       "speaker"
     ],
     "link": "https://adatechschool.fr/",
-    "talk": {
-      "title": "Introduction to HTML and CSS"
-    }
+    "talks": [
+      {
+        "title": "Introduction to HTML and CSS"
+      }
+    ]
   },
   {
     "date": "2020-03-31",
@@ -522,9 +972,11 @@
       "speaker"
     ],
     "link": "https://devfest.duboutdumonde.bzh/",
-    "talk": {
-      "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
-    }
+    "talks": [
+      {
+        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+      }
+    ]
   },
   {
     "date": "2020-02-21",
@@ -536,9 +988,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -551,9 +1005,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/VISEO-Tech-an-Hour/events/268530963/",
-    "talk": {
-      "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
-    },
+    "talks": [
+      {
+        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -566,9 +1022,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -581,9 +1039,11 @@
       "speaker"
     ],
     "link": "",
-    "talk": {
-      "title": "Pimp my vscode"
-    },
+    "talks": [
+      {
+        "title": "Pimp my vscode"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -596,10 +1056,11 @@
       "speaker"
     ],
     "link": "",
-    "talk": {
-      "title": "Introduction à Microsoft Graph API et Graph toolkit",
+    "talks": [
+      {
+        "title": "Introduction à Microsoft Graph API et Graph toolkit",
       "video": "https://www.youtube.com/watch?v=MNa_73qmUkA"
-    },
+    }],
     "event": "roadshow"
   },
   {
@@ -612,9 +1073,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -627,9 +1090,11 @@
       "speaker"
     ],
     "link": "",
-    "talk": {
-      "title": "Pimp my vscode"
-    },
+    "talks": [
+      {
+        "title": "Pimp my vscode"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -642,10 +1107,11 @@
       "speaker"
     ],
     "link": "",
-    "talk": {
-      "title": "Project Fugu 🐡: A Better, Smoother and Sexier web",
+    "talks": [
+      {
+        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web",
       "video": "https://www.youtube.com/watch?v=Hy3Gfgqyg18"
-    },
+    }],
     "event": "roadshow"
   },
   {
@@ -658,9 +1124,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -673,9 +1141,11 @@
       "speaker"
     ],
     "link": "http://snowcamp.io/fr/",
-    "talk": {
-      "title": "Allo la montagne, ici la mer. Et si on codait ensemble avec VS Code?"
-    }
+    "talks": [
+      {
+        "title": "Allo la montagne, ici la mer. Et si on codait ensemble avec VS Code?"
+      }
+    ]
   },
   {
     "date": "2020-01-22",
@@ -687,9 +1157,11 @@
       "mentor"
     ],
     "link": "http://snowcamp.io/fr/",
-    "talk": {
-      "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
-    }
+    "talks": [
+      {
+        "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
+      }
+    ]
   },
   {
     "date": "2020-01-18",
@@ -702,9 +1174,11 @@
       "mentor"
     ],
     "link": "https://www.globaldiversitycfpday.com/",
-    "talk": {
-      "title": "Ecrire un résumé : conseils de speakers et d’organisateurs de conférences"
-    }
+    "talks": [
+      {
+        "title": "Ecrire un résumé : conseils de speakers et d’organisateurs de conférences"
+      }
+    ]
   },
   {
     "date": "2019-11-06",
@@ -716,9 +1190,11 @@
       "speaker"
     ],
     "link": "https://devfest.gdgstrasbourg.fr/",
-    "talk": {
-      "title": "The web capabilities project: Better, Smoother, Sexier"
-    }
+    "talks": [
+      {
+        "title": "The web capabilities project: Better, Smoother, Sexier"
+      }
+    ]
   },
   {
     "date": "2019-10-21",
@@ -730,9 +1206,11 @@
       "mentor"
     ],
     "link": "https://devfest.gdgnantes.com/",
-    "talk": {
-      "title": "Créer votre device IoT connecté en quelques heures"
-    }
+    "talks": [
+      {
+        "title": "Créer votre device IoT connecté en quelques heures"
+      }
+    ]
   },
   {
     "date": "2019-10-17",
@@ -744,9 +1222,11 @@
       "speaker"
     ],
     "link": "https://mdf19.com",
-    "talk": {
-      "title": "Master the power of Git in VSCode"
-    }
+    "talks": [
+      {
+        "title": "Master the power of Git in VSCode"
+      }
+    ]
   },
   {
     "date": "2019-10-10",
@@ -758,9 +1238,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -773,9 +1255,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Meetup-NET-Toulouse/events/265175535/",
-    "talk": {
-      "title": "Pimp my vscode"
-    },
+    "talks": [
+      {
+        "title": "Pimp my vscode"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -788,9 +1272,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -803,9 +1289,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/MUG-Montpellier/events/265280157/",
-    "talk": {
-      "title": "Pimp my vscode"
-    },
+    "talks": [
+      {
+        "title": "Pimp my vscode"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -818,9 +1306,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -833,9 +1323,11 @@
       "mentor"
     ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Azure-Devops-Aix-en-Provence/events/264809919/",
-    "talk": {
-      "title": "Learn Party Azure"
-    },
+    "talks": [
+      {
+        "title": "Learn Party Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -848,9 +1340,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -863,9 +1357,11 @@
       "speaker"
     ],
     "link": "https://devfesttoulouse.fr/",
-    "talk": {
-      "title": "Allo Paris, ici San Francisco. Et si on codait ensemble avec VS Code?"
-    }
+    "talks": [
+      {
+        "title": "Allo Paris, ici San Francisco. Et si on codait ensemble avec VS Code?"
+      }
+    ]
   },
   {
     "date": "2019-08-26",
@@ -877,9 +1373,11 @@
       "speaker"
     ],
     "link": "http://www.pimpmyapp.fr/",
-    "talk": {
-      "title": "Importance des communautés et des réseaux"
-    }
+    "talks": [
+      {
+        "title": "Importance des communautés et des réseaux"
+      }
+    ]
   },
   {
     "date": "2019-08-03",
@@ -891,9 +1389,11 @@
       "speaker"
     ],
     "link": "http://hackinthewoods.be/",
-    "talk": {
-      "title": "Master the power of Git in VSCode"
-    }
+    "talks": [
+      {
+        "title": "Master the power of Git in VSCode"
+      }
+    ]
   },
   {
     "date": "2019-07-04",
@@ -905,9 +1405,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/MugStrasbourg/events/262064954/",
-    "talk": {
-      "title": "Pimp my vscode"
-    },
+    "talks": [
+      {
+        "title": "Pimp my vscode"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -920,9 +1422,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -935,10 +1439,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/dotnet-luxembourg/events/262421962/",
-    "talk": {
-      "title": "Pimp my vscode",
+    "talks": [
+      {
+        "title": "Pimp my vscode",
       "video": "https://www.youtube.com/watch?v=mueaEPOs6iE"
-    },
+    }],
     "event": "roadshow"
   },
   {
@@ -951,9 +1456,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/micbelgique/events/262474024/",
-    "talk": {
-      "title": "Pimp my VSCode"
-    },
+    "talks": [
+      {
+        "title": "Pimp my VSCode"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -966,9 +1473,11 @@
       "mentor"
     ],
     "link": "https://www.meetup.com/fr-FR/micbelgique/events/262473137/",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -981,9 +1490,11 @@
       "mentor"
     ],
     "link": "https://www.meetup.com/fr-FR/Meetup-NET-Lille/events/262439752/",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -999,10 +1510,11 @@
       "speaker"
     ],
     "link": "https://sunny-tech.io/",
-    "talk": {
-      "title": "J'ai fait un plan à 3 avec VSCode",
+    "talks": [
+      {
+        "title": "J'ai fait un plan à 3 avec VSCode",
       "video": "https://www.youtube.com/watch?v=m6Kw1EuMz8s"
-    }
+    }]
   },
   {
     "id": 26062019,
@@ -1017,9 +1529,11 @@
       "speaker"
     ],
     "link": "https://developer.microsoft.com/en-us/collective/events/insider-dev-tour",
-    "talk": {
-      "title": "Allo Lyon, ici Seattle.. Et si on codait ensemble avec VSCode?"
-    }
+    "talks": [
+      {
+        "title": "Allo Lyon, ici Seattle.. Et si on codait ensemble avec VSCode?"
+      }
+    ]
   },
   {
     "id": 20062019,
@@ -1033,9 +1547,11 @@
     "roles": [
       "speaker"
     ],
-    "talk": {
-      "title": "Et si vous êtiez le prochain Mark Zuckerberg?"
-    }
+    "talks": [
+      {
+        "title": "Et si vous êtiez le prochain Mark Zuckerberg?"
+      }
+    ]
   },
   {
     "id": 12062019,
@@ -1050,9 +1566,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Paris-DevRel-Salon/events/261673716/",
-    "talk": {
-      "title": "How to attract people to your booth as a sponsor"
-    }
+    "talks": [
+      {
+        "title": "How to attract people to your booth as a sponsor"
+      }
+    ]
   },
   {
     "id": 5062019,
@@ -1065,9 +1583,11 @@
       "mentor"
     ],
     "link": "https://www.eventbrite.co.uk/e/build-an-ai-powered-slack-bot-using-javascript-azure-tickets-62154564977",
-    "talk": {
-      "title": "Build an AI-Powered Slack Bot using JavaScript & Azure"
-    }
+    "talks": [
+      {
+        "title": "Build an AI-Powered Slack Bot using JavaScript & Azure"
+      }
+    ]
   },
   {
     "id": 23052019,
@@ -1082,10 +1602,11 @@
       "speaker"
     ],
     "link": "https://mixitconf.org/en/",
-    "talk": {
-      "title": "VSCode: Mode collaboratif activé",
+    "talks": [
+      {
+        "title": "VSCode: Mode collaboratif activé",
       "video": "https://mixitconf.org/en/2019/vs-code-mode-collaboratif-active-"
-    }
+    }]
   },
   {
     "id": 17042019,
@@ -1100,10 +1621,11 @@
       "speaker"
     ],
     "link": "https://www.devoxx.fr/",
-    "talk": {
-      "title": "VSCode: Mode collaboratif activé",
+    "talks": [
+      {
+        "title": "VSCode: Mode collaboratif activé",
       "video": "https://www.youtube.com/watch?v=UtIUZdBDALs"
-    }
+    }]
   },
   {
     "id": 20032019,
@@ -1118,9 +1640,11 @@
       "speaker"
     ],
     "link": "http://www.breizhcamp.org/",
-    "talk": {
-      "title": "VSCode: Mode collaboratif activé"
-    }
+    "talks": [
+      {
+        "title": "VSCode: Mode collaboratif activé"
+      }
+    ]
   },
   {
     "date": "2019-03-14",
@@ -1132,9 +1656,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1149,9 +1675,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/259475056/",
-    "talk": {
-      "title": "Pimp your vscode"
-    },
+    "talks": [
+      {
+        "title": "Pimp your vscode"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1166,9 +1694,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1181,9 +1711,11 @@
       "mentor"
     ],
     "link": "",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1199,10 +1731,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Rennes/events/259496682/",
-    "talk": {
-      "title": "Pimp your vscode",
+    "talks": [
+      {
+        "title": "Pimp your vscode",
       "video": "https://youtu.be/F2fKy7XKQ58?t=126"
-    },
+    }],
     "event": "roadshow"
   },
   {
@@ -1218,9 +1751,11 @@
       "mentor"
     ],
     "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Rennes/events/259496682/",
-    "talk": {
-      "title": "IoT Workshop on Azure"
-    },
+    "talks": [
+      {
+        "title": "IoT Workshop on Azure"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1250,10 +1785,11 @@
       "speaker"
     ],
     "link": "https://devfesttoulouse.fr/",
-    "talk": {
-      "title": "Et si on parlait de l'accessibilité du web ?",
+    "talks": [
+      {
+        "title": "Et si on parlait de l'accessibilité du web ?",
       "video": "https://www.youtube.com/watch?v=1oKEcDdYANY"
-    }
+    }]
   },
   {
     "id": 18102018,
@@ -1268,10 +1804,11 @@
       "speaker"
     ],
     "link": "https://devfest.gdgnantes.com/schedule/day1?sessionId=139",
-    "talk": {
-      "title": "What's up TC39?",
+    "talks": [
+      {
+        "title": "What's up TC39?",
       "video": "https://www.youtube.com/watch?v=kF_P8YmmZN4"
-    }
+    }]
   },
   {
     "id": 15102018,
@@ -1286,9 +1823,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Botfuel-io-developers/events/254991321/",
-    "talk": {
-      "title": "Votre premier bot avec Botfuel.io"
-    }
+    "talks": [
+      {
+        "title": "Votre premier bot avec Botfuel.io"
+      }
+    ]
   },
   {
     "id": 25092018,
@@ -1303,9 +1842,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/Chatbots-Paris/events/254345516/",
-    "talk": {
-      "title": "Créez un Bot avec Botfuel.io et déployez le sur Google Assistant"
-    }
+    "talks": [
+      {
+        "title": "Créez un Bot avec Botfuel.io et déployez le sur Google Assistant"
+      }
+    ]
   },
   {
     "id": 21092018,
@@ -1320,9 +1861,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/GDG-Nairobi/events/252860861/",
-    "talk": {
-      "title": "This is your captain speaking, please put your phone in airplane mode !"
-    }
+    "talks": [
+      {
+        "title": "This is your captain speaking, please put your phone in airplane mode !"
+      }
+    ]
   },
   {
     "id": 20092018,
@@ -1337,9 +1880,11 @@
       "speaker"
     ],
     "link": "https://events.withgoogle.com/2018-ssa-community-summit/#content",
-    "talk": {
-      "title": "Community management"
-    }
+    "talks": [
+      {
+        "title": "Community management"
+      }
+    ]
   },
   {
     "id": 27082018,
@@ -1354,9 +1899,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/gdg-paris/events/253480990/",
-    "talk": {
-      "title": "Web accessibility - How to make your website accessible to everyone?"
-    }
+    "talks": [
+      {
+        "title": "Web accessibility - How to make your website accessible to everyone?"
+      }
+    ]
   },
   {
     "id": 26052018,
@@ -1371,17 +1918,21 @@
       "jury"
     ],
     "link": "https://www.meetup.com/fr-FR/AngularX-Paris/events/250846803/",
-    "talk": {
-      "title": "Angular FightCode #3"
-    }
+    "talks": [
+      {
+        "title": "Angular FightCode #3"
+      }
+    ]
   },
   {
     "id": 18042018,
     "date": "2018-04-18",
     "name": "Devoxx France",
-    "talk": {
-      "title": "Atelier Design Sprint"
-    },
+    "talks": [
+      {
+        "title": "Atelier Design Sprint"
+      }
+    ],
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
@@ -1396,9 +1947,11 @@
     "id": 17042018,
     "date": "2018-04-17",
     "name": "Station F",
-    "talk": {
-      "title": "Lighthouse: mesurer et améliorer votre performance web"
-    },
+    "talks": [
+      {
+        "title": "Lighthouse: mesurer et améliorer votre performance web"
+      }
+    ],
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
@@ -1412,9 +1965,11 @@
     "id": 16042018,
     "date": "2018-04-16",
     "name": "Station F",
-    "talk": {
-      "title": "Atelier Design Sprint"
-    },
+    "talks": [
+      {
+        "title": "Atelier Design Sprint"
+      }
+    ],
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
@@ -1436,17 +1991,21 @@
     "roles": [
       "mentor"
     ],
-    "talk": {
-      "title": "Dialogflow et Cloud Functions for Firebase"
-    }
+    "talks": [
+      {
+        "title": "Dialogflow et Cloud Functions for Firebase"
+      }
+    ]
   },
   {
     "id": 30032018,
     "date": "2018-03-30",
     "name": "Google",
-    "talk": {
-      "title": "Atelier Design Sprint"
-    },
+    "talks": [
+      {
+        "title": "Atelier Design Sprint"
+      }
+    ],
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
@@ -1483,9 +2042,11 @@
       "mentor"
     ],
     "link": "http://ng-girls.org/ng-europe/",
-    "talk": {
-      "title": "One day workshop on Angular"
-    }
+    "talks": [
+      {
+        "title": "One day workshop on Angular"
+      }
+    ]
   },
   {
     "id": 1122017,
@@ -1500,9 +2061,11 @@
       "speaker"
     ],
     "link": "https://devfest.gdgmalaga.com/",
-    "talk": {
-      "title": "This is your captain speaking, please put your phone in airplane mode !"
-    }
+    "talks": [
+      {
+        "title": "This is your captain speaking, please put your phone in airplane mode !"
+      }
+    ]
   },
   {
     "id": 101120171,
@@ -1517,9 +2080,11 @@
       "speaker"
     ],
     "link": "https://www.bdx.io/",
-    "talk": {
-      "title": "Ici votre commandant de bord, on passe en mode avion !"
-    }
+    "talks": [
+      {
+        "title": "Ici votre commandant de bord, on passe en mode avion !"
+      }
+    ]
   },
   {
     "id": 10112017,
@@ -1534,10 +2099,11 @@
       "speaker"
     ],
     "link": "https://www.bdx.io/",
-    "talk": {
-      "title": "What's up TC39 ?",
+    "talks": [
+      {
+        "title": "What's up TC39 ?",
       "video": "https://www.youtube.com/watch?v=Kj8NuMHUvN4"
-    }
+    }]
   },
   {
     "id": 28092017,
@@ -1552,9 +2118,11 @@
       "speaker"
     ],
     "link": "https://devfesttoulouse.fr/",
-    "talk": {
-      "title": "Ici votre commandant de bord, on passe en mode avion !"
-    }
+    "talks": [
+      {
+        "title": "Ici votre commandant de bord, on passe en mode avion !"
+      }
+    ]
   },
   {
     "id": 4072017,
@@ -1569,10 +2137,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/Paris-Progressive-Web-App/events/240918412/",
-    "talk": {
-      "title": "This is your captain speaking, please put your phone in airplane mode",
+    "talks": [
+      {
+        "title": "This is your captain speaking, please put your phone in airplane mode",
       "video": "https://www.youtube.com/watch?v=Rwa1qhDjkoo"
-    }
+    }]
   },
   {
     "id": 17062017,
@@ -1587,10 +2156,11 @@
       "jury"
     ],
     "link": "http://fightcode.io/",
-    "talk": {
-      "title": "Angular FightCode #2",
+    "talks": [
+      {
+        "title": "Angular FightCode #2",
       "video": "https://www.youtube.com/watch?v=JXmykgqlOgk"
-    }
+    }]
   },
   {
     "id": 19042017,
@@ -1605,9 +2175,11 @@
       "speaker"
     ],
     "link": "http://www.breizhcamp.org/",
-    "talk": {
-      "title": "Ici le commandant de bord, on passe en mode avion !"
-    }
+    "talks": [
+      {
+        "title": "Ici le commandant de bord, on passe en mode avion !"
+      }
+    ]
   },
   {
     "id": 7032017,
@@ -1622,10 +2194,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/Paris-Progressive-Web-App/events/237610476/?_locale=fr-FR",
-    "talk": {
-      "title": "PWA: Pourquoi, pour qui?",
+    "talks": [
+      {
+        "title": "PWA: Pourquoi, pour qui?",
       "video": "https://www.youtube.com/watch?v=w8WbIJlLMpQ"
-    }
+    }]
   },
   {
     "id": 2022017,
@@ -1640,10 +2213,11 @@
       "jury"
     ],
     "link": "http://fightcode.io/",
-    "talk": {
-      "title": "FightCode",
+    "talks": [
+      {
+        "title": "FightCode",
       "video": "https://www.youtube.com/watch?v=u5RN5UxZezM"
-    }
+    }]
   },
   {
     "id": 9112016,
@@ -1658,10 +2232,11 @@
       "speaker"
     ],
     "link": "https://devfest.gdgnantes.com/",
-    "talk": {
-      "title": "Votre application web qui marche même sans réseau, c'est possible!",
+    "talks": [
+      {
+        "title": "Votre application web qui marche même sans réseau, c'est possible!",
       "video": "https://www.youtube.com/watch?v=j2u4SY5HAV4"
-    }
+    }]
   },
   {
     "id": 24112016,
@@ -1676,10 +2251,11 @@
       "speaker"
     ],
     "link": "https://www.codeursenseine.com/2016/",
-    "talk": {
-      "title": "Votre application web qui marche même sans réseau, c'est possible!",
+    "talks": [
+      {
+        "title": "Votre application web qui marche même sans réseau, c'est possible!",
       "video": "https://www.infoq.com/fr/presentations/codeurs-en-seine-olivier-leplus-app-web-sans-reseau"
-    }
+    }]
   },
   {
     "id": 8112016,
@@ -1694,10 +2270,11 @@
       "speaker"
     ],
     "link": "http://humantalks.com/",
-    "talk": {
-      "title": "www: The Web Will Win",
+    "talks": [
+      {
+        "title": "www: The Web Will Win",
       "video": "https://www.youtube.com/watch?v=vcPBVa5E80w"
-    }
+    }]
   },
   {
     "id": 3112016,
@@ -1712,9 +2289,11 @@
       "speaker"
     ],
     "link": "https://devfesttoulouse.fr/",
-    "talk": {
-      "title": "Don't call me just a website anymore. I am a Progressive Web App"
-    }
+    "talks": [
+      {
+        "title": "Don't call me just a website anymore. I am a Progressive Web App"
+      }
+    ]
   },
   {
     "id": 21102016,
@@ -1729,10 +2308,11 @@
       "speaker"
     ],
     "link": "http://www.bdx.io/",
-    "talk": {
-      "title": "Please welcome Angular 2",
+    "talks": [
+      {
+        "title": "Please welcome Angular 2",
       "video": "https://www.youtube.com/watch?v=TGSjRPhagE4"
-    }
+    }]
   },
   {
     "id": 8102016,
@@ -1748,9 +2328,11 @@
       "organizer"
     ],
     "link": "http://clsxfrance.org/",
-    "talk": {
-      "title": "Community Leadership Summit [x]"
-    }
+    "talks": [
+      {
+        "title": "Community Leadership Summit [x]"
+      }
+    ]
   },
   {
     "id": 7072016,
@@ -1765,9 +2347,11 @@
       "speaker"
     ],
     "link": "http://www.meetup.com/fr-FR/GDG-Tours/events/232192629/",
-    "talk": {
-      "title": "Don't call me just a website anymore. I am a Progressive Web App"
-    }
+    "talks": [
+      {
+        "title": "Don't call me just a website anymore. I am a Progressive Web App"
+      }
+    ]
   },
   {
     "id": 6072016,
@@ -1783,9 +2367,11 @@
       "speaker"
     ],
     "link": "http://www.meetup.com/fr-FR/GDG-Lille/events/232191905/",
-    "talk": {
-      "title": "Don't call me just a website anymore. I am a Progressive Web App"
-    }
+    "talks": [
+      {
+        "title": "Don't call me just a website anymore. I am a Progressive Web App"
+      }
+    ]
   },
   {
     "id": 5072017,
@@ -1801,9 +2387,11 @@
       "speaker"
     ],
     "link": "http://faubourgnumerique.com/",
-    "talk": {
-      "title": "Don't call me just a website anymore. I am a Progressive Web App"
-    }
+    "talks": [
+      {
+        "title": "Don't call me just a website anymore. I am a Progressive Web App"
+      }
+    ]
   },
   {
     "id": 4062016,
@@ -1818,9 +2406,11 @@
       "speaker"
     ],
     "link": "http://exfest.es/",
-    "talk": {
-      "title": "Progressive Web Apps codelab - 2h"
-    }
+    "talks": [
+      {
+        "title": "Progressive Web Apps codelab - 2h"
+      }
+    ]
   },
   {
     "id": 3062016,
@@ -1836,9 +2426,11 @@
       "speaker"
     ],
     "link": "http://www.meetup.com/fr-FR/gdglisbon/events/229999648/?eventId=229999648",
-    "talk": {
-      "title": "Progressive Web Apps codelab - 2h"
-    }
+    "talks": [
+      {
+        "title": "Progressive Web Apps codelab - 2h"
+      }
+    ]
   },
   {
     "id": 1022016,
@@ -1853,9 +2445,11 @@
       "speaker"
     ],
     "link": "http://www.meetup.com/fr-FR/GDGNice/events/228029090/",
-    "talk": {
-      "title": "Discover Angular2 with a livecoding"
-    }
+    "talks": [
+      {
+        "title": "Discover Angular2 with a livecoding"
+      }
+    ]
   },
   {
     "id": 1072015,
@@ -1871,9 +2465,11 @@
       "speaker"
     ],
     "link": "https://www.meetup.com/fr-FR/gdg-paris/events/223469172/",
-    "talk": {
-      "title": "I/O Rex : Les inventions impressionnantes de l’équipe ATAP"
-    }
+    "talks": [
+      {
+        "title": "I/O Rex : Les inventions impressionnantes de l’équipe ATAP"
+      }
+    ]
   },
   {
     "id": 30062015,
@@ -1902,8 +2498,10 @@
       "organizer"
     ],
     "link": "https://events.withgoogle.com/launchpad-week-toulouse/",
-    "talk": {
-      "video": "https://www.youtube.com/watch?v=ApQoDTkaQIg"
-    }
+    "talks": [
+      {
+        "video": "https://www.youtube.com/watch?v=ApQoDTkaQIg"
+      }
+    ]
   }
 ]

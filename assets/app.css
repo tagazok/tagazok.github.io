@@ -310,13 +310,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #6f7679;
   font-size: 13px;
   font-weight: normal;
-  margin: 5px 0 0;
+  margin-top: 5px;
 }
 
 .conference .fa-video {
   color: #e49e9e;
 }
 
+.conference .talks {
+  margin-top: 5px;
+}
+
+.conference .talks .talk {
+  margin-bottom: 5px;
+  /* list-style-type:none */
+}
+
+.conference .talks .talk:last-child {
+  margin-bottom: 0;
+}
 
 .contacts i {
   font-size: 20px;
@@ -455,4 +467,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .flex-justify-between {
   justify-content: space-between;
+}
+
+.width-100 {
+  width: 100%;
 }
