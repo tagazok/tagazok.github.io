@@ -1,5 +1,21 @@
 [
   {
+    "date": "2022-02-05",
+    "name": "Snowcamp",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://snowcamp.io/fr/",
+    "talks": [
+      {
+        "title": "Développez et déployez votre application web fullstack avec Azure Static Web Apps et GitHub Actions."
+      }
+    ]
+  },
+  {
     "date": "2021-11-18",
     "name": "Codeurs en Seine",
     "location": {
@@ -32,6 +48,23 @@
       },
       {
         "title": "Building multi-screen experiences for the web"
+      }
+    ]
+  },
+  
+  {
+    "date": "2021-11-06",
+    "name": "DevFest Cocody",
+    "location": {
+      "name": "Online - Abidjan, Ivory Coast"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://gdg.community.dev/events/details/google-gdg-cocody-presents-devfest-cocody-2021/",
+    "talks": [
+      {
+        "title": "Create multi-screen experiences for the new mobile web"
       }
     ]
   },
