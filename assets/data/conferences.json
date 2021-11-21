@@ -16,6 +16,22 @@
     ]
   },
   {
+    "date": "2021-11-23",
+    "name": "DevDay Belgium",
+    "location": {
+      "name": "Louvain-La-Neuve, Belgium"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devday.be",
+    "talks": [
+      {
+        "title": "Create multi-screen experiences for the new mobile web"
+      }
+    ]
+  },
+  {
     "date": "2021-11-18",
     "name": "Codeurs en Seine",
     "location": {
