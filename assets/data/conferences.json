@@ -1,6 +1,22 @@
 [
   {
-    "date": "2022-02-05",
+    "date": "2022-02-07",
+    "name": "Viseo Tech an Tour",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/VISEO-Tech-an-Hour/events/283523485/",
+    "talks": [
+      {
+        "title": "Introduction à Azure Static Web Apps"
+      }
+    ]
+  },
+  {
+    "date": "2022-02-02",
     "name": "Snowcamp",
     "location": {
       "name": "Grenoble, France"
@@ -11,7 +27,7 @@
     "link": "https://snowcamp.io/fr/",
     "talks": [
       {
-        "title": "Développez et déployez votre application web fullstack avec Azure Static Web Apps et GitHub Actions."
+        "title": "Développez et déployez votre application web fullstack avec Azure Static Web Apps et GitHub Actions"
       }
     ]
   },
