@@ -31,6 +31,22 @@
     "talks": []
   },
   {
+    "date": "2022-04-21",
+    "name": "Devoxx France",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.devoxx.fr/en/",
+    "talks": [
+      {
+        "title": "Mais au fait DevRel c'est vraiment qu'un lanceur de paillettes ?"
+      }
+    ]
+  },
+  {
     "date": "2022-04-15",
     "name": "Ecole de l'IA - Simplon Grenoble",
     "location": {
