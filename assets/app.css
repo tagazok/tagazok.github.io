@@ -363,6 +363,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #04fe9b;
 }
 
+.videos .video-container {  
+  margin-bottom: 2em;
+}
 
 .videos .video {
   display: block;
