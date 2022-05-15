@@ -1,5 +1,21 @@
 [
   {
+    "date": "2022-06-21",
+    "name": "Voxxed Days Luxembourg",
+    "location": {
+      "name": "Luxembourg, Luxembourg"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://luxembourg.voxxeddays.com/en/",
+    "talks": [
+      {
+        "title": "Mutation Testing: Did my test break my code ? 🤔"
+      }
+    ]
+  },
+  {
     "date": "2022-06-09",
     "name": "Le camping des speakers",
     "location": {
@@ -146,7 +162,6 @@
       }
     ]
   },
-  
   {
     "date": "2021-11-06",
     "name": "DevFest Cocody",
@@ -798,8 +813,9 @@
     "talks": [
       {
         "title": "Table ronde - Chrome Dev Summit 2020",
-      "video": "https://www.youtube.com/watch?v=RbeHrFGnRqU"
-    }]
+        "video": "https://www.youtube.com/watch?v=RbeHrFGnRqU"
+      }
+    ]
   },
   {
     "date": "2020-12-03",
@@ -826,8 +842,9 @@
     "talks": [
       {
         "title": "Better collaboration with GitHub, Codespaces, LiveShare and VSCode",
-      "video": "https://www.youtube.com/watch?v=hON1InS5qJ4"
-    }]
+        "video": "https://www.youtube.com/watch?v=hON1InS5qJ4"
+      }
+    ]
   },
   {
     "date": "2020-10-13",
@@ -876,8 +893,9 @@
     "talks": [
       {
         "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait",
-      "video": "https://www.youtube.com/watch?v=Dtl6Bg6hRoY"
-    }],
+        "video": "https://www.youtube.com/watch?v=Dtl6Bg6hRoY"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1210,8 +1228,9 @@
     "talks": [
       {
         "title": "Introduction à Microsoft Graph API et Graph toolkit",
-      "video": "https://www.youtube.com/watch?v=MNa_73qmUkA"
-    }],
+        "video": "https://www.youtube.com/watch?v=MNa_73qmUkA"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1261,8 +1280,9 @@
     "talks": [
       {
         "title": "Project Fugu 🐡: A Better, Smoother and Sexier web",
-      "video": "https://www.youtube.com/watch?v=Hy3Gfgqyg18"
-    }],
+        "video": "https://www.youtube.com/watch?v=Hy3Gfgqyg18"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1593,8 +1613,9 @@
     "talks": [
       {
         "title": "Pimp my vscode",
-      "video": "https://www.youtube.com/watch?v=mueaEPOs6iE"
-    }],
+        "video": "https://www.youtube.com/watch?v=mueaEPOs6iE"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1664,8 +1685,9 @@
     "talks": [
       {
         "title": "J'ai fait un plan à 3 avec VSCode",
-      "video": "https://www.youtube.com/watch?v=m6Kw1EuMz8s"
-    }]
+        "video": "https://www.youtube.com/watch?v=m6Kw1EuMz8s"
+      }
+    ]
   },
   {
     "id": 26062019,
@@ -1756,8 +1778,9 @@
     "talks": [
       {
         "title": "VSCode: Mode collaboratif activé",
-      "video": "https://mixitconf.org/en/2019/vs-code-mode-collaboratif-active-"
-    }]
+        "video": "https://mixitconf.org/en/2019/vs-code-mode-collaboratif-active-"
+      }
+    ]
   },
   {
     "id": 17042019,
@@ -1775,8 +1798,9 @@
     "talks": [
       {
         "title": "VSCode: Mode collaboratif activé",
-      "video": "https://www.youtube.com/watch?v=UtIUZdBDALs"
-    }]
+        "video": "https://www.youtube.com/watch?v=UtIUZdBDALs"
+      }
+    ]
   },
   {
     "id": 20032019,
@@ -1885,8 +1909,9 @@
     "talks": [
       {
         "title": "Pimp your vscode",
-      "video": "https://youtu.be/F2fKy7XKQ58?t=126"
-    }],
+        "video": "https://youtu.be/F2fKy7XKQ58?t=126"
+      }
+    ],
     "event": "roadshow"
   },
   {
@@ -1939,8 +1964,9 @@
     "talks": [
       {
         "title": "Et si on parlait de l'accessibilité du web ?",
-      "video": "https://www.youtube.com/watch?v=1oKEcDdYANY"
-    }]
+        "video": "https://www.youtube.com/watch?v=1oKEcDdYANY"
+      }
+    ]
   },
   {
     "id": 18102018,
@@ -1958,8 +1984,9 @@
     "talks": [
       {
         "title": "What's up TC39?",
-      "video": "https://www.youtube.com/watch?v=kF_P8YmmZN4"
-    }]
+        "video": "https://www.youtube.com/watch?v=kF_P8YmmZN4"
+      }
+    ]
   },
   {
     "id": 15102018,
@@ -2253,8 +2280,9 @@
     "talks": [
       {
         "title": "What's up TC39 ?",
-      "video": "https://www.youtube.com/watch?v=Kj8NuMHUvN4"
-    }]
+        "video": "https://www.youtube.com/watch?v=Kj8NuMHUvN4"
+      }
+    ]
   },
   {
     "id": 28092017,
@@ -2291,8 +2319,9 @@
     "talks": [
       {
         "title": "This is your captain speaking, please put your phone in airplane mode",
-      "video": "https://www.youtube.com/watch?v=Rwa1qhDjkoo"
-    }]
+        "video": "https://www.youtube.com/watch?v=Rwa1qhDjkoo"
+      }
+    ]
   },
   {
     "id": 17062017,
@@ -2310,8 +2339,9 @@
     "talks": [
       {
         "title": "Angular FightCode #2",
-      "video": "https://www.youtube.com/watch?v=JXmykgqlOgk"
-    }]
+        "video": "https://www.youtube.com/watch?v=JXmykgqlOgk"
+      }
+    ]
   },
   {
     "id": 19042017,
@@ -2348,8 +2378,9 @@
     "talks": [
       {
         "title": "PWA: Pourquoi, pour qui?",
-      "video": "https://www.youtube.com/watch?v=w8WbIJlLMpQ"
-    }]
+        "video": "https://www.youtube.com/watch?v=w8WbIJlLMpQ"
+      }
+    ]
   },
   {
     "id": 2022017,
@@ -2367,8 +2398,9 @@
     "talks": [
       {
         "title": "FightCode",
-      "video": "https://www.youtube.com/watch?v=u5RN5UxZezM"
-    }]
+        "video": "https://www.youtube.com/watch?v=u5RN5UxZezM"
+      }
+    ]
   },
   {
     "id": 9112016,
@@ -2386,8 +2418,9 @@
     "talks": [
       {
         "title": "Votre application web qui marche même sans réseau, c'est possible!",
-      "video": "https://www.youtube.com/watch?v=j2u4SY5HAV4"
-    }]
+        "video": "https://www.youtube.com/watch?v=j2u4SY5HAV4"
+      }
+    ]
   },
   {
     "id": 24112016,
@@ -2405,8 +2438,9 @@
     "talks": [
       {
         "title": "Votre application web qui marche même sans réseau, c'est possible!",
-      "video": "https://www.infoq.com/fr/presentations/codeurs-en-seine-olivier-leplus-app-web-sans-reseau"
-    }]
+        "video": "https://www.infoq.com/fr/presentations/codeurs-en-seine-olivier-leplus-app-web-sans-reseau"
+      }
+    ]
   },
   {
     "id": 8112016,
@@ -2424,8 +2458,9 @@
     "talks": [
       {
         "title": "www: The Web Will Win",
-      "video": "https://www.youtube.com/watch?v=vcPBVa5E80w"
-    }]
+        "video": "https://www.youtube.com/watch?v=vcPBVa5E80w"
+      }
+    ]
   },
   {
     "id": 3112016,
@@ -2462,8 +2497,9 @@
     "talks": [
       {
         "title": "Please welcome Angular 2",
-      "video": "https://www.youtube.com/watch?v=TGSjRPhagE4"
-    }]
+        "video": "https://www.youtube.com/watch?v=TGSjRPhagE4"
+      }
+    ]
   },
   {
     "id": 8102016,
