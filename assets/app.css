@@ -378,6 +378,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 8px;
 }
 
+.videos .video .video-thumbnail img {
+  width: 100%;
+}
+
 .videos .video .video-title {
   font-weight: 700;
   font-size: 18px;
@@ -453,6 +457,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .col-4>div {
   width: 25%;
+}
+
+.videos>div {
+  width: 100%;
+}
+
+@media (min-width: 575.98px) {
+  .videos>div {
+    width: 50%;
+  }
+}
+
+@media (min-width: 767.98px) { 
+  .videos>div {
+    width: 33.33%;
+  }
 }
 
 .flex-column {
