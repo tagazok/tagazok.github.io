@@ -1,5 +1,53 @@
 [
   {
+    "date": "2022-11-18",
+    "name": "DevFest Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://devfest.gdgstrasbourg.fr",
+    "talks": [
+      {
+        "title": "Coder votre infrastructure avec votre langage préféré!"
+      }
+    ]
+  },
+  {
+    "date": "2022-10-20",
+    "name": "DevFest Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://devfest.gdgnantes.com",
+    "talks": [
+      {
+        "title": "Coder votre infrastructure avec votre langage préféré!"
+      }
+    ]
+  },
+  {
+    "date": "2022-10-14",
+    "name": "Volcamp",
+    "location": {
+      "name": "Clermont-Ferrand, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.volcamp.io",
+    "talks": [
+      {
+        "title": "Mutation Testing - Did my test break my code ?"
+      }
+    ]
+  },
+  {
     "date": "2022-06-21",
     "name": "Voxxed Days Luxembourg",
     "location": {
