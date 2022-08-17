@@ -1,5 +1,15 @@
 [
   {
+    "youtubeId": "76K6QqTdBi0",
+    "title": "Être DevRel pendant le Covid avec Olivier chez Microsoft - Parlons Tech",
+    "duration": "2:06",
+    "date": "May 23, 2022",
+    "event": {
+      "name": "WeLoveDevs",
+      "link": "https://welovedevs.com/"
+    }
+  },
+  {
     "youtubeId": "JMWm07h_894",
     "title": "Comment configurer Cosmos DB avec l'API MongoDB dans une SWA ? - Show me Static Web Apps Ep. 14",
     "duration": "4:25",
