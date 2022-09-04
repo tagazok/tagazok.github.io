@@ -32,6 +32,22 @@
     ]
   },
   {
+    "date": "2022-10-17",
+    "name": "Agile Tour Montpellier",
+    "location": {
+      "name": "Montpellier, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://agiletourmontpellier.fr/2022/",
+    "talks": [
+      {
+        "title": "Mutation Testing: Did my test break my code ? 🤔"
+      }
+    ]
+  },
+  {
     "date": "2022-10-14",
     "name": "Volcamp",
     "location": {
@@ -43,7 +59,7 @@
     "link": "https://www.volcamp.io",
     "talks": [
       {
-        "title": "Mutation Testing - Did my test break my code ?"
+        "title": "Mutation Testing - Did my test break my code ? 🤔"
       }
     ]
   },
@@ -59,7 +75,7 @@
     "link": "https://devoxx.be",
     "talks": [
       {
-        "title": "Mutation Testing - Did my test break my code ?"
+        "title": "Mutation Testing - Did my test break my code ? 🤔"
       }
     ]
   },
