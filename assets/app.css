@@ -1,5 +1,7 @@
 html {
   background: #f6f9fa;
+  font-family: 'Nunito Sans', sans-serif;
+
 }
 
 html, body {
@@ -85,6 +87,10 @@ h1, h2, h3, h4, h5, h6 {
 .header .text a {
   text-decoration: none;
   color: #00e195;
+}
+
+.bg-primary {
+  background-color: rgba(135,55,123,1);
 }
 
 .header {
@@ -391,9 +397,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .videos .video .video-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 18px;
-  color: rgba(38,41,58,.8);
+  /* color: rgba(38,41,58,.8); */
+  color: #fff;
   margin: 10px 0 8px;
   transition: color .2s ease;
   overflow: hidden;
@@ -405,7 +412,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .videos .video .video-description {
   font-size: 14px;
-  color: rgba(38,41,58,.6);
+  /* color: rgba(38,41,58,.6); */
+  color: rgb(238, 238, 238);
   margin: 0;
 }
 
