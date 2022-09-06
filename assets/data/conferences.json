@@ -64,22 +64,6 @@
     ]
   },
   {
-    "date": "2022-10-12",
-    "name": "Devoxx Belgium",
-    "location": {
-      "name": "Antwerp, Belgium"
-    },
-    "roles": [
-      "speaker"
-    ],
-    "link": "https://devoxx.be",
-    "talks": [
-      {
-        "title": "Mutation Testing - Did my test break my code ? 🤔"
-      }
-    ]
-  },
-  {
     "date": "2022-10-10",
     "name": "Devoxx Belgium",
     "location": {
@@ -92,6 +76,9 @@
     "talks": [
       {
         "title": "Building multi-screen experiences for the mobile web"
+      },
+      {
+        "title": "Mutation Testing - Did my test break my code ? 🤔"
       }
     ]
   },

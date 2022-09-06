@@ -27,6 +27,13 @@ h1, h2, h3, h4, h5, h6 {
     opacity: .85;
 }
 
+.avatar {
+  border-radius: 50%;
+  border: solid 4px #fff;
+  max-width: 180px;
+  margin-bottom: 1em;
+}
+
 .section--gradient {
   color: #fff;
   padding: 120px 0;
@@ -63,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header .title {
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 400;
   line-height: 68px;
   margin-bottom: 50px;
@@ -81,13 +88,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  position: relative;
-  padding: 150px 0;
-  background: url(https://ultimateangular.com/assets/img/homepage/hero.jpg) center center no-repeat;
+  padding: 100px 0;
+  /* background: url(https://ultimateangular.com/assets/img/homepage/hero.jpg) center center no-repeat;
   background: url(img/HumanTalksGoogle2.jpg) center center no-repeat;
-  background-size: cover;
+  background-size: cover; */
   text-align: center;
   color: #fff;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(40,40,61,1) 0%, rgba(135,55,123,1) 100%);
 }
 
 .no-padding {
@@ -142,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* MAIN */
 .main {
-  margin-top: -80px;
+  /* margin-top: -250px; */
 }
 
 /* Card */
@@ -497,4 +505,84 @@ h1, h2, h3, h4, h5, h6 {
 
 .width-100 {
   width: 100%;
+}
+
+/* WAVES */
+
+.waves {
+  position: absolute;
+}
+path.a {
+  fill: var(--primary-color);
+  opacity: 0.53;
+}
+path.b {
+  fill: var(--secondary-color);
+  opacity: 0.3;
+}
+path.c {
+  fill: var(--tertiary-color);
+  opacity: 0.4;
+}
+svg.background-wave--header {
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.wave-1 {
+  animation: wave-1 5s ease-in-out infinite alternate;
+}
+.wave-2 {
+  animation: wave-2 10s ease-in-out infinite alternate;
+}
+.wave-3 {
+  animation: wave-3 5s ease-in-out infinite;
+}
+.wave-4 {
+  animation: wave-4 5s ease-in-out infinite alternate;
+}
+.wave-5 {
+  animation: wave-5 10s ease-in-out infinite alternate;
+}
+.wave-6 {
+  animation: wave-6 5s ease-in-out infinite alternate;
+}
+
+@keyframes wave-1 {
+  to {
+    transform: translateY(45px);
+  }
+}
+@keyframes wave-2 {
+  to {
+    transform: translateY(40px);
+  }
+}
+@keyframes wave-3 {
+  from {
+    transform: translateY(50px);
+  }
+  50% {
+    transform: translateY(40px);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
+@keyframes wave-4 {
+  to {
+    transform: translateX(-10px);
+  }
+}
+@keyframes wave-5 {
+  to {
+    transform: translateX(100px);
+  }
+}
+@keyframes wave-6 {
+  to {
+    transform: translateX(80px);
+  }
 }
