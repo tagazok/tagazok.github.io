@@ -99,6 +99,22 @@
     ]
   },
   {
+    "date": "2022-09-28",
+    "name": "AWS Tour Du cloud Roadshow 2022 - Antilles & Guyane",
+    "location": {
+      "name": "Fort-de-France , Martinique"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://aws-acceleration-roadshow-antilles-guyane.splashthat.com/",
+    "talks": [
+      {
+        "title": "Bien Démarrer sur AWS: les services de stockage de données"
+      }
+    ]
+  },
+  {
     "date": "2022-06-21",
     "name": "Voxxed Days Luxembourg",
     "location": {
