@@ -115,6 +115,22 @@
     ]
   },
   {
+    "date": "2022-09-15",
+    "name": "BBL Axa",
+    "location": {
+      "name": "Lille, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.meetup.com/bbl-axa/events/288347813/",
+    "talks": [
+      {
+        "title": "[Workshop] Coder votre infrastructure avec votre langage préféré !"
+      }
+    ]
+  },
+  {
     "date": "2022-06-21",
     "name": "Voxxed Days Luxembourg",
     "location": {
