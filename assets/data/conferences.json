@@ -1,5 +1,21 @@
 [
   {
+    "date": "2022-11-30",
+    "name": "AWS re:Invent",
+    "location": {
+      "name": "Las Vegas, USA"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://reinvent.awsevents.com/",
+    "talks": [
+      {
+        "title": "A deployment is not a release: Control your launches with feature flags"
+      }
+    ]
+  },
+  {
     "date": "2022-11-18",
     "name": "DevFest Strasbourg",
     "location": {
@@ -12,6 +28,22 @@
     "talks": [
       {
         "title": "Coder votre infrastructure avec votre langage préféré!"
+      }
+    ]
+  },
+  {
+    "date": "2022-11-03",
+    "name": "Web Summit",
+    "location": {
+      "name": "Lisbon, Portugal"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://websummit.com/",
+    "talks": [
+      {
+        "title": "What is the right database for you?"
       }
     ]
   },
