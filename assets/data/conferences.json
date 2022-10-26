@@ -1,5 +1,25 @@
 [
   {
+    "date": "2023-01-25",
+    "name": "Snowcamp",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Coder votre infrastructure avec votre langage préféré!"
+      },
+      {
+        "title": "Mutation Testing: Did my test break my code ? 🤔"
+      }
+    ]
+  },
+  {
     "date": "2022-12-17",
     "name": "DevFest Mons",
     "location": {
