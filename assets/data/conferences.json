@@ -64,10 +64,10 @@
     "roles": [
       "speaker"
     ],
-    "link": "Un déploiement n'est pas une release: Controlez vos lancements avec les Feature Flags",
+    "link": "https://www.twitch.tv/micbelgique",
     "talks": [
       {
-        "title": "https://www.twitch.tv/micbelgique"
+        "title": "Un déploiement n'est pas une release: Controlez vos lancements avec les Feature Flags"
       }
     ]
   },
