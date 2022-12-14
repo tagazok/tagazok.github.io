@@ -9,7 +9,7 @@
       "mentor",
       "speaker"
     ],
-    "link": "",
+    "link": "https://snowcamp.io/",
     "talks": [
       {
         "title": "Coder votre infrastructure avec votre langage préféré!"
@@ -29,13 +29,45 @@
       "mentor",
       "speaker"
     ],
-    "link": "",
+    "link": "https://gdg.community.dev/events/details/google-gdg-mons-presents-devfest-mons-2022/",
     "talks": [
       {
         "title": "Coder votre infrastructure avec votre langage préféré!"
       },
       {
         "title": "Mutation Testing: Did my test break my code ? 🤔"
+      }
+    ]
+  },
+  {
+    "date": "2022-12-16",
+    "name": "MIC Mons",
+    "location": {
+      "name": "Mons, Belgium"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.meetup.com/fr-FR/micbelgique/events/290283865/",
+    "talks": [
+      {
+        "title": "Développez votre application web (presque) sans code avec Amplify"
+      }
+    ]
+  },
+  {
+    "date": "2022-12-16",
+    "name": "MIC Belgique",
+    "location": {
+      "name": "Twitch"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "Un déploiement n'est pas une release: Controlez vos lancements avec les Feature Flags",
+    "talks": [
+      {
+        "title": "https://www.twitch.tv/micbelgique"
       }
     ]
   },
