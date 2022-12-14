@@ -1,0 +1,40 @@
+#videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.category h2 {
+    margin: .83em 0 .83em 8px;
+    color: #fff;
+}
+
+.videos .video-item {
+    margin: 0px 8px 80px 8px;
+    width: 320px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.videos .video-item a {
+    text-decoration: none;
+    color: #fff;
+}
+.videos .video-item .video-thumbnail img {
+    border-radius: 12px;
+}
+
+.videos .video-item .video-title {
+    margin: .5em 0 .5em 0;
+}
+.videos .video-item .video-description {
+    margin: 0;
+}
+
+.videos .video-item .video-details span {
+    margin: 0 10px;
+}

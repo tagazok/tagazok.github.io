@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 .contacts a:hover i {
   color: #04fe9b;
 }
-
+/* 
 .videos .video-container {  
   margin-bottom: 2em;
 }
@@ -399,7 +399,6 @@ h1, h2, h3, h4, h5, h6 {
 .videos .video .video-title {
   font-weight: 600;
   font-size: 18px;
-  /* color: rgba(38,41,58,.8); */
   color: #fff;
   margin: 10px 0 8px;
   transition: color .2s ease;
@@ -412,14 +411,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .videos .video .video-description {
   font-size: 14px;
-  /* color: rgba(38,41,58,.6); */
   color: rgb(238, 238, 238);
   margin: 0;
 }
 
 .videos .video .video-description span {
   margin: 0 10px;
-}
+} */
 
 .bounce {
   color: #29d1a2;
@@ -475,7 +473,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25%;
 }
 
-.videos>div {
+/* .videos>div {
   width: 100%;
 }
 
@@ -489,7 +487,7 @@ h1, h2, h3, h4, h5, h6 {
   .videos>div {
     width: 33.33%;
   }
-}
+} */
 
 .flex-column {
   flex-direction: column;

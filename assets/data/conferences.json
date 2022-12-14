@@ -48,7 +48,7 @@
     "roles": [
       "speaker"
     ],
-    "link": "https://reinvent.awsevents.com/",
+    "link": "https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/BOA305-R",
     "talks": [
       {
         "title": "A deployment is not a release: Control your launches with feature flags"
@@ -80,10 +80,10 @@
     "roles": [
       "speaker"
     ],
-    "link": "https://websummit.com/",
+    "link": "https://websummit.com/schedule/ws22/timeslot/build-feature-rich-mobile-apps-in-no-time-hosted-by-aws",
     "talks": [
       {
-        "title": "What is the right database for you?"
+        "title": "Build feature-rich mobile apps in no time"
       }
     ]
   },
