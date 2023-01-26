@@ -1,5 +1,21 @@
 [
   {
+    "date": "2023-03-23",
+    "name": "DevDay",
+    "location": {
+      "name": "Mons, Belgium"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devday.be/",
+    "talks": [
+      {
+        "title": "Mutation Testing: Did my test break my code ? 🤔"
+      }
+    ]
+  },
+  {
     "date": "2023-01-25",
     "name": "Snowcamp",
     "location": {
