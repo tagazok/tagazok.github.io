@@ -16,6 +16,159 @@
     ]
   },
   {
+    "date": "2023-02-22",
+    "name": "Paris AWS User Group",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/french-aws-ug/events/290998979/",
+    "talks": [
+      {
+        "title": "AWS re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2023-02-16",
+    "name": "Toulouse AWS User Group",
+    "location": {
+      "name": "Toulouse, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/toulouse-amazon-web-services/events/290998878/",
+    "talks": [
+      {
+        "title": "AWS re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2023-02-15",
+    "name": "Lyon AWS User Group",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "AWS re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2023-02-14",
+    "name": "AWS Swiss User Group - Geneva",
+    "location": {
+      "name": "Geneva, Switzerland"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/aws-swiss-user-group-geneva/events/290904080/",
+    "talks": [
+      {
+        "title": "AWS re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2023-02-13",
+    "name": "Grenogle AWS User Group",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/grenoble-aws-user-group/events/291229945/",
+    "talks": [
+      {
+        "title": "AWS re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2023-02-09",
+    "name": "Lille AWS User Group",
+    "location": {
+      "name": "Lille, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/lille-aws-amazon-web-services-user-group/events/290866190/",
+    "talks": [
+      {
+        "title": "AWS re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2023-02-08",
+    "name": "Nantes AWS User Group",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "AWS re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2023-02-07",
+    "name": "Brest AWS User Group",
+    "location": {
+      "name": "Brest, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/Brest-AWS-User-Group/events/290890024/",
+    "talks": [
+      {
+        "title": "AWS re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2023-02-02",
+    "name": "AWS France",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://pages.awscloud.com/reinvent22-recaps-france-registration.html",
+    "talks": [
+      {
+        "title": "AWS re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
     "date": "2023-01-25",
     "name": "Snowcamp",
     "location": {
