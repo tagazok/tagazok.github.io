@@ -64,7 +64,7 @@ function generateVideoTemplate2(video) {
         <img src="https://img.youtube.com/vi/${video.youtubeId}/mqdefault.jpg" alt="${video.title} thumbnail" />
       </div>
       <div class="video-details flex flex-column flex-1">
-        <h5 class="video-title">${video.title}</h5>
+        <h4 class="video-title">${video.title}</h4>
         <div class="flex flex-row justify-content-space-between video-description">
           <div class="event-name">${video.event.name}</div>
           <div>${video.date}</div>
