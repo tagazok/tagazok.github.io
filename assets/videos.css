@@ -15,17 +15,35 @@
     width: 320px;
     max-width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
+    flex-direction: column; 
+    border-radius: 12px;
+    background: #fff;
+    color: #3a3a3a;
 }
 
-.videos .video-item a {
+.videos a.video-item {
     text-decoration: none;
-    color: #fff;
 }
+
+.videos .video-item .video-thumbnail {
+    position: relative;
+}
+
 .videos .video-item .video-thumbnail img {
+    border-radius: 12px 12px 0 0;
+}
+
+.videos .video-item .video-duration {
+    background-color: #4a73f5;
     border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    padding: 2px 6px;
+    font-size: .6em;
+    box-shadow: 0px 0px 5px 1px white;
 }
 
 .videos .video-item .video-title {
@@ -33,8 +51,10 @@
 }
 .videos .video-item .video-description {
     margin: 0;
+    font-size: .7rem;
+    color: rgb(93, 93, 93)
 }
 
-.videos .video-item .video-details span {
-    margin: 0 10px;
+.videos .video-item .video-details {
+    padding: 0.2rem 0.5rem;
 }

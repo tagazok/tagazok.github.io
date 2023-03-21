@@ -58,17 +58,19 @@ function generateCategoryTemplate(category) {
 function generateVideoTemplate2(video) {
   console.log(video);
   const tmpl = `
-  <div class="video-item">
-    <a href="https://www.youtube.com/watch?v=${video.youtubeId}" class="video flex flex-column" target="_blank" title="${video.title}">
+    <a href="https://www.youtube.com/watch?v=${video.youtubeId}" class="video-item flex flex-column" target="_blank" title="${video.title}">
       <div class="video-thumbnail">
+        <div class="video-duration">${video.duration}</div>
         <img src="https://img.youtube.com/vi/${video.youtubeId}/mqdefault.jpg" alt="${video.title} thumbnail" />
       </div>
-      <div class="video-details">
-        <h3 class="video-title">${video.title}</h3>
-        <p class="video-description">${video.duration}<span>•</span>${video.event.name}</p>
+      <div class="video-details flex flex-column flex-1 justify-content-space-between">
+        <h5 class="video-title">${video.title}</h5>
+        <div class="flex flex-row justify-content-space-between video-description">
+          <div>${video.event.name}</div>
+          <div>${video.date}</div>
+        </div>
       </div>
-    </a>
-  </div>`;
+    </a>`;
 
   return tmpl;
 }
