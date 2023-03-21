@@ -1,5 +1,53 @@
 [
   {
+    "date": "2023-06-16",
+    "name": "Camping des speakers",
+    "location": {
+      "name": "Baden, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://camping-speakers.fr/",
+    "talks": [
+      {
+        "title": "Cette année, retombez amoureux de CSS ❤️"
+      }
+    ]
+  },
+  {
+    "date": "2023-05-11",
+    "name": "AWS Summit Stockholm",
+    "location": {
+      "name": "Stockholm, Sweden"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://aws.amazon.com/events/summits/stockholm/",
+    "talks": [
+      {
+        "title": "A deployment is not a release: Control your launches with feature flags"
+      }
+    ]
+  },
+  {
+    "date": "2023-04-04",
+    "name": "AWS Summit Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://aws.amazon.com/fr/events/summits/paris/",
+    "talks": [
+      {
+        "title": "Sécurisez vos applications Web avec AWS WAF : un service qui envoie du pâté !"
+      }
+    ]
+  },
+  {
     "date": "2023-03-23",
     "name": "DevDay",
     "location": {
