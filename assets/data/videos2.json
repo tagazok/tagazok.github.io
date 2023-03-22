@@ -1,538 +1,593 @@
 [
-    {
-        "title": "Tartine & Tech",
-        "videos": [
-            {
-                "youtubeId": "cZ0jXK8C7ZM",
-                "title": "Azure App Service - Tartine & Tech",
-                "duration": "15:40",
-                "date": "Sep 21, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "j63mgI3_wKo",
-                "title": "Open Source - Tartine & Tech",
-                "duration": "15:05",
-                "date": "Sep 3, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "kMgERaOWcQ8",
-                "title": "PWAs and PWA Builder - Tartine & Tech",
-                "duration": "15:10",
-                "date": "Jul 3, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "0L2XS6INmwE",
-                "title": "La CLI Azure Static Web Apps - Tartine & Tech",
-                "duration": "15:54",
-                "date": "Jun 14, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "JMBwUNJ51tY",
-                "title": "Bazel - Tartine & Tech",
-                "duration": "12:26",
-                "date": "May 21, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "fCmHDWUEKns",
-                "title": "Azure IoT Central - Tartine & Tech",
-                "duration": "22:00",
-                "date": "May 17, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "t2k6aKwwI-Q",
-                "title": "L'informatique quantique - Tartine & Tech",
-                "duration": "15:07",
-                "date": "May 3, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "EgP-TupynX8",
-                "title": "Flutter - Tartine & Tech",
-                "duration": "15:22",
-                "date": "Apr 26, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "LHHUB4S9GhQ",
-                "title": "Web development on Surface Duo & Co - Tartine & Tech",
-                "duration": "14:05",
-                "date": "Apr 20, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "ThlJowxynYo",
-                "title": "Azure Cognitive Services - Tartine & Tech",
-                "duration": "9:56",
-                "date": "Jan 12, 2021",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "xpLsUdXKLss",
-                "title": "Micro frontends - Tartine & Tech",
-                "duration": "10:55",
-                "date": "Dec 15, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "yUBOFG-92dI",
-                "title": ".Net Core Global Tools - Tartine & Tech",
-                "duration": "10:24",
-                "date": "Dec 1, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "0hKU9yB9Ixk",
-                "title": "Azure Functions - Tartine & Tech",
-                "duration": "12:49",
-                "date": "Nov 9, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "9HVYc7IFa6I",
-                "title": "What happens when you type in a URL in an address bar in a browser? - Tartine & Tech",
-                "duration": "14:45",
-                "date": "Sep 8, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "nlkRhfhlL-g",
-                "title": "La Veille Technologique - Tartine & Tech",
-                "duration": "7:43",
-                "date": "Aug 18, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "JdcV0UWKHwA",
-                "title": "Remote Dev extensions - Tartine & Tech",
-                "duration": "11:12",
-                "date": "Jul 22, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "isFwdROMx2Q",
-                "title": "Azure Static Web Apps - Tartine & Tech",
-                "duration": "13:44",
-                "date": "Jul 9, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "AKyFfeOKHEQ",
-                "title": "Le Deep Learning et les GAN - Tartine & Tech",
-                "duration": "8:46",
-                "date": "Mar 19, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "ESOSFxdKMQE",
-                "title": "Github Actions - Tartine & Tech",
-                "duration": "6:38",
-                "date": "Mar 18, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              },
-              {
-                "youtubeId": "-Hu0yD5kWRQ",
-                "title": "Les certifications Azure - Tartine & Tech",
-                "duration": "7:26",
-                "date": "Mar 17, 2020",
-                "event": {
-                  "name": "Targine & Tech",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
-                }
-              }
-        ]
-    },
-    {
-        "title": "Show me Static Web Apps",
-        "videos": [
-            {
-                "youtubeId": "JMWm07h_894",
-                "title": "Comment configurer Cosmos DB avec l'API MongoDB dans une SWA ? - Show me Static Web Apps Ep. 14",
-                "duration": "4:25",
-                "date": "Feb 3, 2022",
-                "event": {
-                  "name": "Show me Static Web Apps",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wosee1GtXCiopNBQ6vFW2Ra"
-                }
-              },
-              {
-                "youtubeId": "qJ-50pmGWAU",
-                "title": "Comment créer une Azure Static Web App depuis un template GitHub ? - Show me Static Web App Ep. 13",
-                "duration": "4:07",
-                "date": "Feb 3, 2022",
-                "event": {
-                  "name": "Show me Static Web Apps",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wosee1GtXCiopNBQ6vFW2Ra"
-                }
-              },
-              {
-                "youtubeId": "AUyTXE9tu6s",
-                "title": "Comment créer une application Serverless avec Azure Static Web App - Show me Static Web Apps Ep. 12",
-                "duration": "3:21",
-                "date": "Feb 3, 2022",
-                "event": {
-                  "name": "Show me Static Web Apps",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wosee1GtXCiopNBQ6vFW2Ra"
-                }
-              },
-              {
-                "youtubeId": "FY5syL3WdtM",
-                "title": "Qu'est ce qu'Azure Static Web Apps et pourquoi l'utiliser ? - Show me Static Web Apps Ep. 01",
-                "duration": "5:17",
-                "date": "Feb 3, 2022",
-                "event": {
-                  "name": "Show me Static Web Apps",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wosee1GtXCiopNBQ6vFW2Ra"
-                }
-              }
-        ]
-    },
-    {
-        "title": "Show me Node.js",
-        "videos": [
-            {
-                "youtubeId": "x06petUJluc",
-                "title": "Comment utiliser les outils de debug avancés dans VSCode - Show me Node.js Ep. 26",
-                "duration": "5:00",
-                "date": "Feb 17, 2021",
-                "event": {
-                  "name": "Show me : Node.js",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
-                }
-              },
-              {
-                "youtubeId": "x4xkMFsCsZE",
-                "title": "Comment utiliser la pile d'appels dans VSCode pour débugger une app Node.js - Show me Node.js Ep. 25",
-                "duration": "2:58",
-                "date": "Feb 17, 2021",
-                "event": {
-                  "name": "Show me : Node.js",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
-                }
-              },
-              {
-                "youtubeId": "AJrfNRddtgo",
-                "title": "Comment utiliser le debugger de VSCode avec une application Node.js - Show me Node.js Ep. 24",
-                "duration": "4:28",
-                "date": "Feb 17, 2021",
-                "event": {
-                  "name": "Show me : Node.js",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
-                }
-              },
-              {
-                "youtubeId": "EKxhcqZDr6A",
-                "title": "Comment configurer VSCode pour débugger des applications Node.js - Show me Node.js Ep.23",
-                "duration": "3:24",
-                "date": "Feb 17, 2021",
-                "event": {
-                  "name": "Show me : Node.js",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
-                }
-              },
-              {
-                "youtubeId": "z7XEPaGL3jY",
-                "title": "Comment exécuter du code pas à pas dans le debugger intégré de Node.js - Show me Node.js Ep. 22",
-                "duration": "5:46",
-                "date": "Feb 17, 2021",
-                "event": {
-                  "name": "Show me : Node.js",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
-                }
-              }
-        ]
-    },
-    {
-            "title": "Azure Snacks",
-            "videos": [
-                {
-                    "youtubeId": "KExK04g8cUA",
-                    "title": "Deploy an Angular App with a serverless backend on Azure Static Web App",
-                    "duration": "1:22",
-                    "date": "Feb 1, 2022",
-                    "event": {
-                      "name": "Azure Snacks",
-                      "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WqAlP2ATMnDQi7xlcuYqFUM"
-                    }
-                  },
-                  {
-                    "youtubeId": "LPSA1TY3-Bo",
-                    "title": "Create an test on your computer a web app with a serverless backend on Azure using the SWA CLI",
-                    "duration": "2:26",
-                    "date": "Jan 24, 2022",
-                    "event": {
-                      "name": "Azure Snacks",
-                      "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WqAlP2ATMnDQi7xlcuYqFUM"
-                    }
-                  }
-            ]
-    },
-    {
-        "title": "Show me Serverless",
-        "videos": [
-            {
-                "youtubeId": "1Hsdh-hhP-U",
-                "title": "Comment connecter une fonction Azure à MongoDB ? - Show me Serverless Ep. 14",
-                "duration": "6:01",
-                "date": "May 25, 2021",
-                "event": {
-                  "name": "Show me Serverless",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
-                }
-              },
-              {
-                "youtubeId": "406QTi-0eNc",
-                "title": "Les tâches CRON et les timers en Serverless - Show me Serverless Ep. 13",
-                "duration": "5:18",
-                "date": "May 25, 2021",
-                "event": {
-                  "name": "Show me Serverless",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
-                }
-              },
-              {
-                "youtubeId": "9RLbuEnW-6g",
-                "title": "Les triggers et bindings dans Azure Functions - Show me Serverless Ep. 12",
-                "duration": "7:27",
-                "date": "May 25, 2021",
-                "event": {
-                  "name": "Show me Serverless",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
-                }
-              },
-              {
-                "youtubeId": "AU-2Am3asNU",
-                "title": "Comment installer un package Node.js dans un projet Azure Functions ? - Show me Serverless Ep. 08",
-                "duration": "2:17",
-                "date": "May 25, 2021",
-                "event": {
-                  "name": "Show me Serverless",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
-                }
-              },
-              {
-                "youtubeId": "q0L8C4FRfAk",
-                "title": "Comment débugguer une Azure functions ? - Show me Serverless Ep. 07",
-                "duration": "3:27",
-                "date": "May 25, 2021",
-                "event": {
-                  "name": "Show me Serverless",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
-                }
-              },
-              {
-                "youtubeId": "C1i29suPZII",
-                "title": "Comment mettre à jour une fonction Azure ? - Show me Serverless Ep. 06",
-                "duration": "3:01",
-                "date": "May 25, 2021",
-                "event": {
-                  "name": "Show me Serverless",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
-                }
-              },
-              {
-                "youtubeId": "L4LbTzZKA28",
-                "title": "A quoi ressemble une fonction dans Azure ? - Show me Serverless Ep. 05",
-                "duration": "3:25",
-                "date": "May 25, 2021",
-                "event": {
-                  "name": "Show me Serverless",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
-                }
-              },
-              {
-                "youtubeId": "CLA0Y-VAeL0",
-                "title": "Créer votre première fonction dans Azure - Show me Serverless Ep. 04",
-                "duration": "3:20",
-                "date": "May 25, 2021",
-                "event": {
-                  "name": "Show me Serverless",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
-                }
-              }
-        ]
-    },
-    {
-        "title": "Rollback",
-        "videos": [
-            {
-                "youtubeId": "lLzcArJeA1A",
-                "title": "Rollback 21.11 - Spécial MS Ignite: Cosmos DB, Container Apps, Chaos Studio, OpenAI et plus encore !",
-                "duration": "4:10",
-                "date": "Nov 24, 2021",
-                "event": {
-                  "name": "Rollback",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WrLUbcQd-UosrdvWnEkSjVE"
-                }
-              },
-              {
-                "youtubeId": "aI9XFDpsGaA",
-                "title": "Rollback 21.4 - Static Web Apps, Azure Communication Services, OpenJDK et plus encore !",
-                "duration": "3:13",
-                "date": "Apr 14, 2021",
-                "event": {
-                  "name": "Rollback",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WrLUbcQd-UosrdvWnEkSjVE"
-                }
-              },
-              {
-                "youtubeId": "O6BZu9O4RDU",
-                "title": "Rollback #2 - Microsoft Ignite Edition: Microsoft Mesh, .NET Upgrade Assistant, Azure Arc and more !",
-                "duration": "5:41",
-                "date": "Mar 8, 2021",
-                "event": {
-                  "name": "Rollback",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WrLUbcQd-UosrdvWnEkSjVE"
-                }
-              },
-              {
-                "youtubeId": "ErRH463ciQI",
-                "title": "Rollback #01 : Windows Terminal, Projet Bicep, VSCode and more !",
-                "duration": "3:43",
-                "date": "Feb 22, 2021",
-                "event": {
-                  "name": "Rollback",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WrLUbcQd-UosrdvWnEkSjVE"
-                }
-              }
-        ]
-    },
-    {
-        "title": "interviews",
-        "videos": [
-            {
-                "youtubeId": "76K6QqTdBi0",
-                "title": "Être DevRel pendant le Covid avec Olivier chez Microsoft - Parlons Tech",
-                "duration": "2:06",
-                "date": "May 23, 2022",
-                "event": {
-                  "name": "WeLoveDevs",
-                  "link": "https://welovedevs.com/"
-                }
-              }
-        ]
-    },
-    {
-        "title": "Back to the future",
-        "videos": [
-            {
-                "youtubeId": "GryeYEylmA0",
-                "title": "Back to the future - Windows XP",
-                "duration": "29:33",
-                "date": "May 11, 2021",
-                "event": {
-                  "name": "Back to the future",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WpevjdOj1NcmOyJoXSshbAU"
-                }
-              },
-              
-              
-              {
-                "youtubeId": "oAgsrbnAmh0",
-                "title": "Back to the future - Microsoft Frontpage",
-                "duration": "29:11",
-                "date": "Apr 6, 2021",
-                "event": {
-                  "name": "Back to the future",
-                  "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WpevjdOj1NcmOyJoXSshbAU"
-                }
-              }
-        ]
-    },
-    {
-        "title": "conference",
-        "display": false,
-        "videos": [
-            {
-                "youtubeId": "vcPBVa5E80w",
-                "title": "www : The Web Will Win",
-                "duration": "17:38",
-                "event": "HumanTalks Paris",
-                "type": "conference"
-              },
-              {
-                "youtubeId": "Rwa1qhDjkoo",
-                "title": "This is your captain speaking, please put your phone in airplane mode !",
-                "duration": "25:05",
-                "event": "PWA Paris",
-                "type": "conference"
-              },
-              {
-                "youtubeId": "TGSjRPhagE4",
-                "title": "Please welcome Angular 2",
-                "duration": "50:24",
-                "event": "BDX I/O",
-                "type": "conference"
-              },
-              {
-                "youtubeId": "Kj8NuMHUvN4",
-                "title": "What's up TC39 ?",
-                "duration": "44:04",
-                "event": "BDX I/O",
-                "type": "conference"
-              }
-        ]
-    }
+  {
+    "title": "Tartine & Tech",
+    "videos": [
+      {
+        "youtubeId": "cZ0jXK8C7ZM",
+        "title": "Azure App Service - Tartine & Tech",
+        "duration": "15:40",
+        "date": "Sep 21, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "j63mgI3_wKo",
+        "title": "Open Source - Tartine & Tech",
+        "duration": "15:05",
+        "date": "Sep 3, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "kMgERaOWcQ8",
+        "title": "PWAs and PWA Builder - Tartine & Tech",
+        "duration": "15:10",
+        "date": "Jul 3, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "0L2XS6INmwE",
+        "title": "La CLI Azure Static Web Apps - Tartine & Tech",
+        "duration": "15:54",
+        "date": "Jun 14, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "JMBwUNJ51tY",
+        "title": "Bazel - Tartine & Tech",
+        "duration": "12:26",
+        "date": "May 21, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "fCmHDWUEKns",
+        "title": "Azure IoT Central - Tartine & Tech",
+        "duration": "22:00",
+        "date": "May 17, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "t2k6aKwwI-Q",
+        "title": "L'informatique quantique - Tartine & Tech",
+        "duration": "15:07",
+        "date": "May 3, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "EgP-TupynX8",
+        "title": "Flutter - Tartine & Tech",
+        "duration": "15:22",
+        "date": "Apr 26, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "LHHUB4S9GhQ",
+        "title": "Web development on Surface Duo & Co - Tartine & Tech",
+        "duration": "14:05",
+        "date": "Apr 20, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "ThlJowxynYo",
+        "title": "Azure Cognitive Services - Tartine & Tech",
+        "duration": "9:56",
+        "date": "Jan 12, 2021",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "xpLsUdXKLss",
+        "title": "Micro frontends - Tartine & Tech",
+        "duration": "10:55",
+        "date": "Dec 15, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "yUBOFG-92dI",
+        "title": ".Net Core Global Tools - Tartine & Tech",
+        "duration": "10:24",
+        "date": "Dec 1, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "0hKU9yB9Ixk",
+        "title": "Azure Functions - Tartine & Tech",
+        "duration": "12:49",
+        "date": "Nov 9, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "9HVYc7IFa6I",
+        "title": "What happens when you type in a URL in an address bar in a browser? - Tartine & Tech",
+        "duration": "14:45",
+        "date": "Sep 8, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "nlkRhfhlL-g",
+        "title": "La Veille Technologique - Tartine & Tech",
+        "duration": "7:43",
+        "date": "Aug 18, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "JdcV0UWKHwA",
+        "title": "Remote Dev extensions - Tartine & Tech",
+        "duration": "11:12",
+        "date": "Jul 22, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "isFwdROMx2Q",
+        "title": "Azure Static Web Apps - Tartine & Tech",
+        "duration": "13:44",
+        "date": "Jul 9, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "AKyFfeOKHEQ",
+        "title": "Le Deep Learning et les GAN - Tartine & Tech",
+        "duration": "8:46",
+        "date": "Mar 19, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "ESOSFxdKMQE",
+        "title": "Github Actions - Tartine & Tech",
+        "duration": "6:38",
+        "date": "Mar 18, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      },
+      {
+        "youtubeId": "-Hu0yD5kWRQ",
+        "title": "Les certifications Azure - Tartine & Tech",
+        "duration": "7:26",
+        "date": "Mar 17, 2020",
+        "event": {
+          "name": "Targine & Tech",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wqd1Fp_eak4qKBnDKcB8PuT"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Show me Static Web Apps",
+    "videos": [
+      {
+        "youtubeId": "FY5syL3WdtM",
+        "title": "Qu'est ce qu'Azure Static Web Apps et pourquoi l'utiliser ? - Show me Static Web Apps Ep. 01",
+        "duration": "5:17",
+        "date": "Feb 3, 2022",
+        "event": {
+          "name": "Show me Static Web Apps",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wosee1GtXCiopNBQ6vFW2Ra"
+        }
+      }
+      ,
+      {
+        "youtubeId": "AUyTXE9tu6s",
+        "title": "Comment créer une application Serverless avec Azure Static Web App - Show me Static Web Apps Ep. 12",
+        "duration": "3:21",
+        "date": "Feb 3, 2022",
+        "event": {
+          "name": "Show me Static Web Apps",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wosee1GtXCiopNBQ6vFW2Ra"
+        }
+      },
+      {
+        "youtubeId": "qJ-50pmGWAU",
+        "title": "Comment créer une Azure Static Web App depuis un template GitHub ? - Show me Static Web App Ep. 13",
+        "duration": "4:07",
+        "date": "Feb 3, 2022",
+        "event": {
+          "name": "Show me Static Web Apps",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wosee1GtXCiopNBQ6vFW2Ra"
+        }
+      },
+      {
+        "youtubeId": "JMWm07h_894",
+        "title": "Comment configurer Cosmos DB avec l'API MongoDB dans une SWA ? - Show me Static Web Apps Ep. 14",
+        "duration": "4:25",
+        "date": "Feb 3, 2022",
+        "event": {
+          "name": "Show me Static Web Apps",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wosee1GtXCiopNBQ6vFW2Ra"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Show me Node.js",
+    "videos": [
+      {
+        "youtubeId": "z7XEPaGL3jY",
+        "title": "Comment exécuter du code pas à pas dans le debugger intégré de Node.js - Show me Node.js Ep. 22",
+        "duration": "5:46",
+        "date": "Feb 17, 2021",
+        "event": {
+          "name": "Show me : Node.js",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
+        }
+      },
+      {
+        "youtubeId": "EKxhcqZDr6A",
+        "title": "Comment configurer VSCode pour débugger des applications Node.js - Show me Node.js Ep.23",
+        "duration": "3:24",
+        "date": "Feb 17, 2021",
+        "event": {
+          "name": "Show me : Node.js",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
+        }
+      },
+      {
+        "youtubeId": "AJrfNRddtgo",
+        "title": "Comment utiliser le debugger de VSCode avec une application Node.js - Show me Node.js Ep. 24",
+        "duration": "4:28",
+        "date": "Feb 17, 2021",
+        "event": {
+          "name": "Show me : Node.js",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
+        }
+      },
+      {
+        "youtubeId": "x4xkMFsCsZE",
+        "title": "Comment utiliser la pile d'appels dans VSCode pour débugger une app Node.js - Show me Node.js Ep. 25",
+        "duration": "2:58",
+        "date": "Feb 17, 2021",
+        "event": {
+          "name": "Show me : Node.js",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
+        }
+      },
+      {
+        "youtubeId": "x06petUJluc",
+        "title": "Comment utiliser les outils de debug avancés dans VSCode - Show me Node.js Ep. 26",
+        "duration": "5:00",
+        "date": "Feb 17, 2021",
+        "event": {
+          "name": "Show me : Node.js",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo0EkNoLEnx4BE_xm4SsSRj"
+        }
+      }
+      
+    ]
+  },
+  {
+    "title": "Azure Snacks",
+    "videos": [
+      {
+        "youtubeId": "KExK04g8cUA",
+        "title": "Deploy an Angular App with a serverless backend on Azure Static Web App",
+        "duration": "1:22",
+        "date": "Feb 1, 2022",
+        "event": {
+          "name": "Azure Snacks",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WqAlP2ATMnDQi7xlcuYqFUM"
+        }
+      },
+      {
+        "youtubeId": "LPSA1TY3-Bo",
+        "title": "Create an test on your computer a web app with a serverless backend on Azure using the SWA CLI",
+        "duration": "2:26",
+        "date": "Jan 24, 2022",
+        "event": {
+          "name": "Azure Snacks",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WqAlP2ATMnDQi7xlcuYqFUM"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Show me Serverless",
+    "videos": [
+      {
+        "youtubeId": "CLA0Y-VAeL0",
+        "title": "Créer votre première fonction dans Azure - Show me Serverless Ep. 04",
+        "duration": "3:20",
+        "date": "May 25, 2021",
+        "event": {
+          "name": "Show me Serverless",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
+        }
+      },
+      {
+        "youtubeId": "L4LbTzZKA28",
+        "title": "A quoi ressemble une fonction dans Azure ? - Show me Serverless Ep. 05",
+        "duration": "3:25",
+        "date": "May 25, 2021",
+        "event": {
+          "name": "Show me Serverless",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
+        }
+      },
+      {
+        "youtubeId": "C1i29suPZII",
+        "title": "Comment mettre à jour une fonction Azure ? - Show me Serverless Ep. 06",
+        "duration": "3:01",
+        "date": "May 25, 2021",
+        "event": {
+          "name": "Show me Serverless",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
+        }
+      },
+      {
+        "youtubeId": "q0L8C4FRfAk",
+        "title": "Comment débugguer une Azure functions ? - Show me Serverless Ep. 07",
+        "duration": "3:27",
+        "date": "May 25, 2021",
+        "event": {
+          "name": "Show me Serverless",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
+        }
+      },
+      {
+        "youtubeId": "AU-2Am3asNU",
+        "title": "Comment installer un package Node.js dans un projet Azure Functions ? - Show me Serverless Ep. 08",
+        "duration": "2:17",
+        "date": "May 25, 2021",
+        "event": {
+          "name": "Show me Serverless",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
+        }
+      },
+      {
+        "youtubeId": "9RLbuEnW-6g",
+        "title": "Les triggers et bindings dans Azure Functions - Show me Serverless Ep. 12",
+        "duration": "7:27",
+        "date": "May 25, 2021",
+        "event": {
+          "name": "Show me Serverless",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
+        }
+      },
+      {
+        "youtubeId": "406QTi-0eNc",
+        "title": "Les tâches CRON et les timers en Serverless - Show me Serverless Ep. 13",
+        "duration": "5:18",
+        "date": "May 25, 2021",
+        "event": {
+          "name": "Show me Serverless",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
+        }
+      },
+      {
+        "youtubeId": "1Hsdh-hhP-U",
+        "title": "Comment connecter une fonction Azure à MongoDB ? - Show me Serverless Ep. 14",
+        "duration": "6:01",
+        "date": "May 25, 2021",
+        "event": {
+          "name": "Show me Serverless",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-Wo2W81Jyqlv5B375W_EcUsj"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Microsoft Rollback",
+    "videos": [
+      {
+        "youtubeId": "ErRH463ciQI",
+        "title": "Rollback #01 : Windows Terminal, Projet Bicep, VSCode and more !",
+        "duration": "3:43",
+        "date": "Feb 22, 2021",
+        "event": {
+          "name": "Rollback",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WrLUbcQd-UosrdvWnEkSjVE"
+        }
+      },
+      {
+        "youtubeId": "O6BZu9O4RDU",
+        "title": "Rollback #2 - Microsoft Ignite Edition: Microsoft Mesh, .NET Upgrade Assistant, Azure Arc and more !",
+        "duration": "5:41",
+        "date": "Mar 8, 2021",
+        "event": {
+          "name": "Rollback",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WrLUbcQd-UosrdvWnEkSjVE"
+        }
+      },
+      {
+        "youtubeId": "aI9XFDpsGaA",
+        "title": "Rollback 21.4 - Static Web Apps, Azure Communication Services, OpenJDK et plus encore !",
+        "duration": "3:13",
+        "date": "Apr 14, 2021",
+        "event": {
+          "name": "Rollback",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WrLUbcQd-UosrdvWnEkSjVE"
+        }
+      },
+      {
+        "youtubeId": "lLzcArJeA1A",
+        "title": "Rollback 21.11 - Spécial MS Ignite: Cosmos DB, Container Apps, Chaos Studio, OpenAI et plus encore !",
+        "duration": "4:10",
+        "date": "Nov 24, 2021",
+        "event": {
+          "name": "Rollback",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WrLUbcQd-UosrdvWnEkSjVE"
+        }
+      }
+    ]
+  },
+  {
+    "title": "interviews",
+    "videos": [
+      {
+        "youtubeId": "76K6QqTdBi0",
+        "title": "Être DevRel pendant le Covid avec Olivier chez Microsoft - Parlons Tech",
+        "duration": "2:06",
+        "date": "May 23, 2022",
+        "event": {
+          "name": "WeLoveDevs",
+          "link": "https://welovedevs.com/"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Geek Cooking Class",
+    "videos": [
+      {
+        "youtubeId": "WzD-xlftP7s",
+        "title": "Geek Cooking Class - Naruto Ramens",
+        "duration": "42:55",
+        "date": "May 16, 2021",
+        "event": {
+          "name": "Geek Cooking Class",
+          "link": "https://www.youtube.com/watch?v=WzD-xlftP7s"
+        }
+      },
+      {
+        "youtubeId": "twmlNL5zuig",
+        "title": "Geek Cooking Class - Boulettes de viandes",
+        "duration": "42:03",
+        "date": "May 14, 2021",
+        "event": {
+          "name": "Geek Cooking Class",
+          "link": "https://www.youtube.com/watch?v=twmlNL5zuig"
+        }
+      },
+      {
+        "youtubeId": "rSYkadimwA8",
+        "title": "Geek Cooking Class - TMNT Pizza",
+        "duration": "40:19",
+        "date": "May 2, 2021",
+        "event": {
+          "name": "Geek Cooking Class",
+          "link": "https://www.youtube.com/watch?v=rSYkadimwA8"
+        }
+      },
+      {
+        "youtubeId": "zl-dKKRcoJo",
+        "title": "Geek Cooking Class - Sandwitch de la comté",
+        "duration": "42:17",
+        "date": "Apr 7, 2021",
+        "event": {
+          "name": "Geek Cooking Class",
+          "link": "https://www.youtube.com/watch?v=zl-dKKRcoJo"
+        }
+      },
+      {
+        "youtubeId": "gpixF1yPyjo",
+        "title": "Geek Cooking Class - La Bierreaubeurre",
+        "duration": "42:17",
+        "date": "May 23, 2021",
+        "event": {
+          "name": "Geek Cooking Class",
+          "link": "https://www.youtube.com/watch?v=gpixF1yPyjo"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Back to the future",
+    "videos": [
+      {
+        "youtubeId": "GryeYEylmA0",
+        "title": "Back to the future - Windows XP",
+        "duration": "29:33",
+        "date": "May 11, 2021",
+        "event": {
+          "name": "Back to the future",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WpevjdOj1NcmOyJoXSshbAU"
+        }
+      },
+      {
+        "youtubeId": "oAgsrbnAmh0",
+        "title": "Back to the future - Microsoft Frontpage",
+        "duration": "29:11",
+        "date": "Apr 6, 2021",
+        "event": {
+          "name": "Back to the future",
+          "link": "https://www.youtube.com/playlist?list=PLbl2SbVIi-WpevjdOj1NcmOyJoXSshbAU"
+        }
+      }
+    ]
+  },
+  {
+    "title": "conference",
+    "display": false,
+    "videos": [
+      {
+        "youtubeId": "vcPBVa5E80w",
+        "title": "www : The Web Will Win",
+        "duration": "17:38",
+        "event": "HumanTalks Paris",
+        "type": "conference"
+      },
+      {
+        "youtubeId": "Rwa1qhDjkoo",
+        "title": "This is your captain speaking, please put your phone in airplane mode !",
+        "duration": "25:05",
+        "event": "PWA Paris",
+        "type": "conference"
+      },
+      {
+        "youtubeId": "TGSjRPhagE4",
+        "title": "Please welcome Angular 2",
+        "duration": "50:24",
+        "event": "BDX I/O",
+        "type": "conference"
+      },
+      {
+        "youtubeId": "Kj8NuMHUvN4",
+        "title": "What's up TC39 ?",
+        "duration": "44:04",
+        "event": "BDX I/O",
+        "type": "conference"
+      }
+    ]
+  }
 ]
