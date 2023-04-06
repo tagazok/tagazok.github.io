@@ -40,7 +40,7 @@ function generateCategoryTemplate(category) {
 
   let tmpl = `
     <div class="category">
-      <h2>${category.title}</h2>
+      <h2 id="${category.title}">${category.title}</h2>
       <div class="videos flex flex-row">`;
   for (let video of category.videos) {
     if (video.type !== "conference") {

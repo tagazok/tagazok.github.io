@@ -17,6 +17,22 @@
   },
   {
     "date": "2023-05-11",
+    "name": "AWS Summit London",
+    "location": {
+      "name": "Lonson, United Kingdon"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://aws.amazon.com/events/summits/london/",
+    "talks": [
+      {
+        "title": "A deployment is not a release: Control your launches with feature flags"
+      }
+    ]
+  },
+  {
+    "date": "2023-05-11",
     "name": "AWS Summit Stockholm",
     "location": {
       "name": "Stockholm, Sweden"

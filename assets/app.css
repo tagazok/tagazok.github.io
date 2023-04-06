@@ -1,3 +1,7 @@
+:root {
+  --main-bg-color: rgba(135,55,123,1);
+}
+
 html {
   background: #f6f9fa;
   font-family: 'Nunito Sans', sans-serif;
@@ -59,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .bg-primary {
-  background-color: rgba(135,55,123,1);
+  background-color: var(--main-bg-color);
 }
 
 .no-padding {

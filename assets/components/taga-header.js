@@ -6,7 +6,7 @@ template.innerHTML = `
     </style>
     <header class="header">
         <div class="container">
-            <img class="avatar" src="assets/avatar.jpeg" />
+            <a href="/"><img class="avatar" src="assets/avatar.jpeg" /></a>
             <h1 class="title">Olivier Leplus</h1>
             <p class="text">
                 Hi! I'm Olivier, and I am looking forward to see what is going to amaze me today.

@@ -10,6 +10,10 @@
     margin-bottom: 2em;
 }
 
+/* .category:nth-child(even) {
+    background-color: var(--second-bg-color);
+} */
+
 .category h2 {
     padding: .83em 0 .83em 8px;
     color: #fff;
