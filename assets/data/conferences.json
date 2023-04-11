@@ -117,23 +117,6 @@
     "event": "recaptour"
   },
   {
-    "date": "2023-02-15",
-    "name": "Lyon AWS User Group",
-    "location": {
-      "name": "Lyon, France"
-    },
-    "roles": [
-      "speaker"
-    ],
-    "link": "",
-    "talks": [
-      {
-        "title": "AWS re:Cap"
-      }
-    ],
-    "event": "recaptour"
-  },
-  {
     "date": "2023-02-14",
     "name": "AWS Swiss User Group - Geneva",
     "location": {
