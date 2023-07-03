@@ -1,5 +1,53 @@
 [
   {
+    "date": "2023-11-16",
+    "name": "DevFest Toulouse",
+    "location": {
+      "name": "Toulouse, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfesttoulouse.fr/",
+    "talks": [
+      {
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+      }
+    ]
+  },
+  {
+    "date": "2023-10-20",
+    "name": "DevFest Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfest.gdgnantes.com/en/",
+    "talks": [
+      {
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+      }
+    ]
+  },
+  {
+    "date": "2023-06-29",
+    "name": "Power Branch: The last Commit",
+    "location": {
+      "name": "Frameries, Belgium"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.eventbrite.be/e/billets-cloture-de-la-power-branch-641375821347",
+    "talks": [
+      {
+        "title": "Quels sont les enjeux et opprotunité de l'IA pour les dev"
+      }
+    ]
+  },
+  {
     "date": "2023-06-16",
     "name": "Camping des speakers",
     "location": {
