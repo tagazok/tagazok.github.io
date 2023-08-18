@@ -48,6 +48,22 @@
     ]
   },
   {
+    "date": "2023-10-11",
+    "name": "Devoxx Morocco",
+    "location": {
+      "name": "Agadir, Morocco"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devoxx.ma/",
+    "talks": [
+      {
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+      }
+    ]
+  },
+  {
     "date": "2023-06-29",
     "name": "Power Branch: The last Commit",
     "location": {
