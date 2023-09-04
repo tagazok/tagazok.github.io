@@ -64,6 +64,23 @@
     ]
   },
   {
+    "date": "2023-10-11",
+    "name": "Lomé AWS User Group",
+    "location": {
+      "name": "Lomé, Togo"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/lome-aws-user-group/events/294018217/",
+    "talks": [
+      {
+        "title": "Un déploiement n'est pas une release: Controlez vos lancements avec les Feature Flags"
+      }
+    ]
+  },
+  
+  {
     "date": "2023-06-29",
     "name": "Power Branch: The last Commit",
     "location": {
