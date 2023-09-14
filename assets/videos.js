@@ -34,8 +34,6 @@ async function getVideos() {
   }
 }
 
-
-
 function generateCategoryTemplate(category) {
 
   let tmpl = `

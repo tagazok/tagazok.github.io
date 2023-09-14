@@ -3,13 +3,13 @@
 const dom_conferences = document.querySelector('#conferences');
 const dom_nextConferences = document.querySelector('#next-conferences');
 const dom_btn_moreconferences = document.querySelector('#more-conferences');
-const dom_videos = document.querySelector('#videos');
+//const dom_videos = document.querySelector('#videos');
 
-dom_btn_moreconferences.addEventListener('click', event => {
+dom_btn_moreconferences?.addEventListener('click', event => {
   console.log("View more conferences");
-  document.querySelector('.conferences__overlay').remove();
+  document.querySelector('.conferences__overlay')?.remove();
   dom_btn_moreconferences.remove();
-  dom_conferences.classList.remove("conferences--small");
+  dom_conferences?.classList.remove("conferences--small");
 });
 
 

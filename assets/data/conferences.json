@@ -64,7 +64,120 @@
     ]
   },
   {
-    "date": "2023-10-11",
+    "date": "2023-10-06",
+    "name": "AWS On Tour Barcelona",
+    "location": {
+      "name": "Barcelona, Spain"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://awsontour-barcelona.splashthat.com/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2023-10-04",
+    "name": "AWS On Tour Lyon",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://awsontour-lyon.splashthat.com/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2023-10-02",
+    "name": "AWS On Tour Milan",
+    "location": {
+      "name": "Milan, Italu"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://awsontour-milan.splashthat.com/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2023-09-29",
+    "name": "AWS On Tour Zurich",
+    "location": {
+      "name": "Zurich, Switzerland"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://awsontour-zurich.splashthat.com/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2023-09-27",
+    "name": "AWS On Tour Frankfurt",
+    "location": {
+      "name": "Frankfurt, Germany"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://awsontour-frankfurt.splashthat.com/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2023-09-25",
+    "name": "AWS On Tour Amsterdam",
+    "location": {
+      "name": "Amsterdam, Netherland"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://awsontour-amsterdam.splashthat.com/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2023-09-22",
+    "name": "AWS On Tour Brussels",
+    "location": {
+      "name": "Brussels, Belgium"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://awsontour-brussels.splashthat.com/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2023-09-18",
+    "name": "AWS On Tour Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://awsontour-paris.splashthat.com/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2023-09-20",
+    "name": "AWS On Tour London",
+    "location": {
+      "name": "London, UK"
+    },
+    "roles": [
+      "organizer", "speaker"
+    ],
+    "talks": [
+      {
+        "title": "Build a full-Stack application without being an architect"
+      }
+    ],
+    "link": "https://awsontour-london.splashthat.com/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2023-07-19",
     "name": "Lomé AWS User Group",
     "location": {
       "name": "Lomé, Togo"
@@ -79,7 +192,6 @@
       }
     ]
   },
-  
   {
     "date": "2023-06-29",
     "name": "Power Branch: The last Commit",

@@ -194,12 +194,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.conference.roadshow, .conference.recaptour {
+.conference.roadshow, .conference.recaptour, .conference.awsontour {
   border-left: solid 3px orange;
   padding-left: 27px;
 }
 
-.roadshow + .conference:not(.roadshow):before {
+/* .roadshow + .conference:not(.roadshow):before {
   content: '#MSDevRoadShow';
   display: inline-block;
   transform: rotate(270deg);
@@ -207,9 +207,18 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: -75px;
   left: -80px;
+} */
+
+.roadshow:has(+ li:not(.roadshow)):before {
+  content: '#MSDevRoadShow';
+  position: absolute;
+  transform: rotate(270deg);
+  color: orange;
+  left: -85px;
+  bottom: 70px;
 }
 
-.recaptour + .conference:not(.recaptour):before {
+/* .recaptour + .conference:not(.recaptour):before {
   content: 'AWS re:Cap Tour';
   display: inline-block;
   transform: rotate(270deg);
@@ -217,6 +226,34 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: -75px;
   left: -80px;
+} */
+
+.recaptour:has(+ li:not(.recaptour)):before {
+  content: 'AWS re:Cap Tour';
+  position: absolute;
+  transform: rotate(270deg);
+  color: orange;
+  left: -78px;
+  bottom: 63px;
+}
+/* .awsontour + .conference:not(.awsontour):before {
+  content: 'AWS On Tour';
+  display: inline-block;
+  transform: rotate(270deg);
+  color: orange;
+  position: absolute;
+  top: -75px;
+  left: -65px;
+} */
+
+.awsontour:has(+ li:not(.awsontour)):before {
+  /* background-color: red !important; */
+  content: 'AWS On Tour';
+  position: absolute;
+  transform: rotate(270deg);
+  color: orange;
+  left: -65px;
+  bottom: 45px;
 }
 
 .conferences .conference:last-child {
