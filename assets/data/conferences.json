@@ -1,5 +1,21 @@
 [
   {
+    "date": "2023-11-29",
+    "name": "AWS re:Invent",
+    "location": {
+      "name": "Las Vegas, USA"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://reinvent.awsevents.com/",
+    "talks": [
+      {
+        "title": "Building an AWS solutions architect agent with Amazon Bedrock"
+      }
+    ]
+  },
+  {
     "date": "2023-11-16",
     "name": "DevFest Toulouse",
     "location": {
@@ -62,6 +78,18 @@
         "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
       }
     ]
+  },
+  {
+    "date": "2023-10-09",
+    "name": "AWS On Tour Closing Twitch",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://twitch.tv/aws",
+    "event": "awsontour"
   },
   {
     "date": "2023-10-06",
