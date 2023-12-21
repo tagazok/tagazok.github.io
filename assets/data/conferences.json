@@ -31,7 +31,11 @@
     "link": "https://reinvent.awsevents.com/",
     "talks": [
       {
-        "title": "Building an AWS solutions architect agent with Amazon Bedrock"
+        "title": "Building an AWS solutions architect agent with Amazon Bedrock",
+        "video": "https://www.youtube.com/watch?v=kzzlchi0DzU"
+      },
+      {
+        "title": "[Workshop] Make applications highly resilient with AWS Fault Injection Simulator"
       }
     ]
   },
@@ -47,7 +51,8 @@
     "link": "https://devfesttoulouse.fr/",
     "talks": [
       {
-        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
+        "video": "https://www.youtube.com/watch?v=_Dg1Wb7rMRs"
       }
     ]
   },
@@ -79,7 +84,8 @@
     "link": "https://devfest.gdgnantes.com/en/",
     "talks": [
       {
-        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
+        "video": "https://www.youtube.com/watch?v=jCk0cyjexNU"
       }
     ]
   },
