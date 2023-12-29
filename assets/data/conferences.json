@@ -1,5 +1,21 @@
 [
   {
+    "date": "2024-02-08",
+    "name": "Touraine Tech",
+    "location": {
+      "name": "Tours, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://touraine.tech/",
+    "talks": [
+      {
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+      }
+    ]
+  },
+  {
     "date": "2024-02-02",
     "name": "Snowcamp",
     "location": {
@@ -18,6 +34,108 @@
         "title": "[Workshop] Développez votre application web (presque) sans code avec Amplify"
       }
     ]
+  },
+  {
+    "date": "2024-01-18",
+    "name": "AWS User Group Toulouse",
+    "location": {
+      "name": "Toulouse, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/toulouse-amazon-web-services/events/297831603/",
+    "talks": [
+      {
+        "title": "Re:Cap : le résumé des annonces du AWS re:Invent"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2024-01-17",
+    "name": "AWS User Group Aix-Marseille",
+    "location": {
+      "name": "Marseille, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/marseille-aws-user-group/",
+    "talks": [
+      {
+        "title": "Re:Cap : le résumé des annonces du AWS re:Invent"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2024-01-16",
+    "name": "AWS User Group Grenoble",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/grenoble-aws-user-group/events/297945517/",
+    "talks": [
+      {
+        "title": "AWS re:Invent 2023 re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2024-01-15",
+    "name": "AWS User Group Lyon",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/aws-lyon-amazon-web-services-user-group/events/297809580/",
+    "talks": [
+      {
+        "title": "AWS re:Invent 2023 re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2024-01-09",
+    "name": "AWS User Group Lille",
+    "location": {
+      "name": "Lille, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/lille-aws-amazon-web-services-user-group/events/297814312/",
+    "talks": [
+      {
+        "title": "AWS re:Invent 2023 re:Cap"
+      }
+    ],
+    "event": "recaptour"
+  },
+  {
+    "date": "2024-01-04",
+    "name": "AWS User Group Nancy",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/awsugnancy/events/298171837/",
+    "talks": [
+      {
+        "title": "AWS re:Invent 2023 re:Cap"
+      }
+    ],
+    "event": "recaptour"
   },
   {
     "date": "2023-11-29",
