@@ -16,6 +16,18 @@
     ]
   },
   {
+    "date": "2024-02-06",
+    "name": "DevFest Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "organizer"
+    ],
+    "link": "https://devfest.gdgparis.com/",
+    "talks": []
+  },
+  {
     "date": "2024-02-02",
     "name": "Snowcamp",
     "location": {
