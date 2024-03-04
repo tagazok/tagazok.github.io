@@ -1,5 +1,43 @@
 [
   {
+    "date": "2024-04-03",
+    "name": "AWS Summit 2024",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://aws.amazon.com/fr/events/summits/emea/paris/",
+    "talks": [
+      {
+        "title": "Façonnez Votre Cloud avec Karpenter : Les Secrets du Maître Charpentier du Numérique"
+      },
+      {
+        "title": "Créez simplement et rapidement votre propre application de partage de photos"
+      },
+      {
+        "title": "Créez son application nouvelle génération avec AWS Amplify"
+      }
+    ]
+  },
+  {
+    "date": "2024-03-09",
+    "name": "International Women's Day 2024",
+    "location": {
+      "name": "Glasgow, Scotland"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://wtmscotland.com/",
+    "talks": [
+      {
+        "title": "CSS Rises from the Ashes: (Re)Become Friends with Your Stylesheet"
+      }
+    ]
+  },
+  {
     "date": "2024-02-08",
     "name": "Touraine Tech",
     "location": {
