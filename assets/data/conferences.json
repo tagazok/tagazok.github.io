@@ -1,5 +1,21 @@
 [
   {
+    "date": "2024-04-17",
+    "name": "Devoxx France 2024",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.devoxx.fr/schedule/talk/?id=23567",
+    "talks": [
+      {
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+      }
+    ]
+  },
+  {
     "date": "2024-04-03",
     "name": "AWS Summit 2024",
     "location": {
