@@ -1,5 +1,21 @@
 [
   {
+    "date": "2024-04-18",
+    "name": "GDSC Université Côte d'Azur",
+    "location": {
+      "name": "Nice, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "  https://gdsc.community.dev/events/details/developer-student-clubs-cote-dazur-university-presents-talk-experts-de-chez-amazon-aws-et-google-comment-naviguer-sa-carriere-dans-la-tech/",
+    "talks": [
+      {
+        "title": "Comment Naviguer sa Carrière dans la Tech"
+      }
+    ]
+  },
+  {
     "date": "2024-04-17",
     "name": "Devoxx France 2024",
     "location": {
