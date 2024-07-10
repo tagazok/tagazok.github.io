@@ -1,5 +1,21 @@
 [
   {
+    "date": "2024-11-26",
+    "name": "DevFest Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfest.gdgstrasbourg.fr/",
+    "talks": [
+      {
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+      }
+    ]
+  },
+  {
     "date": "2024-11-07",
     "name": "DevFest Toulouse",
     "location": {
