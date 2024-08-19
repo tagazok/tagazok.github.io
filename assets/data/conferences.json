@@ -1,6 +1,22 @@
 [
   {
     "date": "2024-11-26",
+    "name": "AWS re:Invent",
+    "location": {
+      "name": "Las Vegas, USA"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://reinvent.awsevents.com/",
+    "talks": [
+      {
+        "title": "Build a cloud-powered cross-platform app with AWS Amplify"
+      }
+    ]
+  },
+  {
+    "date": "2024-11-26",
     "name": "DevFest Strasbourg",
     "location": {
       "name": "Strasbourg, France"
@@ -44,6 +60,22 @@
     "talks": [
       {
         "title": "Façonnez Votre Cloud avec Karpenter : Les Secrets du Maître Charpentier du Numérique"
+      }
+    ]
+  },
+  {
+    "date": "2024-02-10",
+    "name": "Devoxx Morocco",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devoxx.ma/",
+    "talks": [
+      {
+        "title": "A l'aide, mon IA est débile! Comment évaluer et améliorer son IA générative"
       }
     ]
   },
