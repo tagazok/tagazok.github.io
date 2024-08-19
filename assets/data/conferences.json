@@ -96,6 +96,22 @@
     ]
   },
   {
+    "date": "2024-09-27",
+    "name": "GDG Cap Town",
+    "location": {
+      "name": "Cap Town, South Africa"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/fr-FR/gdg-cape-town-meetup/events/302433554/",
+    "talks": [
+      {
+        "title": "CSS Rises from the Ashes: (Re)Become Friends with Your Stylesheet"
+      }
+    ]
+  },
+  {
     "date": "2024-04-18",
     "name": "GDSC Université Côte d'Azur",
     "location": {
