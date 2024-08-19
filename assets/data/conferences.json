@@ -65,6 +65,22 @@
   },
   {
     "date": "2024-10-02",
+    "name": "NGDE Day London",
+    "location": {
+      "name": "London, UK"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://aws.amazon.com/startups/lp/aws-gen-ai-loft-london",
+    "talks": [
+      {
+        "title": "Amazon Bedrock web component"
+      }
+    ]
+  },
+  {
+    "date": "2024-10-02",
     "name": "Devoxx Morocco",
     "location": {
       "name": "Strasbourg, France"
