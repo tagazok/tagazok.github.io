@@ -33,6 +33,22 @@
   },
   {
     "date": "2024-11-07",
+    "name": "DevDay",
+    "location": {
+      "name": "Mons, Belgium"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devday.be/",
+    "talks": [
+      {
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+      }
+    ]
+  },
+  {
+    "date": "2024-11-07",
     "name": "DevFest Toulouse",
     "location": {
       "name": "Toulouse, France"
@@ -60,6 +76,22 @@
     "talks": [
       {
         "title": "Façonnez Votre Cloud avec Karpenter : Les Secrets du Maître Charpentier du Numérique"
+      }
+    ]
+  },
+  {
+    "date": "2024-10-10",
+    "name": "EDIH Corsica",
+    "location": {
+      "name": "Ajaccio, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.corsica.ai/",
+    "talks": [
+      {
+        "title": "[workshop] Use Foundation Models in Amazon Bedrock"
       }
     ]
   },
