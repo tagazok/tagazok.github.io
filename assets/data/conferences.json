@@ -32,6 +32,22 @@
     ]
   },
   {
+    "date": "2024-11-16",
+    "name": "DevFest Lagos",
+    "location": {
+      "name": "Lagos, Nigeria"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://gdg.community.dev/events/details/google-gdg-lagos-presents-devfest-lagos-2024/",
+    "talks": [
+      {
+        "title": "CSS Rises from the Ashes: (Re)Become Friends with Your Stylesheet"
+      }
+    ]
+  },
+  {
     "date": "2024-11-07",
     "name": "DevDay",
     "location": {
