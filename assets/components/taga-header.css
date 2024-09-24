@@ -1,5 +1,4 @@
 .header {
-    padding: 100px 0;
     /* background: url(https://ultimateangular.com/assets/img/homepage/hero.jpg) center center no-repeat;
     background: url(img/HumanTalksGoogle2.jpg) center center no-repeat;
     background-size: cover; */
@@ -7,21 +6,43 @@
     color: #fff;
     background: rgb(2, 0, 36);
     background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(40, 40, 61, 1) 0%, rgba(135, 55, 123, 1) 100%);
-}
 
-.header h1 {
-    margin: 0;
-}
+    .container {
+        padding: 100px 0;
+    }
 
-.header p {
-    margin: 0;
-}
+    h1 {
+        margin: 0;
+    }
 
-.header .title {
-    font-size: 46px;
-    font-weight: 400;
-    line-height: 68px;
-    margin-bottom: 50px;
+    p {
+        margin: 0;
+    }
+    .title {
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 68px;
+        margin-bottom: 50px;
+    }
+
+    .menu {
+        justify-content: center;
+        gap: 1em;
+        padding: 1rem;
+        
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                color: hsl(from var(--main-bg-color) h calc(s + 90) l);
+            }
+        }
+    }
 }
 
 .header .text {
@@ -34,19 +55,14 @@
     text-decoration: none;
     color: #00e195;
 }
-
-.header .menu {
-    justify-content: center;
-    gap: 1em;
-}
-
+/* 
 .header .menu a {
     background-color: #fff;
     color: #444444;
     padding: 2px 6px;
     text-decoration: none;
     border-radius: 12px;
-}
+} */
 
 .avatar {
     border-radius: 50%;

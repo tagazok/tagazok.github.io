@@ -112,6 +112,22 @@
     ]
   },
   {
+    "date": "2024-10-09",
+    "name": "Next Generation Developer Experience Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://aws.amazon.com/startups/events/aws-genai-loft-next-generation-developer-day",
+    "talks": [
+      {
+        "title": "Opening Keynote focusing on the future of development and Amazon’s vision"
+      }
+    ]
+  },
+  {
     "date": "2024-10-08",
     "name": "NGDE Day London",
     "location": {

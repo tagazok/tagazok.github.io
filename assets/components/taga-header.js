@@ -5,6 +5,11 @@ template.innerHTML = `
         @import "assets/components/taga-header.css";
     </style>
     <header class="header">
+    <div class="menu">
+        <a href="/" title="talks">Talks</a>
+        <a href="/videos.html" title="videos">Videos</a>
+        <a href="https://www.linkedin.com/in/olivierleplus/" title="linkedin" target="_blank">LinkedIn</a>
+    </div>
         <div class="container">
             <a href="/"><img class="avatar" src="assets/avatar.jpeg" /></a>
             <h1 class="title">Olivier Leplus</h1>
