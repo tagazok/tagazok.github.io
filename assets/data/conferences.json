@@ -1,5 +1,21 @@
 [
   {
+    "date": "2025-01-22",
+    "name": "Snowcamp",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://snowcamp.io/",
+    "talks": [
+      {
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+      }
+    ]
+  },
+  {
     "date": "2024-12-03",
     "name": "AWS re:Invent",
     "location": {
