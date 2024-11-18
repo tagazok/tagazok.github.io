@@ -1,5 +1,21 @@
 [
   {
+    "date": "2025-02-07",
+    "name": "TouraineTech",
+    "location": {
+      "name": "Tours, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://touraine.tech/",
+    "talks": [
+      {
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+      }
+    ]
+  },
+  {
     "date": "2025-01-22",
     "name": "Snowcamp",
     "location": {
