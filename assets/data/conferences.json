@@ -1,5 +1,53 @@
 [
   {
+    "date": "2025-06-27",
+    "name": "Sunny Tech",
+    "location": {
+      "name": "Montpellier, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://sunny-tech.io/",
+    "talks": [
+      {
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-24",
+    "name": "GDG Summit 2025",
+    "location": {
+      "name": "Berlin, Germany"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "#",
+    "talks": [
+      {
+        "title": "Tool Up! A Survival Kit for Community Organizers"
+      }
+    ]
+  },
+  {
+    "date": "2025-04-09",
+    "name": "AWS Summit Paris 2025",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://aws.amazon.com/fr/events/summits/paris/",
+    "talks": [
+      {
+        "title": "Développez une application multi-plateformes avec AWS Amplify"
+      }
+    ]
+  },
+  {
     "date": "2025-02-07",
     "name": "TouraineTech",
     "location": {
