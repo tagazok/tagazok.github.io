@@ -1,5 +1,111 @@
 [
   {
+    "date": "2025-09-18",
+    "name": "EPITECH Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2025-09-17",
+    "name": "AWS User Group France - Rennes",
+    "location": {
+      "name": "Rennes, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker",
+    ],
+    "link": "https://www.meetup.com/rennes-amazon-web-services-user-group/events/310610530/",
+    "talks": [
+      {
+        "title": "Créer un maître du jeu (de rôle) multi-agents avec Strands!",
+      },
+      {
+        "title": "Soirée BuilderCards",
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2025-09-17",
+    "name": "EPITECH Rennes",
+    "location": {
+      "name": "Rennes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2025-09-16",
+    "name": "EPITECH Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2025-09-15",
+    "name": "Bordeaux AWS User Group",
+    "location": {
+      "name": "Bordeaux, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/bordeaux-amazon-web-services/",
+    "talks": [
+      {
+        "title": "Créer un maître du jeu (de rôle) multi-agents avec Strands"
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2025-09-15",
+    "name": "EPITECH Bordeaux",
+    "location": {
+      "name": "Bordeaux, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
     "date": "2025-06-27",
     "name": "Sunny Tech",
     "location": {
