@@ -1,6 +1,119 @@
 [
   {
-    "date": "2025-09-18",
+    "date": "2025-12-03",
+    "name": "AWS re:Invent",
+    "location": {
+      "name": "Las Vegas, USA"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://reinvent.awsevents.com/",
+    "talks": [
+      {
+        "title": "Build a multi-agent role-playing Game Master with Strands Agents"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-03",
+    "name": "DevFest Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://devfest.gdgstrasbourg.fr/",
+    "talks": [
+      {
+        "title": "Code, Chrome & Paillettes: codons un Agent AI qui navigue sur le Web à votre place."
+      }
+    ]
+  },
+  {
+    "date": "2025-10-20",
+    "name": "AWS Gen AI Loft Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://aws.amazon.com/startups/lp/aws-gen-ai-loft-paris",
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ]
+  },
+  {
+    "date": "2025-10-20",
+    "name": "AWS Gen AI Loft Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://aws.amazon.com/startups/lp/aws-gen-ai-loft-paris",
+    "talks": [
+      {
+        "title": "[workshop] Amazon Q Developer CLI: IA, AWS et MCP."
+      }
+    ]
+  },
+  {
+    "date": "2025-10-16",
+    "name": "DevFest Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://devfest.gdgnantes.com/",
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ]
+  },
+  {
+    "date": "2025-10-09",
+    "name": "AWS User Group Francophones",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://www.awscommunityfrancophone.com/",
+    "talks": [
+      {
+        "title": "[workshop] GameDay Serverless"
+      }
+    ]
+  },
+  {
+    "date": "2025-10-01",
+    "name": "AWS User Group Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.meetup.com/french-aws-ug/events/310814753/",
+    "talks": [
+      {
+        "title": "Créer un maître du jeu (de rôle) multi-agents avec Strands"
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2025-09-29",
     "name": "EPITECH Paris",
     "location": {
       "name": "Paris, France"
@@ -11,7 +124,24 @@
     "link": "",
     "talks": [
       {
-        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2025-09-19",
+    "name": "EFREI Villejuif",
+    "location": {
+      "name": "Villejuif, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "",
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
       }
     ],
     "event": "awsontour"
@@ -49,7 +179,7 @@
     "link": "",
     "talks": [
       {
-        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
       }
     ],
     "event": "awsontour"
@@ -66,7 +196,7 @@
     "link": "",
     "talks": [
       {
-        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
       }
     ],
     "event": "awsontour"
@@ -100,7 +230,7 @@
     "link": "",
     "talks": [
       {
-        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
       }
     ],
     "event": "awsontour"
