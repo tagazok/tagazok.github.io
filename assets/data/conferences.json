@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-12-13",
+    "name": "Touraine Tech",
+    "location": {
+      "name": "Tours, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://touraine.tech/",
+    "talks": [
+      {
+        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ]
+  },
+  {
+    "date": "2026-01-16",
+    "name": "Snowcamp",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://app.voxxr.in/events/snowcamp26/talks/49/details",
+    "talks": [
+      {
+        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web"
+      }
+    ]
+  },
+  {
     "date": "2025-12-03",
     "name": "AWS re:Invent",
     "location": {
@@ -44,6 +76,22 @@
     "talks": [
       {
         "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ]
+  },
+  {
+    "date": "2025-11-22",
+    "name": "AWS Community Day Cameroon",
+    "location": {
+      "name": "Buea, Cameroon"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.communityday.awscmr.com/",
+    "talks": [
+      {
+        "title": "Build a multi-agent role-playing Game Master with Strands Agents."
       }
     ]
   },
