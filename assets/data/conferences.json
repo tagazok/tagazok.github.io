@@ -1,6 +1,437 @@
 [
   {
-    "date": "2026-12-13",
+    "date": "2026-04-23",
+    "name": "Devoxx France 2026",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "mentor",
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Créer son propre Jeu de Rôle en Agentic AI avec Strands Agents"
+      },
+      {
+        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-22",
+    "name": "AI Community Days",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "Codons un maître du jeu (de rôle) multi-agents avec Strands Agents"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "name": "AI Engineer Europe",
+    "location": {
+      "name": "London, UK"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "name": "Build with AI 2026 - GDG Afrique Francophone",
+    "location": {
+      "name": "Online"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-19",
+    "name": "Warsaw IT Days",
+    "location": {
+      "name": "Online & Warsaw, Poland"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "Build a multi-agent role-playing Game Master with Strands Agents"
+      }
+    ]
+  },
+  {
+    "date": "2026-02-29",
+    "name": "Mistral.ai hackathon",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "Codons un maître du jeu (de rôle) multi-agents avec Strands Agents"
+      }
+    ]
+  },
+  {
+    "date": "2026-02-18",
+    "name": "EPITA Lyon",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-17",
+    "name": "EPITECH Lyon",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-17",
+    "name": "AWS User Group Grenoble",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "AWS re:Invent 2025 re:Cap"
+      }
+    ],
+    "link": "https://www.meetup.com/grenoble-aws-user-group/events/312894750/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-17",
+    "name": "ESGI Grenoble",
+    "location": {
+      "name": "Grenoble, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-16",
+    "name": "AWS User Group Aix-Marseille",
+    "location": {
+      "name": "Aix-en-Provence, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "AWS re:Invent 2025 re:Cap"
+      }
+    ],
+    "link": "https://www.meetup.com/marseille-aws-user-group/events/313086822/?eventOrigin=group_past_events",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-09",
+    "name": "ESIEA Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-05",
+    "name": "EFREI Bordeaux",
+    "location": {
+      "name": "Bordeaux, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-05",
+    "name": "Ynov Bordeaux",
+    "location": {
+      "name": "Bordeaux, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-04",
+    "name": "AWS User Group Bordeaux",
+    "location": {
+      "name": "Bordeaux, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "AWS re:Invent 2025 re:Cap"
+      }
+    ],
+    "link": "https://www.meetup.com/bordeaux-amazon-web-services/events/313077203/?eventOrigin=group_past_events",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-03",
+    "name": "AWS User Group Nantes",
+    "location": {
+      "name": "Lille, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "AWS re:Invent 2025 re:Cap"
+      }
+    ],
+    "link": "https://www.meetup.com/aws-nantes/events/312404802/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-03",
+    "name": "ESGI Nantes",
+    "location": {
+      "name": "Nantes, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-02-02",
+    "name": "AWS User Group Brest",
+    "location": {
+      "name": "Brest, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "AWS re:Invent 2025 re:Cap"
+      }
+    ],
+    "link": "https://www.meetup.com/brest-aws-user-group/events/312377198/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-01-22",
+    "name": "AWS User Group Lille",
+    "location": {
+      "name": "Lille, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "AWS re:Invent 2025 re:Cap"
+      }
+    ],
+    "link": "https://www.meetup.com/lille-aws-amazon-web-services-user-group/events/312745082/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-01-22",
+    "name": "ESGI Lille",
+    "location": {
+      "name": "Lille, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      },
+      {
+        "title": "[workshop] Serverlesspresso"
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-01-21",
+    "name": "AWS User Group Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "AWS re:Invent 2025 re:Cap"
+      }
+    ],
+    "link": "https://www.meetup.com/french-aws-ug/events/312522882/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-01-21",
+    "name": "Ecole 42 Paris",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "Building a Dungeons & Dragons Game Master AI Agent in Python"
+      },
+      {
+        "title": "Comment naviguer sa carrière dans la Tech"
+      }
+    ],
+    "link": "https://www.meetup.com/fr-fr/aws-cloud-club-at-ecole-42-paris/events/312867585/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-01-20",
+    "name": "AWS User Group Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "AWS re:Invent 2025 re:Cap"
+      }
+    ],
+    "link": "https://www.meetup.com/strasbourg-aws-user-group/events/312635600/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-01-20",
+    "name": "EPITA Strasbourg",
+    "location": {
+      "name": "Strasbourg, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-01-19",
+    "name": "AWS User Group Mulhouse",
+    "location": {
+      "name": "Mulhouse, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "AWS re:Invent 2025 re:Cap"
+      }
+    ],
+    "link": "https://www.meetup.com/mulhouse-aws-user-group/events/312457930/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-01-19",
+    "name": "EPITECH Mulhouse",
+    "location": {
+      "name": "Mulhouse, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ],
+    "link": "https://www.meetup.com/aws-cloud-club-at-epitech-mulhouse/",
+    "event": "awsontour"
+  },
+  {
+    "date": "2026-01-13",
     "name": "Touraine Tech",
     "location": {
       "name": "Tours, France"
@@ -27,7 +458,10 @@
     "link": "https://app.voxxr.in/events/snowcamp26/talks/49/details",
     "talks": [
       {
-        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web"
+        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web."
+      },
+      {
+        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
       }
     ]
   },
