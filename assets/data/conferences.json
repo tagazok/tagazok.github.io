@@ -34,6 +34,22 @@
     ]
   },
   {
+    "date": "2026-04-18",
+    "name": "Fork it! Tunis",
+    "location": {
+      "name": "Tunis, Tunisia"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.forkit.community/events/2026-tunisia-tunis",
+    "talks": [
+      {
+        "title": "Codons un maitre du jeu (de role) multi-agents avec Strands Agents"
+      }
+    ]
+  },
+  {
     "date": "2026-04-08",
     "name": "AI Engineer Europe",
     "location": {
@@ -49,7 +65,26 @@
     ]
   },
   {
-    "date": "2026-04-08",
+    "date": "2026-04-01",
+    "name": "AWS Summit Paris 2026",
+    "location": {
+      "name": "Paris, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://aws.amazon.com/events/summits/paris/",
+    "talks": [
+      {
+        "title": "Comment j'ai arrêté de comparer mes vols avec Nova Act."
+      },
+      {
+        "title": "Créer son propre Jeu de Rôle en Agentic AI avec Strands Agents"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-03",
     "name": "Build with AI 2026 - GDG Afrique Francophone",
     "location": {
       "name": "Online"
