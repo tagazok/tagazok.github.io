@@ -1,5 +1,101 @@
 [
   {
+    "date": "2026-07-09",
+    "name": "2ème Summer School Internationale sur l'Intelligence Artificielle du Centre de Recherche Franco-Marocain",
+    "location": {
+      "name": "Rabat, Morocco"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://ensias.um5.ac.ma/news/2nd-international-summer-school-artificial-intelligence-franco-moroccan-research-center-2026",
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "name": "RivieraDev",
+    "location": {
+      "name": "Sophia Antipolis, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://rivieradev.fr/",
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "name": "Sunny Tech",
+    "location": {
+      "name": "Montpellier, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://sunny-tech.io/",
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "name": "Tech'Work",
+    "location": {
+      "name": "Lyon, France"
+    },
+    "roles": [
+      "mentor"
+    ],
+    "link": "https://techwork.events/",
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+      }
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "name": "DevBCN 2026",
+    "location": {
+      "name": "Barcelona, Spain"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://www.devbcn.com/2026/",
+    "talks": [
+      {
+        "title": "Coding a Multi-Agent Game Master with Strands Agents"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "name": "Polycloud 2026",
+    "location": {
+      "name": "Montpellier, France"
+    },
+    "roles": [
+      "speaker"
+    ],
+    "link": "https://polycloud.fr/",
+    "talks": [
+      {
+        "title": "Codons un maître du jeu (de rôle) multi-agents avec Strands Agents"
+      }
+    ]
+  },
+  {
     "date": "2026-04-23",
     "name": "Devoxx France 2026",
     "location": {
