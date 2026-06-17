@@ -3,7 +3,9 @@
     "date": "2026-07-09",
     "name": "2ème Summer School Internationale sur l'Intelligence Artificielle du Centre de Recherche Franco-Marocain",
     "location": {
-      "name": "Rabat, Morocco"
+      "name": "Rabat, Morocco",
+      "city": "Rabat",
+      "country": "Morocco"
     },
     "roles": [
       "mentor"
@@ -19,7 +21,9 @@
     "date": "2026-07-06",
     "name": "RivieraDev",
     "location": {
-      "name": "Sophia Antipolis, France"
+      "name": "Sophia Antipolis, France",
+      "city": "Sophia Antipolis",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -35,7 +39,9 @@
     "date": "2026-07-03",
     "name": "Sunny Tech",
     "location": {
-      "name": "Montpellier, France"
+      "name": "Montpellier, France",
+      "city": "Montpellier",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -51,7 +57,9 @@
     "date": "2026-06-18",
     "name": "Tech'Work",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -67,7 +75,9 @@
     "date": "2026-06-16",
     "name": "DevBCN 2026",
     "location": {
-      "name": "Barcelona, Spain"
+      "name": "Barcelona, Spain",
+      "city": "Barcelona",
+      "country": "Spain"
     },
     "roles": [
       "speaker"
@@ -83,7 +93,9 @@
     "date": "2026-06-06",
     "name": "Polycloud 2026",
     "location": {
-      "name": "Montpellier, France"
+      "name": "Montpellier, France",
+      "city": "Montpellier",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -99,7 +111,9 @@
     "date": "2026-04-23",
     "name": "Devoxx France 2026",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -118,7 +132,9 @@
     "date": "2026-04-22",
     "name": "AI Community Days",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -133,7 +149,9 @@
     "date": "2026-04-18",
     "name": "Fork it! Tunis",
     "location": {
-      "name": "Tunis, Tunisia"
+      "name": "Tunis, Tunisia",
+      "city": "Tunis",
+      "country": "Tunisia"
     },
     "roles": [
       "speaker"
@@ -149,7 +167,9 @@
     "date": "2026-04-08",
     "name": "AI Engineer Europe",
     "location": {
-      "name": "London, UK"
+      "name": "London, UK",
+      "city": "London",
+      "country": "United Kingdom"
     },
     "roles": [
       "speaker"
@@ -164,7 +184,9 @@
     "date": "2026-04-01",
     "name": "AWS Summit Paris 2026",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -183,7 +205,9 @@
     "date": "2026-04-03",
     "name": "Build with AI 2026 - GDG Afrique Francophone",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -198,7 +222,9 @@
     "date": "2026-03-19",
     "name": "Warsaw IT Days",
     "location": {
-      "name": "Online & Warsaw, Poland"
+      "name": "Online & Warsaw, Poland",
+      "city": "Warsaw",
+      "country": "Poland"
     },
     "roles": [
       "speaker"
@@ -213,7 +239,9 @@
     "date": "2026-02-29",
     "name": "Mistral.ai hackathon",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -228,7 +256,9 @@
     "date": "2026-02-18",
     "name": "EPITA Lyon",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -244,7 +274,9 @@
     "date": "2026-02-17",
     "name": "EPITECH Lyon",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -260,7 +292,9 @@
     "date": "2026-02-17",
     "name": "AWS User Group Grenoble",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -277,7 +311,9 @@
     "date": "2026-02-17",
     "name": "ESGI Grenoble",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -293,7 +329,9 @@
     "date": "2026-02-16",
     "name": "AWS User Group Aix-Marseille",
     "location": {
-      "name": "Aix-en-Provence, France"
+      "name": "Aix-en-Provence, France",
+      "city": "Aix-en-Provence",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -310,7 +348,9 @@
     "date": "2026-02-09",
     "name": "ESIEA Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -326,7 +366,9 @@
     "date": "2026-02-05",
     "name": "EFREI Bordeaux",
     "location": {
-      "name": "Bordeaux, France"
+      "name": "Bordeaux, France",
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -342,7 +384,9 @@
     "date": "2026-02-05",
     "name": "Ynov Bordeaux",
     "location": {
-      "name": "Bordeaux, France"
+      "name": "Bordeaux, France",
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -358,7 +402,9 @@
     "date": "2026-02-04",
     "name": "AWS User Group Bordeaux",
     "location": {
-      "name": "Bordeaux, France"
+      "name": "Bordeaux, France",
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -375,7 +421,9 @@
     "date": "2026-02-03",
     "name": "AWS User Group Nantes",
     "location": {
-      "name": "Lille, France"
+      "name": "Lille, France",
+      "city": "Lille",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -392,7 +440,9 @@
     "date": "2026-02-03",
     "name": "ESGI Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -408,7 +458,9 @@
     "date": "2026-02-02",
     "name": "AWS User Group Brest",
     "location": {
-      "name": "Brest, France"
+      "name": "Brest, France",
+      "city": "Brest",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -425,7 +477,9 @@
     "date": "2026-01-22",
     "name": "AWS User Group Lille",
     "location": {
-      "name": "Lille, France"
+      "name": "Lille, France",
+      "city": "Lille",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -442,7 +496,9 @@
     "date": "2026-01-22",
     "name": "ESGI Lille",
     "location": {
-      "name": "Lille, France"
+      "name": "Lille, France",
+      "city": "Lille",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -461,7 +517,9 @@
     "date": "2026-01-21",
     "name": "AWS User Group Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -478,7 +536,9 @@
     "date": "2026-01-21",
     "name": "Ecole 42 Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -498,7 +558,9 @@
     "date": "2026-01-20",
     "name": "AWS User Group Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -515,7 +577,9 @@
     "date": "2026-01-20",
     "name": "EPITA Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -531,7 +595,9 @@
     "date": "2026-01-19",
     "name": "AWS User Group Mulhouse",
     "location": {
-      "name": "Mulhouse, France"
+      "name": "Mulhouse, France",
+      "city": "Mulhouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -548,7 +614,9 @@
     "date": "2026-01-19",
     "name": "EPITECH Mulhouse",
     "location": {
-      "name": "Mulhouse, France"
+      "name": "Mulhouse, France",
+      "city": "Mulhouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -565,7 +633,9 @@
     "date": "2026-01-13",
     "name": "Touraine Tech",
     "location": {
-      "name": "Tours, France"
+      "name": "Tours, France",
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -581,7 +651,9 @@
     "date": "2026-01-16",
     "name": "Snowcamp",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -600,7 +672,9 @@
     "date": "2025-12-03",
     "name": "AWS re:Invent",
     "location": {
-      "name": "Las Vegas, USA"
+      "name": "Las Vegas, USA",
+      "city": "Las Vegas",
+      "country": "United States"
     },
     "roles": [
       "speaker"
@@ -616,7 +690,9 @@
     "date": "2025-11-27",
     "name": "DevFest Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -632,7 +708,9 @@
     "date": "2025-11-25",
     "name": "EPITECH Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -648,7 +726,9 @@
     "date": "2025-11-22",
     "name": "AWS Community Day Cameroon",
     "location": {
-      "name": "Buea, Cameroon"
+      "name": "Buea, Cameroon",
+      "city": "Buea",
+      "country": "Cameroon"
     },
     "roles": [
       "speaker"
@@ -664,7 +744,9 @@
     "date": "2025-10-20",
     "name": "AWS Gen AI Loft Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -680,7 +762,9 @@
     "date": "2025-10-20",
     "name": "AWS Gen AI Loft Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -696,7 +780,9 @@
     "date": "2025-10-16",
     "name": "DevFest Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -712,7 +798,9 @@
     "date": "2025-10-09",
     "name": "AWS User Group Francophones",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "mentor"
@@ -728,7 +816,9 @@
     "date": "2025-10-09",
     "name": "EPITECH Lyon",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -744,7 +834,9 @@
     "date": "2025-10-01",
     "name": "AWS User Group Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -761,7 +853,9 @@
     "date": "2025-09-29",
     "name": "EPITECH Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -778,7 +872,9 @@
     "date": "2025-09-19",
     "name": "EFREI Villejuif",
     "location": {
-      "name": "Villejuif, France"
+      "name": "Villejuif, France",
+      "city": "Villejuif",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -795,7 +891,9 @@
     "date": "2025-09-17",
     "name": "AWS User Group France - Rennes",
     "location": {
-      "name": "Rennes, France"
+      "name": "Rennes, France",
+      "city": "Rennes",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -816,7 +914,9 @@
     "date": "2025-09-17",
     "name": "EPITECH Rennes",
     "location": {
-      "name": "Rennes, France"
+      "name": "Rennes, France",
+      "city": "Rennes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -833,7 +933,9 @@
     "date": "2025-09-16",
     "name": "EPITECH Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -850,7 +952,9 @@
     "date": "2025-09-15",
     "name": "Bordeaux AWS User Group",
     "location": {
-      "name": "Bordeaux, France"
+      "name": "Bordeaux, France",
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -867,7 +971,9 @@
     "date": "2025-09-15",
     "name": "EPITECH Bordeaux",
     "location": {
-      "name": "Bordeaux, France"
+      "name": "Bordeaux, France",
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -884,7 +990,9 @@
     "date": "2025-06-27",
     "name": "Sunny Tech",
     "location": {
-      "name": "Montpellier, France"
+      "name": "Montpellier, France",
+      "city": "Montpellier",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -900,7 +1008,9 @@
     "date": "2025-06-24",
     "name": "GDG Summit 2025",
     "location": {
-      "name": "Berlin, Germany"
+      "name": "Berlin, Germany",
+      "city": "Berlin",
+      "country": "Germany"
     },
     "roles": [
       "speaker"
@@ -916,7 +1026,9 @@
     "date": "2025-04-09",
     "name": "AWS Summit Paris 2025",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -932,7 +1044,9 @@
     "date": "2025-02-07",
     "name": "TouraineTech",
     "location": {
-      "name": "Tours, France"
+      "name": "Tours, France",
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -948,7 +1062,9 @@
     "date": "2025-01-22",
     "name": "Snowcamp",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -964,7 +1080,9 @@
     "date": "2024-12-03",
     "name": "AWS re:Invent",
     "location": {
-      "name": "Las Vegas, USA"
+      "name": "Las Vegas, USA",
+      "city": "Las Vegas",
+      "country": "United States"
     },
     "roles": [
       "speaker"
@@ -980,7 +1098,9 @@
     "date": "2024-11-21",
     "name": "DevFest Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -996,7 +1116,9 @@
     "date": "2024-11-16",
     "name": "DevFest Lagos",
     "location": {
-      "name": "Lagos, Nigeria"
+      "name": "Lagos, Nigeria",
+      "city": "Lagos",
+      "country": "Nigeria"
     },
     "roles": [
       "speaker"
@@ -1012,7 +1134,9 @@
     "date": "2024-11-07",
     "name": "DevDay",
     "location": {
-      "name": "Mons, Belgium"
+      "name": "Mons, Belgium",
+      "city": "Mons",
+      "country": "Belgium"
     },
     "roles": [
       "speaker"
@@ -1028,7 +1152,9 @@
     "date": "2024-11-07",
     "name": "DevFest Toulouse",
     "location": {
-      "name": "Toulouse, France"
+      "name": "Toulouse, France",
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1044,7 +1170,9 @@
     "date": "2024-10-17",
     "name": "DevFest Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1060,7 +1188,9 @@
     "date": "2024-10-10",
     "name": "EDIH Corsica",
     "location": {
-      "name": "Ajaccio, France"
+      "name": "Ajaccio, France",
+      "city": "Ajaccio",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -1076,7 +1206,9 @@
     "date": "2024-10-09",
     "name": "Next Generation Developer Experience Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1092,7 +1224,9 @@
     "date": "2024-10-09",
     "name": "NGDE Day Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1108,7 +1242,9 @@
     "date": "2024-10-08",
     "name": "NGDE Day London",
     "location": {
-      "name": "London, UK"
+      "name": "London, UK",
+      "city": "London",
+      "country": "United Kingdom"
     },
     "roles": [
       "speaker"
@@ -1124,7 +1260,9 @@
     "date": "2024-10-04",
     "name": "Devoxx Morocco",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1140,7 +1278,9 @@
     "date": "2024-08-29",
     "name": "AWS Summit Johannesburg",
     "location": {
-      "name": "Johannesburg, South Africa"
+      "name": "Johannesburg, South Africa",
+      "city": "Johannesburg",
+      "country": "South Africa"
     },
     "roles": [
       "mentor"
@@ -1156,7 +1296,9 @@
     "date": "2024-08-27",
     "name": "GDG Cap Town",
     "location": {
-      "name": "Cap Town, South Africa"
+      "name": "Cap Town, South Africa",
+      "city": "Cap Town",
+      "country": "South Africa"
     },
     "roles": [
       "speaker"
@@ -1172,7 +1314,9 @@
     "date": "2024-04-18",
     "name": "GDSC Université Côte d'Azur",
     "location": {
-      "name": "Nice, France"
+      "name": "Nice, France",
+      "city": "Nice",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1188,7 +1332,9 @@
     "date": "2024-04-17",
     "name": "Devoxx France 2024",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1204,7 +1350,9 @@
     "date": "2024-04-03",
     "name": "AWS Summit 2024",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1226,7 +1374,9 @@
     "date": "2024-03-09",
     "name": "International Women's Day 2024",
     "location": {
-      "name": "Glasgow, Scotland"
+      "name": "Glasgow, Scotland",
+      "city": "Glasgow",
+      "country": "United Kingdom"
     },
     "roles": [
       "speaker"
@@ -1242,7 +1392,9 @@
     "date": "2024-02-08",
     "name": "Touraine Tech",
     "location": {
-      "name": "Tours, France"
+      "name": "Tours, France",
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1258,7 +1410,9 @@
     "date": "2024-02-06",
     "name": "DevFest Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "organizer"
@@ -1270,7 +1424,9 @@
     "date": "2024-02-02",
     "name": "Snowcamp",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "speaker",
@@ -1290,7 +1446,9 @@
     "date": "2024-01-18",
     "name": "AWS User Group Toulouse",
     "location": {
-      "name": "Toulouse, France"
+      "name": "Toulouse, France",
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1307,7 +1465,9 @@
     "date": "2024-01-17",
     "name": "AWS User Group Aix-Marseille",
     "location": {
-      "name": "Marseille, France"
+      "name": "Marseille, France",
+      "city": "Marseille",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1324,7 +1484,9 @@
     "date": "2024-01-16",
     "name": "AWS User Group Grenoble",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1341,7 +1503,9 @@
     "date": "2024-01-15",
     "name": "AWS User Group Lyon",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1358,7 +1522,9 @@
     "date": "2024-01-09",
     "name": "AWS User Group Lille",
     "location": {
-      "name": "Lille, France"
+      "name": "Lille, France",
+      "city": "Lille",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1375,7 +1541,9 @@
     "date": "2024-01-04",
     "name": "AWS User Group Nancy",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -1392,7 +1560,9 @@
     "date": "2023-11-29",
     "name": "AWS re:Invent",
     "location": {
-      "name": "Las Vegas, USA"
+      "name": "Las Vegas, USA",
+      "city": "Las Vegas",
+      "country": "United States"
     },
     "roles": [
       "speaker"
@@ -1412,7 +1582,9 @@
     "date": "2023-11-16",
     "name": "DevFest Toulouse",
     "location": {
-      "name": "Toulouse, France"
+      "name": "Toulouse, France",
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1429,7 +1601,9 @@
     "date": "2023-11-15",
     "name": "DevFest Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1445,7 +1619,9 @@
     "date": "2023-10-20",
     "name": "DevFest Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1462,7 +1638,9 @@
     "date": "2023-10-11",
     "name": "Devoxx Morocco",
     "location": {
-      "name": "Agadir, Morocco"
+      "name": "Agadir, Morocco",
+      "city": "Agadir",
+      "country": "Morocco"
     },
     "roles": [
       "speaker"
@@ -1478,7 +1656,9 @@
     "date": "2023-10-09",
     "name": "AWS On Tour Closing Twitch",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -1490,7 +1670,9 @@
     "date": "2023-10-06",
     "name": "AWS On Tour Barcelona",
     "location": {
-      "name": "Barcelona, Spain"
+      "name": "Barcelona, Spain",
+      "city": "Barcelona",
+      "country": "Spain"
     },
     "roles": [
       "organizer"
@@ -1502,7 +1684,9 @@
     "date": "2023-10-04",
     "name": "AWS On Tour Lyon",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "organizer"
@@ -1514,7 +1698,9 @@
     "date": "2023-10-02",
     "name": "AWS On Tour Milan",
     "location": {
-      "name": "Milan, Italu"
+      "name": "Milan, Italu",
+      "city": "Milan",
+      "country": "Italy"
     },
     "roles": [
       "organizer"
@@ -1526,7 +1712,9 @@
     "date": "2023-09-29",
     "name": "AWS On Tour Zurich",
     "location": {
-      "name": "Zurich, Switzerland"
+      "name": "Zurich, Switzerland",
+      "city": "Zurich",
+      "country": "Switzerland"
     },
     "roles": [
       "organizer"
@@ -1538,7 +1726,9 @@
     "date": "2023-09-27",
     "name": "AWS On Tour Frankfurt",
     "location": {
-      "name": "Frankfurt, Germany"
+      "name": "Frankfurt, Germany",
+      "city": "Frankfurt",
+      "country": "Germany"
     },
     "roles": [
       "organizer"
@@ -1550,7 +1740,9 @@
     "date": "2023-09-25",
     "name": "AWS On Tour Amsterdam",
     "location": {
-      "name": "Amsterdam, Netherland"
+      "name": "Amsterdam, Netherland",
+      "city": "Amsterdam",
+      "country": "Netherlands"
     },
     "roles": [
       "organizer"
@@ -1562,7 +1754,9 @@
     "date": "2023-09-22",
     "name": "AWS On Tour Brussels",
     "location": {
-      "name": "Brussels, Belgium"
+      "name": "Brussels, Belgium",
+      "city": "Brussels",
+      "country": "Belgium"
     },
     "roles": [
       "organizer"
@@ -1574,7 +1768,9 @@
     "date": "2023-09-18",
     "name": "AWS On Tour Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "organizer"
@@ -1586,10 +1782,13 @@
     "date": "2023-09-20",
     "name": "AWS On Tour London",
     "location": {
-      "name": "London, UK"
+      "name": "London, UK",
+      "city": "London",
+      "country": "United Kingdom"
     },
     "roles": [
-      "organizer", "speaker"
+      "organizer",
+      "speaker"
     ],
     "talks": [
       {
@@ -1603,7 +1802,9 @@
     "date": "2023-07-19",
     "name": "Lomé AWS User Group",
     "location": {
-      "name": "Lomé, Togo"
+      "name": "Lomé, Togo",
+      "city": "Lomé",
+      "country": "Togo"
     },
     "roles": [
       "speaker"
@@ -1619,7 +1820,9 @@
     "date": "2023-06-29",
     "name": "Power Branch: The last Commit",
     "location": {
-      "name": "Frameries, Belgium"
+      "name": "Frameries, Belgium",
+      "city": "Frameries",
+      "country": "Belgium"
     },
     "roles": [
       "panellist"
@@ -1635,7 +1838,9 @@
     "date": "2023-06-16",
     "name": "Camping des speakers",
     "location": {
-      "name": "Baden, France"
+      "name": "Baden, France",
+      "city": "Baden",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1651,7 +1856,9 @@
     "date": "2023-06-07",
     "name": "AWS Summit London",
     "location": {
-      "name": "Lonson, United Kingdon"
+      "name": "Lonson, United Kingdon",
+      "city": "Lonson",
+      "country": "United Kingdom"
     },
     "roles": [
       "speaker"
@@ -1667,7 +1874,9 @@
     "date": "2023-06-01",
     "name": "Paris Serverless Meetup",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -1683,7 +1892,9 @@
     "date": "2023-05-11",
     "name": "AWS Summit Stockholm",
     "location": {
-      "name": "Stockholm, Sweden"
+      "name": "Stockholm, Sweden",
+      "city": "Stockholm",
+      "country": "Sweden"
     },
     "roles": [
       "speaker"
@@ -1699,7 +1910,9 @@
     "date": "2023-04-04",
     "name": "AWS Summit Paris",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1718,7 +1931,9 @@
     "date": "2023-03-23",
     "name": "DevDay",
     "location": {
-      "name": "Mons, Belgium"
+      "name": "Mons, Belgium",
+      "city": "Mons",
+      "country": "Belgium"
     },
     "roles": [
       "speaker"
@@ -1734,7 +1949,9 @@
     "date": "2023-02-22",
     "name": "Paris AWS User Group",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1751,7 +1968,9 @@
     "date": "2023-02-16",
     "name": "Toulouse AWS User Group",
     "location": {
-      "name": "Toulouse, France"
+      "name": "Toulouse, France",
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1768,7 +1987,9 @@
     "date": "2023-02-14",
     "name": "AWS Swiss User Group - Geneva",
     "location": {
-      "name": "Geneva, Switzerland"
+      "name": "Geneva, Switzerland",
+      "city": "Geneva",
+      "country": "Switzerland"
     },
     "roles": [
       "speaker"
@@ -1785,7 +2006,9 @@
     "date": "2023-02-13",
     "name": "Grenogle AWS User Group",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1802,7 +2025,9 @@
     "date": "2023-02-09",
     "name": "Lille AWS User Group",
     "location": {
-      "name": "Lille, France"
+      "name": "Lille, France",
+      "city": "Lille",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1819,7 +2044,9 @@
     "date": "2023-02-08",
     "name": "Nantes AWS User Group",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1836,7 +2063,9 @@
     "date": "2023-02-07",
     "name": "Brest AWS User Group",
     "location": {
-      "name": "Brest, France"
+      "name": "Brest, France",
+      "city": "Brest",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -1853,7 +2082,9 @@
     "date": "2023-02-02",
     "name": "AWS France",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -1870,7 +2101,9 @@
     "date": "2023-01-25",
     "name": "Snowcamp",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -1890,7 +2123,9 @@
     "date": "2022-12-17",
     "name": "DevFest Mons",
     "location": {
-      "name": "Mons, Belgium"
+      "name": "Mons, Belgium",
+      "city": "Mons",
+      "country": "Belgium"
     },
     "roles": [
       "mentor",
@@ -1910,7 +2145,9 @@
     "date": "2022-12-16",
     "name": "MIC Mons",
     "location": {
-      "name": "Mons, Belgium"
+      "name": "Mons, Belgium",
+      "city": "Mons",
+      "country": "Belgium"
     },
     "roles": [
       "mentor"
@@ -1926,7 +2163,9 @@
     "date": "2022-12-16",
     "name": "MIC Belgique",
     "location": {
-      "name": "Twitch"
+      "name": "Twitch",
+      "city": "Twitch",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -1942,7 +2181,9 @@
     "date": "2022-11-30",
     "name": "AWS re:Invent",
     "location": {
-      "name": "Las Vegas, USA"
+      "name": "Las Vegas, USA",
+      "city": "Las Vegas",
+      "country": "United States"
     },
     "roles": [
       "speaker"
@@ -1958,7 +2199,9 @@
     "date": "2022-11-18",
     "name": "DevFest Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -1974,7 +2217,9 @@
     "date": "2022-11-03",
     "name": "Web Summit",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "Lisbon, Portugal",
+      "city": "Lisbon",
+      "country": "Portugal"
     },
     "roles": [
       "speaker"
@@ -1990,7 +2235,9 @@
     "date": "2022-10-20",
     "name": "DevFest Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2006,7 +2253,9 @@
     "date": "2022-10-17",
     "name": "Agile Tour Montpellier",
     "location": {
-      "name": "Montpellier, France"
+      "name": "Montpellier, France",
+      "city": "Montpellier",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2022,7 +2271,9 @@
     "date": "2022-10-14",
     "name": "Volcamp",
     "location": {
-      "name": "Clermont-Ferrand, France"
+      "name": "Clermont-Ferrand, France",
+      "city": "Clermont-Ferrand",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2038,7 +2289,9 @@
     "date": "2022-10-10",
     "name": "Devoxx Belgium",
     "location": {
-      "name": "Antwerp, Belgium"
+      "name": "Antwerp, Belgium",
+      "city": "Antwerp",
+      "country": "Belgium"
     },
     "roles": [
       "speaker"
@@ -2057,7 +2310,9 @@
     "date": "2022-10-04",
     "name": "Devoxx Morocco",
     "location": {
-      "name": "Agadir, Morocco"
+      "name": "Agadir, Morocco",
+      "city": "Agadir",
+      "country": "Morocco"
     },
     "roles": [
       "speaker"
@@ -2073,7 +2328,9 @@
     "date": "2022-09-28",
     "name": "AWS Tour Du cloud Roadshow 2022 - Antilles & Guyane",
     "location": {
-      "name": "Fort-de-France , Martinique"
+      "name": "Fort-de-France , Martinique",
+      "city": "Fort-de-France",
+      "country": "Martinique"
     },
     "roles": [
       "speaker"
@@ -2089,7 +2346,9 @@
     "date": "2022-09-15",
     "name": "BBL AXA",
     "location": {
-      "name": "Lille, France"
+      "name": "Lille, France",
+      "city": "Lille",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2105,7 +2364,9 @@
     "date": "2022-06-21",
     "name": "Voxxed Days Luxembourg",
     "location": {
-      "name": "Luxembourg, Luxembourg"
+      "name": "Luxembourg, Luxembourg",
+      "city": "Luxembourg",
+      "country": "Luxembourg"
     },
     "roles": [
       "speaker"
@@ -2121,7 +2382,9 @@
     "date": "2022-06-09",
     "name": "Le camping des speakers",
     "location": {
-      "name": "Vannes, France"
+      "name": "Vannes, France",
+      "city": "Vannes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2140,7 +2403,9 @@
     "date": "2022-05-03",
     "name": "Le tremplin des speakers",
     "location": {
-      "name": "Tours, France"
+      "name": "Tours, France",
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2152,7 +2417,9 @@
     "date": "2022-04-21",
     "name": "Devoxx France",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2168,7 +2435,9 @@
     "date": "2022-04-15",
     "name": "Ecole de l'IA - Simplon Grenoble",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2184,7 +2453,9 @@
     "date": "2022-02-07",
     "name": "Viseo Tech an Tour",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2200,7 +2471,9 @@
     "date": "2022-02-02",
     "name": "Snowcamp",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2216,7 +2489,9 @@
     "date": "2021-11-23",
     "name": "DevDay Belgium",
     "location": {
-      "name": "Louvain-La-Neuve, Belgium"
+      "name": "Louvain-La-Neuve, Belgium",
+      "city": "Louvain-La-Neuve",
+      "country": "Belgium"
     },
     "roles": [
       "speaker"
@@ -2232,7 +2507,9 @@
     "date": "2021-11-18",
     "name": "Codeurs en Seine",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -2248,7 +2525,9 @@
     "date": "2021-11-09",
     "name": "DevFest Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2268,7 +2547,9 @@
     "date": "2021-11-06",
     "name": "DevFest Cocody",
     "location": {
-      "name": "Online - Abidjan, Ivory Coast"
+      "name": "Online - Abidjan, Ivory Coast",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -2284,7 +2565,9 @@
     "date": "2021-10-21",
     "name": "DevFest Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2300,7 +2583,9 @@
     "date": "2021-10-06",
     "name": "Virtual Azure Community Day #4",
     "location": {
-      "name": "France"
+      "name": "France",
+      "city": "France",
+      "country": "France"
     },
     "roles": [
       "organizer"
@@ -2311,7 +2596,9 @@
     "date": "2021-10-11",
     "name": "AzugFR",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2328,7 +2615,9 @@
     "date": "2021-10-07",
     "name": "EPSI Montpellier university",
     "location": {
-      "name": "Montpellier, France"
+      "name": "Montpellier, France",
+      "city": "Montpellier",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2349,7 +2638,9 @@
     "date": "2021-10-06",
     "name": "Microsoft User Group Montpellier / Montpellier Android User Group",
     "location": {
-      "name": "Montpellier, France"
+      "name": "Montpellier, France",
+      "city": "Montpellier",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2366,7 +2657,9 @@
     "date": "2021-10-06",
     "name": "EPITECH Montpellier university",
     "location": {
-      "name": "Montpellier, France"
+      "name": "Montpellier, France",
+      "city": "Montpellier",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2387,7 +2680,9 @@
     "date": "2021-10-05",
     "name": "Meetup .Net Toulouse",
     "location": {
-      "name": "Toulouse, France"
+      "name": "Toulouse, France",
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2404,7 +2699,9 @@
     "date": "2021-10-05",
     "name": "EPITECH Toulouse university",
     "location": {
-      "name": "Toulouse, France"
+      "name": "Toulouse, France",
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2425,7 +2722,9 @@
     "date": "2021-10-04",
     "name": "Simplon Bordeaux meetup",
     "location": {
-      "name": "Bordeaux, France"
+      "name": "Bordeaux, France",
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2442,7 +2741,9 @@
     "date": "2021-10-04",
     "name": "Ynov Bordeaux university",
     "location": {
-      "name": "Bordeaux, France"
+      "name": "Bordeaux, France",
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2463,7 +2764,9 @@
     "date": "2021-10-01",
     "name": "EPITECH Paris university",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2484,7 +2787,9 @@
     "date": "2021-09-30",
     "name": "Microsoft User Group Lille",
     "location": {
-      "name": "Lille, France"
+      "name": "Lille, France",
+      "city": "Lille",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2501,7 +2806,9 @@
     "date": "2021-09-29",
     "name": "MIC Mons",
     "location": {
-      "name": "Mons, Belgium"
+      "name": "Mons, Belgium",
+      "city": "Mons",
+      "country": "Belgium"
     },
     "roles": [
       "speaker"
@@ -2518,7 +2825,9 @@
     "date": "2021-09-29",
     "name": "Condorcet - Hainaut Provincial High School",
     "location": {
-      "name": "Mons, Belgium"
+      "name": "Mons, Belgium",
+      "city": "Mons",
+      "country": "Belgium"
     },
     "roles": [
       "mentor",
@@ -2539,7 +2848,9 @@
     "date": "2021-09-28",
     "name": ".Net Luxembourg",
     "location": {
-      "name": "Luxembourg"
+      "name": "Luxembourg",
+      "city": "Luxembourg",
+      "country": "Luxembourg"
     },
     "roles": [
       "speaker"
@@ -2556,7 +2867,9 @@
     "date": "2021-09-27",
     "name": "Microsoft User Group Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2573,7 +2886,9 @@
     "date": "2021-09-27",
     "name": "CESI Strasbourg university",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2594,7 +2909,9 @@
     "date": "2021-09-24",
     "name": "Simplon school Clermont",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2615,7 +2932,9 @@
     "date": "2021-09-23",
     "name": "MugInClermont",
     "location": {
-      "name": "Clermont, France"
+      "name": "Clermont, France",
+      "city": "Clermont",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2632,7 +2951,9 @@
     "date": "2021-09-23",
     "name": "IUT Clermont Auvergne",
     "location": {
-      "name": "Clermont, France"
+      "name": "Clermont, France",
+      "city": "Clermont",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2653,7 +2974,9 @@
     "date": "2021-09-22",
     "name": "MUG Lyon / GDG Lyon",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2670,7 +2993,9 @@
     "date": "2021-09-22",
     "name": "Science-U Lyon university",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2691,7 +3016,9 @@
     "date": "2021-09-20",
     "name": "Ynov Aix university",
     "location": {
-      "name": "Aix-en-Provence, France"
+      "name": "Aix-en-Provence, France",
+      "city": "Aix-en-Provence",
+      "country": "France"
     },
     "roles": [
       "mentor",
@@ -2712,7 +3039,9 @@
     "date": "2021-07-02",
     "name": "RivieraDev",
     "location": {
-      "name": "Roquebrune-sur-Argens, France"
+      "name": "Roquebrune-sur-Argens, France",
+      "city": "Roquebrune-sur-Argens",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2728,7 +3057,9 @@
     "date": "2021-06-22",
     "name": "SimpleWebConf",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "mentor"
@@ -2744,7 +3075,9 @@
     "date": "2021-06-05",
     "name": "DevRelCon Tokyo",
     "location": {
-      "name": "Tokyo, Japan"
+      "name": "Tokyo, Japan",
+      "city": "Tokyo",
+      "country": "Japan"
     },
     "roles": [
       "speaker"
@@ -2760,7 +3093,9 @@
     "date": "2021-04-02",
     "name": "EPITECH Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2777,7 +3112,9 @@
     "date": "2021-04-02",
     "name": "ADA Tech School",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2794,7 +3131,9 @@
     "date": "2021-04-01",
     "name": "YNOV Aix",
     "location": {
-      "name": "Aix-en-Provence, France"
+      "name": "Aix-en-Provence, France",
+      "city": "Aix-en-Provence",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2811,7 +3150,9 @@
     "date": "2021-04-01",
     "name": "IUT Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2828,7 +3169,9 @@
     "date": "2021-03-31",
     "name": "Back to the Future",
     "location": {
-      "name": "France"
+      "name": "France",
+      "city": "France",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2845,7 +3188,9 @@
     "date": "2021-03-30",
     "name": "Back to the Future",
     "location": {
-      "name": "France"
+      "name": "France",
+      "city": "France",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2862,7 +3207,9 @@
     "date": "2021-03-29",
     "name": "Haute École Provinciale de Hainaut",
     "location": {
-      "name": "Condorcet, Belgium"
+      "name": "Condorcet, Belgium",
+      "city": "Condorcet",
+      "country": "Belgium"
     },
     "roles": [
       "mentor"
@@ -2879,7 +3226,9 @@
     "date": "2021-02-03",
     "name": "AccessibilityCon",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "organizer"
@@ -2890,7 +3239,9 @@
     "date": "2021-01-04",
     "name": "DevFM",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -2906,7 +3257,9 @@
     "date": "2020-12-17",
     "name": "GDG Nantes & Nantes.js",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -2923,7 +3276,9 @@
     "date": "2020-12-03",
     "name": "Virtual Azure Community Day #3",
     "location": {
-      "name": "France"
+      "name": "France",
+      "city": "France",
+      "country": "France"
     },
     "roles": [
       "organizer",
@@ -2935,7 +3290,9 @@
     "date": "2020-11-10",
     "name": "ViaEgnatia 2.0",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "speaker"
@@ -2952,7 +3309,9 @@
     "date": "2020-10-13",
     "name": "MUG Rennes",
     "location": {
-      "name": "Rennes, France"
+      "name": "Rennes, France",
+      "city": "Rennes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -2969,7 +3328,9 @@
     "date": "2020-10-13",
     "name": "EPITECH Rennes",
     "location": {
-      "name": "Rennes, France"
+      "name": "Rennes, France",
+      "city": "Rennes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -2986,7 +3347,9 @@
     "date": "2020-10-12",
     "name": "MUG .Net Nantes / GDG Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3004,7 +3367,9 @@
     "date": "2020-10-12",
     "name": "EPSI Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3021,7 +3386,9 @@
     "date": "2020-10-08",
     "name": "MUG Tours",
     "location": {
-      "name": "Tours, France"
+      "name": "Tours, France",
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3038,7 +3405,9 @@
     "date": "2020-10-08",
     "name": "MUG Tours",
     "location": {
-      "name": "Tours, France"
+      "name": "Tours, France",
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3055,7 +3424,9 @@
     "date": "2020-10-08",
     "name": "CEFIM Tours",
     "location": {
-      "name": "Tours, France"
+      "name": "Tours, France",
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3072,7 +3443,9 @@
     "date": "2020-10-06",
     "name": "CESI Orléans",
     "location": {
-      "name": "Orléans, France"
+      "name": "Orléans, France",
+      "city": "Orléans",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3089,7 +3462,9 @@
     "date": "2020-09-30",
     "name": "Sustainable Software Engineering Conf' (aka GreenConf)",
     "location": {
-      "name": "Online"
+      "name": "Online",
+      "city": "Online",
+      "country": "Online"
     },
     "roles": [
       "organizer"
@@ -3100,7 +3475,9 @@
     "date": "2020-07-28",
     "name": "Virtual Azure Community Day #2",
     "location": {
-      "name": "France"
+      "name": "France",
+      "city": "France",
+      "country": "France"
     },
     "roles": [
       "organizer",
@@ -3112,7 +3489,9 @@
     "date": "2020-06-24",
     "name": "Hackathon: Language Learning and Innovation",
     "location": {
-      "name": "Kosovo"
+      "name": "Kosovo",
+      "city": "Kosovo",
+      "country": "Kosovo"
     },
     "roles": [
       "speaker"
@@ -3128,7 +3507,9 @@
     "date": "2020-06-18",
     "name": "Cloud Ouest",
     "location": {
-      "name": "France"
+      "name": "France",
+      "city": "France",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3144,7 +3525,9 @@
     "date": "2020-05-28",
     "name": "Workshop EPITECH",
     "location": {
-      "name": "France"
+      "name": "France",
+      "city": "France",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3160,7 +3543,9 @@
     "date": "2020-05-20",
     "name": "Microsoft Build",
     "location": {
-      "name": "France"
+      "name": "France",
+      "city": "France",
+      "country": "France"
     },
     "roles": [
       "organizer",
@@ -3177,7 +3562,9 @@
     "date": "2020-04-29",
     "name": "Learn Party Live",
     "location": {
-      "name": "All over France"
+      "name": "All over France",
+      "city": "Online",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3193,7 +3580,9 @@
     "date": "2020-04-24",
     "name": "Ada Tech School & friends",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3209,7 +3598,9 @@
     "date": "2020-04-24",
     "name": "Ada Tech School",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3225,7 +3616,9 @@
     "date": "2020-03-31",
     "name": "Virtual Azure Community Day",
     "location": {
-      "name": "France"
+      "name": "France",
+      "city": "France",
+      "country": "France"
     },
     "roles": [
       "organizer",
@@ -3237,7 +3630,9 @@
     "date": "2020-02-28",
     "name": "DevFest du bout du monde",
     "location": {
-      "name": "Brest, France"
+      "name": "Brest, France",
+      "city": "Brest",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3253,7 +3648,9 @@
     "date": "2020-02-21",
     "name": "EPSI Grenoble",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3270,7 +3667,9 @@
     "date": "2020-02-20",
     "name": "Tech A Date Viseo X Microsoft",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3287,7 +3686,9 @@
     "date": "2020-02-20",
     "name": "Polytech Grenoble",
     "location": {
-      "name": "Grenoble, France"
+      "name": "Grenoble, France",
+      "city": "Grenoble",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3304,7 +3705,9 @@
     "date": "2020-02-19",
     "name": "Ardeche Drom Dev",
     "location": {
-      "name": "Valence, France"
+      "name": "Valence, France",
+      "city": "Valence",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3321,7 +3724,9 @@
     "date": "2020-02-18",
     "name": "MUG Lyon",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3339,7 +3744,9 @@
     "date": "2020-02-18",
     "name": "Science U Lyon",
     "location": {
-      "name": "Lyon, France"
+      "name": "Lyon, France",
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3356,7 +3763,9 @@
     "date": "2020-02-17",
     "name": "MUG In Clermont",
     "location": {
-      "name": "Clermont Ferrand, France"
+      "name": "Clermont Ferrand, France",
+      "city": "Clermont Ferrand",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3373,7 +3782,9 @@
     "date": "2020-02-17",
     "name": "MUG In Clermont",
     "location": {
-      "name": "Clermont Ferrand, France"
+      "name": "Clermont Ferrand, France",
+      "city": "Clermont Ferrand",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3391,7 +3802,9 @@
     "date": "2020-02-17",
     "name": "IUT Informatique de Clermong",
     "location": {
-      "name": "Clermont Ferrand, France"
+      "name": "Clermont Ferrand, France",
+      "city": "Clermont Ferrand",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3408,7 +3821,9 @@
     "date": "2020-01-23",
     "name": "Snowcamp",
     "location": {
-      "name": "Clermont-Ferrand, France"
+      "name": "Clermont-Ferrand, France",
+      "city": "Clermont-Ferrand",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3424,7 +3839,9 @@
     "date": "2020-01-22",
     "name": "Snowcamp",
     "location": {
-      "name": "Clermont-Ferrand, France"
+      "name": "Clermont-Ferrand, France",
+      "city": "Clermont-Ferrand",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3440,7 +3857,9 @@
     "date": "2020-01-18",
     "name": "Global Diversity CFP Day",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker",
@@ -3457,7 +3876,9 @@
     "date": "2019-11-06",
     "name": "DevFest Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3473,7 +3894,9 @@
     "date": "2019-10-21",
     "name": "DevFest Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3489,7 +3912,9 @@
     "date": "2019-10-17",
     "name": "Le Meilleur Développeur de France",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3505,7 +3930,9 @@
     "date": "2019-10-10",
     "name": "Ynov Bordeaux",
     "location": {
-      "name": "Bordeaux, France"
+      "name": "Bordeaux, France",
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3522,7 +3949,9 @@
     "date": "2019-10-09",
     "name": "Meetup .Net Toulouse",
     "location": {
-      "name": "Toulouse, France"
+      "name": "Toulouse, France",
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3539,7 +3968,9 @@
     "date": "2019-10-09",
     "name": "Simplon Toulouse",
     "location": {
-      "name": "Toulouse, France"
+      "name": "Toulouse, France",
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3556,7 +3987,9 @@
     "date": "2019-10-08",
     "name": "MUG Montpellier",
     "location": {
-      "name": "Montpellier, France"
+      "name": "Montpellier, France",
+      "city": "Montpellier",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3573,7 +4006,9 @@
     "date": "2019-10-08",
     "name": "EPSI Montpellier",
     "location": {
-      "name": "Montpellier, France"
+      "name": "Montpellier, France",
+      "city": "Montpellier",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3590,7 +4025,9 @@
     "date": "2019-10-07",
     "name": "Meetup Azure DevOps Aix en Provence",
     "location": {
-      "name": "Aix en Provence, France"
+      "name": "Aix en Provence, France",
+      "city": "Aix en Provence",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3607,7 +4044,9 @@
     "date": "2019-10-07",
     "name": "Ynov Aix",
     "location": {
-      "name": "Aix en Provence, France"
+      "name": "Aix en Provence, France",
+      "city": "Aix en Provence",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3624,7 +4063,9 @@
     "date": "2019-10-03",
     "name": "DevFest Toulouse",
     "location": {
-      "name": "Toulouse, France"
+      "name": "Toulouse, France",
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3640,7 +4081,9 @@
     "date": "2019-08-26",
     "name": "Pimp my App",
     "location": {
-      "name": "Paris, France"
+      "name": "Paris, France",
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3656,7 +4099,9 @@
     "date": "2019-08-03",
     "name": "Hack in the woods",
     "location": {
-      "name": "Mons, Belgium"
+      "name": "Mons, Belgium",
+      "city": "Mons",
+      "country": "Belgium"
     },
     "roles": [
       "speaker"
@@ -3672,7 +4117,9 @@
     "date": "2019-07-04",
     "name": "EPITECH Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3689,7 +4136,9 @@
     "date": "2019-07-04",
     "name": "EPITECH Strasbourg",
     "location": {
-      "name": "Strasbourg, France"
+      "name": "Strasbourg, France",
+      "city": "Strasbourg",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3706,7 +4155,9 @@
     "date": "2019-07-03",
     "name": ".Net User Group Luxembourg",
     "location": {
-      "name": "Luxembourg city, Luxembourg"
+      "name": "Luxembourg city, Luxembourg",
+      "city": "Luxembourg city",
+      "country": "Luxembourg"
     },
     "roles": [
       "speaker"
@@ -3724,7 +4175,9 @@
     "date": "2019-07-02",
     "name": "Microsoft Innovation Center Mons",
     "location": {
-      "name": "Mons, Belgium"
+      "name": "Mons, Belgium",
+      "city": "Mons",
+      "country": "Belgium"
     },
     "roles": [
       "speaker"
@@ -3741,7 +4194,9 @@
     "date": "2019-07-02",
     "name": "Microsoft Innovation Center Mons",
     "location": {
-      "name": "Mons, Belgique"
+      "name": "Mons, Belgique",
+      "city": "Mons",
+      "country": "Belgium"
     },
     "roles": [
       "mentor"
@@ -3758,7 +4213,9 @@
     "date": "2019-07-01",
     "name": "Ch'ti MUG & Université catholique de Lille",
     "location": {
-      "name": "Lille, France"
+      "name": "Lille, France",
+      "city": "Lille",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3778,7 +4235,9 @@
     "location": {
       "name": "Montpelier, France",
       "lat": 43.6100219,
-      "lng": 3.8741615
+      "lng": 3.8741615,
+      "city": "Montpelier",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3798,7 +4257,9 @@
     "location": {
       "name": "Lyon, France",
       "lat": 45.7477518,
-      "lng": 4.8601244
+      "lng": 4.8601244,
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3817,7 +4278,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3835,7 +4298,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3852,7 +4317,9 @@
     "date": "2019-06-05",
     "name": "MS Learn Live",
     "location": {
-      "name": "London & Online"
+      "name": "London & Online",
+      "city": "London",
+      "country": "United Kingdom"
     },
     "roles": [
       "mentor"
@@ -3871,7 +4338,9 @@
     "location": {
       "name": "Lyon, France",
       "lat": 45.7477518,
-      "lng": 4.8601244
+      "lng": 4.8601244,
+      "city": "Lyon",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3891,7 +4360,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3911,7 +4382,9 @@
     "location": {
       "name": "Rennes, France",
       "lat": 48.1173595,
-      "lng": 1.6410981
+      "lng": 1.6410981,
+      "city": "Rennes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3927,7 +4400,9 @@
     "date": "2019-03-14",
     "name": "Polytech Orléans",
     "location": {
-      "name": "Orléans, France"
+      "name": "Orléans, France",
+      "city": "Orléans",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3946,7 +4421,9 @@
     "location": {
       "name": "Tours, France",
       "lat": 47.363297,
-      "lng": 0.6703936
+      "lng": 0.6703936,
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -3965,7 +4442,9 @@
     "location": {
       "name": "Tours, France",
       "lat": 47.363297,
-      "lng": 0.6703936
+      "lng": 0.6703936,
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -3982,7 +4461,9 @@
     "date": "2019-03-12",
     "name": "EPSI Nantes",
     "location": {
-      "name": "Nantes, France"
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -4002,7 +4483,9 @@
     "location": {
       "name": "Rennes, France",
       "lat": 48.113808,
-      "lng": -1.675499
+      "lng": -1.675499,
+      "city": "Rennes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4023,7 +4506,9 @@
     "location": {
       "name": "Rennes, France",
       "lat": 48.113808,
-      "lng": -1.675499
+      "lng": -1.675499,
+      "city": "Rennes",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -4043,7 +4528,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "organizer"
@@ -4057,7 +4544,9 @@
     "location": {
       "name": "Toulouse, France",
       "lat": 43.6110956,
-      "lng": 1.4332799
+      "lng": 1.4332799,
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4077,7 +4566,9 @@
     "location": {
       "name": "Nantes, France",
       "lat": 47.212967,
-      "lng": -1.544833
+      "lng": -1.544833,
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4097,7 +4588,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4116,7 +4609,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4135,7 +4630,9 @@
     "location": {
       "name": "Nairobi, Kenya",
       "lat": 1.3028618,
-      "lng": 36.7073124
+      "lng": 36.7073124,
+      "city": "Nairobi",
+      "country": "Kenya"
     },
     "roles": [
       "speaker"
@@ -4154,7 +4651,9 @@
     "location": {
       "name": "Nairobi, Kenya",
       "lat": 1.3028618,
-      "lng": 36.7073124
+      "lng": 36.7073124,
+      "city": "Nairobi",
+      "country": "Kenya"
     },
     "roles": [
       "speaker"
@@ -4173,7 +4672,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4192,7 +4693,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "jury"
@@ -4216,7 +4719,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -4235,7 +4740,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4253,7 +4760,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -4266,7 +4775,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -4289,7 +4800,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -4302,7 +4815,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -4316,7 +4831,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "mentor"
@@ -4335,7 +4852,9 @@
     "location": {
       "name": "Malaga, Spain",
       "lat": 36.7648321,
-      "lng": -4.4241892
+      "lng": -4.4241892,
+      "city": "Malaga",
+      "country": "Spain"
     },
     "roles": [
       "speaker"
@@ -4354,7 +4873,9 @@
     "location": {
       "name": "Bordeaux, France",
       "lat": 44.807047,
-      "lng": -0.605526
+      "lng": -0.605526,
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4373,7 +4894,9 @@
     "location": {
       "name": "Bordeaux, France",
       "lat": 44.807047,
-      "lng": -0.605526
+      "lng": -0.605526,
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4393,7 +4916,9 @@
     "location": {
       "name": "Toulouse, France",
       "lat": 43.6489983,
-      "lng": 1.3727472
+      "lng": 1.3727472,
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4412,7 +4937,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4432,7 +4959,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "jury"
@@ -4452,7 +4981,9 @@
     "location": {
       "name": "Rennes, France",
       "lat": 48.1173595,
-      "lng": 1.6410981
+      "lng": 1.6410981,
+      "city": "Rennes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4471,7 +5002,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4491,7 +5024,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "jury"
@@ -4511,7 +5046,9 @@
     "location": {
       "name": "Nantes, France",
       "lat": 47.2382006,
-      "lng": -1.6307599
+      "lng": -1.6307599,
+      "city": "Nantes",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4531,7 +5068,9 @@
     "location": {
       "name": "Rouen, France",
       "lat": 49.4584259,
-      "lng": 1.0658052
+      "lng": 1.0658052,
+      "city": "Rouen",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4551,7 +5090,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4571,7 +5112,9 @@
     "location": {
       "name": "Toulouse, France",
       "lat": 43.6489983,
-      "lng": 1.3727472
+      "lng": 1.3727472,
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4590,7 +5133,9 @@
     "location": {
       "name": "Bordeaux, France",
       "lat": 44.807047,
-      "lng": -0.605526
+      "lng": -0.605526,
+      "city": "Bordeaux",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4611,7 +5156,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "organizer"
@@ -4630,7 +5177,9 @@
     "location": {
       "name": "Tours, France",
       "lat": 47.3943623,
-      "lng": 0.6249002
+      "lng": 0.6249002,
+      "city": "Tours",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4650,7 +5199,9 @@
     "location": {
       "name": "Lille, France",
       "lat": 50.6887388,
-      "lng": 3.1492016
+      "lng": 3.1492016,
+      "city": "Lille",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4670,7 +5221,9 @@
     "location": {
       "name": "St Quentin, France",
       "lat": 49.8476836,
-      "lng": 3.2440442
+      "lng": 3.2440442,
+      "city": "St Quentin",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4689,7 +5242,9 @@
     "location": {
       "name": "Caceres, Spain",
       "lat": 39.4796487,
-      "lng": -6.3429493
+      "lng": -6.3429493,
+      "city": "Caceres",
+      "country": "Spain"
     },
     "roles": [
       "speaker"
@@ -4709,7 +5264,9 @@
     "location": {
       "name": "Lisbon, Portubal",
       "lat": 38.7437395,
-      "lng": -9.2302438
+      "lng": -9.2302438,
+      "city": "Lisbon",
+      "country": "Portugal"
     },
     "roles": [
       "speaker"
@@ -4728,7 +5285,9 @@
     "location": {
       "name": "Nice, France",
       "lat": 43.6958407,
-      "lng": 7.2679375
+      "lng": 7.2679375,
+      "city": "Nice",
+      "country": "France"
     },
     "roles": [
       "speaker"
@@ -4747,7 +5306,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "organizer",
@@ -4767,7 +5328,9 @@
     "location": {
       "name": "Paris, France",
       "lat": 48.87733,
-      "lng": 2.3277525
+      "lng": 2.3277525,
+      "city": "Paris",
+      "country": "France"
     },
     "roles": [
       "organizer"
@@ -4781,7 +5344,9 @@
     "location": {
       "name": "Toulouse, France",
       "lat": 43.6112304,
-      "lng": 1.4560435
+      "lng": 1.4560435,
+      "city": "Toulouse",
+      "country": "France"
     },
     "roles": [
       "organizer"
