@@ -7,13 +7,11 @@
       "city": "Rabat",
       "country": "Morocco"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://ensias.um5.ac.ma/news/2nd-international-summer-school-artificial-intelligence-franco-moroccan-research-center-2026",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ]
   },
@@ -25,13 +23,11 @@
       "city": "Sophia Antipolis",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://rivieradev.fr/",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ]
   },
@@ -43,13 +39,11 @@
       "city": "Montpellier",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://sunny-tech.io/",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ]
   },
@@ -61,13 +55,11 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://techwork.events/",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ]
   },
@@ -79,13 +71,11 @@
       "city": "Barcelona",
       "country": "Spain"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.devbcn.com/2026/",
     "talks": [
       {
-        "title": "Coding a Multi-Agent Game Master with Strands Agents"
+        "title": "Coding a Multi-Agent Game Master with Strands Agents",
+        "role": "speaker"
       }
     ]
   },
@@ -97,13 +87,11 @@
       "city": "Montpellier",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://polycloud.fr/",
     "talks": [
       {
-        "title": "Codons un maître du jeu (de rôle) multi-agents avec Strands Agents"
+        "title": "Codons un maître du jeu (de rôle) multi-agents avec Strands Agents",
+        "role": "speaker"
       }
     ]
   },
@@ -115,16 +103,14 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "[workshop] Créer son propre Jeu de Rôle en Agentic AI avec Strands Agents"
+        "title": "[workshop] Créer son propre Jeu de Rôle en Agentic AI avec Strands Agents",
+        "role": "mentor"
       },
       {
-        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web"
+        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web",
+        "role": "speaker"
       }
     ]
   },
@@ -136,12 +122,10 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "Codons un maître du jeu (de rôle) multi-agents avec Strands Agents"
+        "title": "Codons un maître du jeu (de rôle) multi-agents avec Strands Agents",
+        "role": "speaker"
       }
     ]
   },
@@ -153,13 +137,11 @@
       "city": "Tunis",
       "country": "Tunisia"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.forkit.community/events/2026-tunisia-tunis",
     "talks": [
       {
-        "title": "Codons un maitre du jeu (de role) multi-agents avec Strands Agents"
+        "title": "Codons un maitre du jeu (de role) multi-agents avec Strands Agents",
+        "role": "speaker"
       }
     ]
   },
@@ -171,12 +153,10 @@
       "city": "London",
       "country": "United Kingdom"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web"
+        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web",
+        "role": "speaker"
       }
     ]
   },
@@ -188,16 +168,15 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws.amazon.com/events/summits/paris/",
     "talks": [
       {
-        "title": "Comment j'ai arrêté de comparer mes vols avec Nova Act."
+        "title": "Comment j'ai arrêté de comparer mes vols avec Nova Act.",
+        "role": "speaker"
       },
       {
-        "title": "Créer son propre Jeu de Rôle en Agentic AI avec Strands Agents"
+        "title": "Créer son propre Jeu de Rôle en Agentic AI avec Strands Agents",
+        "role": "speaker"
       }
     ]
   },
@@ -209,12 +188,10 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web"
+        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web",
+        "role": "speaker"
       }
     ]
   },
@@ -226,12 +203,10 @@
       "city": "Warsaw",
       "country": "Poland"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "Build a multi-agent role-playing Game Master with Strands Agents"
+        "title": "Build a multi-agent role-playing Game Master with Strands Agents",
+        "role": "speaker"
       }
     ]
   },
@@ -243,12 +218,10 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "Codons un maître du jeu (de rôle) multi-agents avec Strands Agents"
+        "title": "Codons un maître du jeu (de rôle) multi-agents avec Strands Agents",
+        "role": "speaker"
       }
     ]
   },
@@ -260,12 +233,10 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -278,12 +249,10 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -296,12 +265,10 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "AWS re:Invent 2025 re:Cap"
+        "title": "AWS re:Invent 2025 re:Cap",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/grenoble-aws-user-group/events/312894750/",
@@ -315,12 +282,10 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -333,12 +298,10 @@
       "city": "Aix-en-Provence",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "AWS re:Invent 2025 re:Cap"
+        "title": "AWS re:Invent 2025 re:Cap",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/marseille-aws-user-group/events/313086822/?eventOrigin=group_past_events",
@@ -352,12 +315,10 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -370,12 +331,10 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -388,12 +347,10 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -406,12 +363,10 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "AWS re:Invent 2025 re:Cap"
+        "title": "AWS re:Invent 2025 re:Cap",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/bordeaux-amazon-web-services/events/313077203/?eventOrigin=group_past_events",
@@ -425,12 +380,10 @@
       "city": "Lille",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "AWS re:Invent 2025 re:Cap"
+        "title": "AWS re:Invent 2025 re:Cap",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/aws-nantes/events/312404802/",
@@ -444,12 +397,10 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -462,12 +413,10 @@
       "city": "Brest",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "AWS re:Invent 2025 re:Cap"
+        "title": "AWS re:Invent 2025 re:Cap",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/brest-aws-user-group/events/312377198/",
@@ -481,12 +430,10 @@
       "city": "Lille",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "AWS re:Invent 2025 re:Cap"
+        "title": "AWS re:Invent 2025 re:Cap",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/lille-aws-amazon-web-services-user-group/events/312745082/",
@@ -500,15 +447,14 @@
       "city": "Lille",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       },
       {
-        "title": "[workshop] Serverlesspresso"
+        "title": "[workshop] Serverlesspresso",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -521,12 +467,10 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "AWS re:Invent 2025 re:Cap"
+        "title": "AWS re:Invent 2025 re:Cap",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/french-aws-ug/events/312522882/",
@@ -540,15 +484,14 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "Building a Dungeons & Dragons Game Master AI Agent in Python"
+        "title": "Building a Dungeons & Dragons Game Master AI Agent in Python",
+        "role": "mentor"
       },
       {
-        "title": "Comment naviguer sa carrière dans la Tech"
+        "title": "Comment naviguer sa carrière dans la Tech",
+        "role": "mentor"
       }
     ],
     "link": "https://www.meetup.com/fr-fr/aws-cloud-club-at-ecole-42-paris/events/312867585/",
@@ -562,12 +505,10 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "AWS re:Invent 2025 re:Cap"
+        "title": "AWS re:Invent 2025 re:Cap",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/strasbourg-aws-user-group/events/312635600/",
@@ -581,12 +522,10 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -599,12 +538,10 @@
       "city": "Mulhouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "AWS re:Invent 2025 re:Cap"
+        "title": "AWS re:Invent 2025 re:Cap",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/mulhouse-aws-user-group/events/312457930/",
@@ -618,12 +555,10 @@
       "city": "Mulhouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "speaker"
       }
     ],
     "link": "https://www.meetup.com/aws-cloud-club-at-epitech-mulhouse/",
@@ -637,13 +572,11 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://touraine.tech/",
     "talks": [
       {
-        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ]
   },
@@ -655,16 +588,15 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://app.voxxr.in/events/snowcamp26/talks/49/details",
     "talks": [
       {
-        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web."
+        "title": "APIs, contextes et prompts : la nouvelle stack du développeur web.",
+        "role": "speaker"
       },
       {
-        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "speaker"
       }
     ]
   },
@@ -676,13 +608,11 @@
       "city": "Las Vegas",
       "country": "United States"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://reinvent.awsevents.com/",
     "talks": [
       {
-        "title": "Build a multi-agent role-playing Game Master with Strands Agents"
+        "title": "Build a multi-agent role-playing Game Master with Strands Agents",
+        "role": "speaker"
       }
     ]
   },
@@ -694,13 +624,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgstrasbourg.fr/",
     "talks": [
       {
-        "title": "Code, Chrome & Paillettes: codons un Agent AI qui navigue sur le Web à votre place."
+        "title": "Code, Chrome & Paillettes: codons un Agent AI qui navigue sur le Web à votre place.",
+        "role": "speaker"
       }
     ]
   },
@@ -712,13 +640,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ]
   },
@@ -730,13 +656,11 @@
       "city": "Buea",
       "country": "Cameroon"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.communityday.awscmr.com/",
     "talks": [
       {
-        "title": "Build a multi-agent role-playing Game Master with Strands Agents."
+        "title": "Build a multi-agent role-playing Game Master with Strands Agents.",
+        "role": "speaker"
       }
     ]
   },
@@ -748,13 +672,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://aws.amazon.com/startups/lp/aws-gen-ai-loft-paris",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ]
   },
@@ -766,13 +688,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://aws.amazon.com/startups/lp/aws-gen-ai-loft-paris",
     "talks": [
       {
-        "title": "[workshop] Amazon Q Developer CLI: IA, AWS et MCP."
+        "title": "[workshop] Amazon Q Developer CLI: IA, AWS et MCP.",
+        "role": "mentor"
       }
     ]
   },
@@ -784,13 +704,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://devfest.gdgnantes.com/",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ]
   },
@@ -802,13 +720,11 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.awscommunityfrancophone.com/",
     "talks": [
       {
-        "title": "[workshop] GameDay Serverless"
+        "title": "[workshop] GameDay Serverless",
+        "role": "mentor"
       }
     ]
   },
@@ -820,13 +736,11 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ]
   },
@@ -838,13 +752,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/french-aws-ug/events/310814753/",
     "talks": [
       {
-        "title": "Créer un maître du jeu (de rôle) multi-agents avec Strands"
+        "title": "Créer un maître du jeu (de rôle) multi-agents avec Strands",
+        "role": "speaker"
       }
     ],
     "event": "awsontour"
@@ -857,13 +769,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -876,13 +786,11 @@
       "city": "Villejuif",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -895,17 +803,15 @@
       "city": "Rennes",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "https://www.meetup.com/rennes-amazon-web-services-user-group/events/310610530/",
     "talks": [
       {
-        "title": "Créer un maître du jeu (de rôle) multi-agents avec Strands!"
+        "title": "Créer un maître du jeu (de rôle) multi-agents avec Strands!",
+        "role": "speaker"
       },
       {
-        "title": "Soirée BuilderCards"
+        "title": "Soirée BuilderCards",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -918,13 +824,11 @@
       "city": "Rennes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -937,13 +841,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -956,13 +858,11 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/bordeaux-amazon-web-services/",
     "talks": [
       {
-        "title": "Créer un maître du jeu (de rôle) multi-agents avec Strands"
+        "title": "Créer un maître du jeu (de rôle) multi-agents avec Strands",
+        "role": "speaker"
       }
     ],
     "event": "awsontour"
@@ -975,13 +875,11 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents."
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
       }
     ],
     "event": "awsontour"
@@ -994,13 +892,11 @@
       "city": "Montpellier",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://sunny-tech.io/",
     "talks": [
       {
-        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas",
+        "role": "speaker"
       }
     ]
   },
@@ -1012,13 +908,11 @@
       "city": "Berlin",
       "country": "Germany"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "#",
     "talks": [
       {
-        "title": "Tool Up! A Survival Kit for Community Organizers"
+        "title": "Tool Up! A Survival Kit for Community Organizers",
+        "role": "speaker"
       }
     ]
   },
@@ -1030,13 +924,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws.amazon.com/fr/events/summits/paris/",
     "talks": [
       {
-        "title": "Développez une application multi-plateformes avec AWS Amplify"
+        "title": "Développez une application multi-plateformes avec AWS Amplify",
+        "role": "speaker"
       }
     ]
   },
@@ -1048,13 +940,11 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://touraine.tech/",
     "talks": [
       {
-        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas",
+        "role": "speaker"
       }
     ]
   },
@@ -1066,13 +956,11 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://snowcamp.io/",
     "talks": [
       {
-        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas",
+        "role": "speaker"
       }
     ]
   },
@@ -1084,13 +972,11 @@
       "city": "Las Vegas",
       "country": "United States"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://reinvent.awsevents.com/",
     "talks": [
       {
-        "title": "Build a cloud-powered cross-platform app with AWS Amplify"
+        "title": "Build a cloud-powered cross-platform app with AWS Amplify",
+        "role": "speaker"
       }
     ]
   },
@@ -1102,13 +988,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgstrasbourg.fr/",
     "talks": [
       {
-        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas",
+        "role": "speaker"
       }
     ]
   },
@@ -1120,13 +1004,11 @@
       "city": "Lagos",
       "country": "Nigeria"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://gdg.community.dev/events/details/google-gdg-lagos-presents-devfest-lagos-2024/",
     "talks": [
       {
-        "title": "CSS Rises from the Ashes: (Re)Become Friends with Your Stylesheet"
+        "title": "CSS Rises from the Ashes: (Re)Become Friends with Your Stylesheet",
+        "role": "speaker"
       }
     ]
   },
@@ -1138,13 +1020,11 @@
       "city": "Mons",
       "country": "Belgium"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devday.be/",
     "talks": [
       {
-        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas"
+        "title": "10 fonctionnalités utiles du web que vous ne connaissez pas",
+        "role": "speaker"
       }
     ]
   },
@@ -1156,13 +1036,11 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfesttoulouse.fr/",
     "talks": [
       {
-        "title": "Façonnez Votre Cloud avec Karpenter : Les Secrets du Maître Charpentier du Numérique"
+        "title": "Façonnez Votre Cloud avec Karpenter : Les Secrets du Maître Charpentier du Numérique",
+        "role": "speaker"
       }
     ]
   },
@@ -1174,13 +1052,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgnantes.com/en/",
     "talks": [
       {
-        "title": "Façonnez Votre Cloud avec Karpenter : Les Secrets du Maître Charpentier du Numérique"
+        "title": "Façonnez Votre Cloud avec Karpenter : Les Secrets du Maître Charpentier du Numérique",
+        "role": "speaker"
       }
     ]
   },
@@ -1192,13 +1068,11 @@
       "city": "Ajaccio",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.corsica.ai/",
     "talks": [
       {
-        "title": "[workshop] Use Foundation Models in Amazon Bedrock"
+        "title": "[workshop] Use Foundation Models in Amazon Bedrock",
+        "role": "mentor"
       }
     ]
   },
@@ -1210,13 +1084,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws.amazon.com/startups/events/aws-genai-loft-next-generation-developer-day",
     "talks": [
       {
-        "title": "Opening Keynote focusing on the future of development and Amazon’s vision"
+        "title": "Opening Keynote focusing on the future of development and Amazon’s vision",
+        "role": "speaker"
       }
     ]
   },
@@ -1228,13 +1100,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws.amazon.com/startups/lp/aws-gen-ai-loft-paris",
     "talks": [
       {
-        "title": "Keynote: The future of software development"
+        "title": "Keynote: The future of software development",
+        "role": "speaker"
       }
     ]
   },
@@ -1246,13 +1116,11 @@
       "city": "London",
       "country": "United Kingdom"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws.amazon.com/startups/lp/aws-gen-ai-loft-london",
     "talks": [
       {
-        "title": "Amazon Bedrock web component"
+        "title": "Amazon Bedrock web component",
+        "role": "speaker"
       }
     ]
   },
@@ -1264,13 +1132,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devoxx.ma/",
     "talks": [
       {
-        "title": "A l'aide, mon IA est débile! Comment évaluer et améliorer son IA générative"
+        "title": "A l'aide, mon IA est débile! Comment évaluer et améliorer son IA générative",
+        "role": "speaker"
       }
     ]
   },
@@ -1282,13 +1148,11 @@
       "city": "Johannesburg",
       "country": "South Africa"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://aws.amazon.com/events/summits/emea/johannesburg",
     "talks": [
       {
-        "title": "AWS BuilderCards game"
+        "title": "AWS BuilderCards game",
+        "role": "mentor"
       }
     ]
   },
@@ -1300,13 +1164,11 @@
       "city": "Cap Town",
       "country": "South Africa"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/gdg-cape-town-meetup/events/302433554/",
     "talks": [
       {
-        "title": "CSS Rises from the Ashes: (Re)Become Friends with Your Stylesheet"
+        "title": "CSS Rises from the Ashes: (Re)Become Friends with Your Stylesheet",
+        "role": "speaker"
       }
     ]
   },
@@ -1318,13 +1180,11 @@
       "city": "Nice",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://gdsc.community.dev/events/details/developer-student-clubs-cote-dazur-university-presents-talk-experts-de-chez-amazon-aws-et-google-comment-naviguer-sa-carriere-dans-la-tech/",
     "talks": [
       {
-        "title": "Comment Naviguer sa Carrière dans la Tech"
+        "title": "Comment Naviguer sa Carrière dans la Tech",
+        "role": "speaker"
       }
     ]
   },
@@ -1336,13 +1196,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.devoxx.fr/schedule/talk/?id=23567",
     "talks": [
       {
-        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
+        "role": "speaker"
       }
     ]
   },
@@ -1354,19 +1212,19 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws.amazon.com/fr/events/summits/emea/paris/",
     "talks": [
       {
-        "title": "Façonnez Votre Cloud avec Karpenter : Les Secrets du Maître Charpentier du Numérique"
+        "title": "Façonnez Votre Cloud avec Karpenter : Les Secrets du Maître Charpentier du Numérique",
+        "role": "speaker"
       },
       {
-        "title": "Créez simplement et rapidement votre propre application de partage de photos"
+        "title": "Créez simplement et rapidement votre propre application de partage de photos",
+        "role": "speaker"
       },
       {
-        "title": "Créez son application nouvelle génération avec AWS Amplify"
+        "title": "Créez son application nouvelle génération avec AWS Amplify",
+        "role": "speaker"
       }
     ]
   },
@@ -1378,13 +1236,11 @@
       "city": "Glasgow",
       "country": "United Kingdom"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://wtmscotland.com/",
     "talks": [
       {
-        "title": "CSS Rises from the Ashes: (Re)Become Friends with Your Stylesheet"
+        "title": "CSS Rises from the Ashes: (Re)Become Friends with Your Stylesheet",
+        "role": "speaker"
       }
     ]
   },
@@ -1396,13 +1252,11 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://touraine.tech/",
     "talks": [
       {
-        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
+        "role": "speaker"
       }
     ]
   },
@@ -1414,9 +1268,6 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://devfest.gdgparis.com/",
     "talks": []
   },
@@ -1428,17 +1279,15 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "speaker",
-      "mentor"
-    ],
     "link": "https://snowcamp.io/",
     "talks": [
       {
-        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
+        "role": "speaker"
       },
       {
-        "title": "[Workshop] Développez votre application web (presque) sans code avec Amplify"
+        "title": "[Workshop] Développez votre application web (presque) sans code avec Amplify",
+        "role": "mentor"
       }
     ]
   },
@@ -1450,13 +1299,11 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/toulouse-amazon-web-services/events/297831603/",
     "talks": [
       {
-        "title": "Re:Cap : le résumé des annonces du AWS re:Invent"
+        "title": "Re:Cap : le résumé des annonces du AWS re:Invent",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -1469,13 +1316,11 @@
       "city": "Marseille",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/marseille-aws-user-group/",
     "talks": [
       {
-        "title": "Re:Cap : le résumé des annonces du AWS re:Invent"
+        "title": "Re:Cap : le résumé des annonces du AWS re:Invent",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -1488,13 +1333,11 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/grenoble-aws-user-group/events/297945517/",
     "talks": [
       {
-        "title": "AWS re:Invent 2023 re:Cap"
+        "title": "AWS re:Invent 2023 re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -1507,13 +1350,11 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/aws-lyon-amazon-web-services-user-group/events/297809580/",
     "talks": [
       {
-        "title": "AWS re:Invent 2023 re:Cap"
+        "title": "AWS re:Invent 2023 re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -1526,13 +1367,11 @@
       "city": "Lille",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/lille-aws-amazon-web-services-user-group/events/297814312/",
     "talks": [
       {
-        "title": "AWS re:Invent 2023 re:Cap"
+        "title": "AWS re:Invent 2023 re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -1545,13 +1384,11 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/awsugnancy/events/298171837/",
     "talks": [
       {
-        "title": "AWS re:Invent 2023 re:Cap"
+        "title": "AWS re:Invent 2023 re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -1564,17 +1401,16 @@
       "city": "Las Vegas",
       "country": "United States"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://reinvent.awsevents.com/",
     "talks": [
       {
         "title": "Building an AWS solutions architect agent with Amazon Bedrock",
-        "video": "https://www.youtube.com/watch?v=kzzlchi0DzU"
+        "video": "https://www.youtube.com/watch?v=kzzlchi0DzU",
+        "role": "speaker"
       },
       {
-        "title": "[Workshop] Make applications highly resilient with AWS Fault Injection Simulator"
+        "title": "[Workshop] Make applications highly resilient with AWS Fault Injection Simulator",
+        "role": "speaker"
       }
     ]
   },
@@ -1586,14 +1422,12 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfesttoulouse.fr/",
     "talks": [
       {
         "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
-        "video": "https://www.youtube.com/watch?v=_Dg1Wb7rMRs"
+        "video": "https://www.youtube.com/watch?v=_Dg1Wb7rMRs",
+        "role": "speaker"
       }
     ]
   },
@@ -1605,13 +1439,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgstrasbourg.fr/",
     "talks": [
       {
-        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
+        "role": "speaker"
       }
     ]
   },
@@ -1623,14 +1455,12 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgnantes.com/en/",
     "talks": [
       {
         "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
-        "video": "https://www.youtube.com/watch?v=jCk0cyjexNU"
+        "video": "https://www.youtube.com/watch?v=jCk0cyjexNU",
+        "role": "speaker"
       }
     ]
   },
@@ -1642,13 +1472,11 @@
       "city": "Agadir",
       "country": "Morocco"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devoxx.ma/",
     "talks": [
       {
-        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style"
+        "title": "CSS renaît de ses cendres: (re)devenez copains avec votre feuille de style",
+        "role": "speaker"
       }
     ]
   },
@@ -1660,9 +1488,6 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://twitch.tv/aws",
     "event": "awsontour"
   },
@@ -1674,9 +1499,6 @@
       "city": "Barcelona",
       "country": "Spain"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://awsontour-barcelona.splashthat.com/",
     "event": "awsontour"
   },
@@ -1688,9 +1510,6 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://awsontour-lyon.splashthat.com/",
     "event": "awsontour"
   },
@@ -1702,9 +1521,6 @@
       "city": "Milan",
       "country": "Italy"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://awsontour-milan.splashthat.com/",
     "event": "awsontour"
   },
@@ -1716,9 +1532,6 @@
       "city": "Zurich",
       "country": "Switzerland"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://awsontour-zurich.splashthat.com/",
     "event": "awsontour"
   },
@@ -1730,9 +1543,6 @@
       "city": "Frankfurt",
       "country": "Germany"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://awsontour-frankfurt.splashthat.com/",
     "event": "awsontour"
   },
@@ -1744,9 +1554,6 @@
       "city": "Amsterdam",
       "country": "Netherlands"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://awsontour-amsterdam.splashthat.com/",
     "event": "awsontour"
   },
@@ -1758,9 +1565,6 @@
       "city": "Brussels",
       "country": "Belgium"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://awsontour-brussels.splashthat.com/",
     "event": "awsontour"
   },
@@ -1772,9 +1576,6 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://awsontour-paris.splashthat.com/",
     "event": "awsontour"
   },
@@ -1786,13 +1587,10 @@
       "city": "London",
       "country": "United Kingdom"
     },
-    "roles": [
-      "organizer",
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "Build a full-Stack application without being an architect"
+        "title": "Build a full-Stack application without being an architect",
+        "role": "speaker"
       }
     ],
     "link": "https://awsontour-london.splashthat.com/",
@@ -1806,13 +1604,11 @@
       "city": "Lomé",
       "country": "Togo"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/lome-aws-user-group/events/294018217/",
     "talks": [
       {
-        "title": "Un déploiement n'est pas une release: Controlez vos lancements avec les Feature Flags"
+        "title": "Un déploiement n'est pas une release: Controlez vos lancements avec les Feature Flags",
+        "role": "speaker"
       }
     ]
   },
@@ -1824,13 +1620,11 @@
       "city": "Frameries",
       "country": "Belgium"
     },
-    "roles": [
-      "panellist"
-    ],
     "link": "https://www.eventbrite.be/e/billets-cloture-de-la-power-branch-641375821347",
     "talks": [
       {
-        "title": "Quels sont les enjeux et opprotunité de l'IA pour les dev"
+        "title": "Quels sont les enjeux et opprotunité de l'IA pour les dev",
+        "role": "panellist"
       }
     ]
   },
@@ -1842,13 +1636,11 @@
       "city": "Baden",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://camping-speakers.fr/",
     "talks": [
       {
-        "title": "Cette année, retombez amoureux de CSS ❤️"
+        "title": "Cette année, retombez amoureux de CSS ❤️",
+        "role": "speaker"
       }
     ]
   },
@@ -1860,13 +1652,11 @@
       "city": "Lonson",
       "country": "United Kingdom"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws.amazon.com/events/summits/london/",
     "talks": [
       {
-        "title": "A deployment is not a release: Control your launches with feature flags"
+        "title": "A deployment is not a release: Control your launches with feature flags",
+        "role": "speaker"
       }
     ]
   },
@@ -1878,13 +1668,11 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/paris-serverless-architecture-meetup/events/293883797/",
     "talks": [
       {
-        "title": "Panel on Service Orchestration Patterns"
+        "title": "Panel on Service Orchestration Patterns",
+        "role": "speaker"
       }
     ]
   },
@@ -1896,13 +1684,11 @@
       "city": "Stockholm",
       "country": "Sweden"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws.amazon.com/events/summits/stockholm/",
     "talks": [
       {
-        "title": "A deployment is not a release: Control your launches with feature flags"
+        "title": "A deployment is not a release: Control your launches with feature flags",
+        "role": "speaker"
       }
     ]
   },
@@ -1914,16 +1700,15 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws.amazon.com/fr/events/summits/paris/",
     "talks": [
       {
-        "title": "Sécurisez vos applications Web avec AWS WAF : un service qui envoie du pâté !"
+        "title": "Sécurisez vos applications Web avec AWS WAF : un service qui envoie du pâté !",
+        "role": "speaker"
       },
       {
-        "title": "League of Legends GameDay live Twitch show"
+        "title": "League of Legends GameDay live Twitch show",
+        "role": "speaker"
       }
     ]
   },
@@ -1935,13 +1720,11 @@
       "city": "Mons",
       "country": "Belgium"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devday.be/",
     "talks": [
       {
-        "title": "Mutation Testing: Did my test break my code ? 🤔"
+        "title": "Mutation Testing: Did my test break my code ? 🤔",
+        "role": "speaker"
       }
     ]
   },
@@ -1953,13 +1736,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/french-aws-ug/events/290998979/",
     "talks": [
       {
-        "title": "AWS re:Cap"
+        "title": "AWS re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -1972,13 +1753,11 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/toulouse-amazon-web-services/events/290998878/",
     "talks": [
       {
-        "title": "AWS re:Cap"
+        "title": "AWS re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -1991,13 +1770,11 @@
       "city": "Geneva",
       "country": "Switzerland"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/aws-swiss-user-group-geneva/events/290904080/",
     "talks": [
       {
-        "title": "AWS re:Cap"
+        "title": "AWS re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -2010,13 +1787,11 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/grenoble-aws-user-group/events/291229945/",
     "talks": [
       {
-        "title": "AWS re:Cap"
+        "title": "AWS re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -2029,13 +1804,11 @@
       "city": "Lille",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/lille-aws-amazon-web-services-user-group/events/290866190/",
     "talks": [
       {
-        "title": "AWS re:Cap"
+        "title": "AWS re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -2048,13 +1821,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "AWS re:Cap"
+        "title": "AWS re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -2067,13 +1838,11 @@
       "city": "Brest",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Brest-AWS-User-Group/events/290890024/",
     "talks": [
       {
-        "title": "AWS re:Cap"
+        "title": "AWS re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -2086,13 +1855,11 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://pages.awscloud.com/reinvent22-recaps-france-registration.html",
     "talks": [
       {
-        "title": "AWS re:Cap"
+        "title": "AWS re:Cap",
+        "role": "speaker"
       }
     ],
     "event": "recaptour"
@@ -2105,17 +1872,15 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "https://snowcamp.io/",
     "talks": [
       {
-        "title": "Coder votre infrastructure avec votre langage préféré!"
+        "title": "Coder votre infrastructure avec votre langage préféré!",
+        "role": "mentor"
       },
       {
-        "title": "Mutation Testing: Did my test break my code ? 🤔"
+        "title": "Mutation Testing: Did my test break my code ? 🤔",
+        "role": "speaker"
       }
     ]
   },
@@ -2127,17 +1892,15 @@
       "city": "Mons",
       "country": "Belgium"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "https://gdg.community.dev/events/details/google-gdg-mons-presents-devfest-mons-2022/",
     "talks": [
       {
-        "title": "Coder votre infrastructure avec votre langage préféré!"
+        "title": "Coder votre infrastructure avec votre langage préféré!",
+        "role": "mentor"
       },
       {
-        "title": "Mutation Testing: Did my test break my code ? 🤔"
+        "title": "Mutation Testing: Did my test break my code ? 🤔",
+        "role": "speaker"
       }
     ]
   },
@@ -2149,13 +1912,11 @@
       "city": "Mons",
       "country": "Belgium"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.meetup.com/fr-FR/micbelgique/events/290283865/",
     "talks": [
       {
-        "title": "Développez votre application web (presque) sans code avec Amplify"
+        "title": "Développez votre application web (presque) sans code avec Amplify",
+        "role": "mentor"
       }
     ]
   },
@@ -2167,13 +1928,11 @@
       "city": "Twitch",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.twitch.tv/micbelgique",
     "talks": [
       {
-        "title": "Un déploiement n'est pas une release: Controlez vos lancements avec les Feature Flags"
+        "title": "Un déploiement n'est pas une release: Controlez vos lancements avec les Feature Flags",
+        "role": "speaker"
       }
     ]
   },
@@ -2185,13 +1944,11 @@
       "city": "Las Vegas",
       "country": "United States"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://portal.awsevents.com/events/reinvent2022/dashboard/event/sessions/BOA305-R",
     "talks": [
       {
-        "title": "A deployment is not a release: Control your launches with feature flags"
+        "title": "A deployment is not a release: Control your launches with feature flags",
+        "role": "speaker"
       }
     ]
   },
@@ -2203,13 +1960,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://devfest.gdgstrasbourg.fr",
     "talks": [
       {
-        "title": "Coder votre infrastructure avec votre langage préféré!"
+        "title": "Coder votre infrastructure avec votre langage préféré!",
+        "role": "mentor"
       }
     ]
   },
@@ -2221,13 +1976,11 @@
       "city": "Lisbon",
       "country": "Portugal"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://websummit.com/schedule/ws22/timeslot/build-feature-rich-mobile-apps-in-no-time-hosted-by-aws",
     "talks": [
       {
-        "title": "Build feature-rich mobile apps in no time"
+        "title": "Build feature-rich mobile apps in no time",
+        "role": "speaker"
       }
     ]
   },
@@ -2239,13 +1992,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://devfest.gdgnantes.com",
     "talks": [
       {
-        "title": "Coder votre infrastructure avec votre langage préféré!"
+        "title": "Coder votre infrastructure avec votre langage préféré!",
+        "role": "mentor"
       }
     ]
   },
@@ -2257,13 +2008,11 @@
       "city": "Montpellier",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://agiletourmontpellier.fr/2022/",
     "talks": [
       {
-        "title": "Mutation Testing: Did my test break my code ? 🤔"
+        "title": "Mutation Testing: Did my test break my code ? 🤔",
+        "role": "speaker"
       }
     ]
   },
@@ -2275,13 +2024,11 @@
       "city": "Clermont-Ferrand",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.volcamp.io",
     "talks": [
       {
-        "title": "Mutation Testing - Did my test break my code ? 🤔"
+        "title": "Mutation Testing - Did my test break my code ? 🤔",
+        "role": "speaker"
       }
     ]
   },
@@ -2293,16 +2040,15 @@
       "city": "Antwerp",
       "country": "Belgium"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devoxx.be",
     "talks": [
       {
-        "title": "Building multi-screen experiences for the mobile web"
+        "title": "Building multi-screen experiences for the mobile web",
+        "role": "speaker"
       },
       {
-        "title": "Mutation Testing - Did my test break my code ? 🤔"
+        "title": "Mutation Testing - Did my test break my code ? 🤔",
+        "role": "speaker"
       }
     ]
   },
@@ -2314,13 +2060,11 @@
       "city": "Agadir",
       "country": "Morocco"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devoxx.ma/",
     "talks": [
       {
-        "title": "Building multi-screen experiences for the mobile web"
+        "title": "Building multi-screen experiences for the mobile web",
+        "role": "speaker"
       }
     ]
   },
@@ -2332,13 +2076,11 @@
       "city": "Fort-de-France",
       "country": "Martinique"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://aws-acceleration-roadshow-antilles-guyane.splashthat.com/",
     "talks": [
       {
-        "title": "Bien Démarrer sur AWS: les services de stockage de données"
+        "title": "Bien Démarrer sur AWS: les services de stockage de données",
+        "role": "speaker"
       }
     ]
   },
@@ -2350,13 +2092,11 @@
       "city": "Lille",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.meetup.com/bbl-axa/events/288347813/",
     "talks": [
       {
-        "title": "[Workshop] Coder votre infrastructure avec votre langage préféré !"
+        "title": "[Workshop] Coder votre infrastructure avec votre langage préféré !",
+        "role": "mentor"
       }
     ]
   },
@@ -2368,13 +2108,11 @@
       "city": "Luxembourg",
       "country": "Luxembourg"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://luxembourg.voxxeddays.com/en/",
     "talks": [
       {
-        "title": "Mutation Testing: Did my test break my code ? 🤔"
+        "title": "Mutation Testing: Did my test break my code ? 🤔",
+        "role": "speaker"
       }
     ]
   },
@@ -2386,16 +2124,15 @@
       "city": "Vannes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://camping-speakers.fr/",
     "talks": [
       {
-        "title": "DevRel, c'est quoi ?"
+        "title": "DevRel, c'est quoi ?",
+        "role": "speaker"
       },
       {
-        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais ma web app si :("
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais ma web app si :(",
+        "role": "speaker"
       }
     ]
   },
@@ -2407,9 +2144,6 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.tadx.fr/2022/04/06/27-eme-event.html",
     "talks": []
   },
@@ -2421,13 +2155,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.devoxx.fr/en/",
     "talks": [
       {
-        "title": "Mais au fait DevRel c'est vraiment qu'un lanceur de paillettes ?"
+        "title": "Mais au fait DevRel c'est vraiment qu'un lanceur de paillettes ?",
+        "role": "speaker"
       }
     ]
   },
@@ -2439,13 +2171,11 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop - Machine Learning with Custom Vision"
+        "title": "Workshop - Machine Learning with Custom Vision",
+        "role": "mentor"
       }
     ]
   },
@@ -2457,13 +2187,11 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/VISEO-Tech-an-Hour/events/283523485/",
     "talks": [
       {
-        "title": "Introduction à Azure Static Web Apps"
+        "title": "Introduction à Azure Static Web Apps",
+        "role": "speaker"
       }
     ]
   },
@@ -2475,13 +2203,11 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://snowcamp.io/fr/",
     "talks": [
       {
-        "title": "Développez et déployez votre application web fullstack avec Azure Static Web Apps et GitHub Actions"
+        "title": "Développez et déployez votre application web fullstack avec Azure Static Web Apps et GitHub Actions",
+        "role": "mentor"
       }
     ]
   },
@@ -2493,13 +2219,11 @@
       "city": "Louvain-La-Neuve",
       "country": "Belgium"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devday.be",
     "talks": [
       {
-        "title": "Create multi-screen experiences for the new mobile web"
+        "title": "Create multi-screen experiences for the new mobile web",
+        "role": "speaker"
       }
     ]
   },
@@ -2511,13 +2235,11 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.codeursenseine.com/2021",
     "talks": [
       {
-        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :(",
+        "role": "speaker"
       }
     ]
   },
@@ -2529,17 +2251,15 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "https://devfest.gdgstrasbourg.fr/schedule/2021-11-09?sessionId=121",
     "talks": [
       {
-        "title": "Workshop - Build, deploy and audit a serverless PWA with Angular and Azure Static Web Apps"
+        "title": "Workshop - Build, deploy and audit a serverless PWA with Angular and Azure Static Web Apps",
+        "role": "mentor"
       },
       {
-        "title": "Building multi-screen experiences for the web"
+        "title": "Building multi-screen experiences for the web",
+        "role": "speaker"
       }
     ]
   },
@@ -2551,13 +2271,11 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://gdg.community.dev/events/details/google-gdg-cocody-presents-devfest-cocody-2021/",
     "talks": [
       {
-        "title": "Create multi-screen experiences for the new mobile web"
+        "title": "Create multi-screen experiences for the new mobile web",
+        "role": "speaker"
       }
     ]
   },
@@ -2569,13 +2287,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgnantes.com/",
     "talks": [
       {
-        "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau"
+        "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau",
+        "role": "speaker"
       }
     ]
   },
@@ -2587,9 +2303,6 @@
       "city": "France",
       "country": "France"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://fr.azureday.community"
   },
   {
@@ -2600,13 +2313,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/AZUG-FR/events/280772672/",
     "talks": [
       {
-        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :(",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2619,17 +2330,15 @@
       "city": "Montpellier",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -2642,13 +2351,11 @@
       "city": "Montpellier",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/MUG-Montpellier/events/281044520/",
     "talks": [
       {
-        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :(",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2661,17 +2368,15 @@
       "city": "Montpellier",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -2684,13 +2389,11 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Meetup-NET-Toulouse/events/280915318/",
     "talks": [
       {
-        "title": "Getting Started with Azure Static Web Apps"
+        "title": "Getting Started with Azure Static Web Apps",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2703,17 +2406,15 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -2726,13 +2427,11 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :(",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2745,17 +2444,15 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -2768,17 +2465,15 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -2791,13 +2486,11 @@
       "city": "Lille",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Lille/events/280657764",
     "talks": [
       {
-        "title": "Getting Started with Azure Static Web Apps"
+        "title": "Getting Started with Azure Static Web Apps",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2810,13 +2503,11 @@
       "city": "Mons",
       "country": "Belgium"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/micbelgique/events/280506354/",
     "talks": [
       {
-        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :(",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2829,17 +2520,15 @@
       "city": "Mons",
       "country": "Belgium"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -2852,13 +2541,11 @@
       "city": "Luxembourg",
       "country": "Luxembourg"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/dotnet-luxembourg/events/280512950/",
     "talks": [
       {
-        "title": "Getting Started with Azure Static Web Apps"
+        "title": "Getting Started with Azure Static Web Apps",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2871,13 +2558,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/MugStrasbourg/events/280616088/",
     "talks": [
       {
-        "title": "Getting Started with Azure Static Web Apps"
+        "title": "Getting Started with Azure Static Web Apps",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2890,17 +2575,15 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -2913,17 +2596,15 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -2936,13 +2617,11 @@
       "city": "Clermont",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/muginclermont/events/280667416/",
     "talks": [
       {
-        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :("
+        "title": "J'ai plié mon smartphone et il ne s'est pas cassé... mais mon app si :(",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2955,17 +2634,15 @@
       "city": "Clermont",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -2978,13 +2655,11 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/MUGLyon/events/280709897/",
     "talks": [
       {
-        "title": "Getting Started with Azure Static Web Apps"
+        "title": "Getting Started with Azure Static Web Apps",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -2997,17 +2672,15 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3020,17 +2693,15 @@
       "city": "Aix-en-Provence",
       "country": "France"
     },
-    "roles": [
-      "mentor",
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Développez des applications de réalité mixe pour Hololens avec Unity"
+        "title": "Développez des applications de réalité mixe pour Hololens avec Unity",
+        "role": "speaker"
       },
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3043,13 +2714,11 @@
       "city": "Roquebrune-sur-Argens",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://2021.rivieradev.fr/",
     "talks": [
       {
-        "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau"
+        "title": "Les web apps multi écran, c'est pas sec... mais on s'est jeté à l'eau",
+        "role": "speaker"
       }
     ]
   },
@@ -3061,13 +2730,11 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://simplewebconf.com/",
     "talks": [
       {
-        "title": "Workshop - Build, deploy and audit a serverless PWA with Azure Static Web Apps"
+        "title": "Workshop - Build, deploy and audit a serverless PWA with Azure Static Web Apps",
+        "role": "mentor"
       }
     ]
   },
@@ -3079,13 +2746,11 @@
       "city": "Tokyo",
       "country": "Japan"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://tokyo-2021.devrel.net/",
     "talks": [
       {
-        "title": "Azure Heroes - A new fun way to engage with developer community"
+        "title": "Azure Heroes - A new fun way to engage with developer community",
+        "role": "speaker"
       }
     ]
   },
@@ -3097,13 +2762,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3116,13 +2779,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3135,13 +2796,11 @@
       "city": "Aix-en-Provence",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3154,13 +2813,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3173,13 +2830,11 @@
       "city": "France",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Microsoft FrontPage"
+        "title": "Microsoft FrontPage",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3192,13 +2847,11 @@
       "city": "France",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Windows XP"
+        "title": "Windows XP",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3211,13 +2864,11 @@
       "city": "Condorcet",
       "country": "Belgium"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps"
+        "title": "Workshop - Créez et déployez votre porfolio en ligne avec Gatsby, GitHub et Azure Static Web Apps",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3230,9 +2881,6 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://accessibilitycon.devcongalaxy.io/"
   },
   {
@@ -3243,13 +2891,11 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/micbelgique/events/275295122/",
     "talks": [
       {
-        "title": "Le web en 2021: What to expect ?"
+        "title": "Le web en 2021: What to expect ?",
+        "role": "speaker"
       }
     ]
   },
@@ -3261,14 +2907,12 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/GDG-Nantes/events/275049692/",
     "talks": [
       {
         "title": "Table ronde - Chrome Dev Summit 2020",
-        "video": "https://www.youtube.com/watch?v=RbeHrFGnRqU"
+        "video": "https://www.youtube.com/watch?v=RbeHrFGnRqU",
+        "role": "speaker"
       }
     ]
   },
@@ -3294,14 +2938,12 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://www.viaegnatia20.com/",
     "talks": [
       {
         "title": "Better collaboration with GitHub, Codespaces, LiveShare and VSCode",
-        "video": "https://www.youtube.com/watch?v=hON1InS5qJ4"
+        "video": "https://www.youtube.com/watch?v=hON1InS5qJ4",
+        "role": "speaker"
       }
     ]
   },
@@ -3313,13 +2955,11 @@
       "city": "Rennes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Rennes/events/273563683/",
     "talks": [
       {
-        "title": "Introduction to Microsoft Graph API et Graph toolkit"
+        "title": "Introduction to Microsoft Graph API et Graph toolkit",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3332,13 +2972,11 @@
       "city": "Rennes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop Quantum Computing"
+        "title": "Workshop Quantum Computing",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3351,14 +2989,12 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Net-Nantes/events/273391862/",
     "talks": [
       {
         "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait",
-        "video": "https://www.youtube.com/watch?v=Dtl6Bg6hRoY"
+        "video": "https://www.youtube.com/watch?v=Dtl6Bg6hRoY",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3371,13 +3007,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop Quantum Computing"
+        "title": "Workshop Quantum Computing",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3390,13 +3024,11 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/273499455/",
     "talks": [
       {
-        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3409,13 +3041,11 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/273499455/",
     "talks": [
       {
-        "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait"
+        "title": "GitHub Codespaces & GitHub Actions : L’environnement de dev parfait",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3428,13 +3058,11 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop Quantum Computing"
+        "title": "Workshop Quantum Computing",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3447,13 +3075,11 @@
       "city": "Orléans",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Workshop Quantum Computing"
+        "title": "Workshop Quantum Computing",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3466,9 +3092,6 @@
       "city": "Online",
       "country": "Online"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "http://greenconf.io/"
   },
   {
@@ -3493,13 +3116,11 @@
       "city": "Kosovo",
       "country": "Kosovo"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.facebook.com/events/alliance-fran%C3%A7aise-de-pristina-kosovo/hackathon-language-learning-and-innovation/2646278185608784/",
     "talks": [
       {
-        "title": "A brief history of web development"
+        "title": "A brief history of web development",
+        "role": "speaker"
       }
     ]
   },
@@ -3511,13 +3132,11 @@
       "city": "France",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://cloudouest2020.virtualconference.com/",
     "talks": [
       {
-        "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
+        "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!",
+        "role": "mentor"
       }
     ]
   },
@@ -3529,13 +3148,11 @@
       "city": "France",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.epitech.eu",
     "talks": [
       {
-        "title": "Workshop PWA x Angular"
+        "title": "Workshop PWA x Angular",
+        "role": "mentor"
       }
     ]
   },
@@ -3566,13 +3183,11 @@
       "city": "Online",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.meetup.com/fr-FR/MUGLyon/events/270235046/",
     "talks": [
       {
-        "title": "The Mojifier - Create a Slack bot that replaces people's faces with emojis matching their emotion"
+        "title": "The Mojifier - Create a Slack bot that replaces people's faces with emojis matching their emotion",
+        "role": "mentor"
       }
     ]
   },
@@ -3584,13 +3199,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://adatechschool.fr/",
     "talks": [
       {
-        "title": "Vue.js workshop"
+        "title": "Vue.js workshop",
+        "role": "mentor"
       }
     ]
   },
@@ -3602,13 +3215,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://adatechschool.fr/",
     "talks": [
       {
-        "title": "Introduction to HTML and CSS"
+        "title": "Introduction to HTML and CSS",
+        "role": "speaker"
       }
     ]
   },
@@ -3634,13 +3245,11 @@
       "city": "Brest",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.duboutdumonde.bzh/",
     "talks": [
       {
-        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web",
+        "role": "speaker"
       }
     ]
   },
@@ -3652,13 +3261,11 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3671,13 +3278,11 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/VISEO-Tech-an-Hour/events/268530963/",
     "talks": [
       {
-        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web"
+        "title": "Project Fugu 🐡: A Better, Smoother and Sexier web",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3690,13 +3295,11 @@
       "city": "Grenoble",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3709,13 +3312,11 @@
       "city": "Valence",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Pimp my vscode"
+        "title": "Pimp my vscode",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3728,14 +3329,12 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
         "title": "Introduction à Microsoft Graph API et Graph toolkit",
-        "video": "https://www.youtube.com/watch?v=MNa_73qmUkA"
+        "video": "https://www.youtube.com/watch?v=MNa_73qmUkA",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3748,13 +3347,11 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3767,13 +3364,11 @@
       "city": "Clermont Ferrand",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "Pimp my vscode"
+        "title": "Pimp my vscode",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3786,14 +3381,12 @@
       "city": "Clermont Ferrand",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "",
     "talks": [
       {
         "title": "Project Fugu 🐡: A Better, Smoother and Sexier web",
-        "video": "https://www.youtube.com/watch?v=Hy3Gfgqyg18"
+        "video": "https://www.youtube.com/watch?v=Hy3Gfgqyg18",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3806,13 +3399,11 @@
       "city": "Clermont Ferrand",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3825,13 +3416,11 @@
       "city": "Clermont-Ferrand",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://snowcamp.io/fr/",
     "talks": [
       {
-        "title": "Allo la montagne, ici la mer. Et si on codait ensemble avec VS Code?"
+        "title": "Allo la montagne, ici la mer. Et si on codait ensemble avec VS Code?",
+        "role": "speaker"
       }
     ]
   },
@@ -3843,13 +3432,11 @@
       "city": "Clermont-Ferrand",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "http://snowcamp.io/fr/",
     "talks": [
       {
-        "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!"
+        "title": "Envoyez la Nitro: construisez une API serverless avec Nest.js à toute vitesse!",
+        "role": "mentor"
       }
     ]
   },
@@ -3861,14 +3448,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker",
-      "mentor"
-    ],
     "link": "https://www.globaldiversitycfpday.com/",
     "talks": [
       {
-        "title": "Ecrire un résumé : conseils de speakers et d’organisateurs de conférences"
+        "title": "Ecrire un résumé : conseils de speakers et d’organisateurs de conférences",
+        "role": "speaker"
       }
     ]
   },
@@ -3880,13 +3464,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgstrasbourg.fr/",
     "talks": [
       {
-        "title": "The web capabilities project: Better, Smoother, Sexier"
+        "title": "The web capabilities project: Better, Smoother, Sexier",
+        "role": "speaker"
       }
     ]
   },
@@ -3898,13 +3480,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://devfest.gdgnantes.com/",
     "talks": [
       {
-        "title": "Créer votre device IoT connecté en quelques heures"
+        "title": "Créer votre device IoT connecté en quelques heures",
+        "role": "mentor"
       }
     ]
   },
@@ -3916,13 +3496,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://mdf19.com",
     "talks": [
       {
-        "title": "Master the power of Git in VSCode"
+        "title": "Master the power of Git in VSCode",
+        "role": "speaker"
       }
     ]
   },
@@ -3934,13 +3512,11 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3953,13 +3529,11 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Meetup-NET-Toulouse/events/265175535/",
     "talks": [
       {
-        "title": "Pimp my vscode"
+        "title": "Pimp my vscode",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -3972,13 +3546,11 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -3991,13 +3563,11 @@
       "city": "Montpellier",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/MUG-Montpellier/events/265280157/",
     "talks": [
       {
-        "title": "Pimp my vscode"
+        "title": "Pimp my vscode",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -4010,13 +3580,11 @@
       "city": "Montpellier",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4029,13 +3597,11 @@
       "city": "Aix en Provence",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Azure-Devops-Aix-en-Provence/events/264809919/",
     "talks": [
       {
-        "title": "Learn Party Azure"
+        "title": "Learn Party Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4048,13 +3614,11 @@
       "city": "Aix en Provence",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4067,13 +3631,11 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfesttoulouse.fr/",
     "talks": [
       {
-        "title": "Allo Paris, ici San Francisco. Et si on codait ensemble avec VS Code?"
+        "title": "Allo Paris, ici San Francisco. Et si on codait ensemble avec VS Code?",
+        "role": "speaker"
       }
     ]
   },
@@ -4085,13 +3647,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://www.pimpmyapp.fr/",
     "talks": [
       {
-        "title": "Importance des communautés et des réseaux"
+        "title": "Importance des communautés et des réseaux",
+        "role": "speaker"
       }
     ]
   },
@@ -4103,13 +3663,11 @@
       "city": "Mons",
       "country": "Belgium"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://hackinthewoods.be/",
     "talks": [
       {
-        "title": "Master the power of Git in VSCode"
+        "title": "Master the power of Git in VSCode",
+        "role": "speaker"
       }
     ]
   },
@@ -4121,13 +3679,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/MugStrasbourg/events/262064954/",
     "talks": [
       {
-        "title": "Pimp my vscode"
+        "title": "Pimp my vscode",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -4140,13 +3696,11 @@
       "city": "Strasbourg",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4159,14 +3713,12 @@
       "city": "Luxembourg city",
       "country": "Luxembourg"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/dotnet-luxembourg/events/262421962/",
     "talks": [
       {
         "title": "Pimp my vscode",
-        "video": "https://www.youtube.com/watch?v=mueaEPOs6iE"
+        "video": "https://www.youtube.com/watch?v=mueaEPOs6iE",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -4179,13 +3731,11 @@
       "city": "Mons",
       "country": "Belgium"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/micbelgique/events/262474024/",
     "talks": [
       {
-        "title": "Pimp my VSCode"
+        "title": "Pimp my VSCode",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -4198,13 +3748,11 @@
       "city": "Mons",
       "country": "Belgium"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.meetup.com/fr-FR/micbelgique/events/262473137/",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4217,13 +3765,11 @@
       "city": "Lille",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.meetup.com/fr-FR/Meetup-NET-Lille/events/262439752/",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4239,14 +3785,12 @@
       "city": "Montpelier",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://sunny-tech.io/",
     "talks": [
       {
         "title": "J'ai fait un plan à 3 avec VSCode",
-        "video": "https://www.youtube.com/watch?v=m6Kw1EuMz8s"
+        "video": "https://www.youtube.com/watch?v=m6Kw1EuMz8s",
+        "role": "speaker"
       }
     ]
   },
@@ -4261,13 +3805,11 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://developer.microsoft.com/en-us/collective/events/insider-dev-tour",
     "talks": [
       {
-        "title": "Allo Lyon, ici Seattle.. Et si on codait ensemble avec VSCode?"
+        "title": "Allo Lyon, ici Seattle.. Et si on codait ensemble avec VSCode?",
+        "role": "speaker"
       }
     ]
   },
@@ -4282,12 +3824,10 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "talks": [
       {
-        "title": "Et si vous êtiez le prochain Mark Zuckerberg?"
+        "title": "Et si vous êtiez le prochain Mark Zuckerberg?",
+        "role": "speaker"
       }
     ]
   },
@@ -4302,13 +3842,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Paris-DevRel-Salon/events/261673716/",
     "talks": [
       {
-        "title": "How to attract people to your booth as a sponsor"
+        "title": "How to attract people to your booth as a sponsor",
+        "role": "speaker"
       }
     ]
   },
@@ -4321,13 +3859,11 @@
       "city": "London",
       "country": "United Kingdom"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.eventbrite.co.uk/e/build-an-ai-powered-slack-bot-using-javascript-azure-tickets-62154564977",
     "talks": [
       {
-        "title": "Build an AI-Powered Slack Bot using JavaScript & Azure"
+        "title": "Build an AI-Powered Slack Bot using JavaScript & Azure",
+        "role": "mentor"
       }
     ]
   },
@@ -4342,14 +3878,12 @@
       "city": "Lyon",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://mixitconf.org/en/",
     "talks": [
       {
         "title": "VSCode: Mode collaboratif activé",
-        "video": "https://mixitconf.org/en/2019/vs-code-mode-collaboratif-active-"
+        "video": "https://mixitconf.org/en/2019/vs-code-mode-collaboratif-active-",
+        "role": "speaker"
       }
     ]
   },
@@ -4364,14 +3898,12 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.devoxx.fr/",
     "talks": [
       {
         "title": "VSCode: Mode collaboratif activé",
-        "video": "https://www.youtube.com/watch?v=UtIUZdBDALs"
+        "video": "https://www.youtube.com/watch?v=UtIUZdBDALs",
+        "role": "speaker"
       }
     ]
   },
@@ -4386,13 +3918,11 @@
       "city": "Rennes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://www.breizhcamp.org/",
     "talks": [
       {
-        "title": "VSCode: Mode collaboratif activé"
+        "title": "VSCode: Mode collaboratif activé",
+        "role": "speaker"
       }
     ]
   },
@@ -4404,13 +3934,11 @@
       "city": "Orléans",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4425,13 +3953,11 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Meetup-Mug-Tours/events/259475056/",
     "talks": [
       {
-        "title": "Pimp your vscode"
+        "title": "Pimp your vscode",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -4446,13 +3972,11 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4465,13 +3989,11 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4487,14 +4009,12 @@
       "city": "Rennes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Rennes/events/259496682/",
     "talks": [
       {
         "title": "Pimp your vscode",
-        "video": "https://youtu.be/F2fKy7XKQ58?t=126"
+        "video": "https://youtu.be/F2fKy7XKQ58?t=126",
+        "role": "speaker"
       }
     ],
     "event": "roadshow"
@@ -4510,13 +4030,11 @@
       "city": "Rennes",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.meetup.com/fr-FR/Microsoft-User-Group-Rennes/events/259496682/",
     "talks": [
       {
-        "title": "IoT Workshop on Azure"
+        "title": "IoT Workshop on Azure",
+        "role": "mentor"
       }
     ],
     "event": "roadshow"
@@ -4532,9 +4050,6 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "http://devfest.gdgparis.com/"
   },
   {
@@ -4548,14 +4063,12 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfesttoulouse.fr/",
     "talks": [
       {
         "title": "Et si on parlait de l'accessibilité du web ?",
-        "video": "https://www.youtube.com/watch?v=1oKEcDdYANY"
+        "video": "https://www.youtube.com/watch?v=1oKEcDdYANY",
+        "role": "speaker"
       }
     ]
   },
@@ -4570,14 +4083,12 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgnantes.com/schedule/day1?sessionId=139",
     "talks": [
       {
         "title": "What's up TC39?",
-        "video": "https://www.youtube.com/watch?v=kF_P8YmmZN4"
+        "video": "https://www.youtube.com/watch?v=kF_P8YmmZN4",
+        "role": "speaker"
       }
     ]
   },
@@ -4592,13 +4103,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Botfuel-io-developers/events/254991321/",
     "talks": [
       {
-        "title": "Votre premier bot avec Botfuel.io"
+        "title": "Votre premier bot avec Botfuel.io",
+        "role": "speaker"
       }
     ]
   },
@@ -4613,13 +4122,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/Chatbots-Paris/events/254345516/",
     "talks": [
       {
-        "title": "Créez un Bot avec Botfuel.io et déployez le sur Google Assistant"
+        "title": "Créez un Bot avec Botfuel.io et déployez le sur Google Assistant",
+        "role": "speaker"
       }
     ]
   },
@@ -4634,13 +4141,11 @@
       "city": "Nairobi",
       "country": "Kenya"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/GDG-Nairobi/events/252860861/",
     "talks": [
       {
-        "title": "This is your captain speaking, please put your phone in airplane mode !"
+        "title": "This is your captain speaking, please put your phone in airplane mode !",
+        "role": "speaker"
       }
     ]
   },
@@ -4655,13 +4160,11 @@
       "city": "Nairobi",
       "country": "Kenya"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://events.withgoogle.com/2018-ssa-community-summit/#content",
     "talks": [
       {
-        "title": "Community management"
+        "title": "Community management",
+        "role": "speaker"
       }
     ]
   },
@@ -4676,13 +4179,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/gdg-paris/events/253480990/",
     "talks": [
       {
-        "title": "Web accessibility - How to make your website accessible to everyone?"
+        "title": "Web accessibility - How to make your website accessible to everyone?",
+        "role": "speaker"
       }
     ]
   },
@@ -4697,13 +4198,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "jury"
-    ],
     "link": "https://www.meetup.com/fr-FR/AngularX-Paris/events/250846803/",
     "talks": [
       {
-        "title": "Angular FightCode #3"
+        "title": "Angular FightCode #3",
+        "role": "jury"
       }
     ]
   },
@@ -4713,7 +4212,8 @@
     "name": "Devoxx France",
     "talks": [
       {
-        "title": "Atelier Design Sprint"
+        "title": "Atelier Design Sprint",
+        "role": "mentor"
       }
     ],
     "location": {
@@ -4723,9 +4223,6 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://www.devoxx.fr/"
   },
   {
@@ -4734,7 +4231,8 @@
     "name": "Station F",
     "talks": [
       {
-        "title": "Lighthouse: mesurer et améliorer votre performance web"
+        "title": "Lighthouse: mesurer et améliorer votre performance web",
+        "role": "speaker"
       }
     ],
     "location": {
@@ -4743,10 +4241,7 @@
       "lng": 2.3277525,
       "city": "Paris",
       "country": "France"
-    },
-    "roles": [
-      "speaker"
-    ]
+    }
   },
   {
     "id": 16042018,
@@ -4754,7 +4249,8 @@
     "name": "Station F",
     "talks": [
       {
-        "title": "Atelier Design Sprint"
+        "title": "Atelier Design Sprint",
+        "role": "mentor"
       }
     ],
     "location": {
@@ -4763,10 +4259,7 @@
       "lng": 2.3277525,
       "city": "Paris",
       "country": "France"
-    },
-    "roles": [
-      "mentor"
-    ]
+    }
   },
   {
     "id": 3042018,
@@ -4779,12 +4272,10 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "talks": [
       {
-        "title": "Dialogflow et Cloud Functions for Firebase"
+        "title": "Dialogflow et Cloud Functions for Firebase",
+        "role": "mentor"
       }
     ]
   },
@@ -4794,7 +4285,8 @@
     "name": "Google",
     "talks": [
       {
-        "title": "Atelier Design Sprint"
+        "title": "Atelier Design Sprint",
+        "role": "mentor"
       }
     ],
     "location": {
@@ -4803,10 +4295,7 @@
       "lng": 2.3277525,
       "city": "Paris",
       "country": "France"
-    },
-    "roles": [
-      "mentor"
-    ]
+    }
   },
   {
     "id": 1303018,
@@ -4819,9 +4308,6 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "https://events.withgoogle.com/pwa-roadshow-paris/"
   },
   {
@@ -4835,13 +4321,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "mentor"
-    ],
     "link": "http://ng-girls.org/ng-europe/",
     "talks": [
       {
-        "title": "One day workshop on Angular"
+        "title": "One day workshop on Angular",
+        "role": "mentor"
       }
     ]
   },
@@ -4856,13 +4340,11 @@
       "city": "Malaga",
       "country": "Spain"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgmalaga.com/",
     "talks": [
       {
-        "title": "This is your captain speaking, please put your phone in airplane mode !"
+        "title": "This is your captain speaking, please put your phone in airplane mode !",
+        "role": "speaker"
       }
     ]
   },
@@ -4877,13 +4359,11 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.bdx.io/",
     "talks": [
       {
-        "title": "Ici votre commandant de bord, on passe en mode avion !"
+        "title": "Ici votre commandant de bord, on passe en mode avion !",
+        "role": "speaker"
       }
     ]
   },
@@ -4898,14 +4378,12 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.bdx.io/",
     "talks": [
       {
         "title": "What's up TC39 ?",
-        "video": "https://www.youtube.com/watch?v=Kj8NuMHUvN4"
+        "video": "https://www.youtube.com/watch?v=Kj8NuMHUvN4",
+        "role": "speaker"
       }
     ]
   },
@@ -4920,13 +4398,11 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfesttoulouse.fr/",
     "talks": [
       {
-        "title": "Ici votre commandant de bord, on passe en mode avion !"
+        "title": "Ici votre commandant de bord, on passe en mode avion !",
+        "role": "speaker"
       }
     ]
   },
@@ -4941,14 +4417,12 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/Paris-Progressive-Web-App/events/240918412/",
     "talks": [
       {
         "title": "This is your captain speaking, please put your phone in airplane mode",
-        "video": "https://www.youtube.com/watch?v=Rwa1qhDjkoo"
+        "video": "https://www.youtube.com/watch?v=Rwa1qhDjkoo",
+        "role": "speaker"
       }
     ]
   },
@@ -4963,14 +4437,12 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "jury"
-    ],
     "link": "http://fightcode.io/",
     "talks": [
       {
         "title": "Angular FightCode #2",
-        "video": "https://www.youtube.com/watch?v=JXmykgqlOgk"
+        "video": "https://www.youtube.com/watch?v=JXmykgqlOgk",
+        "role": "jury"
       }
     ]
   },
@@ -4985,13 +4457,11 @@
       "city": "Rennes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://www.breizhcamp.org/",
     "talks": [
       {
-        "title": "Ici le commandant de bord, on passe en mode avion !"
+        "title": "Ici le commandant de bord, on passe en mode avion !",
+        "role": "speaker"
       }
     ]
   },
@@ -5006,14 +4476,12 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.meetup.com/Paris-Progressive-Web-App/events/237610476/?_locale=fr-FR",
     "talks": [
       {
         "title": "PWA: Pourquoi, pour qui?",
-        "video": "https://www.youtube.com/watch?v=w8WbIJlLMpQ"
+        "video": "https://www.youtube.com/watch?v=w8WbIJlLMpQ",
+        "role": "speaker"
       }
     ]
   },
@@ -5028,14 +4496,12 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "jury"
-    ],
     "link": "http://fightcode.io/",
     "talks": [
       {
         "title": "FightCode",
-        "video": "https://www.youtube.com/watch?v=u5RN5UxZezM"
+        "video": "https://www.youtube.com/watch?v=u5RN5UxZezM",
+        "role": "jury"
       }
     ]
   },
@@ -5050,14 +4516,12 @@
       "city": "Nantes",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfest.gdgnantes.com/",
     "talks": [
       {
         "title": "Votre application web qui marche même sans réseau, c'est possible!",
-        "video": "https://www.youtube.com/watch?v=j2u4SY5HAV4"
+        "video": "https://www.youtube.com/watch?v=j2u4SY5HAV4",
+        "role": "speaker"
       }
     ]
   },
@@ -5072,14 +4536,12 @@
       "city": "Rouen",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://www.codeursenseine.com/2016/",
     "talks": [
       {
         "title": "Votre application web qui marche même sans réseau, c'est possible!",
-        "video": "https://www.infoq.com/fr/presentations/codeurs-en-seine-olivier-leplus-app-web-sans-reseau"
+        "video": "https://www.infoq.com/fr/presentations/codeurs-en-seine-olivier-leplus-app-web-sans-reseau",
+        "role": "speaker"
       }
     ]
   },
@@ -5094,14 +4556,12 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://humantalks.com/",
     "talks": [
       {
         "title": "www: The Web Will Win",
-        "video": "https://www.youtube.com/watch?v=vcPBVa5E80w"
+        "video": "https://www.youtube.com/watch?v=vcPBVa5E80w",
+        "role": "speaker"
       }
     ]
   },
@@ -5116,13 +4576,11 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "https://devfesttoulouse.fr/",
     "talks": [
       {
-        "title": "Don't call me just a website anymore. I am a Progressive Web App"
+        "title": "Don't call me just a website anymore. I am a Progressive Web App",
+        "role": "speaker"
       }
     ]
   },
@@ -5137,14 +4595,12 @@
       "city": "Bordeaux",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://www.bdx.io/",
     "talks": [
       {
         "title": "Please welcome Angular 2",
-        "video": "https://www.youtube.com/watch?v=TGSjRPhagE4"
+        "video": "https://www.youtube.com/watch?v=TGSjRPhagE4",
+        "role": "speaker"
       }
     ]
   },
@@ -5160,13 +4616,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "http://clsxfrance.org/",
     "talks": [
       {
-        "title": "Community Leadership Summit [x]"
+        "title": "Community Leadership Summit [x]",
+        "role": "organizer"
       }
     ]
   },
@@ -5181,13 +4635,11 @@
       "city": "Tours",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://www.meetup.com/fr-FR/GDG-Tours/events/232192629/",
     "talks": [
       {
-        "title": "Don't call me just a website anymore. I am a Progressive Web App"
+        "title": "Don't call me just a website anymore. I am a Progressive Web App",
+        "role": "speaker"
       }
     ]
   },
@@ -5203,13 +4655,11 @@
       "city": "Lille",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://www.meetup.com/fr-FR/GDG-Lille/events/232191905/",
     "talks": [
       {
-        "title": "Don't call me just a website anymore. I am a Progressive Web App"
+        "title": "Don't call me just a website anymore. I am a Progressive Web App",
+        "role": "speaker"
       }
     ]
   },
@@ -5225,13 +4675,11 @@
       "city": "St Quentin",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://faubourgnumerique.com/",
     "talks": [
       {
-        "title": "Don't call me just a website anymore. I am a Progressive Web App"
+        "title": "Don't call me just a website anymore. I am a Progressive Web App",
+        "role": "speaker"
       }
     ]
   },
@@ -5246,13 +4694,11 @@
       "city": "Caceres",
       "country": "Spain"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://exfest.es/",
     "talks": [
       {
-        "title": "Progressive Web Apps codelab - 2h"
+        "title": "Progressive Web Apps codelab - 2h",
+        "role": "speaker"
       }
     ]
   },
@@ -5268,13 +4714,11 @@
       "city": "Lisbon",
       "country": "Portugal"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://www.meetup.com/fr-FR/gdglisbon/events/229999648/?eventId=229999648",
     "talks": [
       {
-        "title": "Progressive Web Apps codelab - 2h"
+        "title": "Progressive Web Apps codelab - 2h",
+        "role": "speaker"
       }
     ]
   },
@@ -5289,13 +4733,11 @@
       "city": "Nice",
       "country": "France"
     },
-    "roles": [
-      "speaker"
-    ],
     "link": "http://www.meetup.com/fr-FR/GDGNice/events/228029090/",
     "talks": [
       {
-        "title": "Discover Angular2 with a livecoding"
+        "title": "Discover Angular2 with a livecoding",
+        "role": "speaker"
       }
     ]
   },
@@ -5310,14 +4752,11 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "organizer",
-      "speaker"
-    ],
     "link": "https://www.meetup.com/fr-FR/gdg-paris/events/223469172/",
     "talks": [
       {
-        "title": "I/O Rex : Les inventions impressionnantes de l’équipe ATAP"
+        "title": "I/O Rex : Les inventions impressionnantes de l’équipe ATAP",
+        "role": "speaker"
       }
     ]
   },
@@ -5332,9 +4771,6 @@
       "city": "Paris",
       "country": "France"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "http://2015.devfest.gdgparis.com/"
   },
   {
@@ -5348,9 +4784,6 @@
       "city": "Toulouse",
       "country": "France"
     },
-    "roles": [
-      "organizer"
-    ],
     "link": "https://events.withgoogle.com/launchpad-week-toulouse/"
   }
 ]

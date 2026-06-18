@@ -41,8 +41,9 @@ function parseConference(c) {
     year,
     name: c.name || '',
     country,
-    roles: Array.isArray(c.roles) ? c.roles : [],
     talks: Array.isArray(c.talks) ? c.talks : [],
+    roles: Array.isArray(c.roles) ? c.roles
+      : [...new Set((Array.isArray(c.talks) ? c.talks : []).map(t => t.role).filter(Boolean))],
   };
 }
 
@@ -174,15 +175,22 @@ function countBy(items, keyFn) {
 
 function renderConferencesPerYear(confs) {
   const roleSet = new Set();
-  for (const c of confs) c.roles.forEach(r => roleSet.add(r));
+  const talks = [];
+  for (const c of confs) {
+    for (const t of c.talks) {
+      const role = t.role || (c.roles && c.roles[0]) || 'unknown';
+      roleSet.add(role);
+      talks.push({ year: c.year, role });
+    }
+  }
   const roles = Array.from(roleSet).sort();
-  const yearSet = new Set(confs.map(c => c.year).filter(Boolean));
+  const yearSet = new Set(talks.map(t => t.year).filter(Boolean));
   const years = Array.from(yearSet).sort((a, b) => a - b);
 
   const datasets = roles.map((role, i) => {
-    const data = years.map(y => confs.filter(c => c.year === y && c.roles.includes(role)).length);
+    const data = years.map(y => talks.filter(t => t.year === y && t.role === role).length);
     return { label: role, data, backgroundColor: PURPLE_PALETTE[i % PURPLE_PALETTE.length] };
-  });
+  }).filter(ds => ds.data.some(v => v > 0));
 
   return new Chart(document.getElementById('chart-conf-year'), {
     type: 'bar',

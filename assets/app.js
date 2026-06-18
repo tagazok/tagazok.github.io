@@ -59,10 +59,12 @@ class Conference {
   }
 
   getRoles() {
-    if (!this.conference.roles || this.conference.roles.length === 0) return "";
+    const roles = this.conference.roles
+      || [...new Set((this.conference.talks || []).map(t => t.role).filter(Boolean))];
+    if (!roles.length) return "";
 
     let tpl = '';
-    for (let role of this.conference.roles) {
+    for (let role of roles) {
       tpl += `<li class="role ${role}">[${role}]</li>`;
     }
     return tpl;
