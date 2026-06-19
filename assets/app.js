@@ -1,197 +1,168 @@
-//@ts-check
+// Portfolio page — loads conferences + videos, renders stats, country cloud, videos, timeline
 
-const dom_conferences = document.querySelector('#conferences');
-const dom_nextConferences = document.querySelector('#next-conferences');
-const dom_btn_moreconferences = document.querySelector('#more-conferences');
-//const dom_videos = document.querySelector('#videos');
+(async function init() {
+  const [confRes, vidRes] = await Promise.all([
+    fetch('assets/data/conferences.json'),
+    fetch('assets/data/videos2.json'),
+  ]);
+  const [conferences, videoGroups] = await Promise.all([confRes.json(), vidRes.json()]);
+  const videos = videoGroups.flatMap(g => (g.videos || []).map(v => ({ ...v, groupTitle: g.title })));
 
-dom_btn_moreconferences?.addEventListener('click', event => {
-  console.log("View more conferences");
-  document.querySelector('.conferences__overlay')?.remove();
-  dom_btn_moreconferences.remove();
-  dom_conferences?.classList.remove("conferences--small");
-});
-
-
-class Conference {
-
-  /**
-   * @param {any} conference
-   * @param {boolean} past
-   */
-  constructor(conference, past) {
-    this.conference = conference;
-    this.past = past;
-  }
-
-  /**
-   * @param {any} past
-   */
-  isPast(past) {
-    if (!past) {
-      return `<span class='soon'>Soon!</span>`
-    }
-    return '';
-  }
-
-  getTalk() {
-    if (!this.conference.talk) return "";
-
-    return `<span> • ${this.conference.talk.title}</span>`;
-  }
-
-  getTalks() {
-    if (!this.conference.talks) return "";
-
-    let tpl = '<div class="talks"><ul>';
-    for (let talk of this.conference.talks) {
-      tpl += `
-        <li class="talk">
-          <div class="flex flex-row">
-            <div> ${talk.title}</div>
-            <div class="flex-1"></div>
-            ${this.getTalkVideo(talk)}
-          </div>
-        </li>`;
-    }
-    tpl += '</ul></div>';
-    return tpl;
-  }
-
-  getRoles() {
-    const roles = this.conference.roles
-      || [...new Set((this.conference.talks || []).map(t => t.role).filter(Boolean))];
-    if (!roles.length) return "";
-
-    let tpl = '';
-    for (let role of roles) {
-      tpl += `<li class="role ${role}">${role}</li>`;
-    }
-    return tpl;
-  }
-
-  getTalkVideo(talk) {
-    if (!talk.video) return "";
-    return `
-    <a target="_blank" title="See video" href="${talk.video}">
-      <i class="fas fa-video"></i>
-    </a>`;
-  }
-
-  getVideo() {
-      if (!this.conference.talk || !this.conference.talk.video) return "";
-      return `
-    <a target="_blank" title="See video" href="${this.conference.talk.video}">
-      <i class="fas fa-video"></i>
-    </a>`;
-  }
-
-  roadshowLabel() {
-    debugger;
-    if (this.conference.event === 'roadshow') {
-      return `<div class="label">Roadshow</div>`
-    }
-  }
-  toHtml() {
-    const tmpl = `
-            <li class="conference ${this.conference.event || ''}">
-              <div class="conference-container">
-                <div class="flex flex-row">
-                  <div class="width-100">
-                    ${this.isPast(this.past)}
-                    <ul class="roles">
-                      ${this.getRoles()}
-                    </ul>
-                    <a href="${this.conference.link}" class="host" target="_blank">${this.conference.name}</a>
-                    ${this.getTalks()}
-                  </div>
-                  <div class="flex-1"></div>
-                  ${this.getVideo()}
-                </div>
-                <div class="infos">
-                  <span class="location">${this.conference.location.name}</span>
-                    • 
-                  <span class="date">${this.conference.date}</span>
-                </div>
-              </div>
-            </li>
-          `;
-    const range = document.createRange();
-    const fragment = range.createContextualFragment(tmpl);
-
-    return fragment;
-  }
-}
-
-class Conferences {
-  constructor() {
-    /** @type {Conference[]} */
-    this.conferences = [];
-  }
-
-  async get() {
-    const raw_data = await fetch('assets/data/conferences.json');
-    const data = await raw_data.json();
-
-    if (data) {
-      const currentDate = new Date().getTime();
-
-      for (let conference of data) {
-        const d = new Date(conference.date).getTime();
-        const past = d < currentDate;
-        this.conferences.push(new Conference(conference, past));
-      }
-    }
-  }
-
-  print() {
-    for (let conference of this.conferences) {
-      dom_conferences.insertBefore(conference.toHtml(), dom_conferences.lastChild);
-    }
-  }
-}
-
-
-(async function () { // async function expression used as an IIFE
-  const conferences = new Conferences();
-  await conferences.get();
-  conferences.print();
+  renderStats(conferences, videos);
+  renderCountryCloud(conferences);
+  renderFeaturedVideos(videos);
+  renderTimeline(conferences);
+  initReveal();
 })();
 
+// ─── STATS (animated counters) ───
 
+function renderStats(conferences, videos) {
+  const talks = conferences.reduce((s, c) => s + (c.talks || []).length, 0);
+  const countries = new Set(conferences.map(c => (c.location && c.location.country) || '').filter(Boolean)).size;
 
+  document.getElementById('stat-conferences').dataset.target = conferences.length;
+  document.getElementById('stat-talks').dataset.target = talks;
+  document.getElementById('stat-countries').dataset.target = countries;
+  document.getElementById('stat-videos').dataset.target = videos.length;
 
+  const observer = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting) {
+      document.querySelectorAll('.stat').forEach(el => animateCounter(el));
+      observer.disconnect();
+    }
+  }, { threshold: 0.3 });
+  observer.observe(document.getElementById('stats-ribbon'));
+}
 
+function animateCounter(el) {
+  const target = parseInt(el.dataset.target, 10);
+  const numEl = el.querySelector('.stat__number');
+  const duration = 1500;
+  const start = performance.now();
+  function step(now) {
+    const progress = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    numEl.textContent = Math.round(eased * target);
+    if (progress < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
 
+// ─── COUNTRY CLOUD ───
 
+function renderCountryCloud(conferences) {
+  const counts = {};
+  for (const c of conferences) {
+    const country = (c.location && c.location.country) || '';
+    if (country && country !== 'Online') counts[country] = (counts[country] || 0) + 1;
+  }
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const max = sorted[0] ? sorted[0][1] : 1;
+  const container = document.getElementById('country-cloud');
 
-// fetch('assets/data/videos.json')
-//   .then(function (response) {
-//     return response.json();
-//   }).then(function (data) {
-//     console.log(data);
-//     if (data) {
+  container.innerHTML = sorted.map(([country, count]) => {
+    const size = Math.max(14, Math.round((count / max) * 42));
+    return `<span class="country-cloud__item" style="font-size:${size}px" title="${count} conferences">${country}</span>`;
+  }).join('');
+}
 
-//       for (let video of data) {
-//         dom_videos.insertBefore(generateVideoTemplate(video), dom_videos.lastChild);
-//       }
-//     }
-//   });
+// ─── FEATURED VIDEOS ───
 
+function renderFeaturedVideos(videos) {
+  // Get most recent 4 videos (by parsing date)
+  const withDate = videos.map(v => {
+    const match = (v.date || '').match(/(\w+)\s+(\d+),\s+(\d{4})/);
+    const ts = match ? new Date(`${match[1]} ${match[2]}, ${match[3]}`).getTime() : 0;
+    return { ...v, ts };
+  }).sort((a, b) => b.ts - a.ts);
 
-// function generateVideoTemplate(video) {
-//   console.log(video);
-//   const tmpl = `
-//     <div>
-//       <a href="https://www.youtube.com/watch?v=${video.youtubeId}" class="video flex flex-column" target="_blank">
-//         <img src="https://img.youtube.com/vi/${video.youtubeId}/0.jpg" alt="${video.title} thumbnail" />
-//         <div class="video-title">${video.title}</div>
-//         <p class="video-description">${video.duration}<span>•</span>${video.event}</p>
-//       </a>
-//     </div>`;
+  const featured = withDate.slice(0, 4);
+  const container = document.getElementById('featured-videos');
 
-//   const range = document.createRange();
-//   const fragment = range.createContextualFragment(tmpl);
+  container.innerHTML = featured.map(v => `
+    <a href="https://www.youtube.com/watch?v=${v.youtubeId}" class="video-card" target="_blank">
+      <div class="video-card__thumb">
+        <img src="https://img.youtube.com/vi/${v.youtubeId}/mqdefault.jpg" alt="${v.title}" loading="lazy" />
+        <span class="video-card__duration">${v.duration || ''}</span>
+      </div>
+      <div class="video-card__body">
+        <div class="video-card__title">${v.title}</div>
+        <div class="video-card__meta">${(v.event && v.event.name) || v.groupTitle} · ${v.date || ''}</div>
+      </div>
+    </a>
+  `).join('');
+}
 
-//   return fragment;
-// }
+// ─── TIMELINE ───
+
+function renderTimeline(conferences) {
+  const now = Date.now();
+  // Group by year
+  const byYear = {};
+  for (const c of conferences) {
+    const year = c.date ? c.date.split('-')[0] : 'Unknown';
+    if (!byYear[year]) byYear[year] = [];
+    byYear[year].push(c);
+  }
+
+  const years = Object.keys(byYear).filter(y => y !== 'Unknown').sort((a, b) => b - a);
+  const currentYear = new Date().getFullYear().toString();
+  const container = document.getElementById('timeline');
+
+  container.innerHTML = years.map(year => {
+    const events = byYear[year];
+    const talkCount = events.reduce((s, c) => s + (c.talks || []).length, 0);
+    const countries = new Set(events.map(c => (c.location && c.location.country) || '').filter(Boolean)).size;
+    const isOpen = year === currentYear;
+
+    return `
+      <div class="timeline__year ${isOpen ? 'open' : ''}">
+        <div class="timeline__year-header" onclick="this.parentElement.classList.toggle('open')">
+          <span class="timeline__year-label">${year}</span>
+          <span class="timeline__year-summary">${events.length} events · ${talkCount} talks · ${countries} countries</span>
+          <span class="timeline__year-toggle"><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="timeline__events">
+          ${events.map(c => renderTimelineEvent(c, now)).join('')}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderTimelineEvent(c, now) {
+  const isFuture = c.date && new Date(c.date).getTime() > now;
+  const roles = c.roles || [...new Set((c.talks || []).map(t => t.role).filter(Boolean))];
+  const rolesHtml = roles.map(r => `<span class="timeline__role timeline__role--${r}">${r}</span>`).join('');
+  const talksHtml = (c.talks || []).length
+    ? `<ul class="timeline__event-talks">${(c.talks || []).map(t => `<li>${t.title}</li>`).join('')}</ul>`
+    : '';
+  const link = c.link ? `<a href="${c.link}" target="_blank">${c.name}</a>` : c.name;
+
+  return `
+    <div class="timeline__event">
+      <div class="timeline__event-name">
+        ${link}
+        ${isFuture ? '<span class="timeline__event-soon">Soon</span>' : ''}
+        <span class="timeline__event-roles">${rolesHtml}</span>
+      </div>
+      ${talksHtml}
+      <div class="timeline__event-meta">${(c.location && c.location.name) || ''} · ${c.date || ''}</div>
+    </div>
+  `;
+}
+
+// ─── REVEAL ON SCROLL ───
+
+function initReveal() {
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+}
