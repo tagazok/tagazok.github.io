@@ -3,75 +3,71 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="author" content="@ultimateangular">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/app.css">
   <link rel="stylesheet" href="assets/statistics.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
-  <title>Olivier Leplus — Statistics</title>
+  <title>Olivier Leplus — Stats</title>
 </head>
 
 <body>
-  <header class="stats-header">
-    <div class="stats-header__menu">
+  <div class="orbs">
+    <div class="orb orb--1"></div>
+    <div class="orb orb--2"></div>
+    <div class="orb orb--3"></div>
+  </div>
+
+  <header class="topbar">
+    <span class="topbar__brand">stats<span class="topbar__dot">.</span></span>
+    <nav class="topbar__nav">
       <a href="/">Talks</a>
       <a href="/videos.html">Videos</a>
-      <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank">LinkedIn</a>
-    </div>
+      <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank">LinkedIn ↗</a>
+    </nav>
   </header>
 
-  <main role="main" class="main">
-    <section class="container container__margin-bottom stats">
-      <div class="heading">
-        <h2 class="section__title">Statistics</h2>
-        <p class="heading__text">A snapshot of conferences and videos over time.</p>
+  <main class="dashboard">
+    <section class="kpi-row" id="summary-cards"></section>
+
+    <section class="glass-panel filter-bar">
+      <div class="filter">
+        <label for="filter-year">Year</label>
+        <select id="filter-year"><option value="all">All</option></select>
       </div>
-
-      <div class="stats__summary" id="summary-cards"></div>
-
-      <div class="card shadow stats__filters">
-        <div class="filter">
-          <label for="filter-year">Year</label>
-          <select id="filter-year">
-            <option value="all">All</option>
-          </select>
-        </div>
-        <div class="filter">
-          <span class="filter__label">Roles</span>
-          <div class="filter__roles" id="filter-roles"></div>
-        </div>
-        <button type="button" id="filter-reset" class="filter__reset">Reset</button>
+      <div class="filter">
+        <span class="filter__label">Roles</span>
+        <div class="filter__roles" id="filter-roles"></div>
       </div>
+      <button type="button" id="filter-reset" class="btn-reset">Reset</button>
+    </section>
 
-      <div class="stats__grid">
-        <div class="card shadow chart-card">
-          <h3 class="chart-card__title">Talks per year</h3>
-          <div class="chart-card__canvas"><canvas id="chart-conf-year"></canvas></div>
-        </div>
-        <div class="card shadow chart-card">
-          <h3 class="chart-card__title">Conferences by country (top 10)</h3>
-          <div class="chart-card__canvas"><canvas id="chart-conf-country"></canvas></div>
-        </div>
-        <div class="card shadow chart-card">
-          <h3 class="chart-card__title">Role breakdown</h3>
-          <div class="chart-card__canvas"><canvas id="chart-roles"></canvas></div>
-        </div>
-        <div class="card shadow chart-card">
-          <h3 class="chart-card__title">Videos per year</h3>
-          <div class="chart-card__canvas"><canvas id="chart-vid-year"></canvas></div>
-        </div>
-        <div class="card shadow chart-card">
-          <h3 class="chart-card__title">Videos by event (top 10)</h3>
-          <div class="chart-card__canvas"><canvas id="chart-vid-event"></canvas></div>
-        </div>
-        <div class="card shadow chart-card">
-          <h3 class="chart-card__title">Activity timeline</h3>
-          <div class="chart-card__canvas"><canvas id="chart-timeline"></canvas></div>
-        </div>
+    <section class="chart-grid">
+      <div class="glass-panel chart-card chart-card--wide">
+        <h3 class="chart-card__title">Talks per year</h3>
+        <div class="chart-card__canvas"><canvas id="chart-conf-year"></canvas></div>
+      </div>
+      <div class="glass-panel chart-card">
+        <h3 class="chart-card__title">By country</h3>
+        <div class="chart-card__canvas"><canvas id="chart-conf-country"></canvas></div>
+      </div>
+      <div class="glass-panel chart-card">
+        <h3 class="chart-card__title">Roles</h3>
+        <div class="chart-card__canvas"><canvas id="chart-roles"></canvas></div>
+      </div>
+      <div class="glass-panel chart-card chart-card--wide">
+        <h3 class="chart-card__title">Activity timeline</h3>
+        <div class="chart-card__canvas"><canvas id="chart-timeline"></canvas></div>
+      </div>
+      <div class="glass-panel chart-card">
+        <h3 class="chart-card__title">Videos per year</h3>
+        <div class="chart-card__canvas"><canvas id="chart-vid-year"></canvas></div>
+      </div>
+      <div class="glass-panel chart-card">
+        <h3 class="chart-card__title">Videos by event</h3>
+        <div class="chart-card__canvas"><canvas id="chart-vid-event"></canvas></div>
       </div>
     </section>
   </main>

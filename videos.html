@@ -3,76 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="author" content="@ultimateangular">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/app.css">
   <link rel="stylesheet" href="assets/videos.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <title>Olivier Leplus</title>
-  <script src='assets/components/taga-header.js'></script>
+  <title>Olivier Leplus — Videos</title>
 </head>
 
 <body>
-  <taga-header></taga-header>
+  <div class="orbs">
+    <div class="orb orb--1"></div>
+    <div class="orb orb--2"></div>
+    <div class="orb orb--3"></div>
+  </div>
 
-  <main role="main" class="main">
+  <header class="topbar">
+    <span class="topbar__brand">olivier<span class="topbar__dot">.</span></span>
+    <nav class="topbar__nav">
+      <a href="/">Talks</a>
+      <a href="/videos.html" class="active">Videos</a>
+      <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank">LinkedIn ↗</a>
+    </nav>
+  </header>
 
-    <section id="videos">
-      <!-- <div class="container"> -->
-        <!-- <div class="heading">
-                    <div class="flex flex-row">
-                        <h2 class="flex flex-row flex-align-center flex-justify-between section__title">
-                            Talks in action
-                        </h2>
-                    </div>
-                    <p class="heading__text">Here are a few videos of my previous talks</p>
-                </div> -->
-                <!-- <div class="col-3 videos flex flex-row" id="videos"></div> -->
-                <!-- <div id="videos"></div> -->
-        <!-- </div> -->
-      </div>
-    </section>
+  <main class="page page--wide">
+    <section id="videos"></section>
+  </main>
 
-
-    <!-- <section id="section-conferences" class="container container__margin-top"> -->
-
-
-
-    <!-- <section id="secion-contact" class="section--gradient container__margin-top contacts">
-      <div class="container">
-        <div>
-          <h2 class="section__title">
-            Want to get in touch ?
-          </h2>
-        </div>
-        <div class="flex col-3" id="social-links">
-          <div class="flex flex-align-center flex-column">
-            <a href="https://twitter.com/olivierleplus" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-            Twitter
-          </div>
-          <div class="flex flex-align-center flex-column">
-            <a href="https://github.com/tagazok" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-            Github
-          </div>
-          <div class="flex flex-align-center flex-column">
-            <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            Linkedin
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <main>
-      <script type="text/javascript" src="assets/videos.js"></script>
+  <script type="text/javascript" src="assets/videos.js"></script>
 </body>
 
 </html>

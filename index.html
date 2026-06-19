@@ -3,218 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="author" content="@ultimateangular">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/app.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
-  <!-- <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <title>Olivier Leplus</title>
-  <script src='assets/components/taga-header.js'></script>
 </head>
 
 <body>
-  <taga-header></taga-header>
+  <div class="orbs">
+    <div class="orb orb--1"></div>
+    <div class="orb orb--2"></div>
+    <div class="orb orb--3"></div>
+  </div>
 
-  <main role="main" class="main">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="waves">
-      <path fill="#87377b" d="M0,96L48,122.7C96,149,192,203,288,229.3C384,256,480,256,576,229.3C672,203,768,149,864,133.3C960,117,1056,139,1152,154.7C1248,171,1344,181,1392,186.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" class="wave-1" opacity="0.1"></path>
-      <path opacity="0.2" class="wave-2" fill="#87377b" d="M0,192L48,165.3C96,139,192,85,288,101.3C384,117,480,203,576,229.3C672,256,768,224,864,202.7C960,181,1056,171,1152,181.3C1248,192,1344,224,1392,240L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
-      <path fill="#87377b" fill-opacity="1" d="M0,160L48,144C96,128,192,96,288,101.3C384,107,480,149,576,176C672,203,768,213,864,186.7C960,160,1056,96,1152,69.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
-    </svg>
-    <!-- <section id="section-bio">
-      <div class="container">
-        <div class="card shadow">
-          <div class="bio">
-            <h1>HTML Ipsum Presents</h1>
+  <header class="topbar">
+    <span class="topbar__brand">olivier<span class="topbar__dot">.</span></span>
+    <nav class="topbar__nav">
+      <a href="/" class="active">Talks</a>
+      <a href="/videos.html">Videos</a>
+      <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank">LinkedIn ↗</a>
+    </nav>
+  </header>
 
-            <p>
-              <strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum
-              tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-              <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper
-              pharetra. Vestibulum erat wisi, condimentum sed,
-              <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis
-              tempus lacus enim ac dui.
-              <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-
-            <h2>Header Level 2</h2>
-
-            <ol>
-              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-              <li>Aliquam tincidunt mauris eu risus.</li>
-            </ol>
-          </div>
-          <div>
-            <ul class="conferences" id="next-conferences"></ul>
-          </div>
-        </div>
+  <main class="page">
+    <section class="hero">
+      <div class="hero__visual">
+        <img class="hero__avatar" src="assets/avatar.jpeg" alt="Olivier Leplus" />
+        <div class="hero__glow"></div>
       </div>
-    </section> -->
-
-
-    <!-- <section id="section-badges">
-      <div class="container container__margin-top">
-        <div class="flex col-2">
-          <div class="flex flex-column flex-align-center">
-            <img class="badge shadow__img" src="assets/img/badges/gde-web.png" alt="Google Developer Expert badge" />
-            <div class="badge--description">
-              <p>
-                A Google Developer Expert (GDE) is a person recognized by Google Inc. as having exemplary expertise in one or more of Google
-                Developer products. GDEs are awarded through the Google Developer Experts program established and administered
-                by Google.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-column flex-align-center">
-            <img class="badge shadow__img" src="assets/img/badges/botfuel-da.png" alt="Botfuel Developer Advocate badge" />
-            <div class="badge--description">
-              <p>
-                Botfuel is a cutting edge bot platform designed for testability, scalability, connectivity and data privacy. Build chatbots
-                able to deliver natural conversational experiences to your users.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-
-    <!-- <section id="section-photos">
-      <div class="container container__margin-top">
-        <div class="shadow radius-corners" style="flex-flow: row wrap; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; box-sizing: border-box; max-height: 100%; place-content: center flex-start; align-items: center; -webkit-box-pack: start; -webkit-box-align: center;">
-          <img alt="Conference image" class="top-left-radius-corner" src="https://tagazok.github.io/assets/photos/conf6-square.jpg"
-            style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
-          <img alt="Conference image" src="https://tagazok.github.io/assets/photos/conf1-square.jpg" style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
-          <img alt="Conference image" src="https://tagazok.github.io/assets/photos/conf8-square.jpg" style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
-          <img alt="Conference image" class="top-right-radius-corner" src="https://tagazok.github.io/assets/photos/conf4-square.jpg"
-            style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
-          <img alt="Conference image" class="bottom-left-radius-corner" src="https://tagazok.github.io/assets/photos/conf5-2-square.jpg"
-            style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
-          <img alt="Conference image" src="https://tagazok.github.io/assets/photos/conf2-square.jpg" style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
-          <img alt="Conference image" src="https://tagazok.github.io/assets/photos/conf7-square.jpg" style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
-          <img alt="Conference image" class="bottom-right-radius-corner" src="https://tagazok.github.io/assets/photos/conf8-square.jpg"
-            style="flex: 1 1 25%; box-sizing: border-box; -webkit-box-flex: 1; max-width: 25%;">
-        </div>
-      </div>
-    </section> -->
-
-
-    <!-- <section id="section-badges" class="section--gradient container__margin-top">
-      <div class="container">
-        <div class="heading">
-          <h2 class="section__title">
-            My day to day job
-          </h2>
-          <p class="heading__text">
-            Help developers write good applications
-          </p>
-        </div>
-        <div class="flex col-2 line">
-          <div class="flex flex-align-center flex-justify-center">
-            <img class="badge shadow__img" src="assets/img/badges/gde-web.png" alt="Google Developer Expert badge" />
-          </div>
-          <div class="badge--description flex flex-align-center">
-            <p>
-              A Google Developer Expert (GDE) is a person recognized by Google Inc. as having exemplary expertise in one or more of Google
-              Developer products. GDEs are awarded through the Google Developer Experts program established and administered
-              by Google.
-            </p>
-          </div>
-        </div>
-        <div class="flex col-2">
-          <div class="badge--description flex flex-align-center">
-            <p>
-              Botfuel is a cutting edge bot platform designed for testability, scalability, connectivity and data privacy. Build chatbots
-              able to deliver natural conversational experiences to your users.
-            </p>
-          </div>
-
-          <div class="flex flex-align-center flex-justify-center">
-            <img class="badge shadow__img" src="assets/img/badges/botfuel-da.png" alt="Botfuel Developer Advocate badge" />
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section id="section-video">
-      <div class="container container__margin-top container__margin-bottom">
-        <div class="heading">
-          <div class="flex flex-row">
-            <h2 class="flex flex-row flex-align-center flex-justify-between section__title">
-              Talks in action
-              <a class="link" href="https://www.youtube.com/playlist?list=PLHg2tCl0QV6JF1Jx-HkhquQfOBbaH-HeG" target="_blank">See all videos on YouTube
-                <i class="fas fa-arrow-right"></i>
-              </a>
-            </h2>
-          </div>
-          <p class="heading__text">Here are a few videos of my previous talks</p>
-        </div>
-        <div class="col-4 videos flex flex-row" id="videos">
-        </div>
-      </div>
-    </section>
- -->
-
-    <!-- <section id="section-conferences" class="container container__margin-top"> -->
-    <section id="section-conferences" class="container container__margin-bottom">
-      <div class="card shadow">
-        <div class="heading">
-          <h2 class="section__title">
-            Conferences & Co
-          </h2>
-          <div>
-            <p class="heading__text">Come and say hi !</p>
-          </div>
-        </div>
-        <ul class="conferences conferences--small" id="next-conferences">
-          <li></li>
-        </ul>
-        <ul class="conferences conferences--small" id="conferences">
-          <li class="conferences__overlay"></li>
-        </ul>
-        <div class="flex flex-column flex-align-center">
-          <button id="more-conferences"><i class="fas fa-2x fa-angle-down bounce"></i></button>
-        </div>
-      </div>
+      <h1 class="hero__name">Olivier Leplus</h1>
+      <p class="hero__tagline">Developer Relations <a href="https://aws.amazon.com/" target="_blank">@AWS</a></p>
+      <p class="hero__tagline"><a href="https://developers.google.com/community/experts/directory/profile/profile-olivier-leplus" target="_blank">Google Developer Expert</a> — Web Technologies</p>
     </section>
 
-
-    <!-- <section id="secion-contact" class="section--gradient container__margin-top contacts">
-      <div class="container">
-        <div>
-          <h2 class="section__title">
-            Want to get in touch ?
-          </h2>
-        </div>
-        <div class="flex col-3" id="social-links">
-          <div class="flex flex-align-center flex-column">
-            <a href="https://twitter.com/olivierleplus" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-            Twitter
-          </div>
-          <div class="flex flex-align-center flex-column">
-            <a href="https://github.com/tagazok" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-            Github
-          </div>
-          <div class="flex flex-align-center flex-column">
-            <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            Linkedin
-          </div>
-        </div>
+    <section class="glass-panel conferences-section">
+      <div class="panel-header">
+        <h2>Conferences & Co</h2>
+        <p class="panel-sub">Come and say hi!</p>
       </div>
-    </section> -->
-    <main>
-    <script type="text/javascript" src="assets/app.js"></script>
+      <ul class="conferences conferences--small" id="next-conferences">
+        <li></li>
+      </ul>
+      <ul class="conferences conferences--small" id="conferences">
+        <li class="conferences__overlay"></li>
+      </ul>
+      <div class="show-more">
+        <button id="more-conferences"><i class="fas fa-2x fa-angle-down"></i></button>
+      </div>
+
+    </section>
+  </main>
+
+  <script type="text/javascript" src="assets/app.js"></script>
 </body>
 
 </html>

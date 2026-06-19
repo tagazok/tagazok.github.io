@@ -65,7 +65,7 @@ class Conference {
 
     let tpl = '';
     for (let role of roles) {
-      tpl += `<li class="role ${role}">[${role}]</li>`;
+      tpl += `<li class="role ${role}">${role}</li>`;
     }
     return tpl;
   }
@@ -100,7 +100,7 @@ class Conference {
                   <div class="width-100">
                     ${this.isPast(this.past)}
                     <ul class="roles">
-                      <li class="role speaker">${this.getRoles()}</li>
+                      ${this.getRoles()}
                     </ul>
                     <a href="${this.conference.link}" class="host" target="_blank">${this.conference.name}</a>
                     ${this.getTalks()}

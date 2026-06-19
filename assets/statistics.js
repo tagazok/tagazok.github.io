@@ -1,10 +1,16 @@
 // Statistics page — loads conferences + videos data, renders summary cards and charts.
 
-const PURPLE = '#87377b';
+const PURPLE = '#6366f1';
 const PURPLE_PALETTE = [
-  '#87377b', '#2d9cdb', '#f2994a', '#27ae60', '#eb5757',
-  '#9b51e0', '#f2c94c', '#219ebc', '#e76f51', '#06d6a0'
+  '#6366f1', '#f472b6', '#34d399', '#fbbf24', '#a78bfa',
+  '#22d3ee', '#fb7185', '#4ade80', '#f97316', '#e879f9'
 ];
+
+// Dark theme defaults
+Chart.defaults.color = 'rgba(241, 245, 249, 0.45)';
+Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.06)';
+Chart.defaults.font.family = "'Sora', sans-serif";
+Chart.defaults.font.weight = 500;
 
 let conferences = [];
 let videos = [];
@@ -119,10 +125,10 @@ function renderSummary(confs, vids) {
   ];
 
   dom.summary.innerHTML = cards.map(c => `
-    <div class="summary-card">
-      <div class="summary-card__number">${c.number}</div>
-      <div class="summary-card__label">${c.label}</div>
-      ${c.extra ? `<div class="summary-card__list">${c.extra.map(([name, count]) => `<span class="summary-card__tag">${name} (${count})</span>`).join('')}</div>` : ''}
+    <div class="kpi-card">
+      <div class="kpi-card__number">${c.number}</div>
+      <div class="kpi-card__label">${c.label}</div>
+      ${c.extra ? `<div class="kpi-card__list">${c.extra.map(([name, count]) => `<span class="kpi-card__tag">${name} (${count})</span>`).join('')}</div>` : ''}
     </div>
   `).join('');
 }
@@ -308,16 +314,16 @@ function renderTimeline(confs, vids) {
         {
           label: 'Conferences',
           data: years.map(y => confCounts.get(y) || 0),
-          borderColor: '#2d9cdb',
-          backgroundColor: 'rgba(45, 156, 219, .15)',
+          borderColor: '#6366f1',
+          backgroundColor: 'rgba(99, 102, 241, .12)',
           tension: .3,
           fill: true,
         },
         {
           label: 'Videos',
           data: years.map(y => vidCounts.get(y) || 0),
-          borderColor: '#f2994a',
-          backgroundColor: 'rgba(242, 153, 74, .15)',
+          borderColor: '#f472b6',
+          backgroundColor: 'rgba(244, 114, 182, .12)',
           tension: .3,
           fill: true,
         },
