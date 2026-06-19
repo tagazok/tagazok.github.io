@@ -1,105 +1,162 @@
-/* Videos page — dark glass theme override */
+/* Videos page */
 
-.page--wide {
-  max-width: 1200px;
+.videos-page {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 24px 80px;
 }
 
-#videos {
-  width: 100%;
+/* Hero */
+.videos-hero {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.category {
-  margin-bottom: 48px;
+.videos-hero__title {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -1px;
 }
 
-.category h2 {
-  font-size: 18px;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 20px;
-  padding-left: 4px;
-  letter-spacing: -0.3px;
+.videos-hero__count {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--text-muted);
 }
 
-.videos {
+/* Tabs */
+.videos-tabs {
   display: flex;
   flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+
+.tab {
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--glass-border);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.tab--active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* Video grid */
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
 }
 
-.videos .video-item {
-  width: 300px;
-  max-width: 100%;
-  border-radius: var(--radius);
-  display: flex;
-  flex-direction: column;
+/* Video card */
+.vcard {
   background: var(--glass);
   border: 1px solid var(--glass-border);
-  color: var(--text);
+  border-radius: var(--radius);
+  overflow: hidden;
   backdrop-filter: blur(8px);
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
   transition: transform 0.2s, border-color 0.2s;
+}
+
+.vcard:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.vcard__thumb {
+  position: relative;
+  aspect-ratio: 16/9;
   overflow: hidden;
 }
 
-.videos a.video-item {
-  text-decoration: none;
-  color: var(--text);
-}
-
-.videos .video-item:hover {
-  transform: translateY(-4px);
-  border-color: var(--accent);
-}
-
-.videos .video-item .video-thumbnail {
-  position: relative;
-}
-
-.videos .video-item .video-thumbnail img {
-  border-radius: 0;
+.vcard__thumb img {
   width: 100%;
-  display: block;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
 }
 
-.videos .video-item .video-duration {
-  background: var(--accent);
-  border-radius: 6px;
-  color: #fff;
-  text-align: center;
+.vcard:hover .vcard__thumb img {
+  transform: scale(1.05);
+}
+
+.vcard__duration {
   position: absolute;
-  top: 8px;
+  bottom: 8px;
   right: 8px;
-  padding: 2px 8px;
-  font-size: 11px;
-  font-weight: 600;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
   font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 4px;
 }
 
-.videos .video-item .video-title {
-  font-size: 13px;
+.vcard__body {
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.vcard__title {
+  font-size: 14px;
   font-weight: 500;
-  margin: 0;
   line-height: 1.4;
+  margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.videos .video-item .video-details {
-  padding: 14px 16px;
-  flex: 1;
+.vcard__meta {
+  margin-top: auto;
+  padding-top: 12px;
+  display: flex;
   justify-content: space-between;
-}
-
-.videos .video-item .video-description {
-  margin: 0;
-  margin-top: 8px;
+  align-items: center;
   font-size: 11px;
-  color: var(--text-muted);
 }
 
-.videos .video-item .event-name {
-  font-weight: 600;
+.vcard__event {
   color: var(--accent);
+  font-weight: 600;
+}
+
+.vcard__date {
+  color: var(--text-dim);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .videos-page { padding: 80px 16px 60px; }
+  .videos-hero__title { font-size: 28px; }
+  .videos-grid { grid-template-columns: 1fr; }
+  .videos-tabs { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 8px; }
+  .tab { white-space: nowrap; }
 }

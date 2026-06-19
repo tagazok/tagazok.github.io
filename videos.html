@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/app.css">
   <link rel="stylesheet" href="assets/videos.css">
@@ -23,14 +23,21 @@
   <header class="topbar">
     <span class="topbar__brand">olivier<span class="topbar__dot">.</span></span>
     <nav class="topbar__nav">
-      <a href="/">Talks</a>
+      <a href="/">Home</a>
       <a href="/videos.html" class="active">Videos</a>
       <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank">LinkedIn ↗</a>
     </nav>
   </header>
 
-  <main class="page page--wide">
-    <section id="videos"></section>
+  <main class="videos-page">
+    <div class="videos-hero">
+      <h1 class="videos-hero__title">Videos</h1>
+      <p class="videos-hero__count" id="video-count"></p>
+    </div>
+
+    <div class="videos-tabs" id="video-tabs"></div>
+
+    <section class="videos-grid" id="videos-grid"></section>
   </main>
 
   <script type="text/javascript" src="assets/videos.js"></script>
