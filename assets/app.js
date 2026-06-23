@@ -21,7 +21,6 @@ function renderStats(conferences, videos) {
   const talks = conferences.reduce((s, c) => s + (c.talks || []).length, 0);
   const countries = new Set(conferences.map(c => (c.location && c.location.country) || '').filter(Boolean)).size;
 
-  document.getElementById('stat-conferences').dataset.target = conferences.length;
   document.getElementById('stat-talks').dataset.target = talks;
   document.getElementById('stat-countries').dataset.target = countries;
   document.getElementById('stat-videos').dataset.target = videos.length;
