@@ -23,7 +23,15 @@ export class TagaApp extends LitElement {
 
   constructor() {
     super();
-    this._path = window.location.pathname;
+    // Handle SPA redirect from 404.html
+    const params = new URLSearchParams(window.location.search);
+    const redirectPath = params.get("p");
+    if (redirectPath) {
+      window.history.replaceState(null, "", redirectPath);
+      this._path = redirectPath;
+    } else {
+      this._path = window.location.pathname;
+    }
   }
 
   connectedCallback() {
@@ -39,7 +47,15 @@ export class TagaApp extends LitElement {
   }
 
   _onPopState = () => {
-    this._path = window.location.pathname;
+    // Handle SPA redirect from 404.html
+    const params = new URLSearchParams(window.location.search);
+    const redirectPath = params.get("p");
+    if (redirectPath) {
+      window.history.replaceState(null, "", redirectPath);
+      this._path = redirectPath;
+    } else {
+      this._path = window.location.pathname;
+    }
   };
 
   _onClick = (e) => {
