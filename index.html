@@ -1,95 +1,50 @@
+<!doctype html>
 <html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f0f13" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="assets/app.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <title>Olivier Leplus — DevRel, Speaker, GDE</title>
-</head>
+    <title>Olivier Leplus — DevRel, Speaker, GDE</title>
 
-<body>
-  <div class="orbs">
-    <div class="orb orb--1"></div>
-    <div class="orb orb--2"></div>
-    <div class="orb orb--3"></div>
-  </div>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #0f0f13;
+        color: #f1f5f9;
+        font-family: 'Sora', sans-serif;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+    </style>
 
-  <header class="topbar">
-    <span class="topbar__brand">olivier<span class="topbar__dot">.</span></span>
-    <nav class="topbar__nav">
-      <a href="/" class="active">Home</a>
-      <a href="/videos.html">Videos</a>
-      <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank">LinkedIn ↗</a>
-    </nav>
-  </header>
+    <script type="module" src="/src/app.js"></script>
+  </head>
+  <body>
+    <taga-app></taga-app>
 
-  <main>
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero__visual">
-        <img class="hero__avatar" src="assets/avatar.jpeg" alt="Olivier Leplus" />
-        <div class="hero__glow"></div>
-      </div>
-      <h1 class="hero__name">Olivier Leplus</h1>
-      <p class="hero__title">Developer Relations <a href="https://aws.amazon.com/" target="_blank">@AWS</a></p>
-      <p class="hero__title"><a href="https://developers.google.com/community/experts/directory/profile/profile-olivier-leplus" target="_blank">Google Developer Expert</a> — Web Technologies</p>
-      <div class="hero__scroll">
-        <i class="fas fa-chevron-down"></i>
-      </div>
-    </section>
-
-    <!-- STATS RIBBON -->
-    <section class="stats-ribbon" id="stats-ribbon">
-      <div class="stat" data-target="0" id="stat-talks">
-        <span class="stat__number">0</span>
-        <span class="stat__label">Talks</span>
-      </div>
-      <div class="stat" data-target="0" id="stat-countries">
-        <span class="stat__number">0</span>
-        <span class="stat__label">Countries</span>
-      </div>
-      <div class="stat" data-target="0" id="stat-videos">
-        <span class="stat__number">0</span>
-        <span class="stat__label">Videos</span>
-      </div>
-    </section>
-
-    <!-- COUNTRY CLOUD -->
-    <section class="section countries-section reveal">
-      <h2 class="section__title">Where I've spoken</h2>
-      <div class="country-cloud" id="country-cloud"></div>
-    </section>
-
-    <!-- FEATURED VIDEOS -->
-    <section class="section videos-section reveal">
-      <div class="section__header">
-        <h2 class="section__title">Latest videos</h2>
-        <a href="/videos.html" class="section__link">See all →</a>
-      </div>
-      <div class="featured-videos" id="featured-videos"></div>
-    </section>
-
-    <!-- TIMELINE -->
-    <section class="section timeline-section reveal">
-      <h2 class="section__title">Timeline</h2>
-      <div class="timeline" id="timeline"></div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer__links">
-      <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://github.com/tagazok" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://twitter.com/olivierleplus" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-    </div>
-  </footer>
-
-  <script type="text/javascript" src="assets/app.js"></script>
-</body>
-
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
 </html>
