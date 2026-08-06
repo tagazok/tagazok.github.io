@@ -8,13 +8,14 @@ import {
 /**
  * `<taga-home>` — landing page.
  *
- * Loads conferences + videos JSON, then renders hero, animated stats,
- * country cloud, latest videos, timeline grouped by year, and footer.
+ * Loads conferences, videos, and articles JSON, then renders hero, animated stats,
+ * country cloud, latest articles, latest videos, timeline grouped by year, and footer.
  */
 export class TagaHome extends LitElement {
   static properties = {
     _conferences: { state: true },
     _videos: { state: true },
+    _articleGroups: { state: true },
     _openYears: { state: true },
     _statTalks: { state: true },
     _statCountries: { state: true },
@@ -197,6 +198,177 @@ export class TagaHome extends LitElement {
       .country-cloud__item:hover {
         color: var(--accent);
         transform: scale(1.1);
+      }
+
+      /* Latest articles */
+      .latest-articles {
+        display: grid;
+        grid-template-columns: minmax(0, 1.3fr) minmax(300px, 0.7fr);
+        gap: 20px;
+      }
+      .article-lead,
+      .article-dispatch {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid var(--glass-border);
+        border-radius: var(--radius);
+        background: var(--glass);
+        color: var(--text);
+        text-decoration: none;
+        backdrop-filter: blur(8px);
+        transition: transform 0.25s, border-color 0.25s;
+      }
+      .article-lead:hover,
+      .article-dispatch:hover {
+        transform: translateY(-4px);
+        border-color: var(--accent);
+        color: var(--text);
+      }
+      .article-lead {
+        min-height: 430px;
+      }
+      .article-lead > img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.45s ease;
+      }
+      .article-lead:hover > img,
+      .article-dispatch:hover img {
+        transform: scale(1.04);
+      }
+      .article-lead__shade {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(0deg, rgba(8, 8, 12, 0.97) 5%, rgba(8, 8, 12, 0.55) 54%, rgba(8, 8, 12, 0.06) 86%);
+      }
+      .article-lead__content {
+        position: absolute;
+        z-index: 1;
+        left: 28px;
+        right: 28px;
+        bottom: 25px;
+      }
+      .article-showcase__meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        color: var(--accent-3);
+        font-family: var(--font-mono);
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .article-showcase__meta time {
+        color: rgba(241, 245, 249, 0.58);
+      }
+      .article-showcase__meta time::before {
+        content: '·';
+        margin-right: 8px;
+        color: var(--text-dim);
+      }
+      .article-lead h3 {
+        max-width: 650px;
+        margin: 11px 0 9px;
+        font-size: clamp(25px, 3.3vw, 36px);
+        line-height: 1.1;
+        letter-spacing: -0.045em;
+      }
+      .article-lead p {
+        display: -webkit-box;
+        max-width: 680px;
+        margin: 0;
+        overflow: hidden;
+        color: rgba(241, 245, 249, 0.65);
+        font-size: 12px;
+        line-height: 1.65;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+      .article-showcase__cta {
+        display: inline-block;
+        margin-top: 16px;
+        color: var(--text);
+        font-family: var(--font-mono);
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .article-dispatches {
+        display: grid;
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+      }
+      .article-dispatch {
+        display: grid;
+        grid-template-columns: 145px minmax(0, 1fr);
+        min-height: 205px;
+      }
+      .article-dispatch__media {
+        overflow: hidden;
+      }
+      .article-dispatch__media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s ease;
+      }
+      .article-dispatch__content {
+        display: flex;
+        min-width: 0;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+      }
+      .article-dispatch .article-showcase__meta {
+        display: grid;
+        gap: 5px;
+      }
+      .article-dispatch .article-showcase__meta time::before {
+        content: '';
+        margin: 0;
+      }
+      .article-dispatch h3 {
+        display: -webkit-box;
+        margin: 10px 0 8px;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.4;
+        letter-spacing: -0.02em;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+      }
+      .article-dispatch p {
+        display: -webkit-box;
+        margin: 0;
+        overflow: hidden;
+        color: var(--text-muted);
+        font-size: 10px;
+        line-height: 1.55;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+
+      @media (max-width: 900px) {
+        .latest-articles {
+          grid-template-columns: 1fr;
+        }
+        .article-dispatches {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          grid-template-rows: none;
+        }
+        .article-dispatch {
+          grid-template-columns: 1fr;
+        }
+        .article-dispatch__media {
+          height: 150px;
+        }
       }
 
       /* Featured videos */
@@ -445,6 +617,30 @@ export class TagaHome extends LitElement {
         .section {
           padding: 60px 16px;
         }
+        .article-lead {
+          min-height: 410px;
+        }
+        .article-lead__content {
+          left: 20px;
+          right: 20px;
+          bottom: 20px;
+        }
+        .article-lead h3 {
+          font-size: 26px;
+        }
+        .article-dispatches {
+          grid-template-columns: 1fr;
+        }
+        .article-dispatch {
+          grid-template-columns: 115px minmax(0, 1fr);
+          min-height: 170px;
+        }
+        .article-dispatch__media {
+          height: auto;
+        }
+        .article-dispatch__content {
+          padding: 16px;
+        }
         .featured-videos {
           grid-template-columns: 1fr;
         }
@@ -459,6 +655,7 @@ export class TagaHome extends LitElement {
     super();
     this._conferences = [];
     this._videos = [];
+    this._articleGroups = [];
     this._openYears = new Set();
     this._statTalks = 0;
     this._statCountries = 0;
@@ -480,19 +677,22 @@ export class TagaHome extends LitElement {
 
   async _loadData() {
     try {
-      const [confRes, vidRes] = await Promise.all([
+      const [confRes, vidRes, articleRes] = await Promise.all([
         fetch('/assets/data/conferences.json'),
         fetch('/assets/data/videos2.json'),
+        fetch('/assets/data/articles.json'),
       ]);
-      const [conferences, videoGroups] = await Promise.all([
+      const [conferences, videoGroups, articleGroups] = await Promise.all([
         confRes.json(),
         vidRes.json(),
+        articleRes.json(),
       ]);
       const videos = videoGroups.filter((g) => g.display !== false).flatMap((g) =>
         (g.videos || []).map((v) => ({ ...v, groupTitle: g.title, _event: v.event || g.event })),
       );
       this._conferences = conferences;
       this._videos = videos;
+      this._articleGroups = articleGroups;
 
       const currentYear = new Date().getFullYear().toString();
       this._openYears = new Set([currentYear]);
@@ -502,7 +702,11 @@ export class TagaHome extends LitElement {
   }
 
   updated(changed) {
-    if (changed.has('_conferences') || changed.has('_videos')) {
+    if (
+      changed.has('_conferences') ||
+      changed.has('_videos') ||
+      changed.has('_articleGroups')
+    ) {
       this._setupObservers();
     }
   }
@@ -611,6 +815,105 @@ export class TagaHome extends LitElement {
     return withDate.slice(0, 3);
   }
 
+  get _featuredArticles() {
+    const entries = [];
+
+    for (const group of this._articleGroups) {
+      if (group.kind === 'series') {
+        const latest = [...(group.articles || [])]
+          .sort((a, b) => (b.date || '').localeCompare(a.date || ''))[0];
+        if (!latest) continue;
+        entries.push({
+          id: group.id,
+          kind: 'series',
+          title: group.title,
+          description: group.description || group.subtitle || '',
+          image: latest.image,
+          date: latest.date,
+          context: `${group.articles.length}-part series`,
+          href: '/articles',
+          external: false,
+        });
+        continue;
+      }
+
+      for (const article of group.articles || []) {
+        const primaryLink = article.links?.[0];
+        if (!primaryLink) continue;
+        entries.push({
+          ...article,
+          kind: 'article',
+          context: article.links.map((link) => link.label).join(' · '),
+          href: primaryLink.url,
+          external: true,
+        });
+      }
+    }
+
+    return entries
+      .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+      .slice(0, 3);
+  }
+
+  _formatArticleDate(date) {
+    return new Intl.DateTimeFormat('en', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      timeZone: 'UTC',
+    }).format(new Date(`${date}T00:00:00Z`));
+  }
+
+  _renderArticleLead(entry) {
+    return html`
+      <a
+        class="article-lead"
+        href=${entry.href}
+        target=${entry.external ? '_blank' : '_self'}
+        rel=${entry.external ? 'noopener' : ''}
+        aria-label="${entry.kind === 'series' ? 'Explore' : 'Read'} ${entry.title}"
+      >
+        <img src=${entry.image} alt="" loading="lazy" />
+        <div class="article-lead__shade"></div>
+        <div class="article-lead__content">
+          <div class="article-showcase__meta">
+            <span>${entry.context}</span>
+            <time datetime=${entry.date}>${this._formatArticleDate(entry.date)}</time>
+          </div>
+          <h3>${entry.title}</h3>
+          <p>${entry.description}</p>
+          <span class="article-showcase__cta">
+            ${entry.kind === 'series' ? 'Explore the series' : 'Read the article'} →
+          </span>
+        </div>
+      </a>
+    `;
+  }
+
+  _renderArticleDispatch(entry) {
+    return html`
+      <a
+        class="article-dispatch"
+        href=${entry.href}
+        target=${entry.external ? '_blank' : '_self'}
+        rel=${entry.external ? 'noopener' : ''}
+        aria-label="${entry.kind === 'series' ? 'Explore' : 'Read'} ${entry.title}"
+      >
+        <div class="article-dispatch__media">
+          <img src=${entry.image} alt="" loading="lazy" />
+        </div>
+        <div class="article-dispatch__content">
+          <div class="article-showcase__meta">
+            <span>${entry.context}</span>
+            <time datetime=${entry.date}>${this._formatArticleDate(entry.date)}</time>
+          </div>
+          <h3>${entry.title}</h3>
+          <p>${entry.description}</p>
+        </div>
+      </a>
+    `;
+  }
+
   get _timelineYears() {
     const byYear = {};
     for (const c of this._conferences) {
@@ -669,6 +972,8 @@ export class TagaHome extends LitElement {
   }
 
   render() {
+    const featuredArticles = this._featuredArticles;
+
     return html`
       <!-- HERO -->
       <section class="hero">
@@ -729,6 +1034,26 @@ export class TagaHome extends LitElement {
           )}
         </div>
       </section>
+
+      <!-- LATEST ARTICLES -->
+      ${featuredArticles.length
+        ? html`
+            <section class="section reveal">
+              <div class="section__header">
+                <h2 class="section__title">Latest articles</h2>
+                <a href="/articles" class="section__link">See all →</a>
+              </div>
+              <div class="latest-articles">
+                ${this._renderArticleLead(featuredArticles[0])}
+                <div class="article-dispatches">
+                  ${featuredArticles.slice(1).map((entry) =>
+                    this._renderArticleDispatch(entry),
+                  )}
+                </div>
+              </div>
+            </section>
+          `
+        : null}
 
       <!-- FEATURED VIDEOS -->
       <section class="section reveal">
