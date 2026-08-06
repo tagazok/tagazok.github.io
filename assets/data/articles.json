@@ -1,0 +1,183 @@
+[
+  {
+    "id": "standalone",
+    "title": "Standalone articles",
+    "kind": "standalone",
+    "articles": [
+      {
+        "id": "ai-without-a-backend",
+        "title": "AI Without a Backend: The Browser's Built-in AI APIs for Web Developers",
+        "description": "Run an LLM in the browser with no backend. A hands-on guide to the built-in Summarizer and Prompt APIs — image input and schema-constrained JSON.",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F92c34aao8hnla4m3kjo6.png",
+        "date": "2026-07-08",
+        "tags": ["ai", "web"],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/3G9FtjYPfXLfEAlCTSqMClvQk7I/ai-without-a-backend-the-browsers-built-in-ai-apis-for-web-developers"
+          },
+          {
+            "platform": "dev",
+            "label": "dev.to",
+            "url": "https://dev.to/olivierleplus/ai-without-a-backend-the-browsers-built-in-ai-apis-for-web-developers-2745"
+          },
+          {
+            "platform": "linkedin",
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/pulse/ai-without-backend-browsers-built-in-apis-web-olivier-leplus-dewte/"
+          }
+        ]
+      },
+      {
+        "id": "strands-python-agents",
+        "title": "Strands : Le framework Python qui facilite la création d'agents IA",
+        "description": "Découvrez le framework Strands et voyons comment il va vous aider à accélérer le développement et le déploiement de vos agents IA.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/64e095fe763fc62418378753f9402623bea9e227/2025/07/16/Slide1-1.png",
+        "date": "2025-07-16",
+        "tags": ["ai", "agents", "aws"],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/31eALsg9UUlaXRkLtVuSyyKqcQd/strands-le-framework-python-qui-facilite-la-creation-dagents-ia"
+          }
+        ]
+      },
+      {
+        "id": "snowflake-aws-data",
+        "title": "Snowflake et AWS : la combinaison gagnante pour vos besoins data",
+        "description": "Découvrez comment Snowflake et AWS s'associent pour construire des modèles prédictifs et des applications data capables d'anticiper vos besoins.",
+        "image": "/assets/articles/snowflake-aws.png",
+        "date": "2023-09-04",
+        "tags": ["aws", "cloud", "data"],
+        "links": [
+          {
+            "platform": "aws-blog",
+            "label": "AWS Blog",
+            "url": "https://aws.amazon.com/fr/blogs/france/snowflake-et-aws-la-combinaison-gagnante-pour-vos-besoins-data/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cloudagotchi",
+    "title": "Cloudagotchi",
+    "subtitle": "A virtual pet with a cloud brain",
+    "description": "Meet Cloudagotchi, a virtual pet on a $30 ESP32 board whose feelings live in DynamoDB, whose metabolism runs on EventBridge, and who reads me the AWS news every morning. A 4-part build series is coming.",
+    "kind": "series",
+    "articles": [
+      {
+        "id": "cloudagotchi-intro",
+        "order": 0,
+        "title": "I built a Tamagotchi with its brain in AWS (and it reads me the news)",
+        "description": "Meet Cloudagotchi: a virtual pet whose feelings live in DynamoDB, whose metabolism runs on EventBridge, and who reads the AWS news every morning.",
+        "topics": "Architecture overview",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flm522xc9zctgrmnzomqv.png",
+        "date": "2026-07-20",
+        "tags": ["series", "aws", "cloud", "ai", "iot"],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/3GapaktRQ6ryx2R2huBuwoJu5wt/i-built-a-tamagotchi-with-its-brain-in-aws-and-it-reads-me-the-news"
+          },
+          {
+            "platform": "dev",
+            "label": "dev.to",
+            "url": "https://dev.to/aws/i-built-a-tamagotchi-with-its-brain-in-aws-and-it-reads-me-the-news-481n"
+          }
+        ]
+      },
+      {
+        "id": "cloudagotchi-part-1",
+        "order": 1,
+        "title": "Meet Cloudagotchi : Building a virtual pet with a cloud brain (Part 1)",
+        "description": "Turn a $30 ESP32-S3 AMOLED board into a Tamagotchi whose brain runs on AWS, starting with the architecture and AWS IoT Core.",
+        "topics": "AWS IoT Core · Mutual TLS",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqp9tv58ny6rg5cbexdzj.png",
+        "date": "2026-07-21",
+        "tags": ["series", "aws", "cloud", "iot"],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/3GXOyuLMZR7WLCptN5kxOEt0KpE/meet-cloudagotchi-building-a-virtual-pet-with-a-cloud-brain-part-1"
+          },
+          {
+            "platform": "dev",
+            "label": "dev.to",
+            "url": "https://dev.to/aws/meet-cloudagotchi-building-a-virtual-pet-with-a-cloud-brain-part-1-54j5"
+          }
+        ]
+      },
+      {
+        "id": "cloudagotchi-part-2",
+        "order": 2,
+        "title": "Cloudagotchi Part 2 : Giving it a face: Sprites and touch on a 1.8\" screen",
+        "description": "Give the cloud-brained pet a sprite-based face, touch interactions, idle animations, and shake detection on its AMOLED display.",
+        "topics": "ESP32 · LVGL · Touch",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fls8pqt7voy1wi8f8759n.png",
+        "date": "2026-07-23",
+        "tags": ["series", "iot"],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/3GXrhBkCjoVPnMEjvsxVaKMX3PD/cloudagotchi-part-2-giving-it-a-face-sprites-and-touch-on-a-18-screen"
+          },
+          {
+            "platform": "dev",
+            "label": "dev.to",
+            "url": "https://dev.to/aws/cloudagotchi-part-2-giving-it-a-face-sprites-and-touch-on-a-18-amoled-22nd"
+          }
+        ]
+      },
+      {
+        "id": "cloudagotchi-part-3",
+        "order": 3,
+        "title": "Cloudagotchi Part 3 : It gets hungry while you sleep: A serverless pet brain",
+        "description": "Lambda decides, DynamoDB remembers, and EventBridge Scheduler makes time pass while the ESP32 is powered off.",
+        "topics": "Lambda · DynamoDB · EventBridge",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo9rwriiu4tqtpfnjarps.png",
+        "date": "2026-07-27",
+        "tags": ["series", "aws", "cloud", "serverless", "iot"],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/3GZmFnjx0bACu6tQ2GZxmm7aADb/cloudagotchi-part-3-it-gets-hungry-while-you-sleep-a-serverless-pet-brain"
+          },
+          {
+            "platform": "dev",
+            "label": "dev.to",
+            "url": "https://dev.to/aws/cloudagotchi-part-3-it-gets-hungry-while-you-sleep-a-serverless-pet-brain-1l1j"
+          }
+        ]
+      },
+      {
+        "id": "cloudagotchi-part-4",
+        "order": 4,
+        "title": "Cloudagotchi Part 4 : My Tamagotchi reads me the AWS news",
+        "description": "Every morning, Bedrock summarizes the AWS news in the pet's voice, Polly makes it squeaky, and the ESP32 reads it aloud.",
+        "topics": "Bedrock · Polly · Audio streaming",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3hgt189cwobncfjd729u.png",
+        "date": "2026-08-03",
+        "tags": ["series", "aws", "cloud", "ai", "iot"],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/3GZxzxy9xrop1U2KbCcFUC0bsPV/cloudagotchi-part-4-my-tamagotchi-reads-me-the-aws-news"
+          },
+          {
+            "platform": "dev",
+            "label": "dev.to",
+            "url": "https://dev.to/aws/cloudagotchi-part-4-my-tamagotchi-reads-me-the-aws-news-9do"
+          }
+        ]
+      }
+    ]
+  }
+]

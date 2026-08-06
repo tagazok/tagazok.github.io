@@ -75,6 +75,8 @@ export class TagaApp extends LitElement {
     switch (this._path) {
       case '/videos':
         return html`<taga-videos></taga-videos>`;
+      case '/articles':
+        return html`<taga-articles></taga-articles>`;
       case '/statistics':
         return html`<taga-statistics></taga-statistics>`;
       default:

@@ -1,6 +1,6 @@
 // Simple service worker — cache-first for app shell + data, network fallback.
 
-const CACHE_NAME = 'tagazok-v1';
+const CACHE_NAME = 'tagazok-v2';
 const APP_SHELL = [
   '/',
   '/index.html',
@@ -9,6 +9,7 @@ const APP_SHELL = [
   '/assets/avatar.jpeg',
   '/assets/data/conferences.json',
   '/assets/data/videos2.json',
+  '/assets/data/articles.json',
 ];
 
 self.addEventListener('install', (event) => {

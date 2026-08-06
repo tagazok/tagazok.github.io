@@ -25,6 +25,7 @@ export class TagaHeader extends LitElement {
         <nav class="topbar__nav">
           <a href="/" class=${this._isActive('/') ? 'active' : ''}>Home</a>
           <a href="/videos" class=${this._isActive('/videos') ? 'active' : ''}>Videos</a>
+          <a href="/articles" class=${this._isActive('/articles') ? 'active' : ''}>Articles</a>
           <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank" rel="noopener">LinkedIn ↗</a>
         </nav>
       </header>
