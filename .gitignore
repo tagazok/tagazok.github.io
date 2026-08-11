@@ -1,45 +1,55 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+# Dependencies
+/node_modules/
 
-# compiled output
-/dist
-dist/
-/tmp
+# Production output and generated caches
+/dist/
+/.vite/
+/.cache/
+/coverage/
+/.nyc_output/
+/.sass-cache/
+/.vscode.vite/
+/tmp/
+/typings/
 
-# dependencies
-/node_modules
-node_modules/
+# Local test, browser, screenshot, and design artifacts
+/.playwright-mcp/
+/playwright-report/
+/test-results/
+/screenshots/
+/temp-screenshots/
+/specs/
+
+# Local Kiro project metadata
+/.kiro/
+
+# Environment and machine-local configuration
+.env
+.env.*
+!.env.example
+/connect.lock
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # IDEs and editors
-/.idea
+/.idea/
 .project
 .classpath
 .c9/
 *.launch
 .settings/
-.kiro/*
-specs/
-
-# IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
-
-# e2e
-/e2e/*.js
-/e2e/*.map
-
-#System Files
+# Operating-system files
 .DS_Store
 Thumbs.db
-.vscode.vite/
+

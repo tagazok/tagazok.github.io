@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-15",
+    "name": "SII",
+    "location": {
+      "name": "Nantes, France",
+      "city": "Nantes",
+      "country": "France"
+    },
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "name": "AWS Community Day Bulgaria",
+    "location": {
+      "name": "Sofia, Bulgaria",
+      "city": "Sofia",
+      "country": "Bulgaria"
+    },
+    "link": "https://www.aws-community-day.bg/",
+    "talks": [
+      {
+        "title": "Build a multi-agent role-playing Game Master with Strands Agents",
+        "role": "speaker"
+      }
+    ]
+  },
+  {
     "date": "2026-07-09",
     "name": "2ème Summer School Internationale sur l'Intelligence Artificielle du Centre de Recherche Franco-Marocain",
     "location": {
