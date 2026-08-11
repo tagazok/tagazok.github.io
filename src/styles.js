@@ -160,10 +160,31 @@ export const topbarStyles = css`
   }
   @media (max-width: 768px) {
     .topbar {
+      gap: 16px;
       padding: 14px 20px;
     }
+    .topbar__brand,
+    .topbar__nav a {
+      flex: 0 0 auto;
+    }
     .topbar__nav {
+      min-width: 0;
       gap: 18px;
+    }
+  }
+  @media (max-width: 480px) {
+    .topbar {
+      gap: 10px;
+      padding: 12px;
+    }
+    .topbar__brand {
+      font-size: 17px;
+    }
+    .topbar__nav {
+      gap: 10px;
+    }
+    .topbar__nav a {
+      font-size: 10px;
     }
   }
 `;

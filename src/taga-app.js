@@ -13,9 +13,14 @@ export class TagaApp extends LitElement {
     css`
       :host {
         display: block;
+        width: 100%;
+        min-width: 0;
         min-height: 100vh;
+        overflow-x: clip;
       }
       main {
+        width: 100%;
+        min-width: 0;
         padding-top: 60px;
       }
     `,

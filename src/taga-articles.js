@@ -21,10 +21,10 @@ export class TagaArticles extends LitElement {
     tokens,
     baseStyles,
     css`
-      :host { display: block; position: relative; z-index: 1; }
-      .page { width: min(1100px, calc(100% - 48px)); margin: 0 auto; padding: 92px 0 90px; }
-      .layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 68px; align-items: start; }
-      .sidebar { position: sticky; top: 96px; }
+      :host { display: block; position: relative; z-index: 1; box-sizing: border-box; width: 100%; min-width: 0; max-width: 100%; overflow-x: clip; }
+      .page { width: calc(100% - 48px); max-width: 1100px; margin: 0 auto; padding: 92px 0 90px; }
+      .layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); width: 100%; min-width: 0; gap: 68px; align-items: start; }
+      .sidebar { min-width: 0; position: sticky; top: 96px; }
       .eyebrow { color: var(--accent-3); font-family: var(--font-mono); font-size: 10px; font-weight: 500; letter-spacing: .15em; text-transform: uppercase; }
       h1 { margin: 12px 0 18px; font-size: 46px; line-height: 1; letter-spacing: -.055em; }
       .intro { margin: 0; color: var(--text-muted); font-size: 13px; line-height: 1.75; }
@@ -35,18 +35,19 @@ export class TagaArticles extends LitElement {
       .filter[aria-pressed='true'] { color: var(--text); background: var(--accent-soft); }
       .filter b { color: var(--text-dim); font-family: var(--font-mono); font-size: 10px; font-weight: 400; }
       .filter:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-      .content { min-width: 0; padding-top: 8px; }
+      .content { width: 100%; min-width: 0; max-width: 100%; padding-top: 8px; }
+      .timeline-block { min-width: 0; max-width: 100%; }
       .section-kicker { margin: 0 0 18px; color: var(--text-dim); font-family: var(--font-mono); font-size: 10px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; }
-      .article-row { display: grid; grid-template-columns: 150px minmax(0, 1fr) 28px; gap: 22px; padding: 20px 0; border-top: 1px solid var(--glass-border); }
+      .article-row { display: grid; grid-template-columns: 150px minmax(0, 1fr); min-width: 0; max-width: 100%; gap: 22px; padding: 20px 0; border-top: 1px solid var(--glass-border); }
+      .article-row > div, .series-row > div, .series-header > div { min-width: 0; }
       .article-image { display: block; height: 92px; overflow: hidden; border-radius: 10px; background: var(--surface); }
       .article-image img, .series-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s; }
       .article-row:hover img, .series-row:hover img { transform: scale(1.04); }
-      .article-title { display: inline; margin: 0; color: var(--text); font-size: 16px; font-weight: 600; line-height: 1.4; letter-spacing: -.025em; }
+      .article-title { display: inline; margin: 0; overflow-wrap: anywhere; color: var(--text); font-size: 16px; font-weight: 600; line-height: 1.4; letter-spacing: -.025em; }
       .article-title:hover { color: #a5b4fc; }
-      .description { margin: 7px 0 8px; color: var(--text-muted); font-size: 11px; line-height: 1.6; }
+      .description { margin: 7px 0 8px; overflow-wrap: anywhere; color: var(--text-muted); font-size: 11px; line-height: 1.6; }
       .published { display: block; margin: 0 0 10px; color: var(--accent-3); font-family: var(--font-mono); font-size: 8px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; }
       .published--series { margin: 4px 0 0; color: var(--text-muted); }
-      .index { padding-top: 4px; color: var(--text-dim); font-family: var(--font-mono); font-size: 10px; text-align: right; }
       .platforms { display: flex; flex-wrap: wrap; gap: 6px; }
       .platform { display: inline-flex; align-items: center; gap: 6px; min-height: 24px; padding: 0 8px; border: 1px solid var(--glass-border); border-radius: 999px; color: var(--text-muted); background: rgba(15,15,19,.45); font-family: var(--font-mono); font-size: 8px; font-weight: 500; letter-spacing: .07em; text-transform: uppercase; }
       .platform::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
@@ -54,33 +55,34 @@ export class TagaArticles extends LitElement {
       .platform:hover { border-color: var(--accent); color: var(--text); }
       .series-header { display: flex; align-items: end; justify-content: space-between; gap: 24px; padding: 17px 0 16px; border-bottom: 1px solid var(--glass-border); }
       .series-header h2 { margin: 7px 0 0; font-size: 27px; letter-spacing: -.045em; }
-      .series-description { max-width: 590px; margin: 10px 0 0; color: var(--text-muted); font-size: 11px; line-height: 1.65; }
+      .series-description { max-width: 590px; margin: 10px 0 0; overflow-wrap: anywhere; color: var(--text-muted); font-size: 11px; line-height: 1.65; }
       .series-meta { display: grid; gap: 6px; text-align: right; }
       .series-subtitle { color: var(--text-muted); font-family: var(--font-mono); font-size: 9px; line-height: 1.55; }
       .series-latest { color: var(--accent-3); font-family: var(--font-mono); font-size: 8px; letter-spacing: .05em; text-transform: uppercase; }
       .timeline-block + .timeline-block { margin-top: 30px; }
       .timeline-block--series { padding: 0 16px 8px; border: 1px solid var(--glass-border); border-radius: var(--radius); background: var(--glass); backdrop-filter: blur(8px); }
-      .series-row { display: grid; grid-template-columns: 34px 116px minmax(0, 1fr) auto; align-items: center; gap: 17px; padding: 14px 0; border-bottom: 1px solid var(--glass-border); }
+      .series-row { display: grid; grid-template-columns: 34px 116px minmax(0, 1fr) auto; align-items: center; min-width: 0; max-width: 100%; gap: 17px; padding: 14px 0; border-bottom: 1px solid var(--glass-border); }
+      .series-row:last-child { border-bottom: 0; }
+      .timeline-block--series + .timeline-block .article-row { border-top: 0; }
       .series-number { color: var(--accent-3); font-family: var(--font-mono); font-size: 10px; }
       .series-image { display: block; height: 67px; overflow: hidden; border-radius: 9px; background: var(--surface); }
-      .series-title { color: var(--text); font-size: 12px; font-weight: 500; line-height: 1.45; }
+      .series-title { display: block; overflow-wrap: anywhere; color: var(--text); font-size: 12px; font-weight: 500; line-height: 1.45; }
       .series-title:hover { color: #a5b4fc; }
       .topics { margin: 5px 0 0; color: var(--text-dim); font-family: var(--font-mono); font-size: 8px; line-height: 1.4; text-transform: uppercase; }
       .status { padding: 80px 24px; border: 1px solid var(--glass-border); border-radius: var(--radius); color: var(--text-muted); background: var(--glass); text-align: center; line-height: 1.6; }
       .status strong { display: block; margin-bottom: 7px; color: var(--text); font-size: 16px; }
       @media (max-width: 800px) {
-        .page { width: min(100% - 30px, 620px); padding: 70px 0 60px; }
+        .page { width: calc(100% - 30px); max-width: 620px; padding: 70px 0 60px; }
         .layout { grid-template-columns: 1fr; gap: 34px; }
         .sidebar { position: static; }
         h1 { font-size: 40px; }
         .intro { max-width: 440px; }
         .summary { margin-top: 16px; }
-        .filters { display: flex; gap: 6px; margin-top: 24px; padding-bottom: 5px; overflow-x: auto; scrollbar-width: none; }
+        .filters { display: flex; max-width: 100%; gap: 6px; margin-top: 24px; padding-bottom: 5px; overflow-x: auto; overscroll-behavior-inline: contain; scrollbar-width: none; }
         .filters::-webkit-scrollbar { display: none; }
         .filter { flex: 0 0 auto; width: auto; white-space: nowrap; border: 1px solid var(--glass-border); }
         .article-row { grid-template-columns: 105px minmax(0, 1fr); gap: 14px; }
         .article-image { height: 78px; }
-        .article-row .index { display: none; }
         .article-title { font-size: 13px; }
         .description { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
         .series-row { grid-template-columns: 28px 78px minmax(0, 1fr); gap: 11px; }
@@ -90,11 +92,13 @@ export class TagaArticles extends LitElement {
       }
       @media (max-width: 430px) {
         .page { padding-top: 54px; }
-        .article-row { grid-template-columns: 1fr; }
-        .article-image { height: 180px; }
+        .article-row { grid-template-columns: minmax(0, 1fr); }
+        .article-image { width: 100%; height: 180px; }
         .series-header { align-items: start; flex-direction: column; gap: 8px; }
         .series-meta { text-align: left; }
         .timeline-block--series { padding: 0 12px 6px; }
+        .series-row { grid-template-columns: 24px 72px minmax(0, 1fr); gap: 10px; }
+        .series-image { width: 100%; }
         .series-subtitle { text-align: left; }
       }
     `,
@@ -157,7 +161,7 @@ export class TagaArticles extends LitElement {
     </div>`;
   }
 
-  _standaloneRow(article, index) {
+  _standaloneRow(article) {
     const primary = article.links[0].url;
     return html`<article class="article-row">
       <a class="article-image" href=${primary} target="_blank" rel="noopener" tabindex="-1"><img src=${article.image} alt="" loading="lazy" /></a>
@@ -167,14 +171,13 @@ export class TagaArticles extends LitElement {
         <time class="published" datetime=${article.date}>Published ${this._formatDate(article.date)}</time>
         ${this._platforms(article)}
       </div>
-      <span class="index">${String(index + 1).padStart(2, '0')}</span>
     </article>`;
   }
 
   _seriesRow(article) {
     const primary = article.links[0].url;
     return html`<article class="series-row">
-      <span class="series-number">${String(article.order).padStart(2, '0')}</span>
+      <span class="series-number">${String(article.order + 1).padStart(2, '0')}</span>
       <a class="series-image" href=${primary} target="_blank" rel="noopener" tabindex="-1"><img src=${article.image} alt="" loading="lazy" /></a>
       <div>
         <a class="series-title" href=${primary} target="_blank" rel="noopener">${article.title}</a>
@@ -231,8 +234,8 @@ export class TagaArticles extends LitElement {
         <section class="content" aria-live="polite">
           ${timeline.length ? html`
             <p class="section-kicker">Latest writing</p>
-            ${timeline.map((block, index) => block.kind === 'article'
-              ? html`<div class="timeline-block">${this._standaloneRow(block.article, index)}</div>`
+            ${timeline.map((block) => block.kind === 'article'
+              ? html`<div class="timeline-block">${this._standaloneRow(block.article)}</div>`
               : html`<section class="timeline-block timeline-block--series">
                   <header class="series-header">
                     <div>
