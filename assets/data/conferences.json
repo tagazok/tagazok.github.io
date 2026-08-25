@@ -31,6 +31,26 @@
     ]
   },
   {
+    "date": "2026-08-19",
+    "name": "AWS Summit Johannesburg",
+    "location": {
+      "name": "Johannesburg, South Africa",
+      "city": "Johannesburg",
+      "country": "South Africa"
+    },
+    "link": "https://aws.amazon.com/events/summits/johannesburg/",
+    "talks": [
+      {
+        "title": "Introduction to AWS Blocks: Build Full-Stack Apps with AI in Minutes",
+        "role": "speaker"
+      },
+      {
+        "title": "[workshop] Build an agentic full-stack tabletop game master application",
+        "role": "mentor"
+      }
+    ]
+  },
+  {
     "date": "2026-07-09",
     "name": "2ème Summer School Internationale sur l'Intelligence Artificielle du Centre de Recherche Franco-Marocain",
     "location": {
