@@ -23,9 +23,9 @@ export class TagaHeader extends LitElement {
       <header class="topbar">
         <span class="topbar__brand">olivier<span class="topbar__dot">.</span></span>
         <nav class="topbar__nav">
-          <a href="/" class=${this._isActive('/') ? 'active' : ''}>Home</a>
-          <a href="/videos" class=${this._isActive('/videos') ? 'active' : ''}>Videos</a>
-          <a href="/articles" class=${this._isActive('/articles') ? 'active' : ''}>Articles</a>
+          <a href="/" class=${this._isActive('/') ? 'active' : ''} aria-current=${this._isActive('/') ? 'page' : null}>Home</a>
+          <a href="/videos" class=${this._isActive('/videos') ? 'active' : ''} aria-current=${this._isActive('/videos') ? 'page' : null}>Videos</a>
+          <a href="/articles" class=${this._isActive('/articles') ? 'active' : ''} aria-current=${this._isActive('/articles') ? 'page' : null}>Articles</a>
           <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank" rel="noopener">LinkedIn ↗</a>
         </nav>
       </header>

@@ -148,15 +148,42 @@ export const topbarStyles = css`
     gap: 28px;
   }
   .topbar__nav a {
+    position: relative;
+    padding: 5px 0;
     font-size: 13px;
     font-weight: 500;
     color: var(--text-muted);
     text-decoration: none;
     transition: color 0.2s;
   }
+  .topbar__nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    border-radius: 999px;
+    background: var(--accent);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.2s ease;
+  }
   .topbar__nav a:hover,
   .topbar__nav a.active {
     color: var(--text);
+  }
+  .topbar__nav a:hover::after,
+  .topbar__nav a.active::after {
+    transform: scaleX(1);
+  }
+  .topbar__nav a.active {
+    font-weight: 600;
+  }
+  .topbar__nav a:focus-visible {
+    border-radius: 4px;
+    outline: 2px solid var(--accent);
+    outline-offset: 5px;
   }
   @media (max-width: 768px) {
     .topbar {

@@ -17,6 +17,7 @@ export class TagaHome extends LitElement {
     _videos: { state: true },
     _articleGroups: { state: true },
     _openYears: { state: true },
+    _showFullTimeline: { state: true },
     _statTalks: { state: true },
     _statCountries: { state: true },
     _statVideos: { state: true },
@@ -95,6 +96,36 @@ export class TagaHome extends LitElement {
       .hero__title a {
         color: var(--accent);
         font-weight: 500;
+      }
+      .hero__actions {
+        display: flex;
+        justify-content: center;
+        margin-top: 26px;
+      }
+      .hero__cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 22px;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        color: #fff;
+        background: var(--accent);
+        box-shadow: 0 10px 30px rgba(99, 102, 241, 0.28);
+        font: 600 12px var(--font);
+        letter-spacing: 0.01em;
+        cursor: pointer;
+        transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+      }
+      .hero__cta:hover {
+        transform: translateY(-2px);
+        background: #818cf8;
+        box-shadow: 0 14px 34px rgba(99, 102, 241, 0.36);
+      }
+      .hero__cta:focus-visible {
+        outline: 2px solid var(--accent-3);
+        outline-offset: 4px;
       }
       .hero__scroll {
         position: absolute;
@@ -577,6 +608,31 @@ export class TagaHome extends LitElement {
         letter-spacing: 1px;
         margin-left: 8px;
       }
+      .timeline__archive-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        margin: 24px auto 0;
+        padding: 0 18px;
+        border: 1px solid var(--glass-border);
+        border-radius: 999px;
+        color: var(--text-muted);
+        background: var(--glass);
+        font: 500 11px var(--font);
+        cursor: pointer;
+        transition: color 0.2s, border-color 0.2s, background 0.2s, transform 0.2s;
+      }
+      .timeline__archive-toggle:hover {
+        color: var(--text);
+        border-color: var(--accent);
+        background: var(--surface-hover);
+        transform: translateY(-2px);
+      }
+      .timeline__archive-toggle:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 4px;
+      }
 
       /* Footer */
       .footer {
@@ -606,6 +662,12 @@ export class TagaHome extends LitElement {
         .hero__name {
           font-size: 32px;
           letter-spacing: -1px;
+        }
+        .hero__actions {
+          width: min(100%, 320px);
+        }
+        .hero__cta {
+          flex: 1 1 140px;
         }
         .stats-ribbon {
           grid-template-columns: repeat(2, 1fr);
@@ -657,6 +719,7 @@ export class TagaHome extends LitElement {
     this._videos = [];
     this._articleGroups = [];
     this._openYears = new Set();
+    this._showFullTimeline = false;
     this._statTalks = 0;
     this._statCountries = 0;
     this._statVideos = 0;
@@ -973,6 +1036,11 @@ export class TagaHome extends LitElement {
 
   render() {
     const featuredArticles = this._featuredArticles;
+    const timelineYears = this._timelineYears;
+    const visibleTimelineYears = this._showFullTimeline
+      ? timelineYears
+      : timelineYears.slice(0, 1);
+    const hiddenYearCount = Math.max(0, timelineYears.length - visibleTimelineYears.length);
 
     return html`
       <!-- HERO -->
@@ -998,6 +1066,18 @@ export class TagaHome extends LitElement {
           >Google Developer Expert</a>
           — Web Technologies
         </p>
+        <div class="hero__actions">
+          <button
+            class="hero__cta"
+            type="button"
+            @click=${() => {
+              window.scrollBy({
+                top: window.innerHeight,
+                behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+              });
+            }}
+          >Learn more about me <span aria-hidden="true">↓</span></button>
+        </div>
         <div class="hero__scroll">
           <i class="fas fa-chevron-down"></i>
         </div>
@@ -1092,10 +1172,10 @@ export class TagaHome extends LitElement {
       </section>
 
       <!-- TIMELINE -->
-      <section class="section reveal">
+      <section class="section reveal" id="talks">
         <h2 class="section__title">Talks & Conferences</h2>
-        <div class="timeline">
-          ${this._timelineYears.map(
+        <div class="timeline" id="conference-timeline">
+          ${visibleTimelineYears.map(
             ({ year, events, talkCount, countries }) => html`
               <div
                 class="timeline__year ${this._openYears.has(year) ? 'open' : ''}"
@@ -1120,6 +1200,23 @@ export class TagaHome extends LitElement {
             `,
           )}
         </div>
+        ${timelineYears.length > 1
+          ? html`
+              <button
+                class="timeline__archive-toggle"
+                type="button"
+                aria-controls="conference-timeline"
+                aria-expanded=${this._showFullTimeline}
+                @click=${() => {
+                  this._showFullTimeline = !this._showFullTimeline;
+                }}
+              >
+                ${this._showFullTimeline
+                  ? 'Show recent year only'
+                  : `Show ${hiddenYearCount} earlier ${hiddenYearCount === 1 ? 'year' : 'years'}`}
+              </button>
+            `
+          : null}
       </section>
 
       <!-- FOOTER -->
