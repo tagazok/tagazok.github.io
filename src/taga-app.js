@@ -7,6 +7,14 @@ const PAGE_ROUTES = {
     tag: 'taga-home',
     load: () => import('./taga-home.js'),
   },
+  '/bio': {
+    tag: 'taga-bio',
+    load: () => import('./taga-bio.js'),
+  },
+  '/talks': {
+    tag: 'taga-talks',
+    load: () => import('./taga-talks.js'),
+  },
   '/videos': {
     tag: 'taga-videos',
     load: () => import('./taga-videos.js'),
@@ -135,7 +143,7 @@ export class TagaApp extends LitElement {
         !element.target &&
         element.origin === location.origin,
     );
-    if (!anchor) return;
+    if (!anchor || anchor.hasAttribute('download')) return;
 
     event.preventDefault();
     if (anchor.pathname !== this._path) {
@@ -155,6 +163,10 @@ export class TagaApp extends LitElement {
     }
 
     switch (this._pageTag) {
+      case 'taga-bio':
+        return html`<taga-bio></taga-bio>`;
+      case 'taga-talks':
+        return html`<taga-talks></taga-talks>`;
       case 'taga-videos':
         return html`<taga-videos></taga-videos>`;
       case 'taga-articles':

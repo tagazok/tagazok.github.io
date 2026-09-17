@@ -135,9 +135,13 @@ export const topbarStyles = css`
     border-bottom: 1px solid var(--glass-border);
   }
   .topbar__brand {
+    color: var(--text);
     font-size: 20px;
     font-weight: 700;
     letter-spacing: -0.5px;
+    text-decoration: none;
+  }
+  .topbar__brand:hover {
     color: var(--text);
   }
   .topbar__dot {

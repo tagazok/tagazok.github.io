@@ -468,6 +468,18 @@ export class TagaHome extends LitElement {
         color: var(--text-muted);
       }
 
+      /* Upcoming talks preview */
+      .talk-previews { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+      .talk-preview { display: flex; min-width: 0; flex-direction: column; padding: 20px; border: 1px solid var(--glass-border); border-radius: var(--radius); background: var(--glass); backdrop-filter: blur(8px); transition: transform .2s, border-color .2s; }
+      .talk-preview:hover { transform: translateY(-4px); border-color: var(--accent); }
+      .talk-preview time { color: var(--accent-3); font: 500 9px var(--font-mono); letter-spacing: .06em; text-transform: uppercase; }
+      .talk-preview h3 { margin: 11px 0 8px; font-size: 15px; line-height: 1.4; letter-spacing: -.025em; }
+      .talk-preview h3 a { color: var(--text); }
+      .talk-preview h3 a:hover { color: #a5b4fc; }
+      .talk-preview__talk { margin: 0 0 14px; color: var(--text-muted); font-size: 11px; line-height: 1.6; }
+      .talk-preview__meta { margin-top: auto; color: var(--text-dim); font: 400 9px var(--font-mono); text-transform: uppercase; }
+      .talk-preview__roles { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
+
       /* Timeline */
       .timeline {
         position: relative;
@@ -977,6 +989,40 @@ export class TagaHome extends LitElement {
     `;
   }
 
+  get _featuredTalks() {
+    const today = new Date().toISOString().slice(0, 10);
+    const upcoming = this._conferences
+      .filter((event) => event.date && event.date >= today)
+      .sort((a, b) => a.date.localeCompare(b.date));
+    const recent = this._conferences
+      .filter((event) => !event.date || event.date < today)
+      .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    return [...upcoming, ...recent].slice(0, 3);
+  }
+
+  _renderTalkPreview(event) {
+    const roles = event.roles || [
+      ...new Set((event.talks || []).map((talk) => talk.role).filter(Boolean)),
+    ];
+    return html`
+      <article class="talk-preview">
+        <time datetime=${event.date}>${this._formatArticleDate(event.date)}</time>
+        <h3>
+          ${event.link
+            ? html`<a href=${event.link} target="_blank" rel="noopener">${event.name}</a>`
+            : event.name}
+        </h3>
+        <div class="talk-preview__roles">
+          ${roles.map((role) => html`<span class="timeline__role timeline__role--${role}">${role}</span>`)}
+        </div>
+        ${(event.talks || [])[0]
+          ? html`<p class="talk-preview__talk">${event.talks[0].title}</p>`
+          : null}
+        <div class="talk-preview__meta">${event.location?.name || 'Location TBA'}</div>
+      </article>
+    `;
+  }
+
   get _timelineYears() {
     const byYear = {};
     for (const c of this._conferences) {
@@ -1036,11 +1082,7 @@ export class TagaHome extends LitElement {
 
   render() {
     const featuredArticles = this._featuredArticles;
-    const timelineYears = this._timelineYears;
-    const visibleTimelineYears = this._showFullTimeline
-      ? timelineYears
-      : timelineYears.slice(0, 1);
-    const hiddenYearCount = Math.max(0, timelineYears.length - visibleTimelineYears.length);
+    const featuredTalks = this._featuredTalks;
 
     return html`
       <!-- HERO -->
@@ -1171,52 +1213,15 @@ export class TagaHome extends LitElement {
         </div>
       </section>
 
-      <!-- TIMELINE -->
+      <!-- UPCOMING TALKS -->
       <section class="section reveal" id="talks">
-        <h2 class="section__title">Talks & Conferences</h2>
-        <div class="timeline" id="conference-timeline">
-          ${visibleTimelineYears.map(
-            ({ year, events, talkCount, countries }) => html`
-              <div
-                class="timeline__year ${this._openYears.has(year) ? 'open' : ''}"
-              >
-                <div
-                  class="timeline__year-header"
-                  @click=${() => this._toggleYear(year)}
-                >
-                  <span class="timeline__year-label">${year}</span>
-                  <span class="timeline__year-summary">
-                    ${events.length} events · ${talkCount} talks ·
-                    ${countries} countries
-                  </span>
-                  <span class="timeline__year-toggle">
-                    <i class="fas fa-chevron-down"></i>
-                  </span>
-                </div>
-                <div class="timeline__events">
-                  ${events.map((c) => this._renderEvent(c))}
-                </div>
-              </div>
-            `,
-          )}
+        <div class="section__header">
+          <h2 class="section__title">Upcoming talks</h2>
+          <a href="/talks" class="section__link">See all →</a>
         </div>
-        ${timelineYears.length > 1
-          ? html`
-              <button
-                class="timeline__archive-toggle"
-                type="button"
-                aria-controls="conference-timeline"
-                aria-expanded=${this._showFullTimeline}
-                @click=${() => {
-                  this._showFullTimeline = !this._showFullTimeline;
-                }}
-              >
-                ${this._showFullTimeline
-                  ? 'Show recent year only'
-                  : `Show ${hiddenYearCount} earlier ${hiddenYearCount === 1 ? 'year' : 'years'}`}
-              </button>
-            `
-          : null}
+        <div class="talk-previews">
+          ${featuredTalks.map((event) => this._renderTalkPreview(event))}
+        </div>
       </section>
 
       <!-- FOOTER -->
