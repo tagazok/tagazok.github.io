@@ -15,6 +15,36 @@
     ]
   },
   {
+    "date": "2026-10-24",
+    "name": "AWS Community Day Hong Kong",
+    "location": {
+      "name": "Hong Kong, China",
+      "city": "Hong Kong",
+      "country": "China"
+    },
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents..",
+        "role": "mentor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "name": "AWS Community Day Shenzhen",
+    "location": {
+      "name": "Shenzhen, China",
+      "city": "Shenzhen",
+      "country": "China"
+    },
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents..",
+        "role": "mentor"
+      }
+    ]
+  },
+  {
     "date": "2026-10-15",
     "name": "SII",
     "location": {
