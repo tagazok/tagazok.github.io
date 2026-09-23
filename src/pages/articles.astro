@@ -1,0 +1,657 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import groups from '../../assets/data/articles.json';
+
+const FILTERS = [
+  { id: 'all', label: 'Everything' },
+  { id: 'ai', label: 'AI & agents' },
+  { id: 'aws', label: 'Cloud & AWS' },
+  { id: 'web', label: 'Web' },
+  { id: 'series', label: 'Series' },
+];
+
+const allArticles = groups.flatMap((group) => group.articles);
+const seriesGroups = groups.filter((group) => group.kind === 'series');
+const platformCount = new Set(
+  allArticles.flatMap((article) => article.links.map((link) => link.platform)),
+).size;
+
+const formatDate = (date) =>
+  new Intl.DateTimeFormat('en', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(new Date(`${date}T00:00:00Z`));
+
+// tag tokens used for client-side filtering. 'series' is a synthetic tag applied to series articles.
+const tagTokens = (article, isSeries) =>
+  [...(article.tags || []), ...(isSeries ? ['series'] : [])].join(' ');
+
+const countFor = (id) =>
+  id === 'all'
+    ? allArticles.length
+    : allArticles.filter((article) =>
+        id === 'series'
+          ? seriesGroups.some((g) => g.articles.includes(article))
+          : article.tags?.includes(id),
+      ).length;
+
+// ─── Build the mixed chronological timeline (series inline by latest date) ───
+const standalone = groups.find((group) => group.kind === 'standalone');
+const articleBlocks = (standalone?.articles || []).map((article) => ({
+  kind: 'article',
+  date: article.date,
+  article,
+}));
+const seriesBlocks = seriesGroups.map((group) => {
+  const latestDate = group.articles.reduce(
+    (latest, article) => (article.date > latest ? article.date : latest),
+    '',
+  );
+  return { kind: 'series', date: latestDate, group };
+});
+const timeline = [...articleBlocks, ...seriesBlocks].sort((a, b) =>
+  b.date.localeCompare(a.date),
+);
+---
+
+<BaseLayout
+  path="/articles"
+  title="Technical Articles — Olivier Leplus"
+  description="Read technical articles by Olivier Leplus about JavaScript, web standards, cloud architecture, and generative and agentic AI."
+>
+  <main class="page">
+    <div class="layout">
+      <aside class="sidebar">
+        <span class="eyebrow">Writing archive</span>
+        <h1>Articles.</h1>
+        <p class="intro">
+          Technical notes, detailed walkthroughs, and things I learned by building them for real.
+        </p>
+        <p class="summary">
+          {allArticles.length} articles<br />{seriesGroups.length} series · {platformCount} platforms
+        </p>
+        <div class="filters" aria-label="Filter articles" data-filters>
+          {
+            FILTERS.map((filter) => (
+              <button class="filter" data-filter={filter.id} aria-pressed={filter.id === 'all'}>
+                {filter.label}
+                <b>{countFor(filter.id)}</b>
+              </button>
+            ))
+          }
+        </div>
+      </aside>
+
+      <section class="content" aria-live="polite">
+        <p class="section-kicker">Latest writing</p>
+        {
+          timeline.map((block) =>
+            block.kind === 'article' ? (
+              <div class="timeline-block" data-block="article" data-tags={tagTokens(block.article, false)}>
+                <article class="article-row">
+                  <a
+                    class="article-image"
+                    href={block.article.links[0].url}
+                    target="_blank"
+                    rel="noopener"
+                    tabindex="-1"
+                  >
+                    <img src={block.article.image} alt="" loading="lazy" />
+                  </a>
+                  <div>
+                    <a class="article-title" href={block.article.links[0].url} target="_blank" rel="noopener">
+                      {block.article.title}
+                    </a>
+                    <p class="description">{block.article.description}</p>
+                    <time class="published" datetime={block.article.date}>
+                      Published {formatDate(block.article.date)}
+                    </time>
+                    <div class="platforms">
+                      {block.article.links.map((link) => (
+                        <a
+                          class={`platform platform--${link.platform}`}
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener"
+                          aria-label={`Read ${block.article.title} on ${link.label}`}
+                        >
+                          {link.label}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                </article>
+              </div>
+            ) : (
+              <section
+                class="timeline-block timeline-block--series"
+                data-block="series"
+                data-tags={[...new Set(block.group.articles.flatMap((a) => a.tags || [])), 'series'].join(' ')}
+              >
+                <header class="series-header">
+                  <div>
+                    <span class="eyebrow">{block.group.articles.length}-part series</span>
+                    <h2>{block.group.title}</h2>
+                    {block.group.description && (
+                      <p class="series-description">{block.group.description}</p>
+                    )}
+                  </div>
+                  <div class="series-meta">
+                    <span class="series-subtitle">{block.group.subtitle}</span>
+                    <time class="series-latest" datetime={block.date}>
+                      Latest article {formatDate(block.date)}
+                    </time>
+                  </div>
+                </header>
+                {block.group.articles.map((article) => (
+                  <article class="series-row" data-series-item data-tags={tagTokens(article, true)}>
+                    <span class="series-number">{String(article.order + 1).padStart(2, '0')}</span>
+                    <a class="series-image" href={article.links[0].url} target="_blank" rel="noopener" tabindex="-1">
+                      <img src={article.image} alt="" loading="lazy" />
+                    </a>
+                    <div>
+                      <a class="series-title" href={article.links[0].url} target="_blank" rel="noopener">
+                        {article.title}
+                      </a>
+                      <time class="published published--series" datetime={article.date}>
+                        Published {formatDate(article.date)}
+                      </time>
+                      <p class="topics">{article.topics}</p>
+                    </div>
+                    <div class="platforms">
+                      {article.links.map((link) => (
+                        <a
+                          class={`platform platform--${link.platform}`}
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener"
+                          aria-label={`Read ${article.title} on ${link.label}`}
+                        >
+                          {link.label}
+                        </a>
+                      ))}
+                    </div>
+                  </article>
+                ))}
+              </section>
+            ),
+          )
+        }
+        <div class="status" data-empty hidden>
+          <strong>No articles here yet</strong>Try another filter.
+        </div>
+      </section>
+    </div>
+  </main>
+</BaseLayout>
+
+<script>
+  const filterButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-filters] .filter'));
+  const blocks = Array.from(document.querySelectorAll<HTMLElement>('[data-block]'));
+  const emptyState = document.querySelector<HTMLElement>('[data-empty]');
+
+  const matchesTags = (tags: string, filter: string) =>
+    filter === 'all' || tags.split(' ').filter(Boolean).includes(filter);
+
+  const applyFilter = (filter: string) => {
+    filterButtons.forEach((btn) =>
+      btn.setAttribute('aria-pressed', String(btn.dataset.filter === filter)),
+    );
+
+    let anyVisible = false;
+    blocks.forEach((block) => {
+      if (block.dataset.block === 'series') {
+        // Filter individual series rows, hide the whole block if none remain.
+        const items = Array.from(block.querySelectorAll<HTMLElement>('[data-series-item]'));
+        let visibleItems = 0;
+        items.forEach((item) => {
+          const show = matchesTags(item.dataset.tags || '', filter);
+          item.hidden = !show;
+          if (show) visibleItems += 1;
+        });
+        block.hidden = visibleItems === 0;
+        if (visibleItems > 0) anyVisible = true;
+      } else {
+        const show = matchesTags(block.dataset.tags || '', filter);
+        block.hidden = !show;
+        if (show) anyVisible = true;
+      }
+    });
+
+    if (emptyState) emptyState.hidden = anyVisible;
+  };
+
+  filterButtons.forEach((btn) => {
+    btn.addEventListener('click', () => applyFilter(btn.dataset.filter || 'all'));
+  });
+</script>
+
+<style>
+  .page {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    width: calc(100% - 48px);
+    min-width: 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 92px 0 90px;
+    overflow-x: clip;
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    width: 100%;
+    min-width: 0;
+    gap: 68px;
+    align-items: start;
+  }
+  .sidebar {
+    min-width: 0;
+    position: sticky;
+    top: 96px;
+  }
+  .eyebrow {
+    color: var(--accent-3);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  h1 {
+    margin: 12px 0 18px;
+    font-size: 46px;
+    line-height: 1;
+    letter-spacing: -0.055em;
+  }
+  .intro {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 13px;
+    line-height: 1.75;
+  }
+  .summary {
+    margin-top: 22px;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    line-height: 1.7;
+  }
+  .filters {
+    display: grid;
+    gap: 5px;
+    margin-top: 32px;
+  }
+  .filter {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    width: 100%;
+    padding: 10px 12px;
+    border: 0;
+    border-radius: 8px;
+    color: var(--text-muted);
+    background: transparent;
+    font: 500 12px var(--font);
+    text-align: left;
+    cursor: pointer;
+    transition: color 0.2s, background 0.2s;
+  }
+  .filter:hover {
+    color: var(--text);
+    background: var(--surface);
+  }
+  .filter[aria-pressed='true'] {
+    color: var(--text);
+    background: var(--accent-soft);
+  }
+  .filter b {
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .filter:focus-visible,
+  a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+  .content {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding-top: 8px;
+  }
+  .timeline-block {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .section-kicker {
+    margin: 0 0 18px;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .article-row {
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr);
+    min-width: 0;
+    max-width: 100%;
+    gap: 22px;
+    padding: 20px 0;
+    border-top: 1px solid var(--glass-border);
+  }
+  .article-row > div,
+  .series-row > div,
+  .series-header > div {
+    min-width: 0;
+  }
+  .article-image {
+    display: block;
+    height: 92px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--surface);
+  }
+  .article-image img,
+  .series-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  .article-row:hover img,
+  .series-row:hover img {
+    transform: scale(1.04);
+  }
+  .article-title {
+    display: inline;
+    margin: 0;
+    overflow-wrap: anywhere;
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.025em;
+  }
+  .article-title:hover {
+    color: #a5b4fc;
+  }
+  .description {
+    margin: 7px 0 8px;
+    overflow-wrap: anywhere;
+    color: var(--text-muted);
+    font-size: 11px;
+    line-height: 1.6;
+  }
+  .published {
+    display: block;
+    margin: 0 0 10px;
+    color: var(--accent-3);
+    font-family: var(--font-mono);
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .published--series {
+    margin: 4px 0 0;
+    color: var(--text-muted);
+  }
+  .platforms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .platform {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 24px;
+    padding: 0 8px;
+    border: 1px solid var(--glass-border);
+    border-radius: 999px;
+    color: var(--text-muted);
+    background: rgba(15, 15, 19, 0.45);
+    font-family: var(--font-mono);
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+  .platform::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .platform--dev::before {
+    background: var(--text);
+  }
+  .platform:hover {
+    border-color: var(--accent);
+    color: var(--text);
+  }
+  .series-header {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 17px 0 16px;
+    border-bottom: 1px solid var(--glass-border);
+  }
+  .series-header h2 {
+    margin: 7px 0 0;
+    font-size: 27px;
+    letter-spacing: -0.045em;
+  }
+  .series-description {
+    max-width: 590px;
+    margin: 10px 0 0;
+    overflow-wrap: anywhere;
+    color: var(--text-muted);
+    font-size: 11px;
+    line-height: 1.65;
+  }
+  .series-meta {
+    display: grid;
+    gap: 6px;
+    text-align: right;
+  }
+  .series-subtitle {
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 9px;
+    line-height: 1.55;
+  }
+  .series-latest {
+    color: var(--accent-3);
+    font-family: var(--font-mono);
+    font-size: 8px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .timeline-block + .timeline-block {
+    margin-top: 30px;
+  }
+  .timeline-block--series {
+    padding: 0 16px 8px;
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius);
+    background: var(--glass);
+    backdrop-filter: blur(8px);
+  }
+  .series-row {
+    display: grid;
+    grid-template-columns: 34px 116px minmax(0, 1fr) auto;
+    align-items: center;
+    min-width: 0;
+    max-width: 100%;
+    gap: 17px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--glass-border);
+  }
+  .series-row:last-child {
+    border-bottom: 0;
+  }
+  .timeline-block--series + .timeline-block .article-row {
+    border-top: 0;
+  }
+  .series-number {
+    color: var(--accent-3);
+    font-family: var(--font-mono);
+    font-size: 10px;
+  }
+  .series-image {
+    display: block;
+    height: 67px;
+    overflow: hidden;
+    border-radius: 9px;
+    background: var(--surface);
+  }
+  .series-title {
+    display: block;
+    overflow-wrap: anywhere;
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+  .series-title:hover {
+    color: #a5b4fc;
+  }
+  .topics {
+    margin: 5px 0 0;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-size: 8px;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+  .status {
+    padding: 80px 24px;
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius);
+    color: var(--text-muted);
+    background: var(--glass);
+    text-align: center;
+    line-height: 1.6;
+  }
+  .status strong {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--text);
+    font-size: 16px;
+  }
+  @media (max-width: 800px) {
+    .page {
+      width: calc(100% - 30px);
+      max-width: 620px;
+      padding: 70px 0 60px;
+    }
+    .layout {
+      grid-template-columns: 1fr;
+      gap: 34px;
+    }
+    .sidebar {
+      position: static;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    .intro {
+      max-width: 440px;
+    }
+    .summary {
+      margin-top: 16px;
+    }
+    .filters {
+      display: flex;
+      max-width: 100%;
+      gap: 6px;
+      margin-top: 24px;
+      padding-bottom: 5px;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scrollbar-width: none;
+    }
+    .filters::-webkit-scrollbar {
+      display: none;
+    }
+    .filter {
+      flex: 0 0 auto;
+      width: auto;
+      white-space: nowrap;
+      border: 1px solid var(--glass-border);
+    }
+    .article-row {
+      grid-template-columns: 105px minmax(0, 1fr);
+      gap: 14px;
+    }
+    .article-image {
+      height: 78px;
+    }
+    .article-title {
+      font-size: 13px;
+    }
+    .description {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .series-row {
+      grid-template-columns: 28px 78px minmax(0, 1fr);
+      gap: 11px;
+    }
+    .series-image {
+      height: 56px;
+    }
+    .series-row .platforms {
+      display: none;
+    }
+    .series-title {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 430px) {
+    .page {
+      padding-top: 54px;
+    }
+    .article-row {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .article-image {
+      width: 100%;
+      height: 180px;
+    }
+    .series-header {
+      align-items: start;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .series-meta {
+      text-align: left;
+    }
+    .timeline-block--series {
+      padding: 0 12px 6px;
+    }
+    .series-row {
+      grid-template-columns: 24px 72px minmax(0, 1fr);
+      gap: 10px;
+    }
+    .series-image {
+      width: 100%;
+    }
+    .series-subtitle {
+      text-align: left;
+    }
+  }
+</style>
