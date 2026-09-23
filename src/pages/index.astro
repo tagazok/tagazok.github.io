@@ -100,6 +100,7 @@ const recentTalks = conferences
   .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 // Show two rows (6) on desktop; CSS hides the 4th-6th on mobile to keep 3.
 const featuredTalks = [...upcoming, ...recentTalks].slice(0, 6);
+const isUpcoming = (date) => !!date && date >= today;
 const rolesFor = (event) =>
   event.roles || [...new Set((event.talks || []).map((talk) => talk.role).filter(Boolean))];
 ---
@@ -272,14 +273,17 @@ const rolesFor = (event) =>
   <!-- UPCOMING TALKS -->
   <section class="section reveal" id="talks">
     <div class="section__header">
-      <h2 class="section__title">Upcoming talks</h2>
+      <h2 class="section__title">Recent &amp; upcoming talks</h2>
       <a href="/talks" class="section__link">See all →</a>
     </div>
     <div class="talk-previews">
       {
         featuredTalks.map((event) => (
           <article class="talk-preview">
-            <time datetime={event.date}>{formatArticleDate(event.date)}</time>
+            <div class="talk-preview__date">
+              <time datetime={event.date}>{formatArticleDate(event.date)}</time>
+              {isUpcoming(event.date) && <span class="talk-preview__soon">Upcoming</span>}
+            </div>
             <h3>
               {event.link ? (
                 <a href={event.link} target="_blank" rel="noopener">
@@ -829,6 +833,20 @@ const rolesFor = (event) =>
     color: var(--accent-3);
     font: 500 9px var(--font-mono);
     letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .talk-preview__date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .talk-preview__soon {
+    padding: 2px 7px;
+    border-radius: 999px;
+    color: var(--accent-2);
+    background: rgba(244, 114, 182, 0.1);
+    font: 600 8px var(--font-mono);
+    letter-spacing: 0.08em;
     text-transform: uppercase;
   }
   .talk-preview h3 {
