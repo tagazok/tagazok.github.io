@@ -5,6 +5,26 @@
     "kind": "standalone",
     "articles": [
       {
+        "id": "customizable-select-css",
+        "title": "Customizable Select: The <select> dropdown FINALLY catches up with CSS",
+        "description": "Style native dropdowns with CSS, from the picker and checkmark to options with rich HTML. Explore current browser support and three practical examples that keep the browser's built-in selection behavior.",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdunc8lzuzvfvekuwdx6c.png",
+        "date": "2026-09-22",
+        "tags": ["web", "html", "css"],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/3Jgb2BOBDM0TjxmaPqjsN32Nxry/customizable-select-the-lessselectgreater-dropdown-finally-catches-up-with-css"
+          },
+          {
+            "platform": "dev",
+            "label": "dev.to",
+            "url": "https://dev.to/olivierleplus/customizable-select-the-dropdown-finally-catches-up-with-css-1c60"
+          }
+        ]
+      },
+      {
         "id": "ai-without-a-backend",
         "title": "AI Without a Backend: The Browser's Built-in AI APIs for Web Developers",
         "description": "Run an LLM in the browser with no backend. A hands-on guide to the built-in Summarizer and Prompt APIs — image input and schema-constrained JSON.",
