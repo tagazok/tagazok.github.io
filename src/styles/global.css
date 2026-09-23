@@ -27,6 +27,14 @@
   box-sizing: border-box;
 }
 
+/* The HTML `hidden` attribute must win over explicit `display` rules.
+   Filter scripts (videos/talks/articles) toggle `el.hidden`, but an
+   element with `display: flex/grid/block` would otherwise stay visible,
+   because the UA `[hidden]{display:none}` rule has near-zero specificity. */
+[hidden] {
+  display: none !important;
+}
+
 html {
   min-height: 100%;
   background: var(--bg);
