@@ -1,15 +1,14 @@
-// Simple service worker — cache-first for app shell + data, network fallback.
+// Simple service worker — cache-first for app shell, network fallback.
+// Astro static build: pages are pre-rendered, so the data JSON files are no
+// longer fetched at runtime and are intentionally NOT precached.
 
-const CACHE_NAME = 'tagazok-v2';
+const CACHE_NAME = 'tagazok-v3';
 const APP_SHELL = [
   '/',
   '/index.html',
   '/manifest.json',
   '/favicon.ico',
   '/assets/avatar.jpeg',
-  '/assets/data/conferences.json',
-  '/assets/data/videos2.json',
-  '/assets/data/articles.json',
 ];
 
 self.addEventListener('install', (event) => {
@@ -32,17 +31,19 @@ self.addEventListener('fetch', (event) => {
   const { request } = event;
   if (request.method !== 'GET') return;
 
+  // Only handle same-origin http(s) requests — never touch chrome-extension://
+  // or other schemes (Cache.put throws on them).
+  const url = new URL(request.url);
+  if (url.origin !== self.location.origin) return;
+  if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
+
   event.respondWith(
     caches.match(request).then((cached) => {
       if (cached) return cached;
       return fetch(request)
         .then((response) => {
           // Only cache same-origin successful responses.
-          if (
-            response &&
-            response.status === 200 &&
-            response.type === 'basic'
-          ) {
+          if (response && response.status === 200 && response.type === 'basic') {
             const copy = response.clone();
             caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
           }

@@ -3,6 +3,7 @@
 
 # Production output and generated caches
 /dist/
+/.astro/
 /.vite/
 /.cache/
 /coverage/

@@ -1,0 +1,96 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  path?: string;
+  chrome?: boolean;
+}
+
+const {
+  title,
+  description,
+  path = Astro.url.pathname,
+  chrome = true,
+} = Astro.props;
+
+const canonical = Astro.site ? new URL(path, Astro.site) : undefined;
+const navigation = [
+  { href: '/', label: 'Home' },
+  { href: '/talks', label: 'Talks' },
+  { href: '/videos', label: 'Videos' },
+  { href: '/articles', label: 'Articles' },
+];
+const isActive = (href: string) => href === '/' ? path === '/' : path === href || path.startsWith(`${href}/`);
+---
+
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f0f13" />
+    <meta name="description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {canonical && <meta property="og:url" content={canonical.toString()} />}
+    {canonical && <link rel="canonical" href={canonical.toString()} />}
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      rel="stylesheet"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <title>{title}</title>
+  </head>
+  <body>
+    {chrome && (
+      <>
+        <div class="orbs" aria-hidden="true">
+          <div class="orb orb--1"></div>
+          <div class="orb orb--2"></div>
+          <div class="orb orb--3"></div>
+        </div>
+        <header class="topbar">
+          <a href="/" class="topbar__brand" aria-current={path === '/' ? 'page' : undefined}>
+            olivier<span class="topbar__dot">.</span>
+          </a>
+          <nav class="topbar__nav" aria-label="Primary navigation">
+            {navigation.map((item) => (
+              <a
+                href={item.href}
+                class:list={{ active: isActive(item.href) }}
+                aria-current={isActive(item.href) ? 'page' : undefined}
+              >
+                {item.label}
+              </a>
+            ))}
+            <a href="https://www.linkedin.com/in/olivierleplus/" target="_blank" rel="noopener noreferrer">
+              LinkedIn ↗
+            </a>
+          </nav>
+        </header>
+      </>
+    )}
+
+    {chrome ? <main class="site-main"><slot /></main> : <slot />}
+
+    <script is:inline>
+      if ('serviceWorker' in navigator && location.hostname !== 'localhost') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
