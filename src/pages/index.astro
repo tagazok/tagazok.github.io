@@ -98,7 +98,8 @@ const upcoming = conferences
 const recentTalks = conferences
   .filter((event) => !event.date || event.date < today)
   .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-const featuredTalks = [...upcoming, ...recentTalks].slice(0, 3);
+// Show two rows (6) on desktop; CSS hides the 4th-6th on mobile to keep 3.
+const featuredTalks = [...upcoming, ...recentTalks].slice(0, 6);
 const rolesFor = (event) =>
   event.roles || [...new Set((event.talks || []).map((talk) => talk.role).filter(Boolean))];
 ---
@@ -975,6 +976,12 @@ const rolesFor = (event) =>
     }
     .featured-videos {
       grid-template-columns: 1fr;
+    }
+    .talk-previews {
+      grid-template-columns: 1fr;
+    }
+    .talk-preview:nth-child(n + 4) {
+      display: none;
     }
   }
 </style>
