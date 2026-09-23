@@ -24,6 +24,11 @@ function stripUnusedData() {
 export default defineConfig({
   site: 'https://tagazok.github.io',
   output: 'static',
+  // /talks used to be the route; it now lives at /conferences. Redirect the old
+  // path so existing links keep working.
+  redirects: {
+    '/talks': '/conferences',
+  },
   integrations: [stripUnusedData()],
   vite: {
     build: {
