@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import conferencesRaw from '../../assets/data/conferences.json';
 import videosRaw from '../../assets/data/videos2.json';
+import articlesRaw from '../../assets/data/articles.json';
 
 // Build the year and role option lists at build time (the charts themselves
 // are drawn client-side by chart.js in the inline island below).
@@ -13,7 +14,8 @@ const parseYear = (str) => {
 
 const confYears = conferencesRaw.map((c) => (c.date ? parseInt(c.date.split('-')[0], 10) : null)).filter(Boolean);
 const vidYears = videosRaw.flatMap((g) => (g.videos || []).map((v) => parseYear(v.date))).filter(Boolean);
-const allYears = Array.from(new Set([...confYears, ...vidYears])).sort((a, b) => b - a);
+const articleYears = articlesRaw.flatMap((g) => (g.articles || []).map((a) => parseYear(a.date))).filter(Boolean);
+const allYears = Array.from(new Set([...confYears, ...vidYears, ...articleYears])).sort((a, b) => b - a);
 
 const roleSet = new Set();
 for (const c of conferencesRaw) {
@@ -26,8 +28,8 @@ const allRoles = Array.from(roleSet).sort();
 
 <BaseLayout
   path="/statistics"
-  title="Speaking Statistics — Olivier Leplus"
-  description="Explore statistics and visualizations from Olivier Leplus's conference and community speaking history."
+  title="Portfolio Statistics — Olivier Leplus"
+  description="Explore statistics and visualizations from Olivier Leplus's conference talks, videos, and articles."
 >
   <main class="dashboard">
     <section class="kpi-row">
@@ -44,6 +46,10 @@ const allRoles = Array.from(roleSet).sort();
         <div class="kpi-card__label">Videos</div>
       </div>
       <div class="kpi-card">
+        <div class="kpi-card__number" data-kpi="articles">0</div>
+        <div class="kpi-card__label">Articles</div>
+      </div>
+      <div class="kpi-card kpi-card--video-time">
         <div class="kpi-card__number" data-kpi="videoTime">0m</div>
         <div class="kpi-card__label">Video time</div>
       </div>
@@ -103,6 +109,14 @@ const allRoles = Array.from(roleSet).sort();
         <h3 class="chart-card__title">Videos by event</h3>
         <div class="chart-card__canvas"><canvas id="chart-vid-event"></canvas></div>
       </div>
+      <div class="glass-panel chart-card">
+        <h3 class="chart-card__title">Articles per year</h3>
+        <div class="chart-card__canvas"><canvas id="chart-article-year"></canvas></div>
+      </div>
+      <div class="glass-panel chart-card">
+        <h3 class="chart-card__title">Articles by topic</h3>
+        <div class="chart-card__canvas"><canvas id="chart-article-topic"></canvas></div>
+      </div>
     </section>
   </main>
 </BaseLayout>
@@ -111,6 +125,7 @@ const allRoles = Array.from(roleSet).sort();
   import Chart from 'chart.js/auto';
   import conferencesRaw from '../../assets/data/conferences.json';
   import videosRaw from '../../assets/data/videos2.json';
+  import articlesRaw from '../../assets/data/articles.json';
 
   const PURPLE = '#6366f1';
   const PALETTE = [
@@ -169,6 +184,15 @@ const allRoles = Array.from(roleSet).sort();
     }));
   });
 
+  const articles = articlesRaw.flatMap((group) => {
+    const list = Array.isArray(group.articles) ? group.articles : [];
+    return list.map((article) => ({
+      title: article.title || '',
+      year: parseYear(article.date),
+      tags: Array.isArray(article.tags) ? article.tags : [],
+    }));
+  });
+
   const allRoles = Array.from(
     new Set(conferences.flatMap((c) => c.roles)),
   ).sort();
@@ -193,15 +217,17 @@ const allRoles = Array.from(roleSet).sort();
   const applyFilters = () => {
     let confs = conferences;
     let vids = videos;
+    let arts = articles;
     if (state.year !== 'all') {
       const y = parseInt(state.year, 10);
       confs = confs.filter((c) => c.year === y);
       vids = vids.filter((v) => v.year === y);
+      arts = arts.filter((article) => article.year === y);
     }
     if (state.selectedRoles.size < allRoles.length) {
       confs = confs.filter((c) => c.roles.some((r) => state.selectedRoles.has(r)));
     }
-    return { confs, vids };
+    return { confs, vids, arts };
   };
 
   const formatDuration = (minutes) => {
@@ -218,7 +244,7 @@ const allRoles = Array.from(roleSet).sort();
     }
   };
 
-  const renderKpis = (confs, vids) => {
+  const renderKpis = (confs, vids, arts) => {
     const totalTalks = confs.reduce((s, c) => s + c.talks.length, 0);
     const totalMinutes = vids.reduce((s, v) => s + v.minutes, 0);
     const countryCounts = {};
@@ -234,6 +260,7 @@ const allRoles = Array.from(roleSet).sort();
     set('conferences', String(confs.length));
     set('talks', String(totalTalks));
     set('videos', String(vids.length));
+    set('articles', String(arts.length));
     set('videoTime', formatDuration(totalMinutes));
     set('countries', String(Object.keys(countryCounts).length));
 
@@ -302,10 +329,11 @@ const allRoles = Array.from(roleSet).sort();
     });
   };
 
-  const chartTimeline = (confs, vids) => {
+  const chartTimeline = (confs, vids, arts) => {
     const confCounts = countBy(confs, (c) => c.year);
     const vidCounts = countBy(vids, (v) => v.year);
-    const years = Array.from(new Set([...confCounts.keys(), ...vidCounts.keys()])).sort((a, b) => a - b);
+    const articleCounts = countBy(arts, (article) => article.year);
+    const years = Array.from(new Set([...confCounts.keys(), ...vidCounts.keys(), ...articleCounts.keys()])).sort((a, b) => a - b);
     return new Chart($('chart-timeline'), {
       type: 'line',
       data: {
@@ -313,6 +341,7 @@ const allRoles = Array.from(roleSet).sort();
         datasets: [
           { label: 'Conferences', data: years.map((y) => confCounts.get(y) || 0), borderColor: '#6366f1', backgroundColor: 'rgba(99, 102, 241, .12)', tension: 0.3, fill: true },
           { label: 'Videos', data: years.map((y) => vidCounts.get(y) || 0), borderColor: '#f472b6', backgroundColor: 'rgba(244, 114, 182, .12)', tension: 0.3, fill: true },
+          { label: 'Articles', data: years.map((y) => articleCounts.get(y) || 0), borderColor: '#34d399', backgroundColor: 'rgba(52, 211, 153, .12)', tension: 0.3, fill: true },
         ],
       },
       options: { ...baseOptions, plugins: { legend: { display: true, position: 'bottom' } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } },
@@ -341,16 +370,42 @@ const allRoles = Array.from(roleSet).sort();
     });
   };
 
+  const chartArticleYear = (arts) => {
+    const counts = countBy(arts, (article) => article.year);
+    const years = Array.from(counts.keys()).sort((a, b) => a - b);
+    return new Chart($('chart-article-year'), {
+      type: 'bar',
+      data: { labels: years, datasets: [{ label: 'Articles', data: years.map((year) => counts.get(year)), backgroundColor: '#34d399' }] },
+      options: { ...baseOptions, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } },
+    });
+  };
+
+  const chartArticleTopic = (arts) => {
+    const counts = countBy(arts, (article) => article.tags);
+    const sorted = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]).slice(0, 10);
+    const topicLabels = { ai: 'AI', aws: 'AWS', css: 'CSS', html: 'HTML', iot: 'IoT' };
+    const formatTopic = (tag) => topicLabels[tag] || tag.charAt(0).toUpperCase() + tag.slice(1);
+    const canvas = $('chart-article-topic');
+    canvas.parentElement.style.height = Math.max(320, sorted.length * 45) + 'px';
+    return new Chart(canvas, {
+      type: 'bar',
+      data: { labels: sorted.map(([tag]) => formatTopic(tag)), datasets: [{ label: 'Articles', data: sorted.map(([, count]) => count), backgroundColor: '#34d399' }] },
+      options: { ...baseOptions, indexAxis: 'y', layout: { padding: { left: 12 } }, scales: { x: { beginAtZero: true, ticks: { precision: 0 } }, y: { ticks: { autoSkip: false } } } },
+    });
+  };
+
   const rebuild = () => {
-    const { confs, vids } = applyFilters();
-    renderKpis(confs, vids);
+    const { confs, vids, arts } = applyFilters();
+    renderKpis(confs, vids, arts);
     destroyCharts();
     charts.confYear = chartConfYear(confs);
     charts.confCountry = chartConfCountry(confs);
     charts.roles = chartRoles(confs);
-    charts.timeline = chartTimeline(confs, vids);
+    charts.timeline = chartTimeline(confs, vids, arts);
     charts.vidYear = chartVidYear(vids);
     charts.vidEvent = chartVidEvent(vids);
+    charts.articleYear = chartArticleYear(arts);
+    charts.articleTopic = chartArticleTopic(arts);
   };
 
   // ─── Wire up controls ───
@@ -404,7 +459,7 @@ const allRoles = Array.from(roleSet).sort();
   /* KPI row */
   .kpi-row {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 16px;
   }
   .kpi-card {
@@ -581,6 +636,9 @@ const allRoles = Array.from(roleSet).sort();
     }
     .kpi-row {
       grid-template-columns: repeat(2, 1fr);
+    }
+    .kpi-card--video-time {
+      grid-column: 1 / -1;
     }
     .chart-grid {
       grid-template-columns: 1fr;
