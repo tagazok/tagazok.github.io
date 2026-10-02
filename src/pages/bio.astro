@@ -1,7 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const BIO = `Olivier is a Developer Advocate at AWS and Google Developer Expert in Web technologies. He is a developer and technical writer with a passion for emerging web standards and open-source tooling. He specializes in modern web technologies, JavaScript, generative and agentic AI. When he isn't coding or speaking at conferences, Olivier enjoys running, traveling and exploring.`;
+const BIOS = {
+  en: {
+    intro: `Olivier is a Senior Developer Advocate at AWS and `,
+    credential: `Google Developer Expert in Web technologies`,
+    body: `. He is a developer and technical writer with a passion for emerging web standards and open-source tooling. He specializes in modern web technologies, JavaScript, generative and agentic AI. When he isn't coding or speaking at conferences, Olivier enjoys running, traveling and exploring.`,
+  },
+  fr: {
+    intro: `Olivier est Senior Developer Advocate chez AWS et `,
+    credential: `Google Developer Expert en technologies Web.`,
+    body: ` Développeur et créateur de contenus techniques, il se passionne pour les nouveaux standards Web et les outils open source. Il est spécialisé dans les technologies Web et JavaScript, ainsi que dans l’IA générative et agentique. Lorsqu’il ne code pas ou n’est pas en conférence, Olivier aime voyager et explorer de nouveaux horizons.`,
+  },
+};
 
 const PHOTOS = [
   {
@@ -55,7 +66,24 @@ const PHOTOS = [
         <p>Ready to paste into a speaker profile or event program.</p>
       </div>
       <div class="bio-card">
-        <blockquote data-bio-text>{BIO}</blockquote>
+        <div class="bio-card__toolbar">
+          <div class="language-switch" role="group" aria-label="Biography language">
+            <button
+              class="language-switch__option"
+              type="button"
+              aria-pressed="true"
+              data-bio-language="en"
+            >English</button>
+            <button
+              class="language-switch__option"
+              type="button"
+              aria-pressed="false"
+              data-bio-language="fr"
+            >Français</button>
+          </div>
+        </div>
+        <blockquote data-bio-text data-language="en" lang="en">{BIOS.en.intro}<a href="https://me.developers.google.com/u/olivierleplus" target="_blank" rel="noopener noreferrer">{BIOS.en.credential}</a>{BIOS.en.body}</blockquote>
+        <blockquote data-bio-text data-language="fr" lang="fr" hidden>{BIOS.fr.intro}<a href="https://me.developers.google.com/u/olivierleplus" target="_blank" rel="noopener noreferrer">{BIOS.fr.credential}</a>{BIOS.fr.body}</blockquote>
         <div class="bio-card__footer">
           <span class="copy-status" role="status" aria-live="polite" data-copy-status></span>
           <button class="button button--primary" type="button" data-copy-bio>Copy bio</button>
@@ -95,9 +123,22 @@ const PHOTOS = [
 
   <script>
     const button = document.querySelector('[data-copy-bio]');
-    const bio = document.querySelector('[data-bio-text]');
+    const bios = [...document.querySelectorAll('[data-bio-text]')];
+    const languageButtons = [...document.querySelectorAll('[data-bio-language]')];
     const status = document.querySelector('[data-copy-status]');
+    let activeLanguage = 'en';
     let resetTimer;
+
+    const copyMessages = {
+      en: {
+        success: 'Bio copied to clipboard',
+        failure: 'Copy failed — select the text manually',
+      },
+      fr: {
+        success: 'Biographie copiée dans le presse-papiers',
+        failure: 'Échec de la copie — sélectionnez le texte manuellement',
+      },
+    };
 
     const fallbackCopy = (text) => {
       const textarea = document.createElement('textarea');
@@ -106,22 +147,47 @@ const PHOTOS = [
       textarea.style.opacity = '0';
       document.body.append(textarea);
       textarea.select();
-      document.execCommand('copy');
+      const copied = document.execCommand('copy');
       textarea.remove();
+      if (!copied) throw new Error('Fallback copy failed');
     };
 
+    languageButtons.forEach((languageButton) => {
+      languageButton.addEventListener('click', () => {
+        activeLanguage = languageButton.dataset.bioLanguage ?? 'en';
+
+        languageButtons.forEach((candidate) => {
+          candidate.setAttribute('aria-pressed', String(candidate === languageButton));
+        });
+
+        bios.forEach((bio) => {
+          bio.hidden = bio.dataset.language !== activeLanguage;
+        });
+
+        if (status) status.textContent = '';
+        window.clearTimeout(resetTimer);
+      });
+    });
+
     button?.addEventListener('click', async () => {
-      const text = bio?.textContent?.trim() ?? '';
+      const activeBio = bios.find((bio) => bio.dataset.language === activeLanguage);
+      const text = activeBio?.textContent?.trim() ?? '';
+      const messages = copyMessages[activeLanguage] ?? copyMessages.en;
+
       try {
         if (navigator.clipboard?.writeText) {
-          await navigator.clipboard.writeText(text);
+          try {
+            await navigator.clipboard.writeText(text);
+          } catch {
+            fallbackCopy(text);
+          }
         } else {
           fallbackCopy(text);
         }
-        if (status) status.textContent = 'Bio copied to clipboard';
+        if (status) status.textContent = messages.success;
       } catch (error) {
         console.error('Unable to copy bio', error);
-        if (status) status.textContent = 'Copy failed — select the text manually';
+        if (status) status.textContent = messages.failure;
       }
 
       window.clearTimeout(resetTimer);
@@ -143,7 +209,16 @@ const PHOTOS = [
   .section-header h2 { margin: 0; font-size: 24px; letter-spacing: -.04em; }
   .section-header p { max-width: 480px; margin: 0; color: var(--text-dim); font-size: 10px; line-height: 1.55; text-align: right; }
   .bio-card { position: relative; padding: 30px; border: 1px solid var(--glass-border); border-radius: var(--radius); background: var(--glass); backdrop-filter: blur(12px); }
+  .bio-card__toolbar { display: flex; justify-content: flex-end; margin-bottom: 20px; padding-bottom: 18px; border-bottom: 1px solid var(--glass-border); }
+  .language-switch { display: inline-flex; padding: 3px; border: 1px solid var(--glass-border); border-radius: 999px; background: var(--surface); }
+  .language-switch__option { min-height: 32px; padding: 0 13px; border: 0; border-radius: 999px; color: var(--text-muted); background: transparent; font: 600 9px var(--font); letter-spacing: .02em; cursor: pointer; transition: color .2s, background .2s, transform .2s; }
+  .language-switch__option:hover { color: var(--text); }
+  .language-switch__option[aria-pressed="true"] { color: #fff; background: var(--accent); }
+  .language-switch__option:focus-visible { outline: 2px solid var(--accent-3); outline-offset: 2px; }
   .bio-card blockquote { margin: 0; color: var(--text); font-size: clamp(15px, 2vw, 18px); line-height: 1.8; letter-spacing: -.01em; }
+  .bio-card blockquote a { color: var(--accent-3); text-decoration-color: color-mix(in srgb, var(--accent-3) 45%, transparent); text-underline-offset: 3px; transition: color .2s, text-decoration-color .2s; }
+  .bio-card blockquote a:hover { color: var(--text); text-decoration-color: var(--accent-3); }
+  .bio-card blockquote a:focus-visible { border-radius: 2px; outline: 2px solid var(--accent-3); outline-offset: 3px; }
   .bio-card__footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--glass-border); }
   .copy-status { min-height: 18px; color: var(--accent-3); font: 500 9px var(--font-mono); letter-spacing: .05em; text-transform: uppercase; }
   .button { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 0 16px; border: 1px solid var(--glass-border); border-radius: 999px; color: var(--text); background: var(--surface); font: 600 10px var(--font); text-decoration: none; cursor: pointer; transition: transform .2s, border-color .2s, background .2s; }
