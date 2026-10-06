@@ -25,31 +25,6 @@
         ]
       },
       {
-        "id": "ai-without-a-backend",
-        "title": "AI Without a Backend: The Browser's Built-in AI APIs for Web Developers",
-        "description": "Run an LLM in the browser with no backend. A hands-on guide to the built-in Summarizer and Prompt APIs — image input and schema-constrained JSON.",
-        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F92c34aao8hnla4m3kjo6.png",
-        "date": "2026-07-08",
-        "tags": ["ai", "web"],
-        "links": [
-          {
-            "platform": "aws",
-            "label": "Builder Center",
-            "url": "https://builder.aws.com/content/3G9FtjYPfXLfEAlCTSqMClvQk7I/ai-without-a-backend-the-browsers-built-in-ai-apis-for-web-developers"
-          },
-          {
-            "platform": "dev",
-            "label": "dev.to",
-            "url": "https://dev.to/olivierleplus/ai-without-a-backend-the-browsers-built-in-ai-apis-for-web-developers-2745"
-          },
-          {
-            "platform": "linkedin",
-            "label": "linkedin",
-            "url": "https://www.linkedin.com/pulse/ai-without-backend-browsers-built-in-apis-web-olivier-leplus-dewte/"
-          }
-        ]
-      },
-      {
         "id": "strands-python-agents",
         "title": "Strands : Le framework Python qui facilite la création d'agents IA",
         "description": "Découvrez le framework Strands et voyons comment il va vous aider à accélérer le développement et le déploiement de vos agents IA.",
@@ -76,6 +51,68 @@
             "platform": "aws-blog",
             "label": "AWS Blog",
             "url": "https://aws.amazon.com/fr/blogs/france/snowflake-et-aws-la-combinaison-gagnante-pour-vos-besoins-data/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-meets-the-web",
+    "title": "AI meets the Web",
+    "subtitle": "Browser-native AI for Web developers",
+    "description": "Explore emerging browser-native AI APIs that bring local language models and fast decision models directly to Web applications.",
+    "kind": "series",
+    "articles": [
+      {
+        "id": "decisions-api",
+        "order": 1,
+        "title": "System One decision models for the Web: Meet the proposed Decisions API",
+        "description": "Explore the proposed browser-native Decisions API for fast, local System One decisions: natural-language input in, predefined labels and calibrated probabilities out.",
+        "topics": "Decisions API · System One models · Local AI",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpn3k9ahqygb9y4120qtg.png",
+        "date": "2026-10-07",
+        "tags": [
+          "series",
+          "ai",
+          "web",
+          "javascript"
+        ],
+        "links": [
+          {
+            "platform": "dev",
+            "label": "dev.to preview",
+            "url": "https://dev.to/olivierleplus/system-one-decision-models-for-the-web-meet-the-proposed-decisions-api-1nfp-temp-slug-4246323?preview=9e480e0b43970fef9b11f125a68bc37f8ab87a9f07b724ca107b59ef6dae834f38e4eb329179f38e293c3dc5691acac12234ad11731c13a4a4e8fc3c"
+          }
+        ]
+      },
+      {
+        "id": "ai-without-a-backend",
+        "order": 0,
+        "title": "AI Without a Backend: The Browser's Built-in AI APIs for Web Developers",
+        "description": "Run an LLM in the browser with no backend. A hands-on guide to the built-in Summarizer and Prompt APIs — image input and schema-constrained JSON.",
+        "topics": "Prompt API · Summarizer API · Local AI",
+        "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F92c34aao8hnla4m3kjo6.png",
+        "date": "2026-07-08",
+        "tags": [
+          "series",
+          "ai",
+          "web"
+        ],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/3G9FtjYPfXLfEAlCTSqMClvQk7I/ai-without-a-backend-the-browsers-built-in-ai-apis-for-web-developers"
+          },
+          {
+            "platform": "dev",
+            "label": "dev.to",
+            "url": "https://dev.to/olivierleplus/ai-without-a-backend-the-browsers-built-in-ai-apis-for-web-developers-2745"
+          },
+          {
+            "platform": "linkedin",
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/pulse/ai-without-backend-browsers-built-in-apis-web-olivier-leplus-dewte/"
           }
         ]
       }
