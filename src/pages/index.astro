@@ -138,7 +138,9 @@ const isUpcoming = (date) => Boolean(date && date >= today);
       </div>
       <div class="intro__portrait" aria-hidden="true">
         <div class="intro__halo"></div>
-        <img src="/assets/avatar.jpeg" alt="" />
+        <div class="intro__photo-frame">
+          <img src="/assets/avatar.jpeg" alt="" />
+        </div>
         <span class="intro__status"><i></i> Paris, France</span>
       </div>
     </header>
@@ -384,10 +386,10 @@ const isUpcoming = (date) => Boolean(date && date >= today);
 
   .intro {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 220px;
+    grid-template-columns: minmax(0, 1fr) 270px;
     align-items: center;
     min-height: 370px;
-    gap: clamp(36px, 7vw, 82px);
+    gap: clamp(36px, 6vw, 72px);
     padding: 30px 0 48px;
     border-bottom: 1px solid var(--glass-border);
   }
@@ -458,26 +460,44 @@ const isUpcoming = (date) => Boolean(date && date >= today);
     justify-items: center;
   }
 
-  .intro__portrait img {
+  .intro__photo-frame {
     position: relative;
     z-index: 1;
-    width: 165px;
-    height: 165px;
+    width: 226px;
+    height: 226px;
+    transform: rotate(-1.5deg);
+  }
+
+  .intro__photo-frame::before {
+    position: absolute;
+    z-index: -1;
+    inset: 12px -12px -12px 12px;
+    border: 1px solid rgba(99, 102, 241, 0.72);
+    border-radius: 23px;
+    background: rgba(99, 102, 241, 0.04);
+    content: '';
+  }
+
+  .intro__photo-frame img {
+    width: 100%;
+    height: 100%;
     border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 50%;
+    border-radius: 22px;
     object-fit: cover;
-    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.34);
   }
 
   .intro__halo {
     position: absolute;
-    top: 8px;
-    width: 165px;
-    height: 165px;
-    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    width: 270px;
+    height: 270px;
+    border-radius: 42%;
     background: conic-gradient(var(--accent), var(--accent-2), var(--accent-3), var(--accent));
-    opacity: 0.38;
-    filter: blur(24px);
+    opacity: 0.28;
+    filter: blur(38px);
+    transform: translate(-45%, -50%);
   }
 
   .intro__status {
@@ -1203,15 +1223,19 @@ const isUpcoming = (date) => Boolean(date && date >= today);
 
   @media (max-width: 900px) {
     .intro {
-      grid-template-columns: minmax(0, 1fr) 190px;
+      grid-template-columns: minmax(0, 1fr) 220px;
       min-height: 410px;
       gap: 40px;
     }
 
-    .intro__portrait img,
+    .intro__photo-frame {
+      width: 188px;
+      height: 188px;
+    }
+
     .intro__halo {
-      width: 155px;
-      height: 155px;
+      width: 220px;
+      height: 220px;
     }
 
     .latest-grid {
@@ -1264,10 +1288,14 @@ const isUpcoming = (date) => Boolean(date && date >= today);
       justify-items: center;
     }
 
-    .intro__portrait img,
+    .intro__photo-frame {
+      width: 106px;
+      height: 120px;
+    }
+
     .intro__halo {
-      width: 84px;
-      height: 84px;
+      width: 136px;
+      height: 136px;
     }
 
     .intro__status {
