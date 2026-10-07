@@ -32,6 +32,15 @@ const allRoles = Array.from(roleSet).sort();
   description="Explore statistics and visualizations from Olivier Leplus's conference talks, videos, and articles."
 >
   <main class="dashboard">
+    <header class="dashboard-hero">
+      <div>
+        <span class="eyebrow">The work, measured</span>
+        <h1>Statistics.</h1>
+        <p>Articles published, videos recorded, and communities met through years of speaking and building.</p>
+      </div>
+      <a href="/conferences">Explore the talks <span aria-hidden="true">→</span></a>
+    </header>
+
     <section class="kpi-row">
       <div class="kpi-card">
         <div class="kpi-card__number" data-kpi="conferences">0</div>
@@ -438,6 +447,7 @@ const allRoles = Array.from(roleSet).sort();
 </script>
 
 <style>
+  @layer legacy {
   .dashboard {
     position: relative;
     z-index: 1;
@@ -660,5 +670,129 @@ const allRoles = Array.from(roleSet).sort();
     .chart-card__canvas {
       min-height: 260px;
     }
+  }
+  }
+</style>
+
+<style>
+  /* Content-first archive redesign */
+  .dashboard {
+    width: min(1120px, calc(100% - 48px));
+    max-width: none;
+    padding: 58px 0 96px;
+    gap: 20px;
+  }
+
+  .dashboard-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    gap: 48px;
+    margin-bottom: 10px;
+    padding: 30px 0 38px;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .eyebrow {
+    color: var(--accent-3);
+    font: 500 10px var(--font-mono);
+    letter-spacing: .15em;
+    text-transform: uppercase;
+  }
+
+  .dashboard-hero h1 {
+    margin: 12px 0 16px;
+    font-size: clamp(42px, 7vw, 68px);
+    line-height: .95;
+    letter-spacing: -.06em;
+  }
+
+  .dashboard-hero p {
+    max-width: 680px;
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .dashboard-hero > a {
+    margin-bottom: 4px;
+    color: var(--accent-3);
+    font: 500 10px var(--font-mono);
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+
+  .kpi-row { gap: 12px; }
+
+  .kpi-card {
+    align-items: flex-start;
+    min-height: 112px;
+    padding: 21px;
+    text-align: left;
+  }
+
+  .kpi-card__number { font-size: 34px; }
+  .kpi-card__label { font: 500 9px var(--font-mono); letter-spacing: .09em; }
+
+  .kpi-card--wide {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    column-gap: 22px;
+    min-height: auto;
+  }
+
+  .kpi-card--wide .kpi-card__label { grid-column: 1; }
+  .kpi-card--wide .kpi-card__list { grid-column: 2; grid-row: 1 / 3; justify-content: flex-start; margin: 0; }
+  .kpi-card__tag { border: 1px solid var(--glass-border); background: rgba(15, 15, 19, .36); }
+
+  .filter-bar {
+    position: sticky;
+    z-index: 3;
+    top: 72px;
+    padding: 14px 18px;
+    background: rgba(15, 15, 19, .88);
+  }
+
+  .filter label,
+  .filter__label { font: 600 9px var(--font-mono); letter-spacing: .08em; }
+
+  .filter__roles label { border-radius: 999px; font-size: 10px; }
+  .btn-reset { border: 1px solid rgba(99, 102, 241, .38); border-radius: 999px; }
+
+  .chart-grid { gap: 16px; }
+
+  .chart-card {
+    min-height: 380px;
+    padding: 22px;
+    transition: border-color .24s, transform .24s, background .24s;
+  }
+
+  .chart-card:hover {
+    border-color: rgba(99, 102, 241, .3);
+    background: var(--surface-hover);
+    transform: translateY(-2px);
+  }
+
+  .chart-card__title {
+    color: var(--accent-3);
+    font: 500 9px var(--font-mono);
+    letter-spacing: .1em;
+  }
+
+  @media (max-width: 768px) {
+    .dashboard { width: min(100% - 32px, 620px); padding: 26px 0 70px; }
+    .dashboard-hero { grid-template-columns: 1fr; gap: 16px; padding: 30px 0 28px; }
+    .kpi-row { gap: 8px; }
+    .kpi-card { min-height: 96px; padding: 16px; }
+    .kpi-card--wide { grid-template-columns: 1fr; }
+    .kpi-card--wide .kpi-card__list { grid-column: 1; grid-row: auto; margin-top: 12px; }
+    .filter-bar { position: static; }
+    .chart-card { min-height: 340px; padding: 17px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .kpi-card, .chart-card { transition: none; }
   }
 </style>

@@ -192,6 +192,7 @@ const isFuture = (date) =>
 </script>
 
 <style>
+  @layer legacy {
   .page {
     position: relative;
     z-index: 1;
@@ -381,7 +382,7 @@ const isFuture = (date) =>
     font-weight: 600;
   }
   .event__name a:hover {
-    color: #a5b4fc;
+    color: var(--accent-3);
   }
   .soon {
     padding: 2px 7px;
@@ -512,5 +513,130 @@ const isFuture = (date) =>
       grid-template-columns: auto minmax(0, 1fr) auto;
       gap: 8px;
     }
+  }
+  }
+</style>
+
+<style>
+  /* Content-first archive redesign */
+  .page {
+    width: min(1120px, calc(100% - 48px));
+    max-width: none;
+    padding: 58px 0 96px;
+  }
+
+  .hero {
+    max-width: none;
+    padding: 30px 0 34px;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  h1 { font-size: clamp(42px, 7vw, 68px); }
+  .intro { max-width: 680px; }
+
+  .metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+    margin: 0 0 54px;
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .metric {
+    padding: 20px 0;
+    border: 0;
+    border-right: 1px solid var(--glass-border);
+    border-radius: 0;
+    background: transparent;
+    backdrop-filter: none;
+  }
+
+  .metric + .metric { padding-left: 28px; }
+  .metric:last-child { border-right: 0; }
+  .metric strong { font-size: 30px; }
+
+  .toolbar {
+    align-items: end;
+    margin-bottom: 24px;
+  }
+
+  .toolbar h2 {
+    font-size: clamp(25px, 3vw, 34px);
+    letter-spacing: -.045em;
+  }
+
+  .filter { min-height: 34px; border-radius: 999px; }
+
+  .timeline {
+    display: grid;
+    gap: 13px;
+    padding-left: 0;
+  }
+
+  .timeline::before,
+  .year-header::before { display: none; }
+
+  .year {
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius);
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+    transition: border-color .24s, background .24s;
+  }
+
+  .year.open {
+    border-color: rgba(99, 102, 241, .32);
+    background:
+      linear-gradient(135deg, rgba(99, 102, 241, .055), transparent 36%),
+      var(--glass);
+  }
+
+  .year-header {
+    padding: 19px 21px;
+  }
+
+  .year-label {
+    min-width: 56px;
+    font-size: 21px;
+  }
+
+  .year-summary { font: 500 10px var(--font-mono); text-transform: uppercase; letter-spacing: .04em; }
+  .year-toggle { font-size: 16px; }
+
+  .events { padding: 0 16px 16px; }
+
+  .event {
+    padding: 17px 18px;
+    border-color: var(--glass-border);
+    background: rgba(15, 15, 19, .4);
+  }
+
+  .event:hover { transform: translateY(-2px); }
+  .event__name, .event__name a { font-size: 15px; }
+  .talks li { font-size: 12px; }
+
+  @media (max-width: 720px) {
+    .page { width: min(100% - 32px, 620px); padding: 26px 0 70px; }
+    .hero { padding: 30px 0 28px; }
+    .metrics { margin-bottom: 38px; }
+    .metric + .metric { padding-left: 14px; }
+    .toolbar { align-items: start; }
+    .timeline { padding-left: 0; }
+    .year-header { padding: 17px 15px; }
+    .events { padding: 0 10px 10px; }
+  }
+
+  @media (max-width: 420px) {
+    .metrics { grid-template-columns: repeat(3, 1fr); }
+    .metric { display: block; padding: 15px 8px 15px 0; }
+    .metric + .metric { padding-left: 10px; }
+    .metric strong { font-size: 22px; }
+    .metric span { font-size: 7px; }
+    .year-summary { font-size: 8px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .year, .event, .year-toggle { transition: none; }
   }
 </style>
