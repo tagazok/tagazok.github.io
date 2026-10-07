@@ -5,6 +5,21 @@
     "kind": "standalone",
     "articles": [
       {
+        "id": "once-upon-agentic-ai-strands-agents",
+        "title": "Once Upon Agentic AI with Strands Agents",
+        "description": "Learn more about the Strands Agents SDK through a role-playing game theme, with a hands-on workshop and curated resources for building powerful AI agents.",
+        "image": "https://prod-assets.cosmic.aws.dev/a/3KMGziCEvw1wCy8a0Rloj2gnmB2/AI-A.webp",
+        "date": "2026-10-07",
+        "tags": ["strands", "strands-agents", "amazon-bedrock", "rag", "workshop"],
+        "links": [
+          {
+            "platform": "aws",
+            "label": "Builder Center",
+            "url": "https://builder.aws.com/content/3JBIHBGNv5kA724pju3QPFtkXML/once-upon-agentic-ai-with-strands-agents"
+          }
+        ]
+      },
+      {
         "id": "customizable-select-css",
         "title": "Customizable Select: The <select> dropdown FINALLY catches up with CSS",
         "description": "Style native dropdowns with CSS, from the picker and checkmark to options with rich HTML. Explore current browser support and three practical examples that keep the browser's built-in selection behavior.",

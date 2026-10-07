@@ -50,13 +50,13 @@ body {
 }
 
 a {
-  color: var(--accent);
+  color: var(--text);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 a:hover {
-  color: #818cf8;
+  color: var(--accent-3);
 }
 
 .site-main {
