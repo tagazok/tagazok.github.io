@@ -1,8 +1,8 @@
-// Simple service worker — cache-first for app shell, network fallback.
-// Astro static build: pages are pre-rendered, so the data JSON files are no
-// longer fetched at runtime and are intentionally NOT precached.
+// Keep pre-rendered pages fresh online while retaining an offline fallback.
+// Astro inlines page data into HTML, so navigations must never prefer an old
+// cached document over the current deployment.
 
-const CACHE_NAME = 'tagazok-v3';
+const CACHE_NAME = 'tagazok-v4';
 const APP_SHELL = [
   '/',
   '/index.html',
@@ -10,6 +10,17 @@ const APP_SHELL = [
   '/favicon.ico',
   '/assets/avatar.jpeg',
 ];
+
+const isCacheable = (response) =>
+  response && response.status === 200 && response.type === 'basic';
+
+const cacheResponse = async (request, response) => {
+  if (isCacheable(response)) {
+    const cache = await caches.open(CACHE_NAME);
+    await cache.put(request, response.clone());
+  }
+  return response;
+};
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -21,7 +32,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
-      Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))),
+      Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))),
     ),
   );
   self.clients.claim();
@@ -37,19 +48,22 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
   if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
 
+  if (request.mode === 'navigate' || request.destination === 'document') {
+    event.respondWith(
+      fetch(request)
+        .then((response) => cacheResponse(request, response))
+        .catch(async () => {
+          const cachedPage = await caches.match(request);
+          return cachedPage || caches.match('/') || Response.error();
+        }),
+    );
+    return;
+  }
+
+  // Static assets render immediately from cache and refresh in the background.
+  const networkResponse = fetch(request).then((response) => cacheResponse(request, response));
   event.respondWith(
-    caches.match(request).then((cached) => {
-      if (cached) return cached;
-      return fetch(request)
-        .then((response) => {
-          // Only cache same-origin successful responses.
-          if (response && response.status === 200 && response.type === 'basic') {
-            const copy = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
-          }
-          return response;
-        })
-        .catch(() => caches.match('/'));
-    }),
+    caches.match(request).then((cached) => cached || networkResponse),
   );
+  event.waitUntil(networkResponse.catch(() => undefined));
 });

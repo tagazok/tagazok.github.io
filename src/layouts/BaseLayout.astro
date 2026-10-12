@@ -87,8 +87,19 @@ const isActive = (href: string) => href === '/' ? path === '/' : path === href |
 
     <script is:inline>
       if ('serviceWorker' in navigator && location.hostname !== 'localhost') {
+        let isReloadingForUpdate = false;
+
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (isReloadingForUpdate) return;
+          isReloadingForUpdate = true;
+          window.location.reload();
+        });
+
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch(() => {});
+          navigator.serviceWorker
+            .register('/sw.js', { updateViaCache: 'none' })
+            .then((registration) => registration.update())
+            .catch(() => {});
         });
       }
     </script>
