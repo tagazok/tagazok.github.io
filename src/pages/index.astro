@@ -142,6 +142,7 @@ const isUpcoming = (date) => Boolean(date && date >= today);
           <img src="/assets/avatar.jpeg" alt="" />
         </div>
         <span class="intro__status"><i></i> Paris, France</span>
+        <span class="intro__mobile-role eyebrow">Senior Developer Advocate @ AWS · Google Developer Expert in Web Technologies</span>
       </div>
     </header>
 
@@ -458,6 +459,10 @@ const isUpcoming = (date) => Boolean(date && date >= today);
     position: relative;
     display: grid;
     justify-items: center;
+  }
+
+  .intro__mobile-role {
+    display: none;
   }
 
   .intro__photo-frame {
@@ -1278,47 +1283,87 @@ const isUpcoming = (date) => Boolean(date && date >= today);
 
     .intro {
       grid-template-columns: 1fr;
-      min-height: 0;
-      gap: 22px;
-      padding: 30px 0 36px;
+      grid-template-rows: minmax(196px, 1fr) auto auto minmax(72px, 0.55fr);
+      min-height: calc(100svh - 86px);
+      align-content: stretch;
+      gap: 0;
+      padding: 18px 0 22px;
+    }
+
+    .intro__copy {
+      display: contents;
     }
 
     .intro__portrait {
       grid-row: 1;
+      align-self: center;
       justify-items: center;
     }
 
     .intro__photo-frame {
-      width: 106px;
-      height: 120px;
+      width: 112px;
+      height: 126px;
     }
 
     .intro__halo {
-      width: 136px;
-      height: 136px;
+      width: 150px;
+      height: 150px;
+      opacity: 0.34;
     }
 
     .intro__status {
       margin-top: -10px;
     }
 
+    .intro__copy > .eyebrow {
+      display: none;
+    }
+
+    .intro__mobile-role {
+      display: block;
+      max-width: 340px;
+      margin-top: 24px;
+      text-align: center;
+      line-height: 1.8;
+    }
+
     .intro h1 {
-      margin-top: 12px;
+      grid-row: 2;
+      margin: 12px 0 16px;
       font-size: clamp(36px, 10.8vw, 44px);
       line-height: 1;
     }
 
     .intro__copy > p {
+      grid-row: 3;
       font-size: 12px;
       line-height: 1.65;
     }
 
     .intro__links {
-      margin-top: 20px;
+      grid-row: 4;
+      align-self: center;
+      justify-self: center;
+      justify-content: center;
+      margin-top: 0;
     }
 
     .intro__links .button {
+      display: inline-flex;
+      justify-content: center;
+      min-width: 184px;
+      min-height: 48px;
+      padding: 0 22px;
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(236, 72, 153, 0.12));
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22), 0 0 28px rgba(99, 102, 241, 0.1);
+    }
+
+    .intro__links .text-link {
       display: none;
+    }
+
+    .latest {
+      scroll-margin-top: 60px;
     }
 
     .section {
