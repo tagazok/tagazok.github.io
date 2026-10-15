@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-12-04",
+    "name": "AWS re:Invent 2026",
+    "location": {
+      "name": "Las Vegas, USA",
+      "city": "Las Vegas",
+      "country": "USA"
+    },
+    "talks": [
+      {
+        "title": "Eval-Driven LLM Routing: Cut Costs Without Losing Accuracy",
+        "role": "speaker"
+      }
+    ]
+  },
+  {
     "date": "2026-11-04",
     "name": "Devoxx Morocco",
     "location": {
@@ -24,8 +39,53 @@
     },
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents..",
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
         "role": "mentor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "name": "AWS SBG HKIIT",
+    "location": {
+      "name": "Hong Kong, China",
+      "city": "Hong Kong",
+      "country": "China"
+    },
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "name": "AWS UserGroup Guangzhou w/ Startupgrind",
+    "location": {
+      "name": "Guangzhou, China",
+      "city": "Guangzhou",
+      "country": "China"
+    },
+    "talks": [
+      {
+        "title": "Build a multi-agent role-playing Game Master with Strands Agents",
+        "role": "speaker"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "name": "AWS User Group Shenzhen AMA",
+    "location": {
+      "name": "Shenzhen, China",
+      "city": "Shenzhen",
+      "country": "China"
+    },
+    "talks": [
+      {
+        "title": "Ask Me Anything",
+        "role": "speaker"
       }
     ]
   },
@@ -39,7 +99,22 @@
     },
     "talks": [
       {
-        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents..",
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
+        "role": "mentor"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "name": "Train the Trainer AWS",
+    "location": {
+      "name": "London, United Kingdom",
+      "city": "London",
+      "country": "United Kingdom"
+    },
+    "talks": [
+      {
+        "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
         "role": "mentor"
       }
     ]
@@ -245,7 +320,7 @@
     "date": "2026-04-08",
     "name": "AI Engineer Europe",
     "location": {
-      "name": "London, UK",
+      "name": "London, United Kingdom",
       "city": "London",
       "country": "United Kingdom"
     },
@@ -1208,7 +1283,7 @@
     "date": "2024-10-08",
     "name": "NGDE Day London",
     "location": {
-      "name": "London, UK",
+      "name": "London, United Kingdom",
       "city": "London",
       "country": "United Kingdom"
     },
@@ -1679,7 +1754,7 @@
     "date": "2023-09-20",
     "name": "AWS On Tour London",
     "location": {
-      "name": "London, UK",
+      "name": "London, United Kingdom",
       "city": "London",
       "country": "United Kingdom"
     },
@@ -1744,8 +1819,8 @@
     "date": "2023-06-07",
     "name": "AWS Summit London",
     "location": {
-      "name": "Lonson, United Kingdon",
-      "city": "Lonson",
+      "name": "London, United Kingdon",
+      "city": "London",
       "country": "United Kingdom"
     },
     "link": "https://aws.amazon.com/events/summits/london/",
