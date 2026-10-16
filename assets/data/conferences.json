@@ -7,6 +7,7 @@
       "city": "Las Vegas",
       "country": "USA"
     },
+    "url": "https://aws.amazon.com/events/reinvent",
     "talks": [
       {
         "title": "Eval-Driven LLM Routing: Cut Costs Without Losing Accuracy",
@@ -22,6 +23,7 @@
       "city": "Casablanca",
       "country": "Morocco"
     },
+    "url": "https://devoxx.ma/",
     "talks": [
       {
         "title": "Coding a Multi-Agent Role playing Game Master with Strands Agents.",
@@ -37,6 +39,7 @@
       "city": "Hong Kong",
       "country": "China"
     },
+    "link": "https://awscommunity.hk/",
     "talks": [
       {
         "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
@@ -97,6 +100,7 @@
       "city": "Shenzhen",
       "country": "China"
     },
+    "link": "https://2026-autumn.awscommunityday.cn/",
     "talks": [
       {
         "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
@@ -121,12 +125,13 @@
   },
   {
     "date": "2026-10-15",
-    "name": "SII",
+    "name": "SII Tech Night",
     "location": {
       "name": "Nantes, France",
       "city": "Nantes",
       "country": "France"
     },
+    "link": "https://www.eventbrite.fr/e/billets-tech-night-by-sii-ia-agentique-game-master-1993675988550",  
     "talks": [
       {
         "title": "[workshop] Codez votre Game Master de JDR grâce à l'IA agentique et le SDK Strands Agents.",
