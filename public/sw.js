@@ -3,6 +3,8 @@
 // cached document over the current deployment.
 
 const CACHE_NAME = 'tagazok-v4';
+// Project sites served from other repos under the same origin; never intercepted.
+const PROJECT_SITES = ['/land-screener-fr/'];
 const APP_SHELL = [
   '/',
   '/index.html',
@@ -47,6 +49,9 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
   if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
+  // Other GitHub Pages project sites share this origin (tagazok.github.io/<repo>/)
+  // and fall under this worker's "/" scope: leave their requests to the network.
+  if (PROJECT_SITES.some((prefix) => url.pathname.startsWith(prefix))) return;
 
   if (request.mode === 'navigate' || request.destination === 'document') {
     event.respondWith(
