@@ -42,9 +42,6 @@ const years = Object.entries(grouped)
     countryCount: new Set(events.map((event) => event.location?.country).filter(Boolean)).size,
   }));
 const latestYear = years[0]?.year;
-
-const isFuture = (date) =>
-  date && new Date(`${date}T23:59:59`).getTime() >= Date.now();
 ---
 
 <BaseLayout
@@ -98,7 +95,12 @@ const isFuture = (date) =>
                 {events.map((event) => {
                   const eventRoles = rolesFor(event);
                   return (
-                    <article class="event" data-event data-roles={eventRoles.join(' ')}>
+                    <article
+                      class="event"
+                      data-event
+                      data-event-date={event.date || ''}
+                      data-roles={eventRoles.join(' ')}
+                    >
                       <div class="event__top">
                         <span class="event__name">
                           {event.link ? (
@@ -109,7 +111,7 @@ const isFuture = (date) =>
                             event.name
                           )}
                         </span>
-                        {isFuture(event.date) && <span class="soon">Upcoming</span>}
+                        <span class="soon" data-upcoming hidden>Upcoming</span>
                         <span class="roles">
                           {eventRoles.map((role) => (
                             <span class={`role role--${role}`}>{ROLE_LABELS[role] || role}</span>
@@ -143,8 +145,33 @@ const isFuture = (date) =>
   const timeline = document.querySelector('[data-timeline]');
   const filterButtons = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-filters] .filter'));
   const yearSections = Array.from(document.querySelectorAll<HTMLElement>('[data-year]'));
+  const datedEvents = Array.from(document.querySelectorAll<HTMLElement>('[data-event-date]'));
   const emptyState = document.querySelector<HTMLElement>('[data-empty]');
   const latestYear = yearSections[0]?.dataset.year;
+
+  const localDateKey = () => {
+    const now = new Date();
+    return [
+      now.getFullYear(),
+      String(now.getMonth() + 1).padStart(2, '0'),
+      String(now.getDate()).padStart(2, '0'),
+    ].join('-');
+  };
+
+  const syncUpcomingBadges = () => {
+    const today = localDateKey();
+    datedEvents.forEach((event) => {
+      const date = event.dataset.eventDate || '';
+      const badge = event.querySelector<HTMLElement>('[data-upcoming]');
+      if (badge) badge.hidden = !date || date < today;
+    });
+  };
+
+  syncUpcomingBadges();
+  window.addEventListener('pageshow', syncUpcomingBadges);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) syncUpcomingBadges();
+  });
 
   const openYear = (section: HTMLElement, open: boolean) => {
     section.classList.toggle('open', open);
