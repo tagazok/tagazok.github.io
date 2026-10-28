@@ -110,9 +110,10 @@ const upcomingTalks = conferences
 const recentTalks = conferences
   .filter((event) => !event.date || event.date < today)
   .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+const orderedTalks = [...upcomingTalks, ...recentTalks];
 const highlightedTalks = (upcomingTalks.length > 0 ? upcomingTalks : recentTalks).slice(0, 2);
 const highlightedTalksLabel = upcomingTalks.length > 0 ? 'Next talks' : 'Recent talks';
-const featuredTalks = [...upcomingTalks, ...recentTalks].slice(0, 5);
+const featuredTalks = orderedTalks.slice(0, 5);
 const featuredVideos = videos.slice(0, 3);
 const latestVideo = featuredVideos[0];
 const isUpcoming = (date) => Boolean(date && date >= today);
@@ -183,16 +184,19 @@ const isUpcoming = (date) => Boolean(date && date >= today);
           {highlightedTalks.length > 0 && (
             <div class="activity-card activity-card--talk">
               <div class="activity-card__top">
-                <span class="meta-label">{highlightedTalksLabel}</span>
+                <span class="meta-label" data-talks-label>{highlightedTalksLabel}</span>
                 <a href="/conferences">All talks <span aria-hidden="true">→</span></a>
               </div>
-              <div class="activity-card__talks">
-                {highlightedTalks.map((talk) => (
+              <div class="activity-card__talks" data-highlighted-talks>
+                {orderedTalks.map((talk) => (
                   <a
                     class="talk-brief"
                     href={talk.link || '/conferences'}
                     target={talk.link ? '_blank' : undefined}
                     rel={talk.link ? 'noopener' : undefined}
+                    data-highlighted-talk
+                    data-talk-date={talk.date || ''}
+                    hidden={!highlightedTalks.includes(talk)}
                   >
                     <time datetime={talk.date}>
                       <span>{formatCompactDate(talk.date).day}</span>
@@ -280,12 +284,21 @@ const isUpcoming = (date) => Boolean(date && date >= today);
         <a class="section-link" href="/conferences">All talks <span aria-hidden="true">→</span></a>
       </div>
 
-      <div class="talk-list">
-        {featuredTalks.map((event) => (
-          <article class="talk-row">
+      <div class="talk-list" data-featured-talks>
+        {orderedTalks.map((event) => (
+          <article
+            class="talk-row"
+            data-featured-talk
+            data-talk-date={event.date || ''}
+            hidden={!featuredTalks.includes(event)}
+          >
             <div class="talk-row__date">
               <time datetime={event.date}>{formatDate(event.date)}</time>
-              {isUpcoming(event.date) && <span class="upcoming">Upcoming</span>}
+              <span
+                class="upcoming"
+                data-upcoming
+                hidden={!isUpcoming(event.date)}
+              >Upcoming</span>
             </div>
             <div class="talk-row__content">
               <h3>
@@ -362,6 +375,65 @@ const isUpcoming = (date) => Boolean(date && date >= today);
     </footer>
   </main>
 </BaseLayout>
+
+<script>
+  const localDateKey = () => {
+    const now = new Date();
+    return [
+      now.getFullYear(),
+      String(now.getMonth() + 1).padStart(2, '0'),
+      String(now.getDate()).padStart(2, '0'),
+    ].join('-');
+  };
+
+  const partitionTalks = (talks: HTMLElement[], today: string) => {
+    const upcoming = talks
+      .filter((talk) => (talk.dataset.talkDate || '') >= today)
+      .sort((a, b) => (a.dataset.talkDate || '').localeCompare(b.dataset.talkDate || ''));
+    const recent = talks
+      .filter((talk) => (talk.dataset.talkDate || '') < today)
+      .sort((a, b) => (b.dataset.talkDate || '').localeCompare(a.dataset.talkDate || ''));
+    return { upcoming, recent };
+  };
+
+  const syncTalkDates = () => {
+    const today = localDateKey();
+    const highlightedContainer = document.querySelector<HTMLElement>('[data-highlighted-talks]');
+    const highlighted = Array.from(document.querySelectorAll<HTMLElement>('[data-highlighted-talk]'));
+    const highlightedGroups = partitionTalks(highlighted, today);
+    const highlightedOrder = highlightedGroups.upcoming.length
+      ? highlightedGroups.upcoming
+      : highlightedGroups.recent;
+    const visibleHighlights = highlightedOrder.slice(0, 2);
+
+    highlighted.forEach((talk) => {
+      talk.hidden = !visibleHighlights.includes(talk);
+    });
+    highlightedOrder.forEach((talk) => highlightedContainer?.append(talk));
+
+    const label = document.querySelector<HTMLElement>('[data-talks-label]');
+    if (label) label.textContent = highlightedGroups.upcoming.length ? 'Next talks' : 'Recent talks';
+
+    const featuredContainer = document.querySelector<HTMLElement>('[data-featured-talks]');
+    const featured = Array.from(document.querySelectorAll<HTMLElement>('[data-featured-talk]'));
+    const featuredGroups = partitionTalks(featured, today);
+    const featuredOrder = [...featuredGroups.upcoming, ...featuredGroups.recent];
+    const visibleFeatured = featuredOrder.slice(0, 5);
+
+    featured.forEach((talk) => {
+      talk.hidden = !visibleFeatured.includes(talk);
+      const badge = talk.querySelector<HTMLElement>('[data-upcoming]');
+      if (badge) badge.hidden = (talk.dataset.talkDate || '') < today;
+    });
+    featuredOrder.forEach((talk) => featuredContainer?.append(talk));
+  };
+
+  syncTalkDates();
+  window.addEventListener('pageshow', syncTalkDates);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) syncTalkDates();
+  });
+</script>
 
 <style>
   :global(html) {
