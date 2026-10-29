@@ -386,6 +386,16 @@
         "title": "Faut-il vraiment découper son IA en agents spécialisés ?",
         "duration": "29:11",
         "date": "June 23, 2026"
+      },
+      {
+        "youtubeId": "DlJKibTvrzo",
+        "title": "Créer un game master en multi-agent en 50 minutes",
+        "duration": "56:07",
+        "date": "Oct 14, 2026",
+        "event": {
+          "name": "Programmez",
+          "link": "https://www.youtube.com/@francoistonic-programmez"
+        }
       }
     ]
   },
